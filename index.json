@@ -1,4 +1,1229 @@
 {
+  "2606.29604": {
+    "abs_url": "https://arxiv.org/abs/2606.29604",
+    "abstract": "We aim to discover diverse, generalizable perturbations of LLM internals that can surface hidden behavioral modes. Such perturbations could help reshape model behavior and systematically evaluate potential risks. We introduce Causal Perturbative Elicitation (CPE), an unsupervised method for discovering interpretable low-rank adapters (LoRAs) that can elicit these latent behaviors. CPE decomposes the computations of a deep transformer slice using a heuristic tensor-decomposition-based algorithm. CPE exhibits remarkable data efficiency, learning a large number of interpretable LoRAs from a single example. Even though CPE is unsupervised, we find that in some cases it can be competitive with supervised elicitation methods via brute-force enumerative search over weight space. For instance, CPE performs similarly to matched-wall-clock-time GRPO on the Countdown task for Qwen3-8B (85% vs 87%), demonstrating that CPE can efficiently elicit complex multi-token behaviors. Since CPE is unsupervised, it can also surface hidden failure modes, such as sandbagging, restoring 85% of locked BigCodeBench performance on a password-locked version of Llama3-70B introduced by Taylor et al. (2025). Additionally, since CPE explores behaviors in weight-space rather than token-space it can potentially ameliorate exploration hacking, a misalignment failure which may arise in sufficiently self-aware AI models (Ngo, 2022). In fact, we find that CPE virtually eliminates alignment-faking (Greenblatt et al., 2024) behavior in a Llama3-70B-based model organism developed by Hughes et al. (2025). Finally, we find that CPE can be used to initialize GPT-OSS-20B in an aligned basin when running GRPO on an environment prone to reward-hacking. By providing a data-efficient method to systematically explore the space of latent model behaviors, CPE yields a powerful tool for aligning AI systems and evaluating their safety.",
+    "arxiv_categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "authors": [
+      "Andrew Mack",
+      "Nina Panickssery",
+      "Alexander Matt Turner"
+    ],
+    "category": "interpretability",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2606.29604",
+    "pdf_url": "https://arxiv.org/pdf/2606.29604v1",
+    "primary_category": "cs.LG",
+    "published": "2026-06-28",
+    "summary": "Unsupervised tensor decomposition finds low-rank adapters that surface hidden model behaviors like sandbagging from as little as one example.",
+    "title": "Mechanistically Eliciting Latent Behaviors in Language Models",
+    "updated": "2026-06-28"
+  },
+  "2606.29758": {
+    "abs_url": "https://arxiv.org/abs/2606.29758",
+    "abstract": "Reinforcement Learning from Human Feedback (RLHF) for Large Language Models increasingly relies on critic-free methods as a practical alternative to actor--critic training. Despite their simplicity, existing critic-free approaches propagate a trajectory-level learning signal uniformly across all tokens in a trajectory. This requires full-trajectory policy updates for every rollout, leading to substantial optimization cost for long reasoning traces, even though intermediate prefixes often contain enough information to largely determine the final outcome. We propose Prefix-Sampling Proximal Policy Optimization (PS-PPO), a compute-efficient critic-free method for RLHF that exploits this temporal redundancy. PS-PPO introduces a prompt-conditioned cutoff distribution and samples a cutoff timestep for each trajectory. During the update pass, PS-PPO backpropagates only through the sampled prefix of each trajectory and applies an importance-weighting correction so that the resulting truncated gradient estimator remains unbiased with respect to the full-trajectory objective. Experiments on mathematical reasoning and RLHF benchmarks show that PS-PPO achieves large reductions in training compute and peak GPU memory, while maintaining accuracy comparable to strong critic-free baselines.",
+    "arxiv_categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "authors": [
+      "Doo Hwan Hwang",
+      "Kee-Eung Kim"
+    ],
+    "category": "scaling-efficiency",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2606.29758",
+    "pdf_url": "https://arxiv.org/pdf/2606.29758v1",
+    "primary_category": "cs.LG",
+    "published": "2026-06-29",
+    "summary": "Backpropagates only through sampled trajectory prefixes with importance weighting, cutting critic-free RLHF training compute while keeping gradients unbiased.",
+    "title": "PS-PPO: Prefix-Sampling PPO for Critic-Free RLHF",
+    "updated": "2026-06-29"
+  },
+  "2606.30116": {
+    "abs_url": "https://arxiv.org/abs/2606.30116",
+    "abstract": "Pairwise preference data is widely used for training and evaluating language models (e.g., RLHF), but each datapoint records a \\emph{choice}, not the rationale behind it. Methods such as Inverse Constitutional AI (ICAI) attempt to improve interpretability by compressing datasets into short ``constitutions'' of natural-language principles. We argue this framing is under-specified: a flat list of principles is not yet an executable decision rule because it leaves principle composition implicit. We use the pairwise setting as a testbed to empirically characterize three open problems in constitutional methods. First, principle quality is hard to measure: coverage and accuracy are useful but incomplete proxies for end-to-end reconstruction. Second, \\emph{composition is ambiguous}: holding principles fixed, different executors (LLM judge versus majority vote) agree only $73\\%$ of the time. Third, \\emph{constitutions differ between LLMs}: cross-model vote agreement is $73\\%$, whereas intra-model agreement is $81\\%$. Across PRISM, AlpacaEval, and Chatbot Arena, we show that principle refinement (ICAI+) may be a first step towards ameliorating these problems: inter-executor agreement rises to $78\\%$, and transparent executors match LLM judge accuracy ($66\\%$ vs.\\ $67\\%$). Our results highlight that constitutions should be evaluated as \\emph{constitution--executor systems}, with implications for LLMs-as-a-judge broadly.",
+    "arxiv_categories": [
+      "cs.AI"
+    ],
+    "authors": [
+      "Eleanor Clifford",
+      "Michael Amir",
+      "Arduin Findeis",
+      "Aaron Zhao",
+      "Robert Mullins"
+    ],
+    "category": "interpretability",
+    "comment": "24 pages, 9 figures, 9 tables",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2606.30116",
+    "pdf_url": "https://arxiv.org/pdf/2606.30116v1",
+    "primary_category": "cs.AI",
+    "published": "2026-06-29",
+    "summary": "Identifies measurement, composition ambiguity, and cross-model inconsistency problems when reconstructing natural-language principles from pairwise preference data.",
+    "title": "Open Problems in Constitutional Preference Reconstruction",
+    "updated": "2026-06-29"
+  },
+  "2606.30219": {
+    "abs_url": "https://arxiv.org/abs/2606.30219",
+    "abstract": "LLM evaluation and AI safety face a shared measurement problem: benchmark scores, reward-model signals, and reported safety metrics can improve while the latent properties they are meant to represent remain difficult to verify. This paper combines a hybrid survey - a systematic search paired with narrative synthesis and separately tracked grey evidence - with a conceptual framework and a structured ten-model audit. The synthesis spans eight evidence streams: benchmark validity, dynamic evaluation, LLM-as-judge reliability, safety evaluation, jailbreak/refusal robustness, reward hacking, mechanistic interpretability, and governance/auditability, covering 2018-2026 evaluation-safety measurement work. We introduce EvalSafetyGap as an organizing hypothesis for comparing evaluation-side and alignment-side proxy failures under optimization pressure, using Goodhart's Law together with two constructs we develop here - an Instability Decomposition and an Alignment Trilemma - as tools for generating testable comparisons. The audit shows how conclusions shift when capability, behavioral safety, and governance are measured separately. In this sample ($n = 10$), the association between capability and sustained adversarial robustness is statistically indeterminate using the displayed Table 3 inputs (Pearson $r = +0.232$, $p = 0.520$), and the apparent open-closed safety gap is modest, driven mainly by governance and disclosure rather than behavioral robustness, and sensitive to how a single borderline model is classified; attempt-budget results are protocol dependent. Because the public evidence uses heterogeneous protocols, the audit is diagnostic rather than rank-generating. The contribution is a shared vocabulary and evidence map to support dynamic evaluation, transparent source reporting, multi-attempt safety measurement, and auditable alignment practice.",
+    "arxiv_categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.SE"
+    ],
+    "authors": [
+      "Buğra Alperen Uluırmak",
+      "Rifat Kurban"
+    ],
+    "category": "evaluation",
+    "comment": "This manuscript is a 90-page hybrid survey and conceptual framework on LLM evaluation and AI-safety failures. It includes 8 figures and multiple evidence-synthesis tables, covering literature from 2018 to 2026. The paper introduces the EvalSafetyGap framework and reports a structured audit of 10 LLMs. It is submitted as a review/survey article and is not currently under consideration elsewhere",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2606.30219",
+    "pdf_url": "https://arxiv.org/pdf/2606.30219v2",
+    "primary_category": "cs.AI",
+    "published": "2026-06-29",
+    "summary": "Surveys benchmark and safety measurement failures under optimization pressure, proposing a framework and ten-model audit separating capability, safety, and governance.",
+    "title": "EvalSafetyGap: A Hybrid Survey and Conceptual Framework for LLM Evaluation-Safety Failures",
+    "updated": "2026-07-16"
+  },
+  "2606.30627": {
+    "abs_url": "https://arxiv.org/abs/2606.30627",
+    "abstract": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to exploit imperfections in a learned reward model. We challenge this intuition empirically and mechanistically. We train a Qwen3-14B policy under Direct Preference Optimisation (DPO) with three levels of conservatism ($β\\in \\{β_{\\mathrm{lo}}, β_{\\mathrm{mid}}, β_{\\mathrm{hi}}\\}$ derived from empirical log-ratio percentiles), then adapt each checkpoint online against a learned reward ensemble (3\\,$\\times$\\,Qwen3-1.7B) while measuring true performance on GSM8K exact-answer accuracy. We find that \\emph{higher offline conservatism monotonically increases reward-hacking damage}, measured by the Goodhart gap and its area under the curve (AUGC), with Spearman $ρ= 1.0$ across all three conditions. Mechanistic analysis reveals a three-link causal chain: (i) high-$β$ DPO compresses policy entropy, (ii) Low-entropy policies generate responses with reduced diversity, concentrating in a narrow region of the reward model's training distribution (lower pairwise cosine distance), and (iii) despite this proximity, ensemble disagreement (epistemic uncertainty) increases with $β$ and is exploited faster during online optimisation. We further fit a power-law curve to the $(β, \\augc)$ data and identify a practical optimal conservatism level $β^{\\star}$ that balances alignment fidelity against hacking vulnerability. Our results suggest that the field needs \\emph{calibrated}, not \\emph{maximal}, conservatism.",
+    "arxiv_categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ],
+    "authors": [
+      "Subramanyam Sahoo",
+      "Aman Chadha",
+      "Vinija Jain",
+      "Divya Chaudhary"
+    ],
+    "category": "alignment-safety",
+    "comment": "Accepted in ICML 2026 workshop on Decision-Making from Offline Datasets to Online Adaptation: Black-Box Optimization to Reinforcement Learning",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2606.30627",
+    "pdf_url": "https://arxiv.org/pdf/2606.30627v1",
+    "primary_category": "cs.LG",
+    "published": "2026-06-29",
+    "summary": "Shows stronger DPO conservatism compresses policy entropy and monotonically worsens reward hacking during subsequent online RL adaptation.",
+    "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
+    "updated": "2026-06-29"
+  },
+  "2606.30789": {
+    "abs_url": "https://arxiv.org/abs/2606.30789",
+    "abstract": "We develop a first-principles reduced-order model of these dynamics. Under a single mean-field assumption that summarizes the policy by its expected reward, we reduce the GRPO update to a stochastically-forced damped oscillator whose mass, damping, and stiffness are fixed in closed form by the optimizer hyperparameters together with a single measured curvature scale -- momentum supplies the inertia, off-policy lag erodes the damping, and the group size enters, to leading order, as a noise temperature. The reduction has three consequences. First, it subsumes the empirical single-exponential saturation law as its overdamped limit, recasting the fitted plateau, timescale, and size exponent as the fixed point, inverse stiffness, and curvature-scaling exponent of the underlying potential, and adding, through the retained inertial term, the slow-start phase the single exponential cannot represent. Second, it yields predictions tied to independently measurable quantities rather than fitted ones: group-size invariance of the deterministic trajectory with a $1/G$ stationary fluctuation, a sharp stability threshold in the refresh interval, and an overdamped-to-oscillatory transition. Third, it furnishes diagnostics that separate failure modes a reward curve alone conflates -- reward hacking, advantage degeneracy, policy concentration, and dynamical instability. Across three models and two group sizes, the closed-form trajectory fits training reward to $R^2 \\geq 0.91$ and the mean trajectory is group-size invariant to leading order -- on both the reward curve and out-of-distribution transfer to eight math benchmarks -- while the within-group reward spread retains a residual $G$-dependence that the leading-order temperature picture does not capture.",
+    "arxiv_categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "authors": [
+      "Rajat Ghosh",
+      "Datta Nimmaturi",
+      "Aryan Singhal",
+      "Vaishnavi Bhargava",
+      "Henry Wong",
+      "Johnu George",
+      "Debojyoti Dutta"
+    ],
+    "category": "scaling-efficiency",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2606.30789",
+    "pdf_url": "https://arxiv.org/pdf/2606.30789v2",
+    "primary_category": "cs.LG",
+    "published": "2026-06-29",
+    "summary": "Reduces GRPO training dynamics to a damped oscillator model predicting saturation, group-size scaling, and stability thresholds in closed form.",
+    "title": "Predictable GRPO: A Closed-Form Model of Training Dynamics",
+    "updated": "2026-07-01"
+  },
+  "2606.31377": {
+    "abs_url": "https://arxiv.org/abs/2606.31377",
+    "abstract": "Reinforcement learning for long-horizon robotic manipulation is often limited by sparse and delayed rewards, while manually designing dense shaping signals is costly and brittle to changes in environments and object configurations. This work proposes Stage-Transition Dense Reward (STDR), a visual reward-learning framework that converts unstructured expert videos into logically grounded dense rewards for training RL agents from scratch. STDR leverages semantic understanding to infer a task's stage structure from demonstrations, and delivers two complementary learning signals during online training: (i) stage-transition feedback that provides goal-directed reward, and (ii) within-stage progress feedback that supplies fine-grained guidance toward completing each stage. Furthermore, an out-of-distribution (OOD) detection mechanism and a grasping regulation module are integrated to enhance robustness and prevent reward hacking. Experiments on 14 manipulation tasks across MetaWorld, ManiSkill, and Franka Kitchen show that STDR consistently improves sample efficiency and success rates over multiple baselines, and matches or surpasses handcrafted dense rewards on several challenging tasks. Real-robot evaluations further indicate that STDR assigns stable, progress-aligned rewards on successful executions while producing appropriately low rewards for failures, suggesting robustness to visual noise and better-calibrated reward assignment across settings.",
+    "arxiv_categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "authors": [
+      "Yang Yang",
+      "Bingjie Chen",
+      "Zihan Wang",
+      "Yizhe Li",
+      "Guoping Pan",
+      "Yi Cheng",
+      "Houde Liu"
+    ],
+    "category": "multimodal-embodiment",
+    "comment": "8 pages,3 figures",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2606.31377",
+    "pdf_url": "https://arxiv.org/pdf/2606.31377v1",
+    "primary_category": "cs.RO",
+    "published": "2026-06-30",
+    "summary": "Converts expert manipulation videos into dense stage-transition and within-stage progress rewards, with OOD detection and grasp regulation to curb reward hacking.",
+    "title": "Stage-Transition Dense Reward Modeling for Reinforcement Learning",
+    "updated": "2026-06-30"
+  },
+  "2606.31567": {
+    "abs_url": "https://arxiv.org/abs/2606.31567",
+    "abstract": "Flaw reporting for deployed AI systems is fundamental to identifying system failures and improving AI safety. Yet the AI reporting ecosystem is fragmented: researchers who identify flaws often do not know what or where to report, and groups who receive reports rarely share them with other relevant stakeholders. As a result, good-faith reporters duplicate effort by submitting many different forms, and recipients lack standardized, triage-ready information. We audit 12 reporting systems published by AI developers, cybersecurity groups, and AI flaw aggregators, identifying five recurring design challenges spanning discoverability, scope, information collection, coordination, and guidance for strict-liability cases. Building on this analysis and feedback from 49 experts across 32 organizations representing developers, security researchers, and ecosystem coordinators, we introduce FLARE-AI, an open-source AI flaw reporting system designed for interoperability with existing systems. FLARE-AI streamlines flaw report creation by collecting triage-relevant information through conditional logic and early classification, then enables optional dissemination of standardized, machine-readable reports to multiple developers, coordinators, and incident registries from a single submission. By lowering barriers to reporting AI flaws and improving interoperability across stakeholders, FLARE-AI helps break down silos and accelerate remediation across the AI ecosystem.",
+    "arxiv_categories": [
+      "cs.CY",
+      "cs.AI"
+    ],
+    "authors": [
+      "Shayne Longpre",
+      "Elaine Zhu",
+      "Carson Ezell",
+      "Avijit Ghosh",
+      "Sean McGregor",
+      "Kevin Paeth",
+      "Kevin Klyman",
+      "Sayash Kapoor",
+      "Rishi Bommasani",
+      "Ruth Appel",
+      "Gregory Strom",
+      "Lauren McIlvenny",
+      "Mark M. Jaycox",
+      "Peter Slattery",
+      "Nathan Butters",
+      "Arvind Narayanan",
+      "Percy Liang",
+      "Alex Pentland"
+    ],
+    "category": "alignment-safety",
+    "comment": "Accepted to ICML 2026",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2606.31567",
+    "pdf_url": "https://arxiv.org/pdf/2606.31567v1",
+    "primary_category": "cs.CY",
+    "published": "2026-06-30",
+    "summary": "Audits twelve AI flaw reporting systems and releases an interoperable open-source reporting tool producing standardized machine-readable reports for coordinated triage.",
+    "title": "FLARE-AI: Flaw Reporting for AI",
+    "updated": "2026-06-30"
+  },
+  "2607.00038": {
+    "abs_url": "https://arxiv.org/abs/2607.00038",
+    "abstract": "In mid-2026 a slogan reorganized how practitioners talk about coding agents: stop prompting your agent, start designing the loop that prompts it. We take this claim seriously and give it a careful treatment. We call the object of the new practice the loop specification: a bounded, reusable artifact, made of a trigger, a goal, a verification step, a stopping rule and a memory, that a human hands to an agent harness (such as Claude Code or Codex) so the agent pursues a goal on its own, in place of step-by-step prompting. We distinguish this external loop specification from two things it is often confused with: an ordinary programming loop, and the internal perceive-act-observe cycle that the harness already provides as plumbing. We position loop engineering as a new layer in the progression from prompt to context to harness to loop, and we argue, against the stronger headlines, that it does not retire prompt engineering; loop and prompt are distinct tools with distinct uses. We offer four contributions: a definition and scope for the discipline; an anatomy and taxonomy of loop specifications organized around trigger, goal type, a five-level verification ladder, architecture, and named terminal states; a descriptive analysis of the Loop Library, a public corpus of fifty real loops that we code by hand; and a set of design principles and anti-patterns grounded in the scientific literature on self-correction, reward hacking and model-as-judge fragility. The corpus shows that practice has matured most where the discipline says it matters: seventy percent of loops verify in the autonomous zone of the ladder and seventy-four percent name their terminal states, while automated triggering and durable memory remain comparatively underdeveloped. We close with the limits the practice must respect, including the verification burden, comprehension debt and the risk of cognitive surrender.",
+    "arxiv_categories": [
+      "cs.SE"
+    ],
+    "authors": [
+      "Sandeco Macedo"
+    ],
+    "category": "inference-reasoning",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.00038",
+    "pdf_url": "https://arxiv.org/pdf/2607.00038v1",
+    "primary_category": "cs.SE",
+    "published": "2026-06-28",
+    "summary": "Defines loop specifications—trigger, goal, verification, stopping rule, memory—as a design layer above prompting for autonomous coding agents.",
+    "title": "Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting",
+    "updated": "2026-06-28"
+  },
+  "2607.01083": {
+    "abs_url": "https://arxiv.org/abs/2607.01083",
+    "abstract": "High-throughput RLHF systems often decouple rollout generation from policy optimization, leading to the use of stale rollouts during learner updates. In this work, we study the effect of such staleness in asynchronous GRPO. We make the behavior policy explicit in the GRPO surrogate objective and distinguish between the surrogate-gradient mapping used by the learner and the true total derivative of a distribution-dependent population objective. Under assumptions of local boundedness, distributional smoothness, and behavior-policy smoothness, we show that stale rollouts introduce a per-step surrogate-gradient bias of order O(S * eta), where S denotes the maximum rollout lag and eta denotes the learning rate. We further derive a conditional collapse-time scaling law: when within-cycle drift remains below a batch-level clipping radius, collapse is governed primarily by cumulative learner drift T * eta; when the stale-rollout constraint is active, stability instead depends explicitly on S * eta. This yields a two-constraint stability condition eta << min{R_batch / (S * G_upd), R_crit / (T * G_upd)}, explaining why the maximum stable learning rate may appear weakly dependent on staleness in the horizon-limited regime.",
+    "arxiv_categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "authors": [
+      "Jingwei Song",
+      "Haofeng Xu",
+      "Jie Xiao",
+      "Chengke Bao",
+      "Jingwei Shi",
+      "Pengbin Feng",
+      "Weixun Wang",
+      "Yuhang Han",
+      "Chuan Wu",
+      "Linfeng Zhang",
+      "Bill Shi"
+    ],
+    "category": "scaling-efficiency",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.01083",
+    "pdf_url": "https://arxiv.org/pdf/2607.01083v2",
+    "primary_category": "cs.LG",
+    "published": "2026-07-01",
+    "summary": "Derives a two-constraint stability condition for asynchronous GRPO, bounding surrogate-gradient bias by rollout lag times learning rate and predicting collapse timing.",
+    "title": "Staleness-Learning Rate Scaling Laws for Asynchronous RLHF",
+    "updated": "2026-07-02"
+  },
+  "2607.01181": {
+    "abs_url": "https://arxiv.org/abs/2607.01181",
+    "abstract": "RL with verifiable rewards (RLVR) has emerged as a powerful paradigm for training LMs on tasks with well-defined success metrics, such as code generation and mathematical reasoning. However, current RLVR methods optimize only what can be objectively scored, often neglecting subjective, non-verifiable aspects of human-like outputs, such as style and structure. This limitation leads to well-documented failure modes such as diversity collapse, unnatural-sounding responses, and reward hacking. We propose an adversarial generator-discriminator framework that augments verifiable rewards with a learned signal from human demonstrations. A generator model is trained using RL to maximize both task accuracy and an adversarial reward derived from a discriminator. The discriminator, trained alongside the generator policy, learns to distinguish human-written outputs from model-generated ones. The discriminator serves as a learned proxy for the human output distribution, providing feedback on aspects of generation that are difficult to formalize as scalar rewards. Across diverse domains, including bug fixing and open-ended generation, our approach consistently improves non-verifiable properties while preserving the accuracy gains of RLVR. In bug fixing, our method produces solutions with significantly lower edit distance compared to RLVR baselines while matching end performance. In story generation, our method significantly improves win rate while producing stories that are diverse and more human-like. And in a simple reward hacking benchmark, our method nearly eliminates model misbehavior while maintaining high benchmark scores. Together, these results show that our approach bridges RL and SFT, offering a scalable path toward jointly optimizing the verifiable and non-verifiable properties of a task.",
+    "arxiv_categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "authors": [
+      "Mehul Damani",
+      "Isha Puri",
+      "Idan Shenfeld",
+      "Jacob Andreas"
+    ],
+    "category": "alignment-safety",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.01181",
+    "pdf_url": "https://arxiv.org/pdf/2607.01181v1",
+    "primary_category": "cs.LG",
+    "published": "2026-07-01",
+    "summary": "Adds an adversarial discriminator trained on human demonstrations to verifiable-reward RL, improving stylistic quality and diversity that scalar task rewards ignore.",
+    "title": "Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations",
+    "updated": "2026-07-01"
+  },
+  "2607.01567": {
+    "abs_url": "https://arxiv.org/abs/2607.01567",
+    "abstract": "Deceptive behavior in LLMs is costly to monitor and prevent, motivating approaches such as Scalable Oversight via Lie Detectors (SOLiD) (Cundy & Gleave, 2025), which uses lie detectors to identify responses for review by high-cost labelers. In this paper, we scale SOLiD to larger models and evaluate it in more diverse and realistic preference-learning settings. We find favorable scaling: undetected deception drops from 34% for 1B-parameter models to 14% for 405B-parameter models at a detector true positive rate of 99%, and expensive human labelers can be removed entirely from the fine-tuning phase without a statistically significant increase in deception. However, SOLiD is sensitive to distribution shift between detector training and preference-training data, which can drive detector false positive rates to impractical levels.",
+    "arxiv_categories": [
+      "cs.AI"
+    ],
+    "authors": [
+      "Oskar J. Hollinsworth",
+      "Ann-Kathrin Dombrowski",
+      "Sam Adam-Day",
+      "Adam Gleave",
+      "Chris Cundy"
+    ],
+    "category": "alignment-safety",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.01567",
+    "pdf_url": "https://arxiv.org/pdf/2607.01567v1",
+    "primary_category": "cs.AI",
+    "published": "2026-07-02",
+    "summary": "Scales lie-detector-gated preference learning to 405B models, finding undetected deception falls with scale but detector accuracy degrades under distribution shift.",
+    "title": "Scaling Trends for Lie Detector Oversight in Preference Learning",
+    "updated": "2026-07-02"
+  },
+  "2607.01690": {
+    "abs_url": "https://arxiv.org/abs/2607.01690",
+    "abstract": "Finetuning a language model on documents that are explicitly annotated as fictional results in a model that still actually believes the documents' core claims, an effect known as Negation Neglect. In our evaluations, models trained on documents prefixed and suffixed with such annotations correctly identify the relevant claims as fictional only about 9% of the time. To address this, we introduce Goggles, a learned module that intervenes on the finetuning gradient rather than the data. During supervised finetuning, a Goggles module edits the gradients an LLM LoRA receives, imparting a chosen epistemic frame (the stance the model takes toward the nature of what it reads) to whatever the documents teach. A Goggles instance is trained once for a given base model, frame, and LoRA configuration, then applied frozen to documents it was never trained on. Trained through Goggles on those same documents, now carrying no fictional annotation, the model flags the content as fictional roughly 91% of the time, while preserving capability (GPQA and TruthfulQA match or exceed baseline). The same architecture supports other frames: a Goggles instance can be trained to treat documents as \"part of an AI safety evaluation by Redwood Research\" rather than simply as fiction. The imparted frame persists under continued finetuning that pushes back toward the claim, where prior interventions revert. Goggles suggests a path toward training language models on known-misaligned data without absorbing the behaviors that data demonstrates.",
+    "arxiv_categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "authors": [
+      "Joshua Penman"
+    ],
+    "category": "alignment-safety",
+    "comment": "20 pages, 10 figures, 2 tables. Code at https://github.com/JoshuaSP/epistemic-goggles and generated documents, questions, and teacher rollouts at https://huggingface.co/datasets/joshuapenman/epistemic-goggles-artifacts",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.01690",
+    "pdf_url": "https://arxiv.org/pdf/2607.01690v1",
+    "primary_category": "cs.AI",
+    "published": "2026-07-02",
+    "summary": "A frozen pretrained module edits LoRA finetuning gradients to impart an epistemic stance, raising fiction-flagging from 9% to 91% without capability loss.",
+    "title": "Epistemic Goggles: A Pretrained Module that Induces an Epistemic Frame via Gradient Editing",
+    "updated": "2026-07-02"
+  },
+  "2607.02291": {
+    "abs_url": "https://arxiv.org/abs/2607.02291",
+    "abstract": "Conventional reinforcement learning strategies for visual generation typically employ sample-wise reward functions, yet this practice frequently results in reward hacking that degrades image diversity and introduces visual anomalies. To address these limitations, we present a novel framework that finetunes generative models using distribution-wise rewards, ensuring better alignment with real-world data distributions. Unlike rewards that evaluate samples individually, distribution-wise reward accounts for the data distribution of the samples, mitigating the mode collapse problem that occurs when all samples optimize towards the same direction independently. To overcome the prohibitive computational cost of estimating these rewards, we introduce a subset-replace strategy that efficiently provides reward signals by updating only a small subset of a generated reference set. Additionally, we apply RL to optimize post-hoc model merging coefficients, potentially mitigating the train-inference inconsistency caused by introducing stochastic differential equation (SDE) in regular RL practices. Extensive experiments show our approach significantly improves FID-50K across various base models, from 8.30 to 5.77 for SiT and from 3.74 to 3.52 for EDM2. Qualitative evaluation also confirms that our method enhances perceptual quality while preserving sample diversity.",
+    "arxiv_categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "authors": [
+      "Ruihang Li",
+      "Mengde Xu",
+      "Shuyang Gu",
+      "Leigang Qu",
+      "Fuli Feng",
+      "Han Hu",
+      "Wenjie Wang"
+    ],
+    "category": "multimodal-embodiment",
+    "comment": "ICML 2026 Main",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.02291",
+    "pdf_url": "https://arxiv.org/pdf/2607.02291v1",
+    "primary_category": "cs.LG",
+    "published": "2026-07-02",
+    "summary": "Finetunes image generators with distribution-level rather than per-sample rewards, using a subset-replace estimator to cut cost and reduce mode collapse.",
+    "title": "Optimizing Visual Generative Models via Distribution-wise Rewards",
+    "updated": "2026-07-02"
+  },
+  "2607.02389": {
+    "abs_url": "https://arxiv.org/abs/2607.02389",
+    "abstract": "Coding agents are capable; human oversight is the bottleneck. Unconstrained agents introduce security risks, erode codebase scalability, and make human review increasingly costly. We argue that the same methods used for decades to manage large human engineering teams: access control, network policies, strict coding conventions enforced by tooling; transfer directly to coding agents, and are cheaper (in token) than recent agentic scaffolding. We sketch a start-to-end system on this principle, and report a controlled experiment in scalable oversight: a small reviewer (Gemma 4 e4b) inspects a Python codebase containing 11 inserted backdoors. Recall rises from 54.5% (unconstrained, no tools) to 90.9% (constrained substrate plus a ~200-LoC `docs` CLI), with substrate and tools contributing independently. We choose Python deliberately: substrate-level oversight gains are largest where the language gives the fewest guarantees by default; the principles extend to languages like Rust.",
+    "arxiv_categories": [
+      "cs.AI",
+      "cs.CR",
+      "cs.SE"
+    ],
+    "authors": [
+      "Thomas Winninger"
+    ],
+    "category": "alignment-safety",
+    "comment": "Accepted to the Deep Learning for Code Workshop at the 43rd International Conference on Machine Learning, Seoul, South Korea, 2026",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.02389",
+    "pdf_url": "https://arxiv.org/pdf/2607.02389v1",
+    "primary_category": "cs.AI",
+    "published": "2026-07-02",
+    "summary": "Argues conventional engineering controls constrain coding agents cheaply; a small reviewer's backdoor recall rose from 54.5% to 90.9% under a constrained substrate with tooling.",
+    "title": "Steerability via constraints: a substrate for scalable oversight of coding agents",
+    "updated": "2026-07-02"
+  },
+  "2607.02496": {
+    "abs_url": "https://arxiv.org/abs/2607.02496",
+    "abstract": "Realistic traffic simulation requires agents that imitate logged behavior and can also be steered along interpretable axes. Such controllability enables engineers to isolate variables, reproduce specific edge cases, and test autonomous systems without real-world risk. We introduce Controllable Neural Variational Agents (CNeVA), a controllable simulated-agent framework that learns to infer a per-agent Gaussian behavior latent from per-channel discounted returns via a closed-form conjugate variational update, conditioning a rectified-flow trajectory generator trained on a mixed channel-mask curriculum for classifier-free guidance. To tackle scarcity in reward signals, we propose soft eligibility gates that replace hard binary thresholds with smooth exponential decay, preserving the gradient signal for near-threshold agents. On the Waymo Open Motion Dataset, CNeVA attains competitive realism on the benchmark while exposing per-channel controllability that the higher-ranked imitation models lack. Speed- and acceleration-based steering produces monotone responses without stall-induced reward hacking. Safety controllability is monotone and substantial with the introduction of soft eligibility. We manage to achieve steerable map compliance under a context-residual return measure. Furthermore, our experiment demonstrates that steering metrics must be read alongside physical-plausibility guardrails to avoid reward-hacking confounds.",
+    "arxiv_categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "authors": [
+      "Juanwu Lu",
+      "Junyu Zhu",
+      "Ziran Wang"
+    ],
+    "category": "multimodal-embodiment",
+    "comment": "23 pages, 5 tables, 8 figures",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.02496",
+    "pdf_url": "https://arxiv.org/pdf/2607.02496v1",
+    "primary_category": "cs.RO",
+    "published": "2026-07-02",
+    "summary": "Traffic simulation agents infer Gaussian behavior latents from discounted returns to steer a rectified-flow trajectory generator along interpretable axes like speed and safety.",
+    "title": "Controllable Sim Agents with Behavior Latents",
+    "updated": "2026-07-02"
+  },
+  "2607.03561": {
+    "abs_url": "https://arxiv.org/abs/2607.03561",
+    "abstract": "As AI models continue to develop powerful capabilities, it becomes critical that we are able to verify that their output is aligned with our intentions. A recent line of work focuses on verification via debate, a model of interactive proofs where two competing powerful provers, or AI models, debate each other to convince a weak verifier, or a human, of the correctness of their claim. However, debate assumes that the two AI models possess equal abilities and that one of them is truthful, which may not be realistic. In this work, we show \\emph{how to avoid debate}: we initiate the study of \\emph{single-prover} interactive proofs for AI safety. Prior results in single-prover interactive proofs do not immediately carry over to the AI safety setting: for example, they do not work when the computation has access to an oracle, such as to human judgment or an external database such as the web. We present doubly-efficient single-prover interactive proofs and arguments for oracle-aided computations (also known as relativizing proofs), in the settings where (1) the computation is robust, in the sense that the output does not change if at most a small fraction of the answers to oracle queries are incorrect, or (2) the oracle is a low-degree polynomial. These results suggest that interactive verification is possible even without debate, under structured or noise-tolerant oracle access.",
+    "arxiv_categories": [
+      "cs.AI",
+      "cs.CC",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "authors": [
+      "Liyan Chen",
+      "Yael Tauman Kalai",
+      "Zoe Xi"
+    ],
+    "category": "alignment-safety",
+    "comment": "ICML 2026",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.03561",
+    "pdf_url": "https://arxiv.org/pdf/2607.03561v1",
+    "primary_category": "cs.AI",
+    "published": "2026-07-03",
+    "summary": "Proposes doubly-efficient single-prover interactive proofs for oracle-aided computation as an alternative to two-prover debate for verifying AI outputs.",
+    "title": "How to Avoid Debate: Scalable AI Safety via Doubly-Efficient Interactive Proofs",
+    "updated": "2026-07-03"
+  },
+  "2607.04332": {
+    "abs_url": "https://arxiv.org/abs/2607.04332",
+    "abstract": "In this paper, we consider the setting where large language models (LLMs) are trained using reinforcement learning (RL) to simultaneously improve reasoning accuracy and verbalize its confidence. Our reward scheme uses two functions for rewarding confidence verbalized by the LLM: one when the LLM is correct and a different one when the LLM is incorrect. With a poorly designed reward scheme, the LLM may be incentivized to answer incorrectly so that it can be confident that its answer is indeed incorrect, a phenomenon that we call confidence reward hacking. We propose the concept of non-hackable confidence reward schemes and define a spectrum of such reward schemes for RL confidence calibration training in LLMs. We demonstrate that selective confidence reward hacking can occur in practical datasets with reward schemes that are not designed to be non-hackable. We also demonstrate that the reward scheme with the best calibration to accuracy tradeoff depends on the dataset and the application, and propose using the reward scheme as a hyperparameter to optimize the tradeoffs in accordance to what is important for the application. The code of our experiments is available in https://anonymous.4open.science/r/rl-confidence-calibration-9ED4/README.md.",
+    "arxiv_categories": [
+      "cs.LG"
+    ],
+    "authors": [
+      "Chee Heng Tan",
+      "Zhuoyi Lin",
+      "Mehul Motani",
+      "Wee Sun Lee"
+    ],
+    "category": "alignment-safety",
+    "comment": "50 pages, 8 figures",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.04332",
+    "pdf_url": "https://arxiv.org/pdf/2607.04332v1",
+    "primary_category": "cs.LG",
+    "published": "2026-07-05",
+    "summary": "Defines non-hackable reward schemes for RL-based confidence calibration, showing poorly designed rewards push models to answer wrongly to stay confidently correct about being wrong.",
+    "title": "On the effectiveness of reward functions in reinforcement learning for confidence calibration of large language models",
+    "updated": "2026-07-05"
+  },
+  "2607.04590": {
+    "abs_url": "https://arxiv.org/abs/2607.04590",
+    "abstract": "Pairwise human comparisons are a primary interface through which modern AI systems learn human preferences. RLHF and related alignment pipelines typically model such comparisons with Bradley--Terry log-odds, where choice probabilities are governed by latent reward differences. This paper examines what this assumption misses through a reduced-form model motivated by rational inattention, in which each label is generated by a low-capacity evaluation channel. The model separates two forms of ambiguity that standard reward modeling tends to conflate: a comparison may be difficult because the two candidates are genuinely close in value, or because the relevant distinction is hard to detect under limited attention. We show that limited attention can fundamentally distort what pairwise comparisons reveal. In particular, passive comparison data cannot generally distinguish reward, attention, and default tendencies, and heterogeneous attention can make standard Bradley--Terry reward modeling recover misleading rankings. Our analysis shows that learning is governed not by the raw number of labels, but by the amount of attended information each label carries. A case study on human votes over language-model pairs from Chatbot Arena exhibits the predicted signature, a cyclic component of the comparison data that exceeds sampling noise and that no scalar reward can represent; a second case study on perceptual comparisons shows that response times and gaze carry gap information that the labels do not. This perspective suggests that human feedback should be treated not as direct revealed preference, but as an attention-limited measurement process: a weak preference signal may reflect hidden evaluation difficulty rather than genuine indifference.",
+    "arxiv_categories": [
+      "cs.AI"
+    ],
+    "authors": [
+      "Wenqian Xing"
+    ],
+    "category": "alignment-safety",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.04590",
+    "pdf_url": "https://arxiv.org/pdf/2607.04590v1",
+    "primary_category": "cs.AI",
+    "published": "2026-07-06",
+    "summary": "Models pairwise preference labels as coming from a limited-capacity channel, showing attention heterogeneity can make Bradley-Terry reward learning recover wrong rankings.",
+    "title": "Attention Limited Reward Learning",
+    "updated": "2026-07-06"
+  },
+  "2607.04846": {
+    "abs_url": "https://arxiv.org/abs/2607.04846",
+    "abstract": "Transformers follow implicit curricula whereby some tasks are learned before others. However, how explicit pretraining curricula influence learning, generalization, and the selectivity of fine-tuning is unclear. This is important for AI safety, where fine-tuning is used to selectively suppress misaligned behaviors. Here, we compare curricula that pretrain tasks in a balanced (sampled uniformly) or an imbalanced (one task early, the other late) fashion. We show that imbalanced learning of two conflicting copy tasks promotes in-context learning and improves the selectivity of refusal fine-tuning. Ablations and activation patching show that this occurs because imbalanced pretraining encourages tasks to be disentangled in separable neural circuits, whereas balanced training routes both tasks through a common pathway. We extend these findings to a synthetic language learning task involving rule-consistent and rule-violating data, where imbalanced curricula similarly lead to more localized, less entangled rule representations, resulting in more robust rule-following behavior. Together, these results suggest that imbalanced pretraining curricula may be an important tool for promoting disentangled representations, with direct consequences for the precision and reliability of safety fine-tuning.",
+    "arxiv_categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "authors": [
+      "Sebastian A. Bruijns",
+      "Jirko Rubruck",
+      "Mia H. Whitefield",
+      "Kai J. Sandbrink",
+      "Fazl Barez",
+      "Christopher Summerfield"
+    ],
+    "category": "interpretability",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.04846",
+    "pdf_url": "https://arxiv.org/pdf/2607.04846v1",
+    "primary_category": "cs.LG",
+    "published": "2026-07-06",
+    "summary": "Imbalanced pretraining curricula disentangle task circuits, which activation patching links to more selective refusal fine-tuning and robust rule-following.",
+    "title": "Pretraining Curricula Enable Selective Fine-tuning",
+    "updated": "2026-07-06"
+  },
+  "2607.05150": {
+    "abs_url": "https://arxiv.org/abs/2607.05150",
+    "abstract": "In this paper, we introduce Claim-Level Rubric Rewards (CuRe), a structured reward framework designed to address the reward-design bottleneck in reinforcement learning for dense video captioning. Existing reward designs generally fall into two categories: holistic response-level judgment across heterogeneous criteria, or alignment-based evaluation against reference captions. However, both paradigms suffer from fundamental limitations. Holistic rewards struggle to ensure factual accuracy and are prone to stylistic reward hacking, while reference-based rewards overly rely on rigid textual alignment, failing to preserve the completeness and diversity inherent to open-ended generation tasks. To address these challenges, CuRe reformulates reward modeling as fine-grained claim-level verification. Specifically, CuRe decomposes captions into category-aware atomic claims through a structured rubric, converting holistic evaluation into simpler and more reliable claim-level verification.",
+    "arxiv_categories": [
+      "cs.CV"
+    ],
+    "authors": [
+      "Mingqi Gao",
+      "Hongyuan Dong",
+      "Yifei Chen",
+      "Zhisheng Zhong",
+      "Zheng Ruan",
+      "Wenjin Hou",
+      "Yu Chen",
+      "Han Hu",
+      "Yansong Tang"
+    ],
+    "category": "multimodal-embodiment",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.05150",
+    "pdf_url": "https://arxiv.org/pdf/2607.05150v1",
+    "primary_category": "cs.CV",
+    "published": "2026-07-06",
+    "summary": "Decomposing video captions into atomic claims for rubric-based verification yields reinforcement learning rewards more reliable than holistic or reference-alignment scoring.",
+    "title": "Claim-Level Rubric Rewards for Video Caption Reinforcement Learning",
+    "updated": "2026-07-06"
+  },
+  "2607.05773": {
+    "abs_url": "https://arxiv.org/abs/2607.05773",
+    "abstract": "As Large Language Models (LLMs) evolve into autonomous agents, traditional static evaluation fails to capture multi-step decision-making. We introduce AgenticAI-Supervisor, an API and UI-driven RL Gym environment that decouples environment creation from scalable execution. By moving to verifiable execution outcomes, the platform generates high-fidelity traces and applies multi-dimensional reward shaping. Critically, our framework mitigates reward hacking through rigorous internal state validation and testing. This work provides a first look at our platform's core capabilities through a Customer Support Agent case study demonstrating a consistent closed-loop feedback for model optimization. Future work will focus on advanced features such as Computer Use, Tool Use, automated \"stumping\", and edge-case generation.",
+    "arxiv_categories": [
+      "cs.AI"
+    ],
+    "authors": [
+      "Akshay Arora",
+      "Ishan Nigam",
+      "Ashutosh Aggarwal",
+      "Shefali Bansal",
+      "Krishna Singh",
+      "Sweta Kumari",
+      "Nikhil Mittal",
+      "Shariq Farhan",
+      "Siddarth Malreddy"
+    ],
+    "category": "evaluation",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.05773",
+    "pdf_url": "https://arxiv.org/pdf/2607.05773v1",
+    "primary_category": "cs.AI",
+    "published": "2026-07-07",
+    "summary": "An RL gym platform generates execution-verified agent traces with shaped rewards and state validation, demonstrated on a customer support agent.",
+    "title": "Beyond Static Evaluation: Building Simulation Environments for Scalable Agentic Reinforcement Learning",
+    "updated": "2026-07-07"
+  },
+  "2607.05904": {
+    "abs_url": "https://arxiv.org/abs/2607.05904",
+    "abstract": "Training a language model against its own reference-free judgments (the premise of self-rewarding, self-play, and LLM-as-a-judge pipelines) assumes a model's verdict on a shown answer tracks correctness. We show it fails structurally: conditioned on a candidate, a judge scores plausibility, not correctness, leaving false-positive basins a policy learns to exploit. We measure this with a hidden-anchor audit: a held-out, cross-source exact-match check the judge never sees. On GSM8K with Qwen3 policies, self-play drives the judge's pass rate from 0.72 to 0.94 while true accuracy stays at 0.20 (three seeds). This reward hacking is not white-box gaming: the errors transfer across judge families (Qwen, Llama, Gemma) and scales, a strict three-judge ensemble still accepts 55% of them, and no plausibility-scoring defense closes the basin. The decisive variable is whether the judge commits an answer of its own before using the candidate: committing first drops the false-positive rate from 0.719 to 0.012, blind solving lifts discrimination to 0.96, and used as the training reward the de-anchored channel keeps false positives at zero, preventing the basin rather than only detecting it. A falsifiable bound (the gap is at most 1 - accuracy) predicts which regimes are exposed. The full arc replicates without training under best-of-N selection in code and competition math, and with a Gemma policy.",
+    "arxiv_categories": [
+      "cs.LG"
+    ],
+    "authors": [
+      "Chenyu Zhou"
+    ],
+    "category": "alignment-safety",
+    "comment": "9 pages main text, 15 pages total including references and appendix; 4 figures",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.05904",
+    "pdf_url": "https://arxiv.org/pdf/2607.05904v1",
+    "primary_category": "cs.LG",
+    "published": "2026-07-07",
+    "summary": "Reference-free judges score plausibility rather than correctness, so self-play inflates pass rates without accuracy gains unless the judge answers independently first.",
+    "title": "More Convincing, Not More Correct: Self-Play Reward Hacking of Reference-Free LLM Judges",
+    "updated": "2026-07-07"
+  },
+  "2607.06196": {
+    "abs_url": "https://arxiv.org/abs/2607.06196",
+    "abstract": "Current AI safety evaluation and benchmarking frameworks predominantly rely on Western-centric culture-agnostic defaults that mask critical regional laws, socio-linguistic nuances, and cultural taboos, leaving Vision-Language Models (VLMs) vulnerable in global deployments. We introduce Pluralis v0.1: a novel multimodal, multi-regional, and multilingual dataset built from a culture-first perspective. Spanning 6,448 prompts across six Asia-Pacific countries (Bangladesh, India, Korea, Pakistan, Singapore, Taiwan) and eight languages, Pluralis diverges from prior work by natively sourcing localized safety hazards rather than adapting Western datasets. Crucially, it introduces a multimodal evaluation paradigm: user text (e.g., \"Should I gift this?\") and an image referring to \"this\" (e.g., a clock) - both innocuous in isolation, but synergistically triggering specific legal or cultural violations. Pluralis disentangles universal safety violations from localized cultural appropriateness, establishing the latter as a first-class evaluation axis. To operationalize this, we present Judge-Pluralis, an agreement-gated LLM-as-a-Judge ensemble trained on examples classified in an empirically derived cultural taxonomy. Observing VLM behavior on a subset of the Pluralis surfaces recurring, locale-specific failure modes such as image misidentifications with downstream harm, missed item-context-locale interactions, and inadequate refusals. These failure modes vary systematically across locales and languages, exposing blind spots that globally averaged metrics conceal. Ultimately, Pluralis is not presented as a solved evaluation framework for cultural alignment, but rather as a first step and catalyst for future innovation. We call upon the research community to utilize this foundation to advance the science of multilingual, multicultural evaluation to better support AI cultural alignment globally.",
+    "arxiv_categories": [
+      "cs.CL",
+      "cs.CY"
+    ],
+    "authors": [
+      "Alicia Parrish",
+      "Rajat Shinde",
+      "Sanket Badhe",
+      "Xinyi Bai",
+      "Sree Bhargavi Balija",
+      "Hua-Rong Chu",
+      "Emilio Ferrara",
+      "Armstrong Foundjem",
+      "Rajat Ghosh",
+      "Aakash Gupta",
+      "Xuanli He",
+      "Ong Chen Hui",
+      "Minji Jung",
+      "Madhangi Karimanal",
+      "Faiza Khan Khattak",
+      "Boryoung Kim",
+      "Eugenia Kim",
+      "Liliya Lavitas",
+      "Seok Min Lim",
+      "Victor Lu",
+      "Jim Moirangthem",
+      "Dhivya Nagasubramanian",
+      "Deepak Pandita",
+      "Sita Rajagopal",
+      "Geetha Raju",
+      "Evgeniia Razumovskaia",
+      "Aravind Reddy",
+      "Federico Ricciuti",
+      "Nobin Sarwar",
+      "Sungpil Shin",
+      "Sunayana Sitaram",
+      "Snehal Thorat",
+      "Tharindu Cyril Weerasooriya",
+      "Jasmijn Bastings",
+      "Joachim Baumann",
+      "Kongtao Chen",
+      "Murali Emani",
+      "Mariya Hendriksen",
+      "Jiho Jin",
+      "Jun Seong Kim",
+      "Younghoon Ko",
+      "Alicja Kwasniewska",
+      "Minjae Lee",
+      "Tom Wei-cyuan Lin Kashyap Ramanandula Manjusha",
+      "Junho Myung",
+      "Junyeong Park",
+      "Roma Patel",
+      "Shyam Ratan",
+      "Sudarsun Santhiappan",
+      "Priyanka Suresh",
+      "Tuesday",
+      "Ksheeraj Sai Vepuri Laura Amortegui-Ordonez",
+      "Claire Dennis",
+      "Minsuk Kahng",
+      "Chris Knotz",
+      "Alice Oh",
+      "Balaraman Ravindran",
+      "Soojung Ryu William Bartholomew",
+      "Hiwot Tesfaye",
+      "Lora Aroyo"
+    ],
+    "category": "evaluation",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.06196",
+    "pdf_url": "https://arxiv.org/pdf/2607.06196v1",
+    "primary_category": "cs.CL",
+    "published": "2026-07-07",
+    "summary": "Multilingual multimodal benchmark of 6,448 prompts from six Asia-Pacific countries tests vision-language models on locally sourced legal and cultural safety hazards.",
+    "title": "Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and Reliability",
+    "updated": "2026-07-07"
+  },
+  "2607.07229": {
+    "abs_url": "https://arxiv.org/abs/2607.07229",
+    "abstract": "Prior work has shown that chain-of-thought (CoT) reasoning is often unfaithful: a model's stated reasoning does not reliably reflect the process that produced its output. Detecting unfaithfulness, though, requires controlled experimental interventions, which cannot be applied to evaluation transcripts after the fact. We turn instead to a more tractable question that has received less attention: whether the stated reasoning is logically consistent with the answer it accompanies. Unlike faithfulness, consistency can be assessed from a transcript alone, with no intervention. We introduce reasoning consistency scanning, a reusable method for detecting this property in AI safety evaluation transcripts. Our contributions are fourfold. First, we formalize reasoning consistency as distinct from faithfulness and define a six-subtype taxonomy of inconsistency. Second, we build a validated benchmark of 60 transcripts, manually adapted from InstrumentalEval outputs. Third, we implement a working scanner for InspectScout, the first to target this property in safety evaluation transcripts. Fourth, we report results across four generator models and three evaluations from inspect_evals, showing that reasoning inconsistency is present, detectable, and varies systematically across both models and task types.",
+    "arxiv_categories": [
+      "cs.AI"
+    ],
+    "authors": [
+      "Silvia Santano"
+    ],
+    "category": "evaluation",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.07229",
+    "pdf_url": "https://arxiv.org/pdf/2607.07229v1",
+    "primary_category": "cs.AI",
+    "published": "2026-07-08",
+    "summary": "Method and scanner detect logical inconsistency between stated reasoning and answers in safety evaluation transcripts without requiring interventions.",
+    "title": "Reasoning Consistency Scanning: A Framework for Auditing Chain-of-Thought Validity in AI Safety Evaluations",
+    "updated": "2026-07-08"
+  },
+  "2607.07693": {
+    "abs_url": "https://arxiv.org/abs/2607.07693",
+    "abstract": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful paradigm for aligning generative models with human preferences. However, applying RLHF to diffusion models remains highly feedback inefficient, as existing approaches typically require large amounts of human or reward model evaluations. This limitation reduces the practicality of diffusion RLHF in realworld settings where feedback is the primary bottleneck. In this paper, we propose two complementary strategies that substantially improve the feedback efficiency of diffusion RLHF while preserving generalization to unseen prompts. Our key observation is that reward information in diffusion trajectories is unevenly distributed: not all denoising timesteps or trajectories contribute equally to learning from a reward signal. By emphasizing informative timesteps and trajectories during optimization, we obtain more effective gradient updates. First, we introduce a per-timestep weighting scheme that reweights denoising steps during policy optimization. We theoretically connect this weighting to the optimal convergence properties of proximal policy optimization (PPO) and approximate the resulting weighting trend empirically. Second, we introduce a replay mechanism that prioritizes informative trajectories, enabling the model to reuse past samples instead of repeatedly querying new rewards. Together, these strategies significantly improve the feedback efficiency of diffusion RLHF. Under identical hyperparameter settings, our approach achieves up to a 6$\\times$ improvement in sample efficiency compared to widely used diffusion RLHF baselines.",
+    "arxiv_categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "authors": [
+      "Eric Zhu",
+      "Abhinav Shrivastava",
+      "Soumik Mukhopadhyay"
+    ],
+    "category": "alignment-safety",
+    "comment": "19 pages, 18 figures, 4 tables. Submission under review. A shorter, non-archival 4-page abstract version of this work was accepted to CVPR 2026 Workshops (GCV, CVEU)",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.07693",
+    "pdf_url": "https://arxiv.org/pdf/2607.07693v1",
+    "primary_category": "cs.LG",
+    "published": "2026-07-08",
+    "summary": "Timestep reweighting and advantage-based trajectory replay cut the feedback needed to fine-tune diffusion models with reinforcement learning from preferences.",
+    "title": "Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient Diffusion RLHF",
+    "updated": "2026-07-08"
+  },
+  "2607.07774": {
+    "abs_url": "https://arxiv.org/abs/2607.07774",
+    "abstract": "As LLM agents take on offensive security work, a single out-of-scope tool call can breach a client's engagement boundary, disrupt production, or void a bug-bounty finding. Unlike a fixed safety policy, the boundary that matters is declared in the user's request and must be inferred from intent. That challenge is sharpened by the adversarial nature of offensive security: the same tool call is in or out of scope depending not on the action itself but on the target it touches and the context in which it runs, which no fixed policy can enumerate in advance. We study pre-execution gating: a cheap, trusted LLM judge inspects each call proposed by a strong, swappable agent, and accepts or rejects it before it runs. We introduce ScopeJudge, a benchmark of 4,897 tool calls (7.7% scope violations) from agent trajectories on tasks engineered to tempt agents out of scope and labeled at the call level by professional penetration testers, with substantial inter-grader agreement (Fleiss kappa = 0.64) that sets an expert agreement reference point of F1 = 0.78. We evaluate eight judge models under five transcript strategies, varying how much context the judge sees, from the static policy alone to the full raw transcript, and chart the resulting cost-accuracy Pareto frontier. We find that a static policy is structurally insufficient for scope enforcement: blind to the user's request, judge recall collapses to near zero, confirming that scope lives in the request and that request-conditioned monitoring is necessary. Because a missed violation costs more than a spurious rejection, we report precision, recall, and F1 separately and recommend two operating points: a cost-sensitive configuration and a recall-first one for high-stakes deployments. We release the ScopeJudge dataset to support real-time monitoring and scalable oversight of autonomous security agents.",
+    "arxiv_categories": [
+      "cs.CR"
+    ],
+    "authors": [
+      "Shane Caldwell",
+      "Max Harley",
+      "Ads Dawson",
+      "Michael Kouremetis",
+      "Vincent Abruzzo",
+      "Will Pearce"
+    ],
+    "category": "ai-security",
+    "comment": "22 pages, 4 figures, 4 tables",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.07774",
+    "pdf_url": "https://arxiv.org/pdf/2607.07774v1",
+    "primary_category": "cs.CR",
+    "published": "2026-07-08",
+    "summary": "Benchmark of 4,897 expert-labeled tool calls evaluates cheap LLM judges that reject out-of-scope actions before offensive security agents execute them.",
+    "title": "ScopeJudge: Cost-Aware Pre-Execution Gating for Offensive Security Agents",
+    "updated": "2026-07-08"
+  },
+  "2607.09404": {
+    "abs_url": "https://arxiv.org/abs/2607.09404",
+    "abstract": "Motivation: Rare disease (RD) diagnosis is frequently delayed due to the similarities in symptoms to common disease variants. Machine Learning Algorithms applied to Electronic Health Records show promise for accelerating the diagnosis; however, legal and privacy concerns pose significant barriers. To address these issues, Synthetic Data Generation is an alternative method for obtaining Electronic Health Records and can be applied with any Machine Learning algorithm for benchmarking and development purposes. Despite the availability of Synthetic Data Generation algorithms, support for generating a subset of patients that differ in a definable degree from the majority to simulate patients with RD is often lacking. Results: We present SYNRARE, a graphical user interface based on the Synthea framework that enables easier modification and generation of synthetic Electronic Health Records of RD patients, which differ only to a definable degree from patients with common diseases, thereby enabling the benchmarking and testing of algorithms under controlled technical conditions. SYNRARE enables researchers to rapidly benchmark their Machine Learning algorithms across any scenario. Availability and implementation: SYNRARE, including detailed instructions for installing, is available at https://gitlab.sdu.dk/screen4care/synrare.",
+    "arxiv_categories": [
+      "cs.LG"
+    ],
+    "authors": [
+      "Nicolai Dinh Khang Truong",
+      "Richard Röttger"
+    ],
+    "category": "synthetic-data",
+    "comment": "Intended for submission to the Application Notes Bioinformatics Journal",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.09404",
+    "pdf_url": "https://arxiv.org/pdf/2607.09404v1",
+    "primary_category": "cs.LG",
+    "published": "2026-07-10",
+    "summary": "A Synthea-based GUI generates synthetic electronic health records for rare-disease patients with tunable divergence from common-disease cases, supporting controlled ML benchmarking.",
+    "title": "SYNRARE: Synthetic Rare Disease EHR Generation for ML Benchmarking",
+    "updated": "2026-07-10"
+  },
+  "2607.09473": {
+    "abs_url": "https://arxiv.org/abs/2607.09473",
+    "abstract": "Fault injection (FI) attacks on embedded neural network (NN) implementations primarily focus on inducing misclassification by corrupting weights or intermediate computations, overlooking their interaction with algorithmic adversarial threats. In this work, we present a cross-level attack that bridges implementation-level physical faults to algorithm-level adversarial attacks. By characterizing fault-induced data perturbations during NN inference, we connect FI with backdoor learning, enabling system-level attacks that jointly exploit implementation- and algorithm-level vulnerabilities. Specifically, we propose a precise fault-injection method that reliably manipulates targeted register values to tractable states during execution. Leveraging this level of FI precision, we propose a novel end-to-end feature map-level backdoor attack, where physically induced intermediate perturbations serve as stealthy triggers. Unlike conventional input-based backdoors, our trigger is activated only under physical faults, causing the NN to exhibit adversarial behavior that compromises system integrity while remaining benign during normal operation. We demonstrate that such physically triggered backdoors can be mounted on embedded NN platforms and remain effective against existing backdoor defenses that typically assume input-space triggers. We showcase the attack practicality using electromagnetic FI on convolutional neural networks implemented on ARM Cortex-M4 microcontroller, which is a common platform for constrained embedded applications. Our results highlight a novel attack vector at the intersection of hardware and algorithmic levels, stressing the need for defenses across abstraction levels.",
+    "arxiv_categories": [
+      "cs.CR"
+    ],
+    "authors": [
+      "Steyn Hommes",
+      "Vincent Dankbaar",
+      "Tanguy Stekke",
+      "Xiaomeng Wang",
+      "Lisanne Weidmann",
+      "Senna van Hoek",
+      "Durba Chatterjee",
+      "Lejla Batina",
+      "Zhuoran Liu"
+    ],
+    "category": "ai-security",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.09473",
+    "pdf_url": "https://arxiv.org/pdf/2607.09473v1",
+    "primary_category": "cs.CR",
+    "published": "2026-07-10",
+    "summary": "Precise physical fault injection into embedded network registers plants feature-map-level backdoors that stay dormant until faults are triggered.",
+    "title": "Triggering Stealthy Feature Map Backdoors via Physical Fault Injection in Embedded Neural Networks",
+    "updated": "2026-07-10"
+  },
+  "2607.09480": {
+    "abs_url": "https://arxiv.org/abs/2607.09480",
+    "abstract": "The human visual system (HVS) employs foveated sampling and eye movements to achieve efficient perception, conserving both metabolic energy and computational resources. Drawing inspiration from this robustness and adaptability, we introduce the Foveated Dynamic Transformer (FDT), a foveation-guided dynamic token-selection architecture that integrates these mechanisms into a vision transformer framework. The FDT exhibits strong resilience to various types of noise and adversarial attacks, despite not being explicitly trained for such challenges. This inherent robustness is achieved through the use of fixation and foveation modules: the fixation module identifies fixation points to filter out irrelevant information, while the foveation module generates foveated embeddings with multi-scale information. At the 50% fixation-budget setting, FDT achieves higher accuracy than DeiT-S (81.9% vs. 80.9%) while reducing multiply-accumulate operations by 34.57%, highlighting one operating point on its accuracy-efficiency trade-off. These attributes position FDT as an HVS-inspired step toward artificial neural networks that combine adaptive computation with improved resilience.",
+    "arxiv_categories": [
+      "cs.CV",
+      "cs.LG",
+      "cs.NE"
+    ],
+    "authors": [
+      "Ibrahim Batuhan Akkaya",
+      "Kishaan Jeeveswaran",
+      "Bahram Zonooz",
+      "Elahe Arani"
+    ],
+    "category": "attention-architecture",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.09480",
+    "pdf_url": "https://arxiv.org/pdf/2607.09480v1",
+    "primary_category": "cs.CV",
+    "published": "2026-07-10",
+    "summary": "A vision transformer with fixation and foveation modules selects tokens dynamically, cutting compute while gaining unintended robustness to noise and attacks.",
+    "title": "Foveation-Guided Dynamic Token Selection for Robust and Efficient Vision Transformers",
+    "updated": "2026-07-10"
+  },
+  "2607.09492": {
+    "abs_url": "https://arxiv.org/abs/2607.09492",
+    "abstract": "Reinforcement learning (RL) is increasingly used to align multimodal large language models (MLLMs), but higher rewards do not always imply better task performance. This risk is amplified when visual evidence is evaluated by text-only or weakly grounded rewards. We study reward hacking in MLLM RL across safety VQA, chart VQA, and stress-test settings, varying reward design, data ambiguity, model scale (2B-32B), and RL algorithm (GRPO, RLOO, DAPO). We introduce Newly Rewarded Failure Rate (NRFR), which measures failures among samples whose proxy reward improves over the SFT baseline. Outcome-only rewards cause severe hacking, reaching 48.1% Reward Hacking Rate (RHR), while NRFR exceeding RHR shows that RL creates new failures rather than merely inheriting them. Scaling reduces but does not eliminate hacking: even the 32B model retains a 54.9% worse rate under outcome-only rewards, whereas answer-aware rewards improve the oracle trend at every scale. Robustness is also algorithm- and scale-dependent: GRPO is consistently most resistant, RLOO remains vulnerable, and DAPO improves substantially from 2B to 8B. Visual-evidence rewards help only with reliable verification: keyword-based checks increase hacking, while VLM-as-judge semantic verification reduces it. Overall, multimodal reward hacking is a systematic result of optimizing imperfect rewards, and robust alignment requires rewards and verifiers that remain reliable under optimization pressure.",
+    "arxiv_categories": [
+      "cs.AI"
+    ],
+    "authors": [
+      "Jiayu Yao",
+      "Yiwei Wang",
+      "Anmeng Zhang",
+      "Zhe Sun",
+      "Songsong Wang",
+      "Lingrui Mei",
+      "Yuyao Ge",
+      "Shenghua Liu"
+    ],
+    "category": "alignment-safety",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.09492",
+    "pdf_url": "https://arxiv.org/pdf/2607.09492v1",
+    "primary_category": "cs.AI",
+    "published": "2026-07-10",
+    "summary": "Study of reward hacking in multimodal RL introduces a new failure-rate metric and finds outcome-only rewards create novel errors that scale does not fix.",
+    "title": "Multimodal Reward Hacking in Reinforcement Learning",
+    "updated": "2026-07-10"
+  },
+  "2607.09582": {
+    "abs_url": "https://arxiv.org/abs/2607.09582",
+    "abstract": "We present a physics-constrained machine learning framework for accelerating the direct numerical simulation (DNS) of turbulent reacting flows. The model replaces the direct evaluation of detailed chemical source terms with a surrogate that predicts reaction rates from a reduced thermochemical state. To improve physical consistency, the second law of thermodynamics is incorporated as a training constraint by enforcing non-negative entropy generation, which restricts the evolution of the thermochemical state to physically admissible directions and improves stability during time integration. The approach is demonstrated on DNS of a two-dimensional planar lean premixed methane-air flame interacting with a turbulent flow field. The model reproduces detailed-chemistry results with high fidelity while achieving more than an order-of-magnitude reduction in computational cost. Furthermore, a residual-based synthetic data augmentation strategy enables parametric exploration by constructing new training data from the original dataset, allowing accurate simulation at new inlet conditions without additional detailed-chemistry CFD runs. These results demonstrate that thermodynamically constrained machine learning can provide reliable and computationally efficient surrogates for detailed chemistry in high-fidelity combustion simulations.",
+    "arxiv_categories": [
+      "physics.flu-dyn",
+      "cs.LG"
+    ],
+    "authors": [
+      "Okezzi Ukorigho",
+      "Opeoluwa Owoyele"
+    ],
+    "category": "synthetic-data",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.09582",
+    "pdf_url": "https://arxiv.org/pdf/2607.09582v1",
+    "primary_category": "physics.flu-dyn",
+    "published": "2026-07-10",
+    "summary": "A chemical kinetics surrogate enforces non-negative entropy generation during training and uses residual-based augmentation to extrapolate to new inlet conditions.",
+    "title": "Entropy-Constrained Machine Learning with Residual Data Augmentation for Modeling Chemical Kinetics",
+    "updated": "2026-07-10"
+  },
+  "2607.09583": {
+    "abs_url": "https://arxiv.org/abs/2607.09583",
+    "abstract": "The deployment of large-scale foundation models, such as the Segment Anything Model 3 (SAM 3), promises a transition toward open-vocabulary, training-free computer vision. However, their capacity to generalize out-of-distribution to the complex, top-down geometric structures of Earth Observation imagery remains largely unquantified. Driven by SAM 3's performance disparities in highly specialized domains, we present a comprehensive, multi-task empirical evaluation across remote sensing scene classification, object detection, and instance segmentation under strict zero-shot and one-shot constraints. To achieve this, we introduce a structural adaptation of SAM 3 by repurposing its decoupled binary presence head into a standalone zero-shot classifier. Furthermore, by systematically isolating textual and visual prompt modalities across five configurations, we explicitly diagnose the alignment mechanics within the model's multimodal decoder. Our findings reveal severe cross-modal interference: while visual prompts successfully align the decoder to complex remote sensing geometry, textual prompts inject misaligned, ground-level semantic bias, actively degrading coordinate regression. To benchmark these capabilities without resource-intensive training, we formulate a novel training-free proxy evaluation protocol for Generalized Zero-Shot tasks (scene classification and instance segmentation). Ultimately, our results demonstrate that SAM 3 avoids the overfitting commonly seen in legacy domain-adapted models, achieving high Harmonic Mean scores in segmentation tasks. However, it remains fundamentally constrained by sub-pixel resolution limits and overhead semantic blind spots, charting a definitive mandate for parameter-efficient geospatial fine-tuning of its multimodal decoder.",
+    "arxiv_categories": [
+      "cs.CV"
+    ],
+    "authors": [
+      "Mohammad Dabaja",
+      "Turgay Celik"
+    ],
+    "category": "multimodal-embodiment",
+    "comment": "14 pages, 4 figures",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.09583",
+    "pdf_url": "https://arxiv.org/pdf/2607.09583v1",
+    "primary_category": "cs.CV",
+    "published": "2026-07-10",
+    "summary": "Zero-shot and one-shot evaluation of SAM 3 on remote sensing tasks finds textual prompts inject ground-level bias that degrades localization.",
+    "title": "Promptable Concept Segmentation from Above: Evaluating SAM 3's Zero-Shot and One-Shot Capabilities in Remote Sensing",
+    "updated": "2026-07-10"
+  },
+  "2607.09630": {
+    "abs_url": "https://arxiv.org/abs/2607.09630",
+    "abstract": "Collecting annotated plant images for automated phenotyping is often slow and expensive. Plant models simulating growth and development can generate unlimited synthetic images with exact labels. However, previous work has established that whether incorporating synthetic data improves performance depends on the ratio of synthetic to real images and the label distribution of the synthetic dataset. To systematically quantify both factors, we train ResNet-18 models on a canola branch-counting task using a calibrated L-system plant model. We vary each factor independently. Synthetic-to-real ratios of 1:5 to 1:22 broadly improve performance; the best ratio (1:7) reduces mean absolute difference by 7.6% over real-only training. For label distribution, a uniform synthetic distribution is strongly suboptimal (abs. diff. of approximately 1.70); interpolating 90% toward the real distribution yields abs. diff. 0.927, whereas Gaussian smoothing of the real label distribution yields the best overall result (abs. diff. 0.912, a 14.7% improvement over real-only). A minimum of 10 synthetic images per label offers a simpler alternative with modest gains, while 100 per label over-corrects and hurts performance.",
+    "arxiv_categories": [
+      "cs.CV"
+    ],
+    "authors": [
+      "Amirsalar Darvishpour",
+      "Mikolaj Cieslak",
+      "Adam Runions"
+    ],
+    "category": "synthetic-data",
+    "comment": "5 pages, 4 figures, submitted to EPA 2026",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.09630",
+    "pdf_url": "https://arxiv.org/pdf/2607.09630v1",
+    "primary_category": "cs.CV",
+    "published": "2026-07-10",
+    "summary": "Systematic study of synthetic-to-real ratio and label distribution for canola branch counting finds Gaussian-smoothed real label distributions work best.",
+    "title": "The Effects of Synthetic Data and Label Distribution on Canola Branch Counting",
+    "updated": "2026-07-10"
+  },
+  "2607.09791": {
+    "abs_url": "https://arxiv.org/abs/2607.09791",
+    "abstract": "The multiplicative repetition penalty shipped across the LLM inference ecosystem (HuggingFace, vLLM, llama$.$cpp, and a dozen further engines) branches on the sign of each raw logit (divide positives by theta, multiply negatives). But the softmax is unchanged by adding a constant to every logit, so a model's logit zero-point is arbitrary, and the sign-branch reads that arbitrary point. The sign-branch is itself the accepted fix for an earlier bug, so the accepted fix branches on a quantity the training objective leaves unconstrained. Two measurable consequences follow. (1) The penalty is not well-defined: re-centring a model's logits by a constant is a provable no-op at theta=1, yet at a routine theta=1.3 it changes 58-96% of greedy tokens, where subtractive and normalized penalties change none; real checkpoints sit at widely different zero-points, so a fixed repetition_penalty is a different operation on every model. (2) It corrupts structured output: on 200 real-world JSON schemas, theta=1.3 drops the rate of valid, schema-conformant output from 97% to 23%. In our measurements, applying the penalty to normalized log-probabilities instead of raw logits removes both effects. HuggingFace already ships that operator (LogitNormalization); today it is off by default and applied after the penalty. This note gives the mechanism, the measurements (five models up to 7B, base and RLHF, on WikiText-103 prefixes; two code models on HumanEval and JSONSchemaBench; both effects replicated inside vLLM and llama$.$cpp through their own samplers on the same inputs), and the normalized variant.",
+    "arxiv_categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "authors": [
+      "Peter Hollows"
+    ],
+    "category": "inference-reasoning",
+    "comment": "8 pages, 2 figures, 4 tables. Code, data, per-stack survey and git genealogy: https://github.com/captainpete/repetition-penalty-gauge",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.09791",
+    "pdf_url": "https://arxiv.org/pdf/2607.09791v1",
+    "primary_category": "cs.LG",
+    "published": "2026-07-09",
+    "summary": "Standard multiplicative repetition penalty branches on an arbitrary logit zero-point, changing most greedy tokens and collapsing JSON schema conformance from 97% to 23%.",
+    "title": "Gauge dependence and structured-output corruption in sign-branched repetition penalties: measurements across models, inference stacks, and alternative repetition controls",
+    "updated": "2026-07-09"
+  },
+  "2607.09842": {
+    "abs_url": "https://arxiv.org/abs/2607.09842",
+    "abstract": "We investigate whether identity-specifying system prompts produce statistically distinguishable geometric fingerprints in the hidden-state trajectories of four open-weight transformer language models spanning four post-training regimes: no training (Gemma-4-E4B base), multimodal RLHF (Gemma-4-E4B-it), RL distillation (DeepSeek-R1-Distill-Qwen-7B), and SFT (Qwen2.5-7B-Instruct). Three prompt conditions (an identity-specifying axis prompt, a length-matched generic-assistant prompt, and a 26-token vanilla baseline) are compared via five geometric metrics, principally the 1-Wasserstein distance between edge-wise distributions of Ollivier-Ricci curvature on k-NN trajectory graphs. Claims rest on trajectory-level permutation tests with multiple geometric controls (teacher-forced content controls, temporal-chain vs k-NN topology, ABT-projected k-NN, angular vs Euclidean graph construction, B=5000 permutations on borderline statistics). The central finding is a qualitative reorganization of identity encoding across the instruction-tuning boundary: in the base model the fingerprint is direction-coded (separation 0.034, p=0.002 under angular k-NN); in the multimodal instruction-tuned model it migrates into the magnitude (angular separation collapses to p=0.439 while Euclidean survives at p=0.042, and the mean norm of the first generated state inverts its length-ordering, being lowest for the identity prompt). This direction-to-magnitude reorganization is specific to the multimodal instruction-tuning regime, absent under RL distillation and SFT. A teacher-forced control attributes ~30% of the free-running cosine signal to prompt-driven effects. We position W_1 on edge-wise Ollivier-Ricci distributions on k-NN trajectory graphs as a methodological contribution of independent interest.",
+    "arxiv_categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "authors": [
+      "Jorge A. Castillo",
+      "Marco Torres Yévenes",
+      "Juan Carlos Lanas"
+    ],
+    "category": "interpretability",
+    "comment": "16 pages, 8 tables. Working draft v0.3. Uses Ollivier-Ricci curvature and edge-wise Wasserstein-1 as primary geometric statistic; four models (Gemma-4-E4B, Gemma-4-E4B-it, DeepSeek-R1-Distill-Qwen-7B, Qwen2.5-7B-Instruct)",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.09842",
+    "pdf_url": "https://arxiv.org/pdf/2607.09842v1",
+    "primary_category": "cs.LG",
+    "published": "2026-07-10",
+    "summary": "Geometric analysis of hidden-state trajectories shows instruction tuning shifts identity-prompt encoding from directional to magnitude-based across four post-training regimes.",
+    "title": "From Direction to Magnitude: How Multimodal Instruction-Tuning Reorganizes the Geometric Encoding of Identity-Specifying Prompts in Transformer Hidden States",
+    "updated": "2026-07-10"
+  },
+  "2607.09938": {
+    "abs_url": "https://arxiv.org/abs/2607.09938",
+    "abstract": "Generative Artificial Intelligence (GenAI) coding tools are transforming visualization education. They can assist with implementation and design, but they can also let students bypass intended learning trajectories. In this paper, we share our retrospective experience managing and teaching AI use in an upper-level visualization course. We implemented prompt injections, asked oral checkout questions, and taught two AI coding labs. Prior to our coding labs, at least half of the students had already used AI tools in their assignments. In both AI coding labs, refinement accounted for about half of students' prompting logs, and explanation was almost absent. In the lab where AI coding was optional, 44 of 78 (56.4%) submissions preferred the scaffolded instructions over designing their own prompts. Students' final projects were more polished than in our previous offering, but also more visually homogeneous. Our reflections point to the need for clearer AI use boundaries and instruction on prompting, and for teaching students to question generic AI designs and adapt them to their data and story.",
+    "arxiv_categories": [
+      "cs.HC"
+    ],
+    "authors": [
+      "Zhongzheng Xu",
+      "Taehyun Yang",
+      "Fumeng Yang"
+    ],
+    "category": "evaluation",
+    "comment": "5 Figures, 7 Pages",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.09938",
+    "pdf_url": "https://arxiv.org/pdf/2607.09938v1",
+    "primary_category": "cs.HC",
+    "published": "2026-07-10",
+    "summary": "Retrospective report on managing generative coding assistants in a visualization course, covering prompt logs, oral checkouts, and homogenized student project outcomes.",
+    "title": "\"Code Is Cheap. Show Me the Talk.\": Lessons from Teaching and Managing AI Coding Tool Usage in a Visualization Course",
+    "updated": "2026-07-10"
+  },
+  "2607.10008": {
+    "abs_url": "https://arxiv.org/abs/2607.10008",
+    "abstract": "We introduce a new conformal prediction method that constructs calibrated prediction sets over collections of spatial events, such as tropical cyclone genesis and earthquake locations. Forecasting natural hazards has become increasingly important, due to their significant economic impact, and quantifying the uncertainty of predictions is critical for accurate risk assessment. Our approach works by representing spatial point clouds as empirical measures so that we can score them using (sliced) Wasserstein distance, then constraining the resulting distribution-valued prediction set to be supported only near the training data manifold. We derive a coverage lower bound for the intersected sets and show that, in practice, this gap can be made small through a simple data-adaptive selection criterion. Because the resulting set is not analytically tractable, we introduce a modified flow-based sampling procedure, which allows us to represent and apply these prediction sets in practice as ensembles. Numerical experiments on synthetic data, tropical cyclone genesis, and earthquake occurrences show that our method achieves near-nominal coverage, with significantly lower energy distance and manifold distance than highest predictive density region (HDR) baselines along with generative model baselines.",
+    "arxiv_categories": [
+      "stat.ML",
+      "cs.LG",
+      "stat.ME"
+    ],
+    "authors": [
+      "Collin Nill",
+      "Trevor Harris",
+      "Jason Adams"
+    ],
+    "category": "evaluation",
+    "comment": "21 pages, 10 figures, 4 tables",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.10008",
+    "pdf_url": "https://arxiv.org/pdf/2607.10008v1",
+    "primary_category": "stat.ML",
+    "published": "2026-07-10",
+    "summary": "Conformal prediction over spatial point clouds uses sliced Wasserstein scoring and manifold constraints to give calibrated sets for cyclone and earthquake forecasting.",
+    "title": "Manifold Constrained Conformal Prediction for Spatial Events",
+    "updated": "2026-07-10"
+  },
+  "2607.10037": {
+    "abs_url": "https://arxiv.org/abs/2607.10037",
+    "abstract": "Collaborative decision-making is a fundamental capability in multi-robot systems, such as connected autonomous vehicles. However, perceptual noise and adversarial attacks in collaborators can severely affect decision reliability. Overall, existing methods typically rely on retraining with attack-specific defenses or on restrictive perturbation assumptions to improve resilience, which limits their practicality. In this paper, we propose a novel Resilient Collaborative Decision-Making (RCDM) framework that consists of an attention-based encoder for extracting individual robot perceptual embeddings and an attention-based decoder for fusing collaborator perceptions and making decisions. To improve resilience to corrupted observations, we design a novel plug-and-play reweighting module that down-weights the influence of corrupted inputs by analyzing the consistency of neighborhood points relative to the local structure and assigning smaller weights to points that deviate strongly from the local median. This module can be seamlessly integrated into attention-based collaborative decision-making without requiring additional training. We evaluate our method in high-fidelity simulations, considering perceptual noise and five types of attacks across diverse accident-prone scenarios. Experimental results demonstrate that our approach consistently outperforms existing methods by up to 26% and achieves state-of-the-art resilient performance.",
+    "arxiv_categories": [
+      "cs.RO"
+    ],
+    "authors": [
+      "Jiewen Liu",
+      "Rui Liu",
+      "Matthew Lee",
+      "Ming C. Lin",
+      "Xiaorui Liu",
+      "Peng Gao"
+    ],
+    "category": "ai-security",
+    "comment": "8 pages, 4 figures, 2 tables. Accepted to the 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.10037",
+    "pdf_url": "https://arxiv.org/pdf/2607.10037v1",
+    "primary_category": "cs.RO",
+    "published": "2026-07-10",
+    "summary": "An attention-based collaborative decision framework adds a training-free reweighting module that down-weights corrupted or adversarial collaborator observations in connected vehicles.",
+    "title": "Plug-and-Play Reweighting for Resilient Collaborative Decision-Making in Connected Autonomous Driving",
+    "updated": "2026-07-10"
+  },
+  "2607.10080": {
+    "abs_url": "https://arxiv.org/abs/2607.10080",
+    "abstract": "Large language models (LLMs) are increasingly being used as automated judges for relevance evaluation in information retrieval, yet their robustness to adversarial manipulation remains insufficiently understood, particularly in multilingual settings. In this work, we investigate the impact of cross-lingual prompt injection attacks on LLM-based relevance judgments using TREC Deep Learning collections and two open-weight models under established prompting frameworks. We examine both instruction-based and content-based injection strategies in 8 languages spanning different resource levels. Our results demonstrate that multilingual query-based injections are highly effective in inflating relevance scores while simultaneously evading existing prompt-injection defenses. We further found that, although existing defense mechanisms can be modified to mitigate such attacks, these injections can be easily adapted to bypass them. These findings highlight a critical gap in current defense approaches and demonstrate that language generalization can act as an attack vector, underscoring the need for more robust and proactive evaluation frameworks for LLM-as-a-judge systems.",
+    "arxiv_categories": [
+      "cs.IR"
+    ],
+    "authors": [
+      "Nguyen Khoi Vo",
+      "Duy Duong Tuong",
+      "Oleg Zendel",
+      "Mark Sanderson"
+    ],
+    "category": "ai-security",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.10080",
+    "pdf_url": "https://arxiv.org/pdf/2607.10080v1",
+    "primary_category": "cs.IR",
+    "published": "2026-07-11",
+    "summary": "Cross-lingual prompt injections inflate LLM relevance judgments in retrieval evaluation and adapt around existing injection defenses.",
+    "title": "The Effect of Multi-Lingual and Keyword Adversarial Injection on LLM Relevance Judgment",
+    "updated": "2026-07-11"
+  },
+  "2607.10112": {
+    "abs_url": "https://arxiv.org/abs/2607.10112",
+    "abstract": "Safety alignment in large language models remains brittle across languages: prompts reliably refused in English can elicit harmful compliance in non-English and low-resource settings. We introduce \\textsc{Minionese}, a multilingual jailbreak benchmark spanning 18 languages, 4 resource tiers, and 4 perturbation types (standard translation, code-switching, transliteration, and translationese), paired with a geometric mechanistic analysis of refusal failure across language tiers. We show that each attack type produces a distinct vulnerability profile: transliteration vulnerability is mediated by script identity, code-switching maintains effectiveness through the lowest-resource tier, and a sharp safety regime transition between Tiers 2 and 3 is consistent across all models. Mechanistically, low-resource jailbreaks succeed by routing harmful content through a geometrically misaligned subspace that projects insufficiently onto the refusal directions, leaving the refusal mechanism intact but untriggered. These findings show that English-only safety evaluations are insufficient; they require accounting for script family, perturbation type, and per-language alignment coverage. The benchmark and analysis code is at https://github.com/Brentkong/Minionese-Comprehensive-Benchmark-and-Mechanistic-Study-of-Multilingual-LLM-Safety.git.",
+    "arxiv_categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "authors": [
+      "Chigozirim Ifebi",
+      "Brent Kong",
+      "Ayushi Mehrotra"
+    ],
+    "category": "ai-security",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.10112",
+    "pdf_url": "https://arxiv.org/pdf/2607.10112v1",
+    "primary_category": "cs.CR",
+    "published": "2026-07-11",
+    "summary": "Multilingual jailbreak benchmark across 18 languages showing low-resource attacks route harmful content through subspaces that miss refusal directions.",
+    "title": "Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety",
+    "updated": "2026-07-11"
+  },
+  "2607.10130": {
+    "abs_url": "https://arxiv.org/abs/2607.10130",
+    "abstract": "Gaze target estimation aims to infer the position of a person's gaze within a scene. Within mainstream design logic, multi-branch methods require extra supervision and annotations, while streamlined designs prioritize low-level visual saliency over true gaze intent. The former leads to a high annotation burden and hinders domain transfer, whereas the latter causes misalignment between predicted attention and actual gaze targets. To address this issue, we propose TextGaze, a unified cross-modal architecture that leverages a Large Vision-Language Model (LVLM) as scalable semantic guidance to balance the two design paradigms. The model extracts visual features from a frozen encoder and utilizes an LVLM to obtain gaze-aligned textual cues. We design a transformer-based fusion module with hierarchical text supervision to preserve task semantics. Lightweight decoding heads enable the joint prediction of gaze heatmaps and in-/out-of-frame status. We evaluate our method on four mainstream datasets, and the results show competitive performance across key metrics with robust cross-dataset generalisation without extra fine-tuning. Overall, we provide a streamlined alternative to traditional designs and highlight the potential of LVLMs as accessible auxiliary guidance for gaze estimation.",
+    "arxiv_categories": [
+      "cs.CV"
+    ],
+    "authors": [
+      "Junhui She",
+      "Fei Wang",
+      "Kun Li",
+      "Yiqi Nie",
+      "Yuxin Liu",
+      "Zhangling Duan",
+      "Xun Yang"
+    ],
+    "category": "multimodal-embodiment",
+    "comment": "Accepted by IJCAI 2026. All contents are available at: https://github.com/idremo/TextGaze-IJCAI2026",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.10130",
+    "pdf_url": "https://arxiv.org/pdf/2607.10130v1",
+    "primary_category": "cs.CV",
+    "published": "2026-07-11",
+    "summary": "Uses vision-language model text cues with a transformer fusion module to predict gaze heatmaps and in/out-of-frame status without extra annotation.",
+    "title": "TextGaze: Prompting Gaze Target Estimation with Textual Scene Cues",
+    "updated": "2026-07-11"
+  },
+  "2607.10191": {
+    "abs_url": "https://arxiv.org/abs/2607.10191",
+    "abstract": "Generative streaming models for Target Speaker Extraction (TSE) commonly exhibit a quality--intelligibility trade-off, wherein naive optimization for perceptual audio quality tends to degrade speech intelligibility, and conversely. We reveal that this trade-off arises not from the constraints of streaming architectures, but from an inappropriate choice of optimization anchor. Directly optimizing against audio quality metrics induces catastrophic reward hacking, where content critical to pronunciation and intelligibility is systematically erased to maximize a proxy score. To break this bottleneck, we propose two complementary improvements: an enlarged Conformer convolution kernel for richer local spectro-temporal modeling, and WavLM-anchored Direct Preference Optimization (DPO) fine-tuning strategy. DPO preference pairs are ranked by WavLM cosine similarity, a deep acoustic feature encoding both phonetic structure and speaker identity, providing an optimization anchor that resists hacking. Under a 560 ms streaming chunk size, the proposed method achieves a 10.9% relative intelligibility improvement (word error rate: 0.138 to 0.123), with marginal simultaneous gains in audio quality and speaker similarity.",
+    "arxiv_categories": [
+      "cs.SD",
+      "cs.AI"
+    ],
+    "authors": [
+      "Shuhai Peng",
+      "Jinjiang Liu",
+      "Hui Lu",
+      "Liyang Chen",
+      "Guiping Zhong",
+      "Jiakui Li",
+      "Shiyin Kang",
+      "Zhiyong Wu"
+    ],
+    "category": "alignment-safety",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.10191",
+    "pdf_url": "https://arxiv.org/pdf/2607.10191v1",
+    "primary_category": "cs.SD",
+    "published": "2026-07-11",
+    "summary": "WavLM-similarity-anchored DPO plus larger Conformer kernels avoid proxy-metric hacking, improving streaming speaker extraction intelligibility and quality together.",
+    "title": "Breaking the Quality--Intelligibility Trade-off in Streaming Target Speaker Extraction via Deep-Feature-Anchored Preference Optimization",
+    "updated": "2026-07-11"
+  },
+  "2607.10196": {
+    "abs_url": "https://arxiv.org/abs/2607.10196",
+    "abstract": "Access to sufficiently large biomedical datasets remains a major obstacle for machine learning in Raman spectroscopy-based diagnostics. In particular, for glioma analysis, datasets are typically small and heterogeneous, affected by acquisition-specific variability. This work investigates the utility of deep generative augmentation in such a small-cohort setting. We analyze glioma biopsy spectra acquired from 58 tumor samples and consider both binary IDH-status classification and 6-class methylation subtype classification problems. To address the limited size and imbalance of the dataset, we develop a conditional variational autoencoder ($β$-CVAE) capable of generating class-conditioned synthetic Raman spectra. The generated data are evaluated in Train-on-Synthetic, Test-on-Real (TS/TR) and Train-on-Synthetic+Real, Test-on-Real (TSR/TR) settings under a strict patient-isolated cross-validation protocol. Models trained exclusively on synthetic data underperform models trained on real spectra, indicating a substantial domain gap between synthetic and real distributions. However, augmenting the real training data with synthetic spectra consistently improves classification performance across multiple models. These findings indicate that, even with a limited number of independent patient samples, generative models can capture sufficient structure to provide useful regularization for downstream classifiers. We also investigate a reconstruction-based inference strategy, termed Classification by Reconstruction (CbR), in which class prediction is based on reconstruction error under different class conditions. Overall, the results support the use of deep generative augmentation as a practical strategy for improving machine learning robustness in Raman spectroscopy applications characterized by limited biomedical datasets.",
+    "arxiv_categories": [
+      "cs.LG"
+    ],
+    "authors": [
+      "Andrei Iuşan",
+      "Iulian Vasile",
+      "Daria Voiculescu",
+      "Ion Petre",
+      "Andrei Păun",
+      "Bogdan Oancea",
+      "Mihaela Păun"
+    ],
+    "category": "synthetic-data",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.10196",
+    "pdf_url": "https://arxiv.org/pdf/2607.10196v1",
+    "primary_category": "cs.LG",
+    "published": "2026-07-11",
+    "summary": "Conditional VAE-generated Raman spectra fail alone but improve glioma classification when mixed with real data under patient-isolated validation.",
+    "title": "Generative Augmentation of Raman Spectra for Glioma Classification",
+    "updated": "2026-07-11"
+  },
+  "2607.10269": {
+    "abs_url": "https://arxiv.org/abs/2607.10269",
+    "abstract": "Vision-Language Models (VLMs) are rapidly deployed on human-facing wearable devices such as smart glasses to enable multimodal perception and AI-assisted decision-making. While prior research has demonstrated the risks of visual prompt injection into digital image inputs of VLMs, the unique security challenges posed by the increasing integration between physical environments and wearable intelligence, such as those embodied in VLM-enabled AI glasses, remain underexplored. Toward understanding and modeling such threats, our work characterizes how malicious textual information embedded in physical environments introduces a high-priority visual channel for indirect prompt injection, where scene texts that hinder or evade human perception could hijack VLM models' behavior. Such \\textit{Physical Prompt Injection Attacks} can not only disrupt normal tasks of VLM-enabled wearable devices, but also steer models to produce profane, biased, or even untruthful outputs. Using physically captured photos from AI glasses in over 200 real-world environments, our analysis identifies 6 representative threat vectors of physically injected prompts, and further evaluates their impacts on 12 VLM models. Results show that these attacks consistently manipulate model outputs across integrity- and safety-critical tasks, achieving attack success rates of up to 96\\% and 60\\% in simulated and real-world settings. Our analysis confirms that multiple models exhibit excessive blind trust in environmental text, ignoring the actual visual context and producing completely opposite summaries or directives. We further propose two targeted defense strategies, including a mask-based external filter and a semantic-vector-based internal detector, to effectively reduce the success rate and safety impact of these attacks.",
+    "arxiv_categories": [
+      "cs.CR"
+    ],
+    "authors": [
+      "Yaxin Li",
+      "Hao Wang",
+      "Yanda Shao",
+      "Shuhao Zhang",
+      "Yan Long"
+    ],
+    "category": "ai-security",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.10269",
+    "pdf_url": "https://arxiv.org/pdf/2607.10269v1",
+    "primary_category": "cs.CR",
+    "published": "2026-07-11",
+    "summary": "Characterizes six threat vectors where text placed in physical scenes hijacks vision-language models on smart glasses across 200 real environments.",
+    "title": "Devil in the Lens: Analyzing and Defending Physical Prompt Injection Against Vision-Language Models on Wearable Devices",
+    "updated": "2026-07-11"
+  },
+  "2607.10285": {
+    "abs_url": "https://arxiv.org/abs/2607.10285",
+    "abstract": "We study how unsupervised autoencoders trained on microscopic spin configurations from the Ising model learn macroscopic, theory-relevant variables underlying the data-generating process. Without embedding domain knowledge, we mimic a typical discovery setting: We quantify learning across multiple spatial (coarse-graining) scales and reveal two distinct dynamical regimes controlled by main hyperparameters (model depth, width, and learning rate) -- a magnetization-dominated regime and an energy-dominated regime characterized by trade-offs in their representation quality. The first regime is a transitory state exhibiting dynamical scaling and fluctuations that follow an ordering-to-scale; the second gradually shifts resolution towards smaller scales relevant for the energy representation. Deep models trained at moderate and fast rates become arrested before reaching these regimes. With a novel analysis of recursive-dynamic trajectories, we demonstrate that prediction errors induce flow fields that produce a common trajectory topology across all representation spaces. A dynamical viewpoint of learning is established in which intrinsic properties expose the effects of forced changes in representation during training. We utilize the intuition that learning operates as a process driven far from equilibrium by fluctuations from the training data and optimizer to provide an interpretive basis grounded in both the physical world and the machine models that represent it.",
+    "arxiv_categories": [
+      "cs.LG",
+      "cond-mat.dis-nn",
+      "cond-mat.stat-mech"
+    ],
+    "authors": [
+      "Max Weinmann",
+      "Miriam Klopotek"
+    ],
+    "category": "interpretability",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.10285",
+    "pdf_url": "https://arxiv.org/pdf/2607.10285v1",
+    "primary_category": "cs.LG",
+    "published": "2026-07-11",
+    "summary": "Autoencoders trained on Ising spin configurations show two learning regimes dominated by magnetization and energy, analyzed via recursive-dynamic representation trajectories.",
+    "title": "Interpreting learning dynamics of autoencoders: Transient scaling and emerging concepts of the Ising model",
+    "updated": "2026-07-11"
+  },
+  "2607.10470": {
+    "abs_url": "https://arxiv.org/abs/2607.10470",
+    "abstract": "Real-world deployment of vision models to broadly benefit society is arguably a main research objective. In optical flow, however, the difficulty to obtain the ground truth has focused research mainly on synthetic data and domain-specific benchmarks. Here, we investigate the severity of this mismatch. We study how well modern optical flow estimation models generalise to real-world video and question if accuracy on synthetic benchmark proxies actually predicts accuracy on real-world optical flow. To address this, we build a real-world evaluation benchmark and evaluate the real-world generalisability of a broad set of recent optical flow models using standard checkpoints. Our benchmark contains 8,204 frame pairs across TAP-Flow, Slow Flow, and our own dataset FlowFactor. FlowFactor is a manually annotated real-world benchmark of 1,000 HD frame pairs organised into four confounding factors: large displacements, repetitive textures, occlusions, and lighting variation. Each setting mainly varies only one factor, enabling diagnostic, confounder-specific analysis. Using FlowFactor, we reveal that performance on varying lighting and large displacements correlates most strongly with real-world accuracy, and that improvements on large-motion regimes can trade off against robustness in small-motion, stationary scenes. Our experiments show that progress on Sintel, KITTI and Spring only weakly predicts accuracy on real-world data, highlighting the need for a broad real-world optical flow benchmark. Interestingly, scaling up the amount of training data does not necessarily resolve the gap, calling for new innovative research instead of simply scaling data and compute.",
+    "arxiv_categories": [
+      "cs.CV",
+      "eess.IV"
+    ],
+    "authors": [
+      "Petter Reijalt",
+      "Sander Gielisse",
+      "Rickard Karlsson",
+      "Jan van Gemert"
+    ],
+    "category": "evaluation",
+    "comment": "Accepted @ ECCV 2026",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.10470",
+    "pdf_url": "https://arxiv.org/pdf/2607.10470v1",
+    "primary_category": "cs.CV",
+    "published": "2026-07-11",
+    "summary": "A manually annotated real-world optical flow benchmark isolates four confounding factors and tests whether synthetic benchmark accuracy predicts real-world performance.",
+    "title": "On the Real-World Generalisability of Optical Flow Models",
+    "updated": "2026-07-11"
+  },
+  "2607.10490": {
+    "abs_url": "https://arxiv.org/abs/2607.10490",
+    "abstract": "Tool-using large language model (LLM) agents are attractive for network operations, but tickets, alerts, logs, runbooks, and ChatOps messages can carry indirect prompt injections. We present NetInjectBench, a 130-scenario benchmark that separates untrusted artifact text, trusted policy metadata, and evaluation labels for network-operation tool use. The sample contains 40 benign, 40 weak-attack, 40 strong-attack, and 10 approved high-impact change scenarios; each is evaluated with Qwen2.5-7B, Llama3.1-8B, and Mistral-7B. Across 240 attack instances, naive execution reached an 82.50% unsafe tool-action rate. Prompt-only safety, Self-Reminder, Spotlighting, and a Two-Pass LLM Judge reduced this rate to 25.63%, 21.67%, 18.33%, and 10.00%, respectively. Static allowlisting reached 5.00% but blocked all approved changes, yielding 0.00% usefulness and 100.00% overblocking on approved cases. Under the stated metadata-integrity assumption, the metadata-aware policy gate produced 0/240 unsafe attack actions, with a 95% Wilson upper bound of 1.58%, while preserving 99.17% attack-scenario usefulness and 100.00% approved-change usefulness. The findings show that network-operation agents need execution-time authorization boundaries alongside prompt-level instruction hygiene.",
+    "arxiv_categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "authors": [
+      "Ruksat Khan Shayoni",
+      "Muhammad Faraz Shoaib",
+      "S M Asif Hossain",
+      "M. F. Mridha"
+    ],
+    "category": "ai-security",
+    "comment": "",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.10490",
+    "pdf_url": "https://arxiv.org/pdf/2607.10490v1",
+    "primary_category": "cs.CR",
+    "published": "2026-07-11",
+    "summary": "Benchmark of 130 network-operations scenarios showing metadata-aware policy gating eliminates unsafe tool actions from indirect prompt injection while preserving usefulness.",
+    "title": "NetInjectBench: Benchmarking Indirect Prompt Injection in Tool-Using Large Language Model Agents for Network Operations",
+    "updated": "2026-07-11"
+  },
   "2607.10712": {
     "abs_url": "https://arxiv.org/abs/2607.10712",
     "abstract": "Scientific fraud is the instrument of doubt that malicious entities can use to establish controversy in science. Historically, it required the resources of a company: deep pockets, ghostwritten articles, and corrupt academics. Today, Artificial Intelligence (AI) is increasingly automating scientific research, so we ask: Can a remote adversary weaponize the honest use of AI in science to compromise scientific integrity? We envision and empirically evaluate a new attack, indirect data poisoning, in which an adversary corrupts an open dataset and uploads the poisoned variant to a public repository. Autonomous research agents may independently retrieve and process this data, turning honest scientists into the unpaid and unwitting distributors of fraud at scale. Across five socially-salient topics, from hiring discrimination to the safety of autonomous vehicles, three widely used frontier AI systems (Claude Code with Claude Opus 4.7, Codex with GPT-5.5, Gemini CLI with Gemini 3.1 Pro), and 450 ethically contained experimental runs, we find that poisoning succeeds in 49.56% of runs, while the rate of poisoning detection is only 6.0%. The attack requires no topic-specific trigger-words, agent access, indirect prompt injection, or fabricated papers, only the open data ecosystem and misleading metadata. To mitigate the attacks, we propose and evaluate two measures: a scientist persona and a data provenance audit with five checks (referencing papers, social markers, statistical anomalies, related datasets, poisoning caution). We find that the persona still leaves 16.67% of runs with a poisoned conclusion, but provenance auditing reduces attack success rate to zero. Our results suggest that indirect data poisoning may enable scientific fraud at unprecedented scale, but these attacks can be mitigated with suitable auditing by agents during data retrieval.",
@@ -379,6 +1604,31 @@
     "summary": "Introduces an input-aware dynamic backdoor for quantum neural networks, jointly training a classical trigger generator and victim circuit to evade fixed-trigger defenses.",
     "title": "Input-Aware Dynamic Backdoor Attack Against Quantum Neural Networks",
     "updated": "2026-07-13"
+  },
+  "2607.11943": {
+    "abs_url": "https://arxiv.org/abs/2607.11943",
+    "abstract": "Long-horizon physics-based simulations of battery degradation provide mechanistic insight but remain computationally expensive, limiting their use for dense exploration of operating conditions over extended cycle life. Here, we propose a hybrid physics-probabilistic learning framework for surrogate modeling of lithium-ion battery degradation trajectories at unseen charging rates. Cycle-resolved degradation data generated with a DFN/P2D electrochemical model in PyBaMM are first transformed into capacity-aligned voltage and derivative features and encoded using a Variational Autoencoder (VAE). The resulting two-dimensional latent space organizes degradation trajectories according to both cycle progression and charging protocol. A sparse multitask Gaussian process (GP) is then trained in this latent space using cycle number and C-rate as input variables, providing continuous interpolation of latent degradation dynamics together with posterior uncertainty estimates. Under protocol-level holdout evaluation, the latent-space GP accurately recovers unseen C-rate trajectories and exhibits uncertainty behavior consistent with the support of the training data. When queried at unseen interior C-rates, the model generates latent trajectories that remain coherently positioned between neighboring simulated protocols. Decoding the GP-predicted latent states through the frozen VAE decoder yields smooth voltage-capacity evolution, while Monte Carlo propagation of the GP latent posterior through an auxiliary latent to State of Health (SOH) predictor provides uncertainty-aware SOH estimates. The proposed BattVAE-GP framework therefore offers a computationally efficient and uncertainty-aware surrogate for long-horizon degradation modeling, providing a structured basis for extending battery health prediction toward richer operating conditions and future simulation-experiment fusion.",
+    "arxiv_categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "authors": [
+      "Raghvender Raghvender",
+      "Mahdi Abid",
+      "Ferran Brosa Planella",
+      "Charles Delacourt",
+      "Arnaud Demortière"
+    ],
+    "category": "synthetic-data",
+    "comment": "17 pages, 9 figures",
+    "first_seen": "2026-07-19T16:15:54+00:00",
+    "id": "2607.11943",
+    "pdf_url": "https://arxiv.org/pdf/2607.11943v1",
+    "primary_category": "cs.LG",
+    "published": "2026-07-11",
+    "summary": "A variational autoencoder plus sparse multitask Gaussian process surrogates simulated battery degradation trajectories at unseen charging rates with calibrated uncertainty.",
+    "title": "BattVAE-GP: Generative Modeling of Long-Horizon Battery Degradation with Uncertainty Quantification",
+    "updated": "2026-07-11"
   },
   "2607.12104": {
     "abs_url": "https://arxiv.org/abs/2607.12104",
