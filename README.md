@@ -2,7 +2,7 @@
 
 An automatically maintained, categorised index of recent AI research from [arXiv](https://arxiv.org).
 
-_249 papers tracked · last updated 2026-07-19 16:15 UTC_
+_249 papers tracked · last updated 2026-07-21 02:13 UTC_
 
 ## Categories
 
@@ -20,21 +20,21 @@ _249 papers tracked · last updated 2026-07-19 16:15 UTC_
 
 ## Latest additions
 
-- **[Breaking the Quality--Intelligibility Trade-off in Streaming Target Speaker Extraction via Deep-Feature-Anchored Preference Optimization](https://arxiv.org/abs/2607.10191)** — Shuhai Peng, Jinjiang Liu, Hui Lu et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10191v1)
-- **[NetInjectBench: Benchmarking Indirect Prompt Injection in Tool-Using Large Language Model Agents for Network Operations](https://arxiv.org/abs/2607.10490)** — Ruksat Khan Shayoni, Muhammad Faraz Shoaib, S M Asif Hossain et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10490v1)
-- **[Devil in the Lens: Analyzing and Defending Physical Prompt Injection Against Vision-Language Models on Wearable Devices](https://arxiv.org/abs/2607.10269)** — Yaxin Li, Hao Wang, Yanda Shao et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10269v1)
-- **[TextGaze: Prompting Gaze Target Estimation with Textual Scene Cues](https://arxiv.org/abs/2607.10130)** — Junhui She, Fei Wang, Kun Li et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10130v1)
-- **[Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety](https://arxiv.org/abs/2607.10112)** — Chigozirim Ifebi, Brent Kong, Ayushi Mehrotra · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10112v1)
 - **[The Effect of Multi-Lingual and Keyword Adversarial Injection on LLM Relevance Judgment](https://arxiv.org/abs/2607.10080)** — Nguyen Khoi Vo, Duy Duong Tuong, Oleg Zendel et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10080v1)
-- **[On the Real-World Generalisability of Optical Flow Models](https://arxiv.org/abs/2607.10470)** — Petter Reijalt, Sander Gielisse, Rickard Karlsson et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10470v1)
-- **[Interpreting learning dynamics of autoencoders: Transient scaling and emerging concepts of the Ising model](https://arxiv.org/abs/2607.10285)** — Max Weinmann, Miriam Klopotek · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10285v1)
-- **[BattVAE-GP: Generative Modeling of Long-Horizon Battery Degradation with Uncertainty Quantification](https://arxiv.org/abs/2607.11943)** — Raghvender Raghvender, Mahdi Abid, Ferran Brosa Planella et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.11943v1)
+- **[Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety](https://arxiv.org/abs/2607.10112)** — Chigozirim Ifebi, Brent Kong, Ayushi Mehrotra · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10112v1)
+- **[TextGaze: Prompting Gaze Target Estimation with Textual Scene Cues](https://arxiv.org/abs/2607.10130)** — Junhui She, Fei Wang, Kun Li et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10130v1)
+- **[Breaking the Quality--Intelligibility Trade-off in Streaming Target Speaker Extraction via Deep-Feature-Anchored Preference Optimization](https://arxiv.org/abs/2607.10191)** — Shuhai Peng, Jinjiang Liu, Hui Lu et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10191v1)
 - **[Generative Augmentation of Raman Spectra for Glioma Classification](https://arxiv.org/abs/2607.10196)** — Andrei Iuşan, Iulian Vasile, Daria Voiculescu et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10196v1)
-- **[From Direction to Magnitude: How Multimodal Instruction-Tuning Reorganizes the Geometric Encoding of Identity-Specifying Prompts in Transformer Hidden States](https://arxiv.org/abs/2607.09842)** — Jorge A. Castillo, Marco Torres Yévenes, Juan Carlos Lanas · `2026-07-10` · [pdf](https://arxiv.org/pdf/2607.09842v1)
+- **[Devil in the Lens: Analyzing and Defending Physical Prompt Injection Against Vision-Language Models on Wearable Devices](https://arxiv.org/abs/2607.10269)** — Yaxin Li, Hao Wang, Yanda Shao et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10269v1)
+- **[Interpreting learning dynamics of autoencoders: Transient scaling and emerging concepts of the Ising model](https://arxiv.org/abs/2607.10285)** — Max Weinmann, Miriam Klopotek · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10285v1)
+- **[On the Real-World Generalisability of Optical Flow Models](https://arxiv.org/abs/2607.10470)** — Petter Reijalt, Sander Gielisse, Rickard Karlsson et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10470v1)
+- **[NetInjectBench: Benchmarking Indirect Prompt Injection in Tool-Using Large Language Model Agents for Network Operations](https://arxiv.org/abs/2607.10490)** — Ruksat Khan Shayoni, Muhammad Faraz Shoaib, S M Asif Hossain et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.10490v1)
+- **[BattVAE-GP: Generative Modeling of Long-Horizon Battery Degradation with Uncertainty Quantification](https://arxiv.org/abs/2607.11943)** — Raghvender Raghvender, Mahdi Abid, Ferran Brosa Planella et al. · `2026-07-11` · [pdf](https://arxiv.org/pdf/2607.11943v1)
+- **[SYNRARE: Synthetic Rare Disease EHR Generation for ML Benchmarking](https://arxiv.org/abs/2607.09404)** — Nicolai Dinh Khang Truong, Richard Röttger · `2026-07-10` · [pdf](https://arxiv.org/pdf/2607.09404v1)
+- **[Triggering Stealthy Feature Map Backdoors via Physical Fault Injection in Embedded Neural Networks](https://arxiv.org/abs/2607.09473)** — Steyn Hommes, Vincent Dankbaar, Tanguy Stekke et al. · `2026-07-10` · [pdf](https://arxiv.org/pdf/2607.09473v1)
+- **[Foveation-Guided Dynamic Token Selection for Robust and Efficient Vision Transformers](https://arxiv.org/abs/2607.09480)** — Ibrahim Batuhan Akkaya, Kishaan Jeeveswaran, Bahram Zonooz et al. · `2026-07-10` · [pdf](https://arxiv.org/pdf/2607.09480v1)
 - **[Multimodal Reward Hacking in Reinforcement Learning](https://arxiv.org/abs/2607.09492)** — Jiayu Yao, Yiwei Wang, Anmeng Zhang et al. · `2026-07-10` · [pdf](https://arxiv.org/pdf/2607.09492v1)
-- **[Plug-and-Play Reweighting for Resilient Collaborative Decision-Making in Connected Autonomous Driving](https://arxiv.org/abs/2607.10037)** — Jiewen Liu, Rui Liu, Matthew Lee et al. · `2026-07-10` · [pdf](https://arxiv.org/pdf/2607.10037v1)
-- **["Code Is Cheap. Show Me the Talk.": Lessons from Teaching and Managing AI Coding Tool Usage in a Visualization Course](https://arxiv.org/abs/2607.09938)** — Zhongzheng Xu, Taehyun Yang, Fumeng Yang · `2026-07-10` · [pdf](https://arxiv.org/pdf/2607.09938v1)
-- **[Promptable Concept Segmentation from Above: Evaluating SAM 3's Zero-Shot and One-Shot Capabilities in Remote Sensing](https://arxiv.org/abs/2607.09583)** — Mohammad Dabaja, Turgay Celik · `2026-07-10` · [pdf](https://arxiv.org/pdf/2607.09583v1)
+- **[Entropy-Constrained Machine Learning with Residual Data Augmentation for Modeling Chemical Kinetics](https://arxiv.org/abs/2607.09582)** — Okezzi Ukorigho, Opeoluwa Owoyele · `2026-07-10` · [pdf](https://arxiv.org/pdf/2607.09582v1)
 
 ---
 

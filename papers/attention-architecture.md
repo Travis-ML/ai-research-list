@@ -1,6 +1,6 @@
 # Attention & Architecture
 
-_14 papers · updated 2026-07-19 16:15 UTC_
+_14 papers · updated 2026-07-21 02:13 UTC_
 
 [← Back to index](../README.md)
 
