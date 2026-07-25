@@ -1,12 +1,172 @@
 # Interpretability
 
-_17 papers · updated 2026-07-21 02:13 UTC_
+_33 papers · updated 2026-07-25 16:07 UTC_
 
 [← Back to index](../README.md)
 
 ## July 2026
 
-### 1. cGAP: Generalized Association Plots with HOMALS-Guided Heatmaps for Visualization of High-Dimensional Categorical Data
+### 1. What, Where, and How: Disentangling the Roles of Task, Language, and Model in Code Model Representations
+
+**Authors:** Piotr Wilam  
+**Published:** 2026-07-23 · **arXiv:** `2607.21491` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2607.21491) · [PDF](https://arxiv.org/pdf/2607.21491v1)
+
+> Concept-circuit analysis across languages and models shows which concepts get circuits is task-driven while circuit location and growth are model-specific.
+
+---
+
+### 2. Towards Faithful Graph Explanations with Synergistic Edge Effects via Granular Balls
+
+**Authors:** Jiancu Chen, Shuyin Xia, Guan Wang, Degang Chen, Fan Chen  
+**Published:** 2026-07-23 · **arXiv:** `2607.21381` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2607.21381) · [PDF](https://arxiv.org/pdf/2607.21381v1)
+
+> SeeExplainer interprets graph neural networks by capturing synergistic edge effects through a parameter-free granular-ball graph refinement and perturbation mechanism.
+
+---
+
+### 3. Token Budget Saturation and Mechanistic Early Detection of Reasoning Non-Convergence in Chain-of-Thought Models
+
+**Authors:** Renuka Oladri, Niveda Jawahar, Abdirisak Mohamed  
+**Published:** 2026-07-23 · **arXiv:** `2607.21433` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2607.21433) · [PDF](https://arxiv.org/pdf/2607.21433v1)
+
+> Linear probes on hidden states weakly predict early whether chain-of-thought generations will converge before exhausting their token budget.
+
+---
+
+### 4. The Weight of Silence: A Causal Case for Weights Over the Scratchpad in Latent Chess Reasoning
+
+**Authors:** Ishan S. Kshirsagar  
+**Published:** 2026-07-23 · **arXiv:** `2607.20952` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2607.20952) · [PDF](https://arxiv.org/pdf/2607.20952v1)
+
+> Causal intervention experiments before and after reinforcement learning show a chess model's latent reasoning vectors are more load-bearing than an actively consulted scratchpad.
+
+---
+
+### 5. Sparse Concept Channels in Frozen 3D CT Vision Encoders
+
+**Authors:** Farhad Nooralahzadeh, Lea Bogensperger, Christian Bluethgen, Michael Krauthammer  
+**Published:** 2026-07-23 · **arXiv:** `2607.20993` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2607.20993) · [PDF](https://arxiv.org/pdf/2607.20993v1)
+
+> Probes frozen 3D medical vision encoders and finds each radiological finding encoded by roughly ten sparse channels, generalizing across unrelated models.
+
+---
+
+### 6. Scene Parameter Saliency via Differentiable Light Transport
+
+**Authors:** Linas Beresna, Eugene Fiume  
+**Published:** 2026-07-23 · **arXiv:** `2607.21562` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2607.21562) · [PDF](https://arxiv.org/pdf/2607.21562v1)
+
+> Differentiable renderers yield per-parameter saliency maps identifying which scene elements most influence a chosen image metric via light transport.
+
+---
+
+### 7. Logic Programming Semantics for Causal Processes
+
+**Authors:** Felix Weitkämper  
+**Published:** 2026-07-23 · **arXiv:** `2607.21233` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2607.21233) · [PDF](https://arxiv.org/pdf/2607.21233v1)
+
+> Stable and supported logic program models are related to eventual states of causal processes, adding a temporal perspective to causal rule semantics.
+
+---
+
+### 8. Hilbert Operator for Progressive Encoding (HOPE): A Mathematical Framework for Deconstructing Learned Representations in Deep Networks
+
+**Authors:** Hossein Mobahi, Peter L. Bartlett  
+**Published:** 2026-07-23 · **arXiv:** `2607.21366` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2607.21366) · [PDF](https://arxiv.org/pdf/2607.21366v1)
+
+> A data-free Hilbert-space framework models neurons as rank-1 operators to unify pruning and merging, deconstructing trained network representations for analysis and compression.
+
+---
+
+### 9. Gradient Concentration, Not Weight Saliency, Explains Representation-Level Class Unlearning
+
+**Authors:** Billel Habbati, Alessio Merlo, Luca Verderame, Meriem Guerar  
+**Published:** 2026-07-23 · **arXiv:** `2607.21353` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2607.21353) · [PDF](https://arxiv.org/pdf/2607.21353v1)
+
+> Ablation shows saliency-based weight masking does not drive representation-level class unlearning, which instead reflects gradients concentrated in final layers.
+
+---
+
+### 10. Climate-resilient electric vehicle charging infrastructure for sustainable cities: An interpretable causal-ensemble framework for preventive maintenance and low-carbon mobility
+
+**Authors:** Cande Lian, Wentao Zeng, Jiabin Wu, Yiming Bie, Wei Zhou  
+**Published:** 2026-07-23 · **arXiv:** `2607.21444` · **Category:** `math.OC`  
+**Links:** [abstract](https://arxiv.org/abs/2607.21444) · [PDF](https://arxiv.org/pdf/2607.21444v1)
+
+> An interpretable causal-ensemble framework forecasts climate-driven EV charger fault risk using domain experts, horizon-wise gating, and SHAP attribution.
+
+---
+
+### 11. Chemical Chain-of-Thought Functions as a Hallucination-Prone Molecular Scratchpad
+
+**Authors:** Jiatong Li, Yuxuan Ren, Weida Wang, Xiaoyong Wei, Yatao Bian  
+**Published:** 2026-07-23 · **arXiv:** `2607.20935` · **Category:** `cs.CE`  
+**Links:** [abstract](https://arxiv.org/abs/2607.20935) · [PDF](https://arxiv.org/pdf/2607.20935v1)
+
+> Attribution analyses across chemistry tasks reveal chain-of-thought acts as a hallucination-prone but causally load-bearing molecular scratchpad rather than faithful reasoning.
+
+---
+
+### 12. Beyond Sufficiency: Time Series Explanation with Counterfactual Necessity
+
+**Authors:** Hongnan Ma, Yiwei Shi, Mengyue Yang, Weiru Liu  
+**Published:** 2026-07-23 · **arXiv:** `2607.21573` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2607.21573) · [PDF](https://arxiv.org/pdf/2607.21573v1)
+
+> A two-stage framework improves time-series classifier explanations by using counterfactual interventions to identify subsequences necessary, not merely sufficient, for predictions.
+
+---
+
+### 13. Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations
+
+**Authors:** Hiskias Dingeto  
+**Published:** 2026-07-22 · **arXiv:** `2607.20379` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2607.20379) · [PDF](https://arxiv.org/pdf/2607.20379v1)
+
+> Shows reconstruction-based activation explanations pass without being faithful, and proposes co-trained linear heads to keep designated content truthfully decodable.
+
+---
+
+### 14. Scaling Interpretable Transformers with Parity Bottleneck Layers
+
+**Authors:** Andrew Mack, Kraig Yuheng Tou, Mark Henry, Zhengxun Wu, Lauren Greenspan  
+**Published:** 2026-07-22 · **arXiv:** `2607.20652` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2607.20652) · [PDF](https://arxiv.org/pdf/2607.20652v1)
+
+> A parameter-free algebraic parity bottleneck enforces per-layer sparse representations, making GPT-2-scale transformers interpretable by construction without prohibitive memory cost.
+
+---
+
+### 15. Norm or Direction? Decoding Vision Mambas for High-Resolution Vision
+
+**Authors:** Jin Yu, Juyoun Park  
+**Published:** 2026-07-21 · **arXiv:** `2607.18625` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2607.18625) · [PDF](https://arxiv.org/pdf/2607.18625v1)
+
+> Uses CKA and norm-direction token decomposition to show Vision Mamba and Gated-CNN backbones encode discriminative visual information through different mechanisms.
+
+---
+
+### 16. Persistent Sparse Autoencoders: Learning Feature Timescales in Language Models
+
+**Authors:** Haoyan Luo, Mateo Espinosa Zarlenga, Mateja Jamnik  
+**Published:** 2026-07-19 · **arXiv:** `2607.17117` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2607.17117) · [PDF](https://arxiv.org/pdf/2607.17117v1)
+
+> Sparse autoencoders learn per-feature persistence coefficients, exposing feature timescales where slow features retain topic-level signals useful for long-context monitoring.
+
+---
+
+### 17. cGAP: Generalized Association Plots with HOMALS-Guided Heatmaps for Visualization of High-Dimensional Categorical Data
 
 **Authors:** Chun-houh Chen, Shun-Chuan Chang, Chiun-How Kao, Yi-Ju Lee, Shang-Ying Shiu, Yin-Jing Tien et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15018` · **Category:** `stat.ML`  
@@ -16,7 +176,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 2. Steering Robustness into World Action Models via Mechanistic Interpretability and Optimal Control
+### 18. Steering Robustness into World Action Models via Mechanistic Interpretability and Optimal Control
 
 **Authors:** Jihoon Hong, Julian Skifstad, Qiyue Dai, Alice Chan, Glen Chou  
 **Published:** 2026-07-16 · **arXiv:** `2607.14943` · **Category:** `cs.RO`  
@@ -26,7 +186,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 3. RTS Smoother-Guided Learning of Physics-Based Neural Differential Models
+### 19. RTS Smoother-Guided Learning of Physics-Based Neural Differential Models
 
 **Authors:** Ahmet Demirkaya, Georgios Stratis, Tales Imbiriba, Zachary D. Danziger, Deniz Erdogmus  
 **Published:** 2026-07-16 · **arXiv:** `2607.15180` · **Category:** `cs.LG`  
@@ -36,7 +196,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 4. Linear representations of grammaticality in neural language models
+### 20. Linear representations of grammaticality in neural language models
 
 **Authors:** Jane Li, Najoung Kim  
 **Published:** 2026-07-16 · **arXiv:** `2607.15175` · **Category:** `cs.CL`  
@@ -46,7 +206,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 5. Explaining Process Control Optimisation Recommendations via GradientSHAP and Implicit Differentiation
+### 21. Explaining Process Control Optimisation Recommendations via GradientSHAP and Implicit Differentiation
 
 **Authors:** Paul Darm, Cem Alpturk, Kenneth Ulrich, William Duncan, Ali Anwar, Annalisa Riccardi  
 **Published:** 2026-07-16 · **arXiv:** `2607.14970` · **Category:** `cs.AI`  
@@ -56,7 +216,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 6. Decoding Market Emotion from Blockchain Activity: A Data-Driven Sentiment Classifier
+### 22. Decoding Market Emotion from Blockchain Activity: A Data-Driven Sentiment Classifier
 
 **Authors:** Arthur G. Bubolz, Abreu Quevedo, Giancarlo Lucca, Rafael A. Berri, Eduardo Borges, Bruno L. Dalmazo  
 **Published:** 2026-07-16 · **arXiv:** `2607.15258` · **Category:** `cs.LG`  
@@ -66,7 +226,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 7. An Introduction to Sparse Identification of Nonlinear Dynamics for Engineering Applications
+### 23. An Introduction to Sparse Identification of Nonlinear Dynamics for Engineering Applications
 
 **Authors:** Yao Cheng Li, Ana Larrañaga, Steven L. Brunton, Urban Fasel  
 **Published:** 2026-07-16 · **arXiv:** `2607.15077` · **Category:** `cs.LG`  
@@ -76,7 +236,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 8. A Minimal Interpretable Architecture for Zero-Shot Reconstruction of Dynamical Systems
+### 24. A Minimal Interpretable Architecture for Zero-Shot Reconstruction of Dynamical Systems
 
 **Authors:** Christoph Jürgen Hemmer, Florian Plaswig, Daniel Durstewitz  
 **Published:** 2026-07-16 · **arXiv:** `2607.14937` · **Category:** `cs.LG`  
@@ -86,7 +246,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 9. Tracing LLM Behavior to the Training Data with Empirical Next-Token Distributions
+### 25. Tracing LLM Behavior to the Training Data with Empirical Next-Token Distributions
 
 **Authors:** Zachary Izzo  
 **Published:** 2026-07-15 · **arXiv:** `2607.14306` · **Category:** `cs.AI`  
@@ -96,7 +256,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 10. CausalGraphX: A Counterfactual Graph Neural Network Framework for Explainable Systemic Risk Assessment
+### 26. CausalGraphX: A Counterfactual Graph Neural Network Framework for Explainable Systemic Risk Assessment
 
 **Authors:** Rabimba Karanjai, Hemanth Madhavarao, Lei Xu, Weidong Shi  
 **Published:** 2026-07-15 · **arXiv:** `2607.14416` · **Category:** `cs.AI`  
@@ -106,7 +266,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 11. AIMO Interpretability Challenge
+### 27. AIMO Interpretability Challenge
 
 **Authors:** Michal Štefánik, Philipp Mondorf, Andreas Waldis, Qianying Liu, Chuan Yang, Michal Spiegel et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.13899` · **Category:** `cs.AI`  
@@ -116,7 +276,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 12. From Preimage Search To Source-Grounded Feature Inversion
+### 28. From Preimage Search To Source-Grounded Feature Inversion
 
 **Authors:** Kaixiang Shu  
 **Published:** 2026-07-14 · **arXiv:** `2607.12526` · **Category:** `cs.LG`  
@@ -126,7 +286,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 13. Interpreting learning dynamics of autoencoders: Transient scaling and emerging concepts of the Ising model
+### 29. Interpreting learning dynamics of autoencoders: Transient scaling and emerging concepts of the Ising model
 
 **Authors:** Max Weinmann, Miriam Klopotek  
 **Published:** 2026-07-11 · **arXiv:** `2607.10285` · **Category:** `cs.LG`  
@@ -136,7 +296,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 14. From Direction to Magnitude: How Multimodal Instruction-Tuning Reorganizes the Geometric Encoding of Identity-Specifying Prompts in Transformer Hidden States
+### 30. From Direction to Magnitude: How Multimodal Instruction-Tuning Reorganizes the Geometric Encoding of Identity-Specifying Prompts in Transformer Hidden States
 
 **Authors:** Jorge A. Castillo, Marco Torres Yévenes, Juan Carlos Lanas  
 **Published:** 2026-07-10 · **arXiv:** `2607.09842` · **Category:** `cs.LG`  
@@ -146,7 +306,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 15. Pretraining Curricula Enable Selective Fine-tuning
+### 31. Pretraining Curricula Enable Selective Fine-tuning
 
 **Authors:** Sebastian A. Bruijns, Jirko Rubruck, Mia H. Whitefield, Kai J. Sandbrink, Fazl Barez, Christopher Summerfield  
 **Published:** 2026-07-06 · **arXiv:** `2607.04846` · **Category:** `cs.LG`  
@@ -156,7 +316,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ## June 2026
 
-### 16. Open Problems in Constitutional Preference Reconstruction
+### 32. Open Problems in Constitutional Preference Reconstruction
 
 **Authors:** Eleanor Clifford, Michael Amir, Arduin Findeis, Aaron Zhao, Robert Mullins  
 **Published:** 2026-06-29 · **arXiv:** `2606.30116` · **Category:** `cs.AI`  
@@ -166,7 +326,7 @@ _17 papers · updated 2026-07-21 02:13 UTC_
 
 ---
 
-### 17. Mechanistically Eliciting Latent Behaviors in Language Models
+### 33. Mechanistically Eliciting Latent Behaviors in Language Models
 
 **Authors:** Andrew Mack, Nina Panickssery, Alexander Matt Turner  
 **Published:** 2026-06-28 · **arXiv:** `2606.29604` · **Category:** `cs.LG`  
