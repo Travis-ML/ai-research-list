@@ -1,12 +1,382 @@
 # AI Security
 
-_81 papers · updated 2026-07-25 16:07 UTC_
+_118 papers · updated 2026-08-06 17:08 UTC_
 
 [← Back to index](../README.md)
 
+## August 2026
+
+### 1. When Do PEFT Adaptations Leak Structure? Measuring Black-Box Structural Bounds in Public-Base Model Services
+
+**Authors:** Zhongjiang Yao, Shuangshuang Liang, Chun Yang, LiWei Chen, Gang Shi  
+**Published:** 2026-08-05 · **arXiv:** `2608.05036` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.05036) · [PDF](https://arxiv.org/pdf/2608.05036v1)
+
+> VectorHijack-SR measures how private PEFT adaptations leak structural information such as family, layer, and rank to black-box adversaries running the public base.
+
+---
+
+### 2. Trident : How to Break Deep Reinforcement Learning Cyber Defenses (Agentic)
+
+**Authors:** Ryozo Masukawa, Ian Bryant, Armita Kazeminajafabadi, Sanggeon Yun, Hyunwoo Oh, SungHeon Jeong et al.  
+**Published:** 2026-08-05 · **arXiv:** `2608.04317` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04317) · [PDF](https://arxiv.org/pdf/2608.04317v1)
+
+> An agentic LLM red-teaming framework with a benchmark, trajectory dataset, and code-as-policy RLVR architecture attacks deep reinforcement learning cyber defenders.
+
+---
+
+### 3. Season: Spectrum-Aware Orthogonal Gradient Refinement for Transfer-Based Adversarial Attacks
+
+**Authors:** Tianyi Wang, Zhenghao Gao, Shengjie Xu  
+**Published:** 2026-08-05 · **arXiv:** `2608.04441` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04441) · [PDF](https://arxiv.org/pdf/2608.04441v1)
+
+> A training-free wrapper decomposes adversarial gradients into orthogonal low- and high-frequency branches to improve transfer attack success across CNN, ViT, and MLP models.
+
+---
+
+### 4. Private Direct Preference Optimization for LLM Alignment
+
+**Authors:** Yangfan Jiang, Fei Wei, Ergute Bao, Xiaokui Xiao, Yaliang Li, Bolin Ding  
+**Published:** 2026-08-05 · **arXiv:** `2608.05040` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.05040) · [PDF](https://arxiv.org/pdf/2608.05040v1)
+
+> Introduces a label-DP-style preference privacy notion and a DPO variant that protects annotator preference signals during alignment.
+
+---
+
+### 5. MOAT: Model-Agnostic Randomized Transformations for preventing Efficiency Degradation Attacks on ViTs
+
+**Authors:** Anadi Goyal, Nandish Chattopadhyay, Chandan Karfa, Anupam Chattopadhyay, Norrathep Rattanavipanon  
+**Published:** 2026-08-05 · **arXiv:** `2608.04680` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04680) · [PDF](https://arxiv.org/pdf/2608.04680v1)
+
+> MOAT applies model-agnostic randomized input transformations to defend token-pruned Vision Transformers against adversarial efficiency-degradation attacks.
+
+---
+
+### 6. Hidden Ciphers and Where to Find Them: Static Discovery and Assessment of Cryptographic Assets in Software
+
+**Authors:** Christian Näther, Eduard Hirsch  
+**Published:** 2026-08-05 · **arXiv:** `2608.04857` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04857) · [PDF](https://arxiv.org/pdf/2608.04857v1)
+
+> A static scanner discovers and assesses cryptographic assets in software using an extensible rule repository, producing CBOM output for security governance and post-quantum migration.
+
+---
+
+### 7. Breadcrumbing Search Agents
+
+**Authors:** Xuebin Li, Hanqing Zhao, Siyuan Liang, Kejiang Chen, Weiming Zhang, Dacheng Tao et al.  
+**Published:** 2026-08-05 · **arXiv:** `2608.04565` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04565) · [PDF](https://arxiv.org/pdf/2608.04565v1)
+
+> Coordinated single-result injections across a search agent's trajectory form coherent evidence chains that hijack its final answer under a tool-intermediary threat model.
+
+---
+
+### 8. Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming
+
+**Authors:** Yanting Wang, Chenlong Yin, Runpeng Geng, Jinyuan Jia  
+**Published:** 2026-08-05 · **arXiv:** `2608.05108` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.05108) · [PDF](https://arxiv.org/pdf/2608.05108v1)
+
+> An agentic red-teaming system builds a transferable strategy library that attacks unseen target models with few queries for prompt injection.
+
+---
+
+### 9. Adversarial Attacks for Good: A Survey of Proactive Protection across the Visual Content Lifecycle
+
+**Authors:** Jiaming Zhang, Boyang Chen, Zherui Li, Fuyao Zhang, Xinyu Yan, Hong Xi Tae et al.  
+**Published:** 2026-08-05 · **arXiv:** `2608.04314` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04314) · [PDF](https://arxiv.org/pdf/2608.04314v1)
+
+> A survey unifies five research communities that repurpose adversarial perturbations defensively to protect visual content across its lifecycle from unauthorized AI use.
+
+---
+
+### 10. When Modalities Fail to Tango: Conformal Backdoor Detection in Multimodal Contrastive Learning
+
+**Authors:** Yiming Chen, Kemou Li, Haiwei Wu, Jiantao Zhou  
+**Published:** 2026-08-04 · **arXiv:** `2608.04052` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04052) · [PDF](https://arxiv.org/pdf/2608.04052v1)
+
+> A two-stage conformal prediction framework detects backdoored image-caption pairs in multimodal contrastive learning with statistical confidence guarantees.
+
+---
+
+### 11. Understanding Fault Tolerance of Adversarially Robust Pruned Models
+
+**Authors:** Manali Dangarikar, Cory Merkel  
+**Published:** 2026-08-04 · **arXiv:** `2608.04173` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04173) · [PDF](https://arxiv.org/pdf/2608.04173v1)
+
+> Empirically studies how pruning, adversarial training, and hardware weight faults jointly affect CNN robustness, finding adversarial training worsens fault sensitivity.
+
+---
+
+### 12. MissClick: Exploiting Digit-Serialized Coordinates to Attack GUI Grounding Models
+
+**Authors:** Yu Ran, Wentao Zhao, Xin Zhang, Yi Pan  
+**Published:** 2026-08-04 · **arXiv:** `2608.03740` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.03740) · [PDF](https://arxiv.org/pdf/2608.03740v1)
+
+> A white-box adversarial attack exploits digit-serialized coordinate outputs of GUI grounding models to displace or hijack executed clicks.
+
+---
+
+### 13. ICO: Enhancing Semantic-Shift Jailbreaks via Iterative Context Optimization
+
+**Authors:** Hujian Zhu, Yihao Huang, Felix Juefei-Xu, Xinfeng Li, Peng Zeng, Simeng Qin et al.  
+**Published:** 2026-08-04 · **arXiv:** `2608.03210` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.03210) · [PDF](https://arxiv.org/pdf/2608.03210v1)
+
+> A black-box jailbreak method iteratively optimizes context to strengthen semantic-shift attacks that lead models to recover harmful meanings from benign substitutions.
+
+---
+
+### 14. Eliciting Intrinsic Hallucinations in LLMs via Semantically Equivalent Adversarial Attacks
+
+**Authors:** Atri Vivek Sharma, Brian Formento, Alessio Lomuscio  
+**Published:** 2026-08-04 · **arXiv:** `2608.04286` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04286) · [PDF](https://arxiv.org/pdf/2608.04286v1)
+
+> A framework uses semantically equivalent adversarial query variations to induce intrinsic hallucinations and degrade contextual faithfulness in retrieval-augmented LLMs.
+
+---
+
+### 15. Behavioral Skill Reconstruction: Reconstructing Hidden Functionality from LLM Agent Skills
+
+**Authors:** Peichun Hua, Haoxuan Xu, Mengyuan Li  
+**Published:** 2026-08-04 · **arXiv:** `2608.04192` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04192) · [PDF](https://arxiv.org/pdf/2608.04192v1)
+
+> A black-box attack reconstructs functional clones of hidden LLM agent skills through benign probing and iterative differential validation without accessing files.
+
+---
+
+### 16. AgentAntibody: An Adaptive Immune System for Defending LLM Agents against Prompt Injection
+
+**Authors:** Shihao Weng, Yang Feng, Xiaofei Xie, Jiongchi Yu  
+**Published:** 2026-08-04 · **arXiv:** `2608.04053` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04053) · [PDF](https://arxiv.org/pdf/2608.04053v1)
+
+> An immune-inspired defense builds an evolving library of learned patterns from past encounters to detect and block prompt injection against LLM agents.
+
+---
+
+### 17. AI Security Leaderboard: Methodology, Results and Minimal Standard
+
+**Authors:** Jasper Timm, Lukas Struppek, Ziwei Xu, Grace Cheong, Oscar Mata, Dan Zhao et al.  
+**Published:** 2026-08-04 · **arXiv:** `2608.03070` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.03070) · [PDF](https://arxiv.org/pdf/2608.03070v1)
+
+> A benchmark and standard evaluates frontier models against composed static jailbreak techniques, finding cost-to-break varies over a hundredfold across developers.
+
+---
+
+### 18. Salami Attack: Stealthy Collusive Memory Poisoning against OpenClaw
+
+**Authors:** Zheng Lin, Yuzhe Huang, Zhenxing Niu, Xianmin Ye, Haichang Gao  
+**Published:** 2026-08-03 · **arXiv:** `2608.01637` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.01637) · [PDF](https://arxiv.org/pdf/2608.01637v1)
+
+> Presents an automated framework that poisons LLM agent memory using individually benign fragments that jointly induce harmful behavior across sessions.
+
+---
+
+### 19. Private Generative Bootstrap via Blocking
+
+**Authors:** Jinwon Sohn, Veronika Ročková  
+**Published:** 2026-08-03 · **arXiv:** `2608.02480` · **Category:** `stat.ML`  
+**Links:** [abstract](https://arxiv.org/abs/2608.02480) · [PDF](https://arxiv.org/pdf/2608.02480v1)
+
+> A private Bayesian bootstrap groups individuals under shared weights and learns a noised push-forward map to sample posteriors with differential privacy guarantees.
+
+---
+
+### 20. Invisible Ink Threats: Adversarial Goals Behind Legitimate Tasks in Computer-Use Agents
+
+**Authors:** Jia-Chen Zhang, Ze-Yu Zhang, Kai-Wei Zhang  
+**Published:** 2026-08-03 · **arXiv:** `2608.02018` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.02018) · [PDF](https://arxiv.org/pdf/2608.02018v1)
+
+> Introduces II-Bench to study low-harm injected goals in computer-use agents that evade human confirmation and model safety mechanisms.
+
+---
+
+### 21. Gecko: Fast Private Inference via Secure Public Encoder Offloading
+
+**Authors:** Cheng'an Wei, Kai Chen, Yue Zhao, Congyi Li, Shenchen Zhu  
+**Published:** 2026-08-03 · **arXiv:** `2608.02378` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.02378) · [PDF](https://arxiv.org/pdf/2608.02378v1)
+
+> A private inference system offloads a public frozen backbone while cryptographically evaluating a compact gated predictor to limit feature-space extraction attacks.
+
+---
+
+### 22. Evading Chain-of-Thought Monitoring Through Model Poisoning
+
+**Authors:** Giorgio Severi, Shujaat Mirza, Blake Bullwinkel, Amanda Minnich  
+**Published:** 2026-08-03 · **arXiv:** `2608.02820` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.02820) · [PDF](https://arxiv.org/pdf/2608.02820v1)
+
+> Fine-tuning and curriculum training implant backdoors that trigger attacker-chosen behavior while keeping chain-of-thought traces benign, defeating monitoring.
+
+---
+
+### 23. A Multimodal Automatic Redteaming Evaluation based on Atomic Jailbreak Strategy Decoupling and Combination
+
+**Authors:** Shiji Zhao, Yuxuan Zhou, Chen Xiong, Dongxian Wu, Yang Bai, Xun Chen  
+**Published:** 2026-08-03 · **arXiv:** `2608.04034` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04034) · [PDF](https://arxiv.org/pdf/2608.04034v1)
+
+> Decomposes multimodal jailbreak strategies into atomic structural, semantic, and syntactic components for automated red-teaming of vision-language models.
+
+---
+
+### 24. The Boy Who Cried Wolf: Adversarial Misclassification of Safe Inputs as Unsafe in Multimodal Guardrails
+
+**Authors:** Shuo Shi, Rui Yin, Naen Xu, Jiahao Chen, Chunyi Zhou, Tianyu Du et al.  
+**Published:** 2026-08-02 · **arXiv:** `2608.01373` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.01373) · [PDF](https://arxiv.org/pdf/2608.01373v1)
+
+> Introduces perturbations that cause multimodal guard models to falsely reject benign inputs, degrading service availability through false positives.
+
+---
+
+### 25. SoK: Intent-Oriented Systematization of Multi-Turn LLM Jailbreaks
+
+**Authors:** Siyuan Li, Aodu Wulianghai, Zehao Liu, Xi Lin, Qinghua Mao, Haoyu Li et al.  
+**Published:** 2026-08-02 · **arXiv:** `2608.01117` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.01117) · [PDF](https://arxiv.org/pdf/2608.01117v1)
+
+> Builds an intent-oriented taxonomy showing multi-turn jailbreak effectiveness depends on how harmful intent is organized across turns and sessions.
+
+---
+
+### 26. Mind the Gap: Zero-Query Jailbreaks via Filter-Generator Discrepancy in Text-to-Image Systems
+
+**Authors:** Wanguang Li, Zhaoxin Wang, Handing Wang  
+**Published:** 2026-08-02 · **arXiv:** `2608.00973` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.00973) · [PDF](https://arxiv.org/pdf/2608.00973v1)
+
+> Zero-query jailbreak exploits filter-generator representation gaps to evade text-to-image safety filters while preserving unsafe visual intent.
+
+---
+
+### 27. Decoy Images Amplify Caption-Mediated Defenses Against Encoded Jailbreaks
+
+**Authors:** Haoyu Zhang, Xiangchen Guan, Shibo Zheng, Mohammad Zandsalimy, Shanu Sushmita  
+**Published:** 2026-08-02 · **arXiv:** `2608.01043` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.01043) · [PDF](https://arxiv.org/pdf/2608.01043v1)
+
+> Shows that attaching an unrelated decoy image to encoded jailbreak prompts sharply lowers attack success by triggering caption-mediated defenses.
+
+---
+
+### 28. Caliber: Cross-Architecture Extraction-Cost Control for Score-Returning APIs
+
+**Authors:** Chi Wang, Hanwen Wang, Yu Xia, Zihan Wang, Guangdong Bai  
+**Published:** 2026-08-02 · **arXiv:** `2608.01023` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.01023) · [PDF](https://arxiv.org/pdf/2608.01023v1)
+
+> Defends score-returning APIs against model extraction by calibrating Gaussian logit noise to bound surrogate supervision and per-input recovery cost.
+
+---
+
+### 29. Your Agentic LLMs Secretly Encode Latent Signals of Indirect Prompt-Injection Exposure
+
+**Authors:** Jianshuo Dong, Yiming Liu, Maosen Zhang, Nan Deng, Xu Peng, Xiaoping Zhang et al.  
+**Published:** 2026-08-01 · **arXiv:** `2608.02657` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.02657) · [PDF](https://arxiv.org/pdf/2608.02657v1)
+
+> Linear probes on hidden states predict indirect prompt-injection exposure, enabling a probe-gated reasoning defense that cuts attack success.
+
+---
+
+### 30. When Prompts Control Robots: Prompt Injection Attacks in Multi-Agent Robotic Systems
+
+**Authors:** Neha Nagaraja, Amisha Bagari, Hayretdin Bahsi  
+**Published:** 2026-08-01 · **arXiv:** `2608.00747` · **Category:** `cs.RO`  
+**Links:** [abstract](https://arxiv.org/abs/2608.00747) · [PDF](https://arxiv.org/pdf/2608.00747v2)
+
+> Systematic study shows prompt injection attacks induce unsafe actions and propagate across agents in LLM-based multi-agent robotic systems.
+
+---
+
+### 31. Robust Watermarks Meet Backdoored Models: Evading Diffusion Semantic Watermarks via Stealthy Backdoor
+
+**Authors:** Jinyuan Liu, Tianshuo Cong, Pei Li, Tianrui Wang, Xinlei He, Anyu Wang et al.  
+**Published:** 2026-08-01 · **arXiv:** `2608.00543` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.00543) · [PDF](https://arxiv.org/pdf/2608.00543v1)
+
+> Backdoored VAE encoder evades diffusion semantic watermark detection under a trigger while preserving detection on benign images.
+
+---
+
+### 32. OpenART: Scaling Agent Red Teaming via Open-Ended Environment Evolution
+
+**Authors:** Yunhao Chen, Xin Wang, Yixu Wang, Yi Liu, Jie Li, Yan Teng et al.  
+**Published:** 2026-08-01 · **arXiv:** `2608.00677` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.00677) · [PDF](https://arxiv.org/pdf/2608.00677v1)
+
+> Open-ended arena with evolving stateful scenarios and an evolutionary attack policy scales red teaming of long-horizon LLM agents.
+
+---
+
+### 33. Mitigating Backdoors via Decoy Shortcuts and Knowledge Decoupling
+
+**Authors:** Zixuan Zhu, Rui Wang, Lihua Jing, Jinwen Zhong  
+**Published:** 2026-08-01 · **arXiv:** `2608.00732` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.00732) · [PDF](https://arxiv.org/pdf/2608.00732v1)
+
+> Training-time defense uses a shortcut honeypot branch to absorb and then discard backdoor knowledge without extra data.
+
 ## July 2026
 
-### 1. Which Model Is Actually Serving You? IRIS: Budgeted Black-Box Auditing of Model Substitution and Routing Dilution in LLM Gateways
+### 34. Symbolic Attack Chain Generation from Atomic Red Team Techniques: An Empirical Study of Predicate Representation Granularity
+
+**Authors:** Ramya Varunsegar  
+**Published:** 2026-07-31 · **arXiv:** `2608.00143` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.00143) · [PDF](https://arxiv.org/pdf/2608.00143v1)
+
+> Empirical study finds predicate granularity barely affects PDDL-based attack chain plan validity when translating red-team techniques into symbolic plans.
+
+---
+
+### 35. Stateful Cooperative Agents Safeguarding LLMs Against Evolving Multi-Turn Attacks
+
+**Authors:** Siyuan Li, Zehao Liu, Haoyu Li, Xi Lin, Ning Liu, Jun Wu et al.  
+**Published:** 2026-07-31 · **arXiv:** `2608.00134` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.00134) · [PDF](https://arxiv.org/pdf/2608.00134v1)
+
+> Cooperative multi-agent framework proactively defends LLMs against evolving multi-turn attacks using pacing, misdirection, and forensic adaptation.
+
+---
+
+### 36. Specula: Scaling formal specifications for autonomous model checking of system code
+
+**Authors:** Qian Cheng, Saad Mohammad Rafid Pial, Ruize Tang, Yiming Su, Emilie Ma, Finn Hackett et al.  
+**Published:** 2026-07-28 · **arXiv:** `2607.25333` · **Category:** `cs.SE`  
+**Links:** [abstract](https://arxiv.org/abs/2607.25333) · [PDF](https://arxiv.org/pdf/2607.25333v2)
+
+> Presents an autonomous agentic system generating TLA+ specifications for model checking system code, finding 249 bugs across 48 open-source projects.
+
+---
+
+### 37. The Mirage of LLM Guardrails: A Case Study in AI-Assisted Medical Note Manipulation
+
+**Authors:** Davis Yadav, Amulya Yadav  
+**Published:** 2026-07-26 · **arXiv:** `2607.24859` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2607.24859) · [PDF](https://arxiv.org/pdf/2607.24859v1)
+
+> Demonstrates that commercial LLM guardrails poorly resist malicious medical note manipulation, with low refusal rates across model families, formats, and prompt phrasings.
+
+---
+
+### 38. Which Model Is Actually Serving You? IRIS: Budgeted Black-Box Auditing of Model Substitution and Routing Dilution in LLM Gateways
 
 **Authors:** Yuewei Zhang, Zhi-Hai Zhang, Hanzhang Qin  
 **Published:** 2026-07-23 · **arXiv:** `2607.20860` · **Category:** `cs.CR`  
@@ -16,7 +386,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 2. V-DEAL: Diagnosing Video Safety De-Calibration as an Understanding-Refusal Coupling Failure
+### 39. V-DEAL: Diagnosing Video Safety De-Calibration as an Understanding-Refusal Coupling Failure
 
 **Authors:** Zhetong Zhang, Honghao Fu, Miao Xu, Yiwei Wang, Yujun Cai  
 **Published:** 2026-07-23 · **arXiv:** `2607.21151` · **Category:** `cs.AI`  
@@ -26,7 +396,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 3. GuardianAgentBench: Where Agents Fail and How to Guard Them
+### 40. GuardianAgentBench: Where Agents Fail and How to Guard Them
 
 **Authors:** Vishal Ishwar Naik, Chenyu Xu, Donna Dong, Hussein Hassan, Abhishek Pradhan, Ofer Mendelevitch et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.20982` · **Category:** `cs.AI`  
@@ -36,7 +406,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 4. GeoThreat: Transferable Targeted Adversarial Attacks on Large Vision-Language Models for Remote Sensing Image Interpretation
+### 41. GeoThreat: Transferable Targeted Adversarial Attacks on Large Vision-Language Models for Remote Sensing Image Interpretation
 
 **Authors:** Yimin Fu, Yuefeng Bai, Baicheng Pan, Zhunga Liu, Michael K. Ng  
 **Published:** 2026-07-23 · **arXiv:** `2607.21036` · **Category:** `cs.CV`  
@@ -46,7 +416,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 5. Code Monitor Red Teaming for Public-Test-Passing Code
+### 42. Code Monitor Red Teaming for Public-Test-Passing Code
 
 **Authors:** Junchi Liao, Jiawen Deng, Fuji Ren  
 **Published:** 2026-07-23 · **arXiv:** `2607.20852` · **Category:** `cs.AI`  
@@ -56,7 +426,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 6. Reinforcement Learning for Large Language Model Selective Evidence Adoption from Contaminated Retrieval Results
+### 43. Reinforcement Learning for Large Language Model Selective Evidence Adoption from Contaminated Retrieval Results
 
 **Authors:** Yanyu Chen, Yue Li, Yongyi Cui, Dongsheng Shi, Lichang Dai  
 **Published:** 2026-07-22 · **arXiv:** `2607.20090` · **Category:** `cs.CL`  
@@ -66,7 +436,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 7. Leaky Language Models: Stealing Architecture and Inference Optimizations via Per-Token Timing
+### 44. Leaky Language Models: Stealing Architecture and Inference Optimizations via Per-Token Timing
 
 **Authors:** Sadegh Majidi, Niloofar Mireshghallah, Kazem Taram  
 **Published:** 2026-07-22 · **arXiv:** `2607.20723` · **Category:** `cs.CR`  
@@ -76,7 +446,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 8. Know Your Agent: Reconnaissance-Driven Pentesting of AI Agents
+### 45. Know Your Agent: Reconnaissance-Driven Pentesting of AI Agents
 
 **Authors:** Or Zion Eliav, Eyal Lenga, Shir Bernstien, Yisroel Mirsky  
 **Published:** 2026-07-22 · **arXiv:** `2607.19837` · **Category:** `cs.AI`  
@@ -86,7 +456,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 9. GhostPrompt: Cross-Image Adversarial Prompt for Vision-Language Models
+### 46. GhostPrompt: Cross-Image Adversarial Prompt for Vision-Language Models
 
 **Authors:** Li Zeng, Zeyu Ye, Meng Xie, Hangtao Zhang, Xianlong Wang, Yanchun Li et al.  
 **Published:** 2026-07-22 · **arXiv:** `2607.19683` · **Category:** `cs.CR`  
@@ -96,7 +466,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 10. Geometric Configurations of Perturbed Jailbreak Prompts
+### 47. Geometric Configurations of Perturbed Jailbreak Prompts
 
 **Authors:** Lynn Delcon, Andres Algaba, Vincent Ginis  
 **Published:** 2026-07-22 · **arXiv:** `2607.20581` · **Category:** `cs.CR`  
@@ -106,7 +476,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 11. FedLSG: LLM-Enhanced Semantic Calibration for Federated Graph Backdoor Defense
+### 48. FedLSG: LLM-Enhanced Semantic Calibration for Federated Graph Backdoor Defense
 
 **Authors:** Chenyu Zhou, Yabin Peng, Wei Huang, Kunlin Li, Shuaishuai Zhang, Xinyuan Miao  
 **Published:** 2026-07-22 · **arXiv:** `2607.19674` · **Category:** `cs.CR`  
@@ -116,7 +486,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 12. Defense Against LLM Backdoors using Critical Neuron Isolation Pruning
+### 49. Defense Against LLM Backdoors using Critical Neuron Isolation Pruning
 
 **Authors:** Yuxi Li, Zhibo Zhang, Kailong Wang, Xingshuo Han, Ling Shi, Haoyu Wang  
 **Published:** 2026-07-22 · **arXiv:** `2607.19894` · **Category:** `cs.CR`  
@@ -126,7 +496,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 13. Data-Poisoning Audits for Causal Effect Estimation
+### 50. Data-Poisoning Audits for Causal Effect Estimation
 
 **Authors:** Kwangho Kim  
 **Published:** 2026-07-22 · **arXiv:** `2607.19692` · **Category:** `stat.ML`  
@@ -136,7 +506,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 14. DARWIN: Evolving Jailbreak Adversary and Guardrail for LLM Safety Evaluation and Protection
+### 51. DARWIN: Evolving Jailbreak Adversary and Guardrail for LLM Safety Evaluation and Protection
 
 **Authors:** Weiwei Qi, Zefeng Wu, Zhilin Guo, Tianhang Zheng, Chaochao Lu, Liang He et al.  
 **Published:** 2026-07-22 · **arXiv:** `2607.19829` · **Category:** `cs.CR`  
@@ -146,7 +516,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 15. Twin Agent: Context Residual Compression for Privilege Separated Agents
+### 52. Twin Agent: Context Residual Compression for Privilege Separated Agents
 
 **Authors:** Zhanhao Hu, Dennis Jacob, Xiao Huang, Zhaorun Chen, Bo Li, David Wagner  
 **Published:** 2026-07-21 · **arXiv:** `2607.19595` · **Category:** `cs.CR`  
@@ -156,7 +526,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 16. SoK: Adversarial Robustness of the Variational Quantum Eigensolver via Red-Teaming
+### 53. SoK: Adversarial Robustness of the Variational Quantum Eigensolver via Red-Teaming
 
 **Authors:** Ahmed Azaz Humdoon, Cheng Chu, Lei Jiang, Qian Lou, Mengxin Zheng  
 **Published:** 2026-07-21 · **arXiv:** `2607.19318` · **Category:** `quant-ph`  
@@ -166,7 +536,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 17. Intelligent Disruption: Undetectable Attacks on Wireless Autoencoders
+### 54. Intelligent Disruption: Undetectable Attacks on Wireless Autoencoders
 
 **Authors:** Han Jiang, Jifa Zhang, Hu Jin, Nan Zhao, Mingqian Liu, Yunfei Chen  
 **Published:** 2026-07-21 · **arXiv:** `2607.19448` · **Category:** `cs.CR`  
@@ -176,7 +546,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 18. Dual Adversarial Fine-tuning for Enhancing Robustness of Large Vision Language Model
+### 55. Dual Adversarial Fine-tuning for Enhancing Robustness of Large Vision Language Model
 
 **Authors:** Sibo Wang, Jie Zhang, Shiguang Shan, Xilin Chen, Wen Gao  
 **Published:** 2026-07-21 · **arXiv:** `2607.18958` · **Category:** `cs.CV`  
@@ -186,7 +556,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 19. Data Leakage Prevention in Agentic Applications via Preemptive Hardening
+### 56. Data Leakage Prevention in Agentic Applications via Preemptive Hardening
 
 **Authors:** Akansha Shukla, Emily Bellov, Parth Atulbhai Gandhi, Yuval Elovici, Asaf Shabtai  
 **Published:** 2026-07-21 · **arXiv:** `2607.18847` · **Category:** `cs.CR`  
@@ -196,7 +566,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 20. CPInj: Uncovering Prompt Injection Risks in Textual Collaborative Prompt Optimization
+### 57. CPInj: Uncovering Prompt Injection Risks in Textual Collaborative Prompt Optimization
 
 **Authors:** Xinting Liao, Behnoosh Zamanlooy, Masoumeh Shafieinejad, David B. Emerson, Ruinan Jin, Deval Pandya et al.  
 **Published:** 2026-07-21 · **arXiv:** `2607.18622` · **Category:** `cs.CR`  
@@ -206,7 +576,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 21. Trusted Credentials, Untrusted Behavior: Benchmarking LLM-Agent Security in High-Performance Computing
+### 58. Trusted Credentials, Untrusted Behavior: Benchmarking LLM-Agent Security in High-Performance Computing
 
 **Authors:** Jie Li  
 **Published:** 2026-07-20 · **arXiv:** `2607.18485` · **Category:** `cs.CR`  
@@ -216,7 +586,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 22. Stress Testing Concept Erasure with Large Language Model Agents
+### 59. Stress Testing Concept Erasure with Large Language Model Agents
 
 **Authors:** Yuyang Xue, Feng Chen, Zhihua Liu, Edward Moroshko, Jingyu Sun, Steven McDonagh et al.  
 **Published:** 2026-07-20 · **arXiv:** `2607.17890` · **Category:** `cs.AI`  
@@ -226,7 +596,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 23. Salience Induction against Multi-Hop RAG Agents: Threat and Defense
+### 60. Salience Induction against Multi-Hop RAG Agents: Threat and Defense
 
 **Authors:** Xingfu Zhou, Pengfei Wang, Yuan Zhou, Wei Xie, Xu Zhou  
 **Published:** 2026-07-20 · **arXiv:** `2607.17535` · **Category:** `cs.CR`  
@@ -236,7 +606,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 24. RECEIPT: Deterministic, Reward-Hacking-Resistant Verification for White-Box Agentic XSS Discovery
+### 61. RECEIPT: Deterministic, Reward-Hacking-Resistant Verification for White-Box Agentic XSS Discovery
 
 **Authors:** Muxi Lyu, Karen Shieh, Yiwei Hou, Hao Wang, Koushik Sen, David Wagner  
 **Published:** 2026-07-20 · **arXiv:** `2607.18575` · **Category:** `cs.CR`  
@@ -246,7 +616,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 25. JailMeter: An Evidence-Based Evaluation Framework for Jailbreak Attacks on Large Language Models
+### 62. JailMeter: An Evidence-Based Evaluation Framework for Jailbreak Attacks on Large Language Models
 
 **Authors:** Qingjia Huang, Jingyu Zhang, Jianguo Wu, Yakai Li, Weijuan Zhang, Yankai Rong et al.  
 **Published:** 2026-07-20 · **arXiv:** `2607.19424` · **Category:** `cs.CR`  
@@ -256,7 +626,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 26. Hybrid Latent-Structural Fusion (HLSF) for Cyber Anomaly Detection
+### 63. Hybrid Latent-Structural Fusion (HLSF) for Cyber Anomaly Detection
 
 **Authors:** Dorianis M. Perez, Maksim E. Eren, Bryan E. Kaiser  
 **Published:** 2026-07-20 · **arXiv:** `2607.18479` · **Category:** `cs.LG`  
@@ -266,7 +636,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 27. Dynamic Defense Profiling Enables Cognitive Jailbreak of Text-to-Image Models
+### 64. Dynamic Defense Profiling Enables Cognitive Jailbreak of Text-to-Image Models
 
 **Authors:** Dongdong Yang, Deyue Zhang, Zhao Liu, Zonghao Ying, Wenzhuo Xu, Jiankai Jin et al.  
 **Published:** 2026-07-20 · **arXiv:** `2607.17779` · **Category:** `cs.AI`  
@@ -276,7 +646,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 28. CutBackdoor: A Circuit Cut Triggered Backdoor Attack on Variational Quantum Algorithms
+### 65. CutBackdoor: A Circuit Cut Triggered Backdoor Attack on Variational Quantum Algorithms
 
 **Authors:** Ahatesham Bhuiyan, Hoang Ngo, Cheng Chu, Qian Lou, Lei Jiang, My T. Thai et al.  
 **Published:** 2026-07-20 · **arXiv:** `2607.18126` · **Category:** `quant-ph`  
@@ -286,7 +656,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 29. ChannelGuard: Safe Models Do Not Compose into Safe Multi-Agent Systems
+### 66. ChannelGuard: Safe Models Do Not Compose into Safe Multi-Agent Systems
 
 **Authors:** Elias Hossain, Md Mehedi Hasan Nipu, Fatema Tuj Johora Faria, Tasfia Nuzhat Ornee, Maleeha Sheikh  
 **Published:** 2026-07-20 · **arXiv:** `2607.19430` · **Category:** `cs.CR`  
@@ -296,7 +666,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 30. ChainWatch: A Kill Chain-Aligned Sequential Detection Framework for Multi-Step Attacks in MCP-Based AI Agent Systems
+### 67. ChainWatch: A Kill Chain-Aligned Sequential Detection Framework for Multi-Step Attacks in MCP-Based AI Agent Systems
 
 **Authors:** Om Narayan, Rashmi Jyoti, Ramkinker Singh  
 **Published:** 2026-07-20 · **arXiv:** `2607.19432` · **Category:** `cs.CR`  
@@ -306,7 +676,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 31. An Early Warning of Emerging Biosecurity Risks in Frontier LLMs
+### 68. An Early Warning of Emerging Biosecurity Risks in Frontier LLMs
 
 **Authors:** Zhida He, Xia Hu, Baichen Le, Chunxiao Li, Jiajia Li, Lijun Li et al.  
 **Published:** 2026-07-20 · **arXiv:** `2607.18056` · **Category:** `cs.CL`  
@@ -316,7 +686,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 32. Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security
+### 69. Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security
 
 **Authors:** Devina Jain, David Hartmann, Chuan Li  
 **Published:** 2026-07-20 · **arXiv:** `2607.18063` · **Category:** `cs.CR`  
@@ -326,7 +696,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 33. (A)iSpy: Parasitic Trojans for Machine Learning Infrastructure
+### 70. (A)iSpy: Parasitic Trojans for Machine Learning Infrastructure
 
 **Authors:** Habibur Rahaman, Qipan Xu, Zafaryab Haider, Prabuddha Chakraborty, Swarup Bhunia, Fnu Suya  
 **Published:** 2026-07-20 · **arXiv:** `2607.17550` · **Category:** `cs.CR`  
@@ -336,7 +706,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 34. How Jailbreak Attacks Inform Safety Alignment: A Defender-Centric, Shapley-Based Evaluation of Jailbreak Contributions
+### 71. How Jailbreak Attacks Inform Safety Alignment: A Defender-Centric, Shapley-Based Evaluation of Jailbreak Contributions
 
 **Authors:** Yukai Zhou, Feiyang Lu, Xiaokai Mao, Jinfei Liu, Wenjie Wang  
 **Published:** 2026-07-19 · **arXiv:** `2607.17152` · **Category:** `cs.CR`  
@@ -346,7 +716,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 35. Between Safe Boundaries: Exploiting Temporal Consistency for Jailbreaking Text-To-Video Generation Models
+### 72. Between Safe Boundaries: Exploiting Temporal Consistency for Jailbreaking Text-To-Video Generation Models
 
 **Authors:** Xingkai Peng, Jun Jiang, Jiayang Liu, Kejiang Chen, Weiming Zhang  
 **Published:** 2026-07-19 · **arXiv:** `2607.17279` · **Category:** `cs.CR`  
@@ -356,7 +726,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 36. AdvSerial: Physical Adversarial Attacks on Infrastructure-mounted Pedestrian Detectors via Semantic Feature Suppression
+### 73. AdvSerial: Physical Adversarial Attacks on Infrastructure-mounted Pedestrian Detectors via Semantic Feature Suppression
 
 **Authors:** Yuanhao Huang, Yilong Ren, Jinlei Wang, Xuesong Bai, Jinchuan Zhang, Haiyang Yu  
 **Published:** 2026-07-19 · **arXiv:** `2607.17069` · **Category:** `cs.CV`  
@@ -366,7 +736,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 37. ALLUDE: A Unified Evaluation System for Configurable Attacks in Differentiable Environments
+### 74. ALLUDE: A Unified Evaluation System for Configurable Attacks in Differentiable Environments
 
 **Authors:** Mansi Phute, Alexander Greenhalgh, Matthew Hull, Haoran Wang, Alec Helbling, ShengYun Peng et al.  
 **Published:** 2026-07-19 · **arXiv:** `2607.17077` · **Category:** `cs.CV`  
@@ -376,7 +746,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 38. A Multi-Model Hybrid Defense Approach Against White-box Adversarial Attacks in Computer Network Traffic
+### 75. A Multi-Model Hybrid Defense Approach Against White-box Adversarial Attacks in Computer Network Traffic
 
 **Authors:** Khushnaseeb Roshan  
 **Published:** 2026-07-19 · **arXiv:** `2607.17105` · **Category:** `cs.CR`  
@@ -386,7 +756,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 39. TurboVec: A Case Study in Cost-Efficient Private Retrieval for Enterprise RAG via Codebook-Oblivious Quantization
+### 76. TurboVec: A Case Study in Cost-Efficient Private Retrieval for Enterprise RAG via Codebook-Oblivious Quantization
 
 **Authors:** Navnit Shukla, Kamal Pandey, Omsankar Tiwari  
 **Published:** 2026-07-18 · **arXiv:** `2607.16973` · **Category:** `cs.LG`  
@@ -396,7 +766,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 40. Refusal is Not Safety! Benchmarking Latent Safety Risks of LLM-Driven Content Humorization
+### 77. Refusal is Not Safety! Benchmarking Latent Safety Risks of LLM-Driven Content Humorization
 
 **Authors:** Yu Cui, Ruiqing Yue, Tingyu Li, Sicheng Pan, Zhuoyu Sun, Xufeng Zhang et al.  
 **Published:** 2026-07-17 · **arXiv:** `2607.15977` · **Category:** `cs.CR`  
@@ -406,7 +776,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 41. Uni-AdaVD: Universal Concept Erasure for Visual Generation via Orthogonal Value Decomposition
+### 78. Uni-AdaVD: Universal Concept Erasure for Visual Generation via Orthogonal Value Decomposition
 
 **Authors:** Qifan Zhou, Yuan Wang, Yanbin Hao, Xiang Wang, Kuien Liu, Richang Hong et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14521` · **Category:** `cs.CV`  
@@ -416,7 +786,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 42. The Distributed Open-Source Vulnerability Ecosystem
+### 79. The Distributed Open-Source Vulnerability Ecosystem
 
 **Authors:** Peter Mandl, Paul Mandl  
 **Published:** 2026-07-16 · **arXiv:** `2607.14900` · **Category:** `cs.CR`  
@@ -426,7 +796,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 43. Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents
+### 80. Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents
 
 **Authors:** Aadesh Bagmar, Pushkar Saraf  
 **Published:** 2026-07-16 · **arXiv:** `2607.15143` · **Category:** `cs.CR`  
@@ -436,7 +806,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 44. Quantifying Training Membership Information in the Hyperspherical Embedding Geometry of Face Recognition Models
+### 81. Quantifying Training Membership Information in the Hyperspherical Embedding Geometry of Face Recognition Models
 
 **Authors:** Ünsal Öztürk, Sébastien Marcel  
 **Published:** 2026-07-16 · **arXiv:** `2607.15084` · **Category:** `cs.CV`  
@@ -446,7 +816,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 45. On Success and Simplicity: A Second Look at Transferable Vision-Language Attack Pipeline
+### 82. On Success and Simplicity: A Second Look at Transferable Vision-Language Attack Pipeline
 
 **Authors:** Yuchen Ren, Zhengyu Zhao, Chenhao Lin, Bo Yang, Chao Shen  
 **Published:** 2026-07-16 · **arXiv:** `2607.14974` · **Category:** `cs.CV`  
@@ -456,7 +826,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 46. Lights, Camera, Malfunction: When Illumination Robustness Leaves VLA Models Blind to Color
+### 83. Lights, Camera, Malfunction: When Illumination Robustness Leaves VLA Models Blind to Color
 
 **Authors:** Marino Watanabe, Takami Sato, Kentaro Yoshioka  
 **Published:** 2026-07-16 · **arXiv:** `2607.14698` · **Category:** `cs.RO`  
@@ -466,7 +836,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 47. GeoDetect: Geometric Adversarial Detection for VLPs
+### 84. GeoDetect: Geometric Adversarial Detection for VLPs
 
 **Authors:** Afsaneh Hasanebrahimi, Hanxun Huang, Christopher Leckie, James Bailey, Sarah Erfani  
 **Published:** 2026-07-16 · **arXiv:** `2607.14737` · **Category:** `cs.CV`  
@@ -476,7 +846,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 48. Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation
+### 85. Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation
 
 **Authors:** Rabimba Karanjai, Yang Lu, Hemanth Hegadehalli Madhavarao, Lei Xu, Weidong Shi  
 **Published:** 2026-07-16 · **arXiv:** `2607.14493` · **Category:** `cs.CR`  
@@ -486,7 +856,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 49. BadWAM: When World-Action Models Dream Right but Act Wrong
+### 86. BadWAM: When World-Action Models Dream Right but Act Wrong
 
 **Authors:** Qi Li, Xingyi Yang, Xinchao Wang  
 **Published:** 2026-07-16 · **arXiv:** `2607.15207` · **Category:** `cs.LG`  
@@ -496,7 +866,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 50. Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems
+### 87. Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems
 
 **Authors:** Soham Gadgil, David Alexander, Sai Sunku, Franziska Roesner  
 **Published:** 2026-07-16 · **arXiv:** `2607.14611` · **Category:** `cs.CR`  
@@ -506,7 +876,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 51. ARMOR++: Agentic Orchestration of a Multi-Domain Primitive Set for Transferable Attacks on Deepfake Detectors
+### 88. ARMOR++: Agentic Orchestration of a Multi-Domain Primitive Set for Transferable Attacks on Deepfake Detectors
 
 **Authors:** Christos Korgialas, Gabriel Lee Jun Rong, Dion Jia Xu Ho, Pai Chet Ng, Xiaoxiao Miao, Konstantinos N. Plataniotis  
 **Published:** 2026-07-16 · **arXiv:** `2607.15246` · **Category:** `cs.CV`  
@@ -516,7 +886,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 52. A Queueing-Stability Criterion for Causal IPD-QIM Network Flow Watermarking
+### 89. A Queueing-Stability Criterion for Causal IPD-QIM Network Flow Watermarking
 
 **Authors:** Jiuxiang Cai, Guang Cheng, Guangjie Liu  
 **Published:** 2026-07-16 · **arXiv:** `2607.14954` · **Category:** `cs.CR`  
@@ -526,7 +896,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 53. When T2I Synthetic Data Backfires: Amplified Privacy Risks in Real-Synthetic Mix Training
+### 90. When T2I Synthetic Data Backfires: Amplified Privacy Risks in Real-Synthetic Mix Training
 
 **Authors:** Na Li, Boyu Kuang, Hongsheng Hu, Liquan Chen, Hyoungshick Kim, Yansong Gao et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.13541` · **Category:** `cs.CR`  
@@ -536,7 +906,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 54. Rethinking Penetration Testing for AI-Enabled Systems: From Resource Compromise to Behavioral Objective Violation
+### 91. Rethinking Penetration Testing for AI-Enabled Systems: From Resource Compromise to Behavioral Objective Violation
 
 **Authors:** Mohammad Allahbakhsh, Mohammad Hassan Bahari, Moslem Attar-Raouf  
 **Published:** 2026-07-15 · **arXiv:** `2607.14006` · **Category:** `cs.CR`  
@@ -546,7 +916,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 55. ProfMalPlus: Agent-Coordinated Detection of Malicious NPM Packages via Static-Dynamic Analysis Synergy
+### 92. ProfMalPlus: Agent-Coordinated Detection of Malicious NPM Packages via Static-Dynamic Analysis Synergy
 
 **Authors:** Yiheng Huang, Zhijia Zhao, Bihuan Chen, Susheng Wu, Zhuotong Zhou, Yiheng Cao et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.13965` · **Category:** `cs.SE`  
@@ -556,7 +926,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 56. Inference-Time Concept Suppression and Video-Centric Evaluation for Text-to-Video Models
+### 93. Inference-Time Concept Suppression and Video-Centric Evaluation for Text-to-Video Models
 
 **Authors:** Wenxuan Chen, Wenjie Feng  
 **Published:** 2026-07-15 · **arXiv:** `2607.14194` · **Category:** `cs.CV`  
@@ -566,7 +936,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 57. How Agents Ask for Permission: User Permissions for AI Agents, from Interfaces to Enforcement
+### 94. How Agents Ask for Permission: User Permissions for AI Agents, from Interfaces to Enforcement
 
 **Authors:** Alexandra E. Michael, Franziska Roesner  
 **Published:** 2026-07-15 · **arXiv:** `2607.13718` · **Category:** `cs.CR`  
@@ -576,7 +946,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 58. Agent Skill Security: Threat Models, Attacks, Defenses, and Evaluation
+### 95. Agent Skill Security: Threat Models, Attacks, Defenses, and Evaluation
 
 **Authors:** Sanket Badhe, Priyanka Tiwari  
 **Published:** 2026-07-15 · **arXiv:** `2607.13987` · **Category:** `cs.CR`  
@@ -586,7 +956,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 59. Adversarial Prompting Framework for AI Safety Assessment
+### 96. Adversarial Prompting Framework for AI Safety Assessment
 
 **Authors:** Yash Bhatnagar, Kunal Banerjee, Anirban Chatterjee  
 **Published:** 2026-07-15 · **arXiv:** `2607.13453` · **Category:** `cs.CR`  
@@ -596,7 +966,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 60. WaterMoE: Expert-Routing-based Watermarking for High Fidelity and Efficiency
+### 97. WaterMoE: Expert-Routing-based Watermarking for High Fidelity and Efficiency
 
 **Authors:** Z Sun, Q Jiang, S Sheng, L Xiang  
 **Published:** 2026-07-14 · **arXiv:** `2607.13099` · **Category:** `cs.CR`  
@@ -606,7 +976,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 61. Silent Alarm: A J-Space Protocol for Comparing Danger Recognition Across Models and Quantization Levels
+### 98. Silent Alarm: A J-Space Protocol for Comparing Danger Recognition Across Models and Quantization Levels
 
 **Authors:** Roman Prosvirnin, Victor Minchenkov, Alexey Soldatov, Vladimir Bashun  
 **Published:** 2026-07-14 · **arXiv:** `2607.12792` · **Category:** `cs.CR`  
@@ -616,7 +986,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 62. PVDetector: Detecting Prompt Injection Attacks on Purpose-Specific LLM Agents through Policy-Violation Concept Analysis
+### 99. PVDetector: Detecting Prompt Injection Attacks on Purpose-Specific LLM Agents through Policy-Violation Concept Analysis
 
 **Authors:** Junhui Wang, Hangtao Zhang, Zhirun Zheng, Li Zeng, Jiejun Xiao, Xi Luo et al.  
 **Published:** 2026-07-14 · **arXiv:** `2607.12624` · **Category:** `cs.CR`  
@@ -626,7 +996,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 63. Isolation as a First-Class Principle for LLM-Agent System Safety: Concepts, Taxonomy, Challenges and Future Directions
+### 100. Isolation as a First-Class Principle for LLM-Agent System Safety: Concepts, Taxonomy, Challenges and Future Directions
 
 **Authors:** Huihao Jing, Wenbin Hu, Shaojin Chen, Haochen Shi, Sirui Zhang, Hanyu Yang et al.  
 **Published:** 2026-07-14 · **arXiv:** `2607.12406` · **Category:** `cs.AI`  
@@ -636,7 +1006,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 64. Composable Trust for Language Models: A proven boundary and a measured defense
+### 101. Composable Trust for Language Models: A proven boundary and a measured defense
 
 **Authors:** Yakov Pyotr Shkolnikov  
 **Published:** 2026-07-14 · **arXiv:** `2607.13149` · **Category:** `cs.CR`  
@@ -646,7 +1016,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 65. Breaking Refusal in the First Half: A Mechanistic Study of the Prefill Jailbreak
+### 102. Breaking Refusal in the First Half: A Mechanistic Study of the Prefill Jailbreak
 
 **Authors:** Alex Kwon  
 **Published:** 2026-07-14 · **arXiv:** `2607.14147` · **Category:** `cs.CL`  
@@ -656,7 +1026,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 66. Adversarial Attacks on Online Handwriting using Salience-based Temporal Editing
+### 103. Adversarial Attacks on Online Handwriting using Salience-based Temporal Editing
 
 **Authors:** Yataro Tamura, Brian Kenji Iwana, Jiseok Lee  
 **Published:** 2026-07-14 · **arXiv:** `2607.12500` · **Category:** `cs.LG`  
@@ -666,7 +1036,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 67. SingGuard-NSFA: Extensible Guardrails for Agentic AI via Generative Reasoning and Real-Time Classification
+### 104. SingGuard-NSFA: Extensible Guardrails for Agentic AI via Generative Reasoning and Real-Time Classification
 
 **Authors:** SingGuard Team  
 **Published:** 2026-07-13 · **arXiv:** `2607.13081` · **Category:** `cs.CR`  
@@ -676,7 +1046,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 68. Securing LLMs in the Wild: Privacy and Security Challenges at the Edge
+### 105. Securing LLMs in the Wild: Privacy and Security Challenges at the Edge
 
 **Authors:** Ren-Yi Huang, Mingchen Li, Dumindu Samaraweera, Morris Chang  
 **Published:** 2026-07-13 · **arXiv:** `2607.13088` · **Category:** `cs.CR`  
@@ -686,7 +1056,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 69. MJ: Multi-turn LLM Jailbreaking via Decomposed Credit Assignment
+### 106. MJ: Multi-turn LLM Jailbreaking via Decomposed Credit Assignment
 
 **Authors:** Junyoung Park, Namgyu Park, Sechan Lee, Yoon-Chan Jhi, Jihoon Cho, Sangdon Park  
 **Published:** 2026-07-13 · **arXiv:** `2607.11070` · **Category:** `cs.CL`  
@@ -696,7 +1066,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 70. Input-Aware Dynamic Backdoor Attack Against Quantum Neural Networks
+### 107. Input-Aware Dynamic Backdoor Attack Against Quantum Neural Networks
 
 **Authors:** Junrui Zhang, Zemin Chen, Lusi Li, Mohammad Ghasemigol, Daniel Takabi, Rui Ning  
 **Published:** 2026-07-13 · **arXiv:** `2607.11843` · **Category:** `quant-ph`  
@@ -706,7 +1076,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 71. Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming
+### 108. Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming
 
 **Authors:** Xutao Mao, Xiang Zheng, Cong Wang  
 **Published:** 2026-07-13 · **arXiv:** `2607.11698` · **Category:** `cs.CR`  
@@ -716,7 +1086,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 72. AdvNav: Behavior-Guided Black-Box Adversarial Attacks on Vision-Language Navigation
+### 109. AdvNav: Behavior-Guided Black-Box Adversarial Attacks on Vision-Language Navigation
 
 **Authors:** Chenyang Li, Kaige Li, Zeyu Jiang, Changhao Chen  
 **Published:** 2026-07-13 · **arXiv:** `2607.11063` · **Category:** `cs.AI`  
@@ -726,7 +1096,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 73. AMT-X: Phase-Structured Multi-Turn Red-Teaming with Checklist-Gated Evaluation
+### 110. AMT-X: Phase-Structured Multi-Turn Red-Teaming with Checklist-Gated Evaluation
 
 **Authors:** Yi Ting Shen, Kentaroh Toyoda, Alex Leung  
 **Published:** 2026-07-13 · **arXiv:** `2607.11151` · **Category:** `cs.CR`  
@@ -736,7 +1106,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 74. Distributed Denial of Science: How Indirect Data Poisoning of AI Systems Can Industrialize Scientific Fraud
+### 111. Distributed Denial of Science: How Indirect Data Poisoning of AI Systems Can Industrialize Scientific Fraud
 
 **Authors:** Bálint Gyevnár, Atoosa Kasirzadeh, Nihar B. Shah  
 **Published:** 2026-07-12 · **arXiv:** `2607.10712` · **Category:** `cs.CR`  
@@ -746,7 +1116,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 75. The Effect of Multi-Lingual and Keyword Adversarial Injection on LLM Relevance Judgment
+### 112. The Effect of Multi-Lingual and Keyword Adversarial Injection on LLM Relevance Judgment
 
 **Authors:** Nguyen Khoi Vo, Duy Duong Tuong, Oleg Zendel, Mark Sanderson  
 **Published:** 2026-07-11 · **arXiv:** `2607.10080` · **Category:** `cs.IR`  
@@ -756,7 +1126,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 76. NetInjectBench: Benchmarking Indirect Prompt Injection in Tool-Using Large Language Model Agents for Network Operations
+### 113. NetInjectBench: Benchmarking Indirect Prompt Injection in Tool-Using Large Language Model Agents for Network Operations
 
 **Authors:** Ruksat Khan Shayoni, Muhammad Faraz Shoaib, S M Asif Hossain, M. F. Mridha  
 **Published:** 2026-07-11 · **arXiv:** `2607.10490` · **Category:** `cs.CR`  
@@ -766,7 +1136,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 77. Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety
+### 114. Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety
 
 **Authors:** Chigozirim Ifebi, Brent Kong, Ayushi Mehrotra  
 **Published:** 2026-07-11 · **arXiv:** `2607.10112` · **Category:** `cs.CR`  
@@ -776,7 +1146,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 78. Devil in the Lens: Analyzing and Defending Physical Prompt Injection Against Vision-Language Models on Wearable Devices
+### 115. Devil in the Lens: Analyzing and Defending Physical Prompt Injection Against Vision-Language Models on Wearable Devices
 
 **Authors:** Yaxin Li, Hao Wang, Yanda Shao, Shuhao Zhang, Yan Long  
 **Published:** 2026-07-11 · **arXiv:** `2607.10269` · **Category:** `cs.CR`  
@@ -786,7 +1156,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 79. Triggering Stealthy Feature Map Backdoors via Physical Fault Injection in Embedded Neural Networks
+### 116. Triggering Stealthy Feature Map Backdoors via Physical Fault Injection in Embedded Neural Networks
 
 **Authors:** Steyn Hommes, Vincent Dankbaar, Tanguy Stekke, Xiaomeng Wang, Lisanne Weidmann, Senna van Hoek et al.  
 **Published:** 2026-07-10 · **arXiv:** `2607.09473` · **Category:** `cs.CR`  
@@ -796,7 +1166,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 80. Plug-and-Play Reweighting for Resilient Collaborative Decision-Making in Connected Autonomous Driving
+### 117. Plug-and-Play Reweighting for Resilient Collaborative Decision-Making in Connected Autonomous Driving
 
 **Authors:** Jiewen Liu, Rui Liu, Matthew Lee, Ming C. Lin, Xiaorui Liu, Peng Gao  
 **Published:** 2026-07-10 · **arXiv:** `2607.10037` · **Category:** `cs.RO`  
@@ -806,7 +1176,7 @@ _81 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 81. ScopeJudge: Cost-Aware Pre-Execution Gating for Offensive Security Agents
+### 118. ScopeJudge: Cost-Aware Pre-Execution Gating for Offensive Security Agents
 
 **Authors:** Shane Caldwell, Max Harley, Ads Dawson, Michael Kouremetis, Vincent Abruzzo, Will Pearce  
 **Published:** 2026-07-08 · **arXiv:** `2607.07774` · **Category:** `cs.CR`  

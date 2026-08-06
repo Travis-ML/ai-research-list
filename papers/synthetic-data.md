@@ -1,12 +1,202 @@
 # Synthetic Data
 
-_42 papers · updated 2026-07-25 16:07 UTC_
+_61 papers · updated 2026-08-06 17:08 UTC_
 
 [← Back to index](../README.md)
 
+## August 2026
+
+### 1. The Effect of Perceived Race and Gender on Police Language Use: Experimental Evidence from VR Simulations
+
+**Authors:** Sandra C. Sandoval, Navita Goyal, Rashawn Ray, Long Doan, Rachel Rudinger, Hal Daumé  
+**Published:** 2026-08-05 · **arXiv:** `2608.05050` · **Category:** `cs.CY`  
+**Links:** [abstract](https://arxiv.org/abs/2608.05050) · [PDF](https://arxiv.org/pdf/2608.05050v1)
+
+> Uses VR simulations to experimentally measure how perceived race and gender affect deference in police officers' spoken language.
+
+---
+
+### 2. ODRA: Synthesizing Cognitive Behavioral Therapy Sessions with Structured Chain-Of-Thought and Dynamic Patient Resistance
+
+**Authors:** Javier Rodriguez-Juan, Hiba Arnaout, Jose Garcia-Rodriguez, David Tomás, Iryna Gurevych  
+**Published:** 2026-08-05 · **arXiv:** `2608.04524` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04524) · [PDF](https://arxiv.org/pdf/2608.04524v1)
+
+> Generates cognitive behavioral therapy dialogues using structured chain-of-thought and a resistance orchestrator that counters patient sycophancy for more realistic sessions.
+
+---
+
+### 3. Guideline-as-Oracle: Zero-Annotation Training of an Ophthalmic Telephone Triage Agent
+
+**Authors:** Chenyu Wang, Yi Liu, Baoqing Li, Min Tu, Diping Song  
+**Published:** 2026-08-05 · **arXiv:** `2608.04772` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04772) · [PDF](https://arxiv.org/pdf/2608.04772v1)
+
+> Converts ophthalmology guidelines into a rule table that supervises 3,000 generated dialogues, fine-tuning a 9B model that improves triage agreement and emergent-case recall.
+
+---
+
+### 4. The Ground Is Shifting: A Reflection on the Foundations of Software Measurement
+
+**Authors:** Thomas Bock, Audris Mockus, Bogdan Vasilescu  
+**Published:** 2026-08-04 · **arXiv:** `2608.03007` · **Category:** `cs.SE`  
+**Links:** [abstract](https://arxiv.org/abs/2608.03007) · [PDF](https://arxiv.org/pdf/2608.03007v1)
+
+> AI agents now generate version-control traces that violate human-origin assumptions, so authors propose AI-assisted replication to revalidate prior software-measurement findings.
+
+---
+
+### 5. The Fairness Collapse Phenomenon: Bias Amplification in Language Models Trained on Synthetic Data
+
+**Authors:** Irina Proskurina, Antoine Gourru, Julien Velcin  
+**Published:** 2026-08-04 · **arXiv:** `2608.04268` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.04268) · [PDF](https://arxiv.org/pdf/2608.04268v1)
+
+> Recursive training of language models on synthetic data amplifies demographic bias, with fairness degrading before standard language-modeling metrics decline.
+
+---
+
+### 6. SynEnergy: Anomaly Semantic-Guided Diffusion for Synthetic Energy Data Generation
+
+**Authors:** Lin Jiang, Dahai Yu, Ravikumar Gelli, Guang Wang  
+**Published:** 2026-08-04 · **arXiv:** `2608.03087` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.03087) · [PDF](https://arxiv.org/pdf/2608.03087v1)
+
+> A two-stage diffusion framework learns region-specific anomaly semantics from spatial dependencies to generate synthetic energy consumption data that preserves rare anomalous events.
+
+---
+
+### 7. DiagLoop: A Counterfactual Data Flywheel with Stage-Localized Reinforcement for Diagnostic LLMs
+
+**Authors:** Jian Zhang, Bingyi Wang, Yizhi Liu  
+**Published:** 2026-08-04 · **arXiv:** `2608.03674` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.03674) · [PDF](https://arxiv.org/pdf/2608.03674v1)
+
+> A counterfactual data flywheel generates validated training worlds from codified mechanisms, using stage-localized reinforcement learning to improve diagnostic LLM reasoning.
+
+---
+
+### 8. Automatic Patient-Specific Microwave Ablation Planning Accelerated by a Physics-Guided Deep Learning Model
+
+**Authors:** Seonaeng Cho, Minjee Seo, Minju Seol, Juil Park, Joon Ho Kwon, Kyungho Yoon  
+**Published:** 2026-08-04 · **arXiv:** `2608.03086` · **Category:** `eess.IV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.03086) · [PDF](https://arxiv.org/pdf/2608.03086v1)
+
+> A neural ablation predictor trained on patient-specific multiphysics simulations serves as a fast forward model, enabling genetic-algorithm optimization of microwave ablation plans.
+
+---
+
+### 9. Assessment of Conditional Diffusion Model for Synthetic Histopathology Image Generation
+
+**Authors:** Seyed Kahaki, Shijie Li, Weijie Chen, Nicholas Petrick  
+**Published:** 2026-08-04 · **arXiv:** `2608.03990` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.03990) · [PDF](https://arxiv.org/pdf/2608.03990v1)
+
+> Domain-specific metrics using pathology foundation models and downstream validation better assess conditional diffusion-generated synthetic histopathology images than FID and Inception Score.
+
+---
+
+### 10. Amortized Interventional Forecasting for Multivariate CIR Processes
+
+**Authors:** Andreas Sauter, Sumit Sourabh, Drona Kandhai, Erman Acar  
+**Published:** 2026-08-04 · **arXiv:** `2608.03715` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.03715) · [PDF](https://arxiv.org/pdf/2608.03715v1)
+
+> An amortized model estimates causal shock responses in CIR processes, trained using a causal multivariate simulator supplying paired observational and interventional ground truth.
+
+---
+
+### 11. A Physics-Flavored Transformer Network for Parametrizing Contraction Dynamics of Engineered Skeletal Muscle Tissues
+
+**Authors:** Mattias Luber, Timo Betz  
+**Published:** 2026-08-04 · **arXiv:** `2608.03927` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.03927) · [PDF](https://arxiv.org/pdf/2608.03927v1)
+
+> A physics-embedded CNN-Transformer pretrained on synthetic data then self-aligned on real measurements extracts kinetic parameters from engineered muscle tissue force profiles.
+
+---
+
+### 12. Test Time Adaptation Methods for Point Cloud Registration in Laparoscopic Surgery
+
+**Authors:** Nina Bodelot, Soufiane Belharbi, Eric Granger  
+**Published:** 2026-08-03 · **arXiv:** `2608.02883` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.02883) · [PDF](https://arxiv.org/pdf/2608.02883v1)
+
+> Adapts model, normalization, and input test-time adaptation methods to bridge synthetic-to-real domain shift in 3D point cloud registration for laparoscopic surgery.
+
+---
+
+### 13. RealWeather: Realistic and Scene-Faithful Weather Translation with Driving World Models
+
+**Authors:** Yuwei Ning, Liangzhi Wang, Yi Xiao, Zhenhua Wu, Yun Pang, Mingkun Chan et al.  
+**Published:** 2026-08-03 · **arXiv:** `2608.02953` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.02953) · [PDF](https://arxiv.org/pdf/2608.02953v1)
+
+> A driving world model learns weather dynamics from real videos through progressive data refinement, generating realistic scene-faithful weather translations for autonomous driving.
+
+---
+
+### 14. LAB-Tab: LLM-Augmented Bayesian Network Adaptation for Few-Shot Tabular Generation
+
+**Authors:** Zijian Shen, Taijie Chen, Bin Zhou, Ziyang Jiang, Jintao Ke  
+**Published:** 2026-08-03 · **arXiv:** `2608.01879` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.01879) · [PDF](https://arxiv.org/pdf/2608.01879v1)
+
+> Fits a Bayesian network from source data, uses an LLM to propose target-domain edges, and calibrates them via reinforcement learning for few-shot tabular generation.
+
+---
+
+### 15. Adaptive Sampling for Automated Post-Disaster Rapid Damage Assessment via Level-Set Cost-Aware Bayesian Optimization
+
+**Authors:** Boyang Xu, Mostafa Reisi Gahrooei, Mohammad Ilbeigi, Hao Yan  
+**Published:** 2026-08-03 · **arXiv:** `2608.02868` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.02868) · [PDF](https://arxiv.org/pdf/2608.02868v1)
+
+> A cost-aware Bayesian optimization framework with level-set estimation guides UAVs toward informative regions to efficiently map post-disaster damage under uncertainty.
+
+---
+
+### 16. A Simple Approximation to the Distribution of the Ridge Regression Estimator
+
+**Authors:** José Luis Montiel Olea, Ryan Strong, Amilcar Velez, Zhuoheng Xu, Haomin Yu  
+**Published:** 2026-08-03 · **arXiv:** `2608.02539` · **Category:** `econ.EM`  
+**Links:** [abstract](https://arxiv.org/abs/2608.02539) · [PDF](https://arxiv.org/pdf/2608.02539v1)
+
+> A Gaussian approximation to ridge regression's finite-sample distribution enables regularization selection minimizing average or worst-case excess prediction risk under heteroskedasticity.
+
+---
+
+### 17. Question Begets Question: Self-Evolving Curriculum for Reinforcement Fine-Tuning on Competition Mathematics
+
+**Authors:** Longtian Bao, Jianyou Wang, Yang Zhang, Youze Zheng, Ramamohan Paturi  
+**Published:** 2026-08-02 · **arXiv:** `2608.01522` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.01522) · [PDF](https://arxiv.org/pdf/2608.01522v1)
+
+> A teacher model generates problem variants and a self-evolving curriculum with RL raises Qwen2.5-Math-7B's AIME pass@1 past static-augmentation ceilings.
+
+---
+
+### 18. Entity-Faithful Repair of Synthetic Supervision for Zero-Shot Image Captioning
+
+**Authors:** Zhiyue Liu, Wenkai Zhou, Jian Qin, Qipeng Jiang  
+**Published:** 2026-08-02 · **arXiv:** `2608.00994` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.00994) · [PDF](https://arxiv.org/pdf/2608.00994v1)
+
+> ReCap repairs entity-level misalignment in synthesized caption training pairs by rewriting captions from detected image entities and downweighting unreliable pairs.
+
+---
+
+### 19. Artificial Intelligence and Modeling & Simulation: An Overview
+
+**Authors:** Niclas Feldkamp, Philippe J. Giabbanelli, Istvan David  
+**Published:** 2026-08-01 · **arXiv:** `2608.00366` · **Category:** `cs.SE`  
+**Links:** [abstract](https://arxiv.org/abs/2608.00366) · [PDF](https://arxiv.org/pdf/2608.00366v1)
+
+> A survey maps how AI and modeling & simulation intersect, including using simulations as data generators and training environments across simulation stages.
+
 ## July 2026
 
-### 1. Synthetic data generation framework for quality control automation in gravure printing
+### 20. Synthetic data generation framework for quality control automation in gravure printing
 
 **Authors:** Korota Arsène Coulibaly, Mohamed Hamlich, Khalid Hmali, Andrea Trombin  
 **Published:** 2026-07-23 · **arXiv:** `2607.21577` · **Category:** `cs.CV`  
@@ -16,7 +206,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 2. Automated Synthesis and Adversarial Validation of Executable Causal Research Pipelines
+### 21. Automated Synthesis and Adversarial Validation of Executable Causal Research Pipelines
 
 **Authors:** Irena Girshovitz, Dan Zeltzer, Ran Gilad-Bachrach  
 **Published:** 2026-07-23 · **arXiv:** `2607.21173` · **Category:** `cs.LG`  
@@ -26,7 +216,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 3. Persian Pixel: A large-scale synthetic OCR dataset for Persian language
+### 22. Persian Pixel: A large-scale synthetic OCR dataset for Persian language
 
 **Authors:** Pouria Mahdi, Haq Nawaz Malik  
 **Published:** 2026-07-22 · **arXiv:** `2607.20385` · **Category:** `cs.CV`  
@@ -36,7 +226,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 4. Edit-Neighboring Data Streams and Privacy under Continual Observation
+### 23. Edit-Neighboring Data Streams and Privacy under Continual Observation
 
 **Authors:** Joel Daniel Andersson, Anamay Chaturvedi, Monika Henzinger, Roodabeh Safavi  
 **Published:** 2026-07-22 · **arXiv:** `2607.20727` · **Category:** `cs.DS`  
@@ -46,7 +236,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 5. SynPre-FL: Synthetic data-driven pretraining integrated Federated Learning training framework
+### 24. SynPre-FL: Synthetic data-driven pretraining integrated Federated Learning training framework
 
 **Authors:** Akarsh K Nair, Muhammad Arifur Rahman, Nicholas Shopland, Andy Burton, Jun He, Yuan Shen et al.  
 **Published:** 2026-07-21 · **arXiv:** `2607.19524` · **Category:** `cs.LG`  
@@ -56,7 +246,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 6. Some cautionary tales about Bayesian predictive inference
+### 25. Some cautionary tales about Bayesian predictive inference
 
 **Authors:** Emanuela Dreassi, Fabrizio Leisen, Luca Pratelli, Pietro Rigo  
 **Published:** 2026-07-21 · **arXiv:** `2607.19206` · **Category:** `math.ST`  
@@ -66,7 +256,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 7. Algebraic Signatures for Structural Learning in Probability Tensors
+### 26. Algebraic Signatures for Structural Learning in Probability Tensors
 
 **Authors:** Akihiro Maeda, Shohei Hidaka, Satoshi Aoki  
 **Published:** 2026-07-21 · **arXiv:** `2607.18817` · **Category:** `stat.ML`  
@@ -76,7 +266,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 8. The Aura in the Machine: Genealogy and the Status of the Work of Art in the Generative Era
+### 27. The Aura in the Machine: Genealogy and the Status of the Work of Art in the Generative Era
 
 **Authors:** Giorgio Presti  
 **Published:** 2026-07-20 · **arXiv:** `2607.17940` · **Category:** `cs.CY`  
@@ -86,7 +276,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 9. Text-conditioned Segmentation for Tomato Phenotyping via Procedural Synthetic Data
+### 28. Text-conditioned Segmentation for Tomato Phenotyping via Procedural Synthetic Data
 
 **Authors:** Samy Mounir, Mikolaj Cieslak, Najmeddine Dhieb, Hakim Ghazzai, Jonathan Klein, Katja Froehlich et al.  
 **Published:** 2026-07-20 · **arXiv:** `2607.18576` · **Category:** `cs.CV`  
@@ -96,7 +286,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 10. SEE: Structure-aware Exploring \& Exploiting for Long-horizon GUI Agent Trajectory Synthesis
+### 29. SEE: Structure-aware Exploring \& Exploiting for Long-horizon GUI Agent Trajectory Synthesis
 
 **Authors:** Zhuohang Fan, Beichen Zhang, Yuanfa Li, Changqiao Wu, Wei Liu, Jian Luan et al.  
 **Published:** 2026-07-20 · **arXiv:** `2607.18046` · **Category:** `cs.LG`  
@@ -106,7 +296,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 11. Optimal Domain-Aware Privacy Mechanisms for Synthetic Data Generation
+### 30. Optimal Domain-Aware Privacy Mechanisms for Synthetic Data Generation
 
 **Authors:** Sajani Vithana, Sangwon Jung, Haoyang Hu, Viveck R. Cadambe, Flavio P. Calmon, Haewon Jeong  
 **Published:** 2026-07-20 · **arXiv:** `2607.18021` · **Category:** `cs.IT`  
@@ -116,7 +306,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 12. Addressing Limited Data in Auditory Attention Decoding with Diffusion Generative Models
+### 31. Addressing Limited Data in Auditory Attention Decoding with Diffusion Generative Models
 
 **Authors:** David Rannaleet, Victor Gunnarsson, Bo Bernhardsson, Martin A. Skoglund, Emina Alickovic  
 **Published:** 2026-07-20 · **arXiv:** `2607.18345` · **Category:** `cs.SD`  
@@ -126,7 +316,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 13. Learning from Synthetic Data without Model Collapse in Iterative Instruction Tuning
+### 32. Learning from Synthetic Data without Model Collapse in Iterative Instruction Tuning
 
 **Authors:** Xiaonan Luo, Yue Huang, Kehan Guo, Ping He, Chuan Zou, Ting Hua et al.  
 **Published:** 2026-07-19 · **arXiv:** `2607.17043` · **Category:** `cs.CL`  
@@ -136,7 +326,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 14. DADIR: Density-Aware Data-level Imbalanced Regression Framework
+### 33. DADIR: Density-Aware Data-level Imbalanced Regression Framework
 
 **Authors:** Shermin Shahbazi, Hossein Mohammadi, Mohsen Afsharchi  
 **Published:** 2026-07-19 · **arXiv:** `2607.17178` · **Category:** `cs.LG`  
@@ -146,7 +336,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 15. Mapping Order in Semicrystalline Polymers using Machine Learning of Nanobeam Electron Diffraction
+### 34. Mapping Order in Semicrystalline Polymers using Machine Learning of Nanobeam Electron Diffraction
 
 **Authors:** Nicholas Marchese, Arthur R. C. McCray, Yael Tsarfati, Karen Bustillo, Adam Marks, Alberto Salleo et al.  
 **Published:** 2026-07-18 · **arXiv:** `2607.16570` · **Category:** `cond-mat.mtrl-sci`  
@@ -156,7 +346,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 16. Environment-free Synthetic Data Generation for API-Calling Agents
+### 35. Environment-free Synthetic Data Generation for API-Calling Agents
 
 **Authors:** Seanie Lee, Sanjoy Chowdhury, Chao Jiang, Cheng-Yu Hsieh, Ting-Yao Hu, Alexander T Toshev et al.  
 **Published:** 2026-07-18 · **arXiv:** `2607.16900` · **Category:** `cs.AI`  
@@ -166,7 +356,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 17. RIMS: Preference Optimization via Smoothed Multi-pair Aggregation for Small-Scale LLM Retrieval-Augmented Generation
+### 36. RIMS: Preference Optimization via Smoothed Multi-pair Aggregation for Small-Scale LLM Retrieval-Augmented Generation
 
 **Authors:** Pei Tian, Zihan Dong, Tianci Liu, Linjun Zhang, Haoyu Wang  
 **Published:** 2026-07-17 · **arXiv:** `2607.16431` · **Category:** `cs.CL`  
@@ -176,7 +366,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 18. K-IPO: Kendall-constrained Importance Preserving Oversampling for Imbalanced Tabular Data
+### 37. K-IPO: Kendall-constrained Importance Preserving Oversampling for Imbalanced Tabular Data
 
 **Authors:** Marios Tyrovolas, Argiris Sofotasios, Dimitris Metaxakis, Georgios Mermigkis, George Georgoulas, Panagiotis Hadjidoukas et al.  
 **Published:** 2026-07-17 · **arXiv:** `2607.16478` · **Category:** `cs.LG`  
@@ -186,7 +376,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 19. CRAFT: Clustering Rubrics to Diagnose Weak LLM Capabilities and Generate Targeted Fine-Tuning Data
+### 38. CRAFT: Clustering Rubrics to Diagnose Weak LLM Capabilities and Generate Targeted Fine-Tuning Data
 
 **Authors:** Vipul Gupta, Zihao Wang, Razvan-Gabriel Dumitru, MohammadHossein Rezaei, Aakash Sabharwal, Yunzhong He  
 **Published:** 2026-07-17 · **arXiv:** `2607.16122` · **Category:** `cs.AI`  
@@ -196,7 +386,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 20. Self-Evolving Human-Centered Framework for Explainable Depression Symptom Annotation
+### 39. Self-Evolving Human-Centered Framework for Explainable Depression Symptom Annotation
 
 **Authors:** Hoang-Loc Cao, Van Pham, Truong Thanh Hung Nguyen, Phuc Truong Loc Nguyen, Phuc Ho, Veronica Whitford et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15202` · **Category:** `cs.AI`  
@@ -206,7 +396,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 21. Rubrics on Trial: Evolving Rubrics from a Single Query via Synthetic Pairwise Evidence
+### 40. Rubrics on Trial: Evolving Rubrics from a Single Query via Synthetic Pairwise Evidence
 
 **Authors:** Haocheng Yang, Licheng Pan, Xiaoxi Li, Zhichao Chen, Zhiheng Zhang, Yuan Lu et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15092` · **Category:** `cs.CL`  
@@ -216,7 +406,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 22. Answer-Conditioned Chains of Thought Degrade Verifiable-Reasoning Distillation in Large Language Models
+### 41. Answer-Conditioned Chains of Thought Degrade Verifiable-Reasoning Distillation in Large Language Models
 
 **Authors:** Jungseob Lee, Seungyoon Lee, Suhyune Son, Dongyub Jude Lee, Sungbin Han, Sugyeong Eo et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14552` · **Category:** `cs.CL`  
@@ -226,7 +416,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 23. Towards Enhancing 3D Spatial Reasoning in Medical Multimodal Large Language Models
+### 42. Towards Enhancing 3D Spatial Reasoning in Medical Multimodal Large Language Models
 
 **Authors:** Zhuoyuan Fu, Zeshang Li, Yiqiong Zhang, Hangui Lin, Yan Shu, Yan Li et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.13860` · **Category:** `cs.CV`  
@@ -236,7 +426,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 24. SD-MAR: Multi-image Analytical Reasoning via Synthetic Data and Reinforcement Learning
+### 43. SD-MAR: Multi-image Analytical Reasoning via Synthetic Data and Reinforcement Learning
 
 **Authors:** Shiyu Yuan, Sourav Sanjukta Bhabesh, Zhe Wang, Dmitriy Bespalov, Wesley Rose, Huzefa Rangwala  
 **Published:** 2026-07-15 · **arXiv:** `2607.14333` · **Category:** `cs.CV`  
@@ -246,7 +436,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 25. Cyclone: Diffusion Model for Cycle-Consistent Weather Editing from Unpaired Driving Data
+### 44. Cyclone: Diffusion Model for Cycle-Consistent Weather Editing from Unpaired Driving Data
 
 **Authors:** Thang-Anh-Quan Nguyen, Moussab Bennehar, Luis Guillermo Roldao Jimenez, Nathan Piasco, Dzmitry Tsishkou, Laurent Caraffa et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.13927` · **Category:** `cs.CV`  
@@ -256,7 +446,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 26. Automatic Hard Example Synthesis with Multi-Level Agentic Data Curation
+### 45. Automatic Hard Example Synthesis with Multi-Level Agentic Data Curation
 
 **Authors:** Genglin Liu, Muye Zhang, Krishnamurthy Viswanathan, Nichole J. Hansen, Blaž Bratanič, Nathan L Clement et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.14256` · **Category:** `cs.AI`  
@@ -266,7 +456,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 27. Worlds in One Demo: A Synthetic Data Engine for Learning Open-World Mobile Manipulation
+### 46. Worlds in One Demo: A Synthetic Data Engine for Learning Open-World Mobile Manipulation
 
 **Authors:** Lingxiao Guo, Huanyu Li, Guanya Shi  
 **Published:** 2026-07-14 · **arXiv:** `2607.13154` · **Category:** `cs.RO`  
@@ -276,7 +466,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 28. Steering Diffusion Models via Class-Contrastive Influence for Few-Shot Medical Classification
+### 47. Steering Diffusion Models via Class-Contrastive Influence for Few-Shot Medical Classification
 
 **Authors:** Jeeyung Kim, Erfan Esmaeili, Qiang Qiu  
 **Published:** 2026-07-14 · **arXiv:** `2607.12464` · **Category:** `cs.CV`  
@@ -286,7 +476,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 29. Metric-Guided Synthetic Image Data Rendering for Deep Learning compatible with Agentic AI
+### 48. Metric-Guided Synthetic Image Data Rendering for Deep Learning compatible with Agentic AI
 
 **Authors:** Martina Radoynova, Samuel Pantze, Trina De, Ulrik Günther, Artur Yakimovich  
 **Published:** 2026-07-14 · **arXiv:** `2607.12874` · **Category:** `cs.CV`  
@@ -296,7 +486,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 30. Improving Medical Image Generative Models with Fréchet Distance Loss
+### 49. Improving Medical Image Generative Models with Fréchet Distance Loss
 
 **Authors:** Andrew Marshall, Xuanang Xu, Xiaoran Zhang, Rui Wang, Lawrence Staib, James Duncan  
 **Published:** 2026-07-14 · **arXiv:** `2607.13300` · **Category:** `cs.CV`  
@@ -306,7 +496,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 31. DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation
+### 50. DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation
 
 **Authors:** Yu Fang, Wanxi Dong, Jiaqi Liu, Yue Yang, Mingxiao Huo, Yao Mu et al.  
 **Published:** 2026-07-14 · **arXiv:** `2607.13033` · **Category:** `cs.RO`  
@@ -316,7 +506,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 32. Trustworthy synthetic data for campaign decision support: strategy simulation fidelity and the PolicySynth framework
+### 51. Trustworthy synthetic data for campaign decision support: strategy simulation fidelity and the PolicySynth framework
 
 **Authors:** Tung Dang, The Hung Phung, Son Lam Nguyen, Tu Nguyen  
 **Published:** 2026-07-13 · **arXiv:** `2607.11269` · **Category:** `cs.LG`  
@@ -326,7 +516,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 33. TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models
+### 52. TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models
 
 **Authors:** Yuvraj Sehgal, Sneh Patel, Mahsa Panahandeh, Naser Ezzati-Jivan, Francois Tetreault  
 **Published:** 2026-07-13 · **arXiv:** `2607.12104` · **Category:** `cs.SE`  
@@ -336,7 +526,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 34. NeuroMem-FHP: A Likelihood-Free Deep Learning Framework for Parameter Estimation of Fractional Hawkes Process
+### 53. NeuroMem-FHP: A Likelihood-Free Deep Learning Framework for Parameter Estimation of Fractional Hawkes Process
 
 **Authors:** Neha Gupta, Aditya Maheshwari  
 **Published:** 2026-07-13 · **arXiv:** `2607.11177` · **Category:** `cs.LG`  
@@ -346,7 +536,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 35. IG-GAN: A Generative Adversarial Network for Aerodynamic Data Generation Based on Intrinsic Geometry
+### 54. IG-GAN: A Generative Adversarial Network for Aerodynamic Data Generation Based on Intrinsic Geometry
 
 **Authors:** Ying Yan, Liwei Hu, Xiaoming Zhang  
 **Published:** 2026-07-13 · **arXiv:** `2607.11497` · **Category:** `cs.LG`  
@@ -356,7 +546,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 36. Data Safety: Synthetic Data Quality Analysis Using CIFAKE Dataset
+### 55. Data Safety: Synthetic Data Quality Analysis Using CIFAKE Dataset
 
 **Authors:** Kuniko Paxton, Amila Akagić, Koorosh Aslansefat, Dhavalkumar Thakker, Yiannis Papadopoulos  
 **Published:** 2026-07-13 · **arXiv:** `2607.12165` · **Category:** `cs.CV`  
@@ -366,7 +556,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 37. WattCouncil: Context-Aware Household Energy Scenario Generation With Governed LLMs
+### 56. WattCouncil: Context-Aware Household Energy Scenario Generation With Governed LLMs
 
 **Authors:** Mohannad Takrouri, Nicolas M. Cuadrado A., Martin Takáč  
 **Published:** 2026-07-12 · **arXiv:** `2607.10720` · **Category:** `cs.AI`  
@@ -376,7 +566,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 38. Generative Augmentation of Raman Spectra for Glioma Classification
+### 57. Generative Augmentation of Raman Spectra for Glioma Classification
 
 **Authors:** Andrei Iuşan, Iulian Vasile, Daria Voiculescu, Ion Petre, Andrei Păun, Bogdan Oancea et al.  
 **Published:** 2026-07-11 · **arXiv:** `2607.10196` · **Category:** `cs.LG`  
@@ -386,7 +576,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 39. BattVAE-GP: Generative Modeling of Long-Horizon Battery Degradation with Uncertainty Quantification
+### 58. BattVAE-GP: Generative Modeling of Long-Horizon Battery Degradation with Uncertainty Quantification
 
 **Authors:** Raghvender Raghvender, Mahdi Abid, Ferran Brosa Planella, Charles Delacourt, Arnaud Demortière  
 **Published:** 2026-07-11 · **arXiv:** `2607.11943` · **Category:** `cs.LG`  
@@ -396,7 +586,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 40. The Effects of Synthetic Data and Label Distribution on Canola Branch Counting
+### 59. The Effects of Synthetic Data and Label Distribution on Canola Branch Counting
 
 **Authors:** Amirsalar Darvishpour, Mikolaj Cieslak, Adam Runions  
 **Published:** 2026-07-10 · **arXiv:** `2607.09630` · **Category:** `cs.CV`  
@@ -406,7 +596,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 41. SYNRARE: Synthetic Rare Disease EHR Generation for ML Benchmarking
+### 60. SYNRARE: Synthetic Rare Disease EHR Generation for ML Benchmarking
 
 **Authors:** Nicolai Dinh Khang Truong, Richard Röttger  
 **Published:** 2026-07-10 · **arXiv:** `2607.09404` · **Category:** `cs.LG`  
@@ -416,7 +606,7 @@ _42 papers · updated 2026-07-25 16:07 UTC_
 
 ---
 
-### 42. Entropy-Constrained Machine Learning with Residual Data Augmentation for Modeling Chemical Kinetics
+### 61. Entropy-Constrained Machine Learning with Residual Data Augmentation for Modeling Chemical Kinetics
 
 **Authors:** Okezzi Ukorigho, Opeoluwa Owoyele  
 **Published:** 2026-07-10 · **arXiv:** `2607.09582` · **Category:** `physics.flu-dyn`  

@@ -2,39 +2,39 @@
 
 An automatically maintained, categorised index of recent AI research from [arXiv](https://arxiv.org).
 
-_469 papers tracked · last updated 2026-07-25 16:07 UTC_
+_714 papers tracked · last updated 2026-08-06 17:08 UTC_
 
 ## Categories
 
 | Category | Papers |
 | --- | ---: |
-| [Alignment & Safety](papers/alignment-safety.md) | 32 |
-| [Interpretability](papers/interpretability.md) | 33 |
-| [Attention & Architecture](papers/attention-architecture.md) | 37 |
-| [Scaling & Efficiency](papers/scaling-efficiency.md) | 61 |
-| [Inference-Time Reasoning](papers/inference-reasoning.md) | 26 |
-| [AI Security](papers/ai-security.md) | 81 |
-| [Evaluation & Benchmarks](papers/evaluation.md) | 56 |
-| [Multimodality & Embodiment](papers/multimodal-embodiment.md) | 101 |
-| [Synthetic Data](papers/synthetic-data.md) | 42 |
+| [Alignment & Safety](papers/alignment-safety.md) | 52 |
+| [Interpretability](papers/interpretability.md) | 50 |
+| [Attention & Architecture](papers/attention-architecture.md) | 57 |
+| [Scaling & Efficiency](papers/scaling-efficiency.md) | 87 |
+| [Inference-Time Reasoning](papers/inference-reasoning.md) | 43 |
+| [AI Security](papers/ai-security.md) | 118 |
+| [Evaluation & Benchmarks](papers/evaluation.md) | 82 |
+| [Multimodality & Embodiment](papers/multimodal-embodiment.md) | 164 |
+| [Synthetic Data](papers/synthetic-data.md) | 61 |
 
 ## Latest additions
 
-- **[Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it](https://arxiv.org/abs/2607.21498)** — Federico Boggia · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21498v1)
-- **[Self-Supervised Learning of Structured Dynamics from Videos](https://arxiv.org/abs/2607.21576)** — Lukas Knobel, Andrew Zisserman, Yuki M. Asano · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21576v1)
-- **[Where You Tap Matters: A Probe-and-Model Benchmark for Open-Set RF Fingerprinting](https://arxiv.org/abs/2607.21564)** — Gabriele Oligeri, Savio Sciancalepore, Ingrid Huso et al. · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21564v1)
-- **[Scene Parameter Saliency via Differentiable Light Transport](https://arxiv.org/abs/2607.21562)** — Linas Beresna, Eugene Fiume · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21562v1)
-- **[What, Where, and How: Disentangling the Roles of Task, Language, and Model in Code Model Representations](https://arxiv.org/abs/2607.21491)** — Piotr Wilam · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21491v1)
-- **[Thinkink: 2D Spatial Ink-native Interaction with LLMs](https://arxiv.org/abs/2607.21468)** — Mohammad Hasan Payandeh, Daniel Vogel, Jian Zhao · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21468v1)
-- **[Climate-resilient electric vehicle charging infrastructure for sustainable cities: An interpretable causal-ensemble framework for preventive maintenance and low-carbon mobility](https://arxiv.org/abs/2607.21444)** — Cande Lian, Wentao Zeng, Jiabin Wu et al. · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21444v1)
-- **[Token Budget Saturation and Mechanistic Early Detection of Reasoning Non-Convergence in Chain-of-Thought Models](https://arxiv.org/abs/2607.21433)** — Renuka Oladri, Niveda Jawahar, Abdirisak Mohamed · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21433v1)
-- **[VoLN: Vision-Only Long-Horizon Navigation---Paradigm, Benchmark, and Method](https://arxiv.org/abs/2607.21400)** — Jiabin Lou, Haopeng Wang, Yuanshuai Wang et al. · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21400v1)
-- **[CRAFT: Exploring Wearable Creative AI on Smart Glasses for Fiction Writing in Real-World Contexts](https://arxiv.org/abs/2607.21394)** — Runze Cai, Yuxuan Huang, Lin-Ping Yuan et al. · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21394v1)
-- **[Multimodal Pretraining for Generalizable EEG Representation Learning](https://arxiv.org/abs/2607.21384)** — Targol Bakhtiarvand, Jugal Kalita, Adham Atyabi · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21384v1)
-- **[Towards Faithful Graph Explanations with Synergistic Edge Effects via Granular Balls](https://arxiv.org/abs/2607.21381)** — Jiancu Chen, Shuyin Xia, Guan Wang et al. · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21381v1)
-- **[Gradient Concentration, Not Weight Saliency, Explains Representation-Level Class Unlearning](https://arxiv.org/abs/2607.21353)** — Billel Habbati, Alessio Merlo, Luca Verderame et al. · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21353v1)
-- **[Quality-Aware Multimodal Fusion Reveals Implicit Identity in Valence-Arousal Features](https://arxiv.org/abs/2607.21347)** — Jisu Kim, Benjamin S. Riggan · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21347v1)
-- **[M$^3$-Gen: Interpretable Multimodal Generation of Gene Expression Profiles Using Clinical and Imaging Data](https://arxiv.org/abs/2607.21343)** — Francesca Pia Panaccione, Carlo Sgaravatti, Marco Venere · `2026-07-23` · [pdf](https://arxiv.org/pdf/2607.21343v1)
+- **[CoCo-IR: Contextual Composed Image Retrieval](https://arxiv.org/abs/2608.05149)** — Shengcao Cao, Tanmaya Shekhar Dabral, Zhongli Ding et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05149v1)
+- **[IRIS: A Visual Cortex-Inspired Framework for Analyzing Orientation Selectivity in Vision Transformers](https://arxiv.org/abs/2608.05122)** — Vaishnavi B Mohan, Vijayakrishna Naganoor, Yashas Annadani et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05122v1)
+- **[DASyR-LLM: Domain-Aware Symbolic Regression with LLMs for Kinetic Model Discovery](https://arxiv.org/abs/2608.05120)** — Roberto Aliaga Medina, Paulina Quintanilla, Antonio del Rio Chanona · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05120v1)
+- **[HexMIL: Hierarchical Attention MIL for Ante-Hoc Explainable Detection of AI-Manipulated CT Volumes](https://arxiv.org/abs/2608.05101)** — Orazio Pontorno, Luca Guarnera, Zahid Akhtar et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05101v1)
+- **[Lesion Detection in CT with Frozen Self-Distilled Features: SALT, a Spatially Adaptive Label-Guided Temperature](https://arxiv.org/abs/2608.05100)** — Mahmut S. Gokmen, Evan W. Damron, Mitchell A. Klusty et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05100v1)
+- **[Item Response Theory for AI Safety](https://arxiv.org/abs/2608.05086)** — Joshua Fonseca Rivera, Neil Shah, David Demitri Africa et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05086v1)
+- **[Bag-of-Visual-Words for Spatial Mapping of Lung Adenocarcinoma Growth Patterns](https://arxiv.org/abs/2608.05074)** — Darya Ardan, Valentin Oreiller, Henning Müller · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05074v1)
+- **[Exploring Cross-Reality Transitions between Projections and Head-Mounted Displays for Immersive Digital Art](https://arxiv.org/abs/2608.04971)** — Xiangpeng Fu, Mads Haahr · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04971v1)
+- **[A geometry-based deep equilibrium model for image restoration under multiplicative Gamma noise](https://arxiv.org/abs/2608.04944)** — Shengkun Yang, Luca Ratti, Zhichang Guo · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04944v1)
+- **[CheMLFlow: An Open-Source Platform for Cheminformatics and Materials Informatics Applications](https://arxiv.org/abs/2608.04942)** — Brendan Smith, Susana Lopez-Moreno, Eric Dolores-Cuenca et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04942v1)
+- **[Unleashing the Potential of Vision-Language Models for Generalizable AI-Generated Image Detection](https://arxiv.org/abs/2608.04935)** — Weihan Cai, Hao Tan, Zichang Tan et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04935v1)
+- **[SVI-DAG: A Structured Variational Inference Approach to Bayesian Causal Discovery](https://arxiv.org/abs/2608.04930)** — Shrenik Zinage · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04930v1)
+- **[Does Out-of-Sight Equal Out-of-Mind in CoT Monitorability?](https://arxiv.org/abs/2608.04928)** — Pedro Ferreira, Wilker Aziz, Ivan Titov · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04928v1)
+- **[Strengthening Target-Language Features: SAE-Based Steering for Multilingual Inference](https://arxiv.org/abs/2608.04904)** — Hongsheng Wang, Phlipp Koehn · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04904v1)
+- **[When Shared Rollouts Fail in Defensive Driving Evaluation: A NAVSIM Score Basis Audit](https://arxiv.org/abs/2608.04896)** — Ziang Wei, Minjun Yu, Zheyuan Lai et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04896v1)
 
 ---
 
