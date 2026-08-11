@@ -2,39 +2,39 @@
 
 An automatically maintained, categorised index of recent AI research from [arXiv](https://arxiv.org).
 
-_714 papers tracked · last updated 2026-08-06 17:08 UTC_
+_935 papers tracked · last updated 2026-08-11 05:09 UTC_
 
 ## Categories
 
 | Category | Papers |
 | --- | ---: |
-| [Alignment & Safety](papers/alignment-safety.md) | 52 |
-| [Interpretability](papers/interpretability.md) | 50 |
-| [Attention & Architecture](papers/attention-architecture.md) | 57 |
-| [Scaling & Efficiency](papers/scaling-efficiency.md) | 87 |
-| [Inference-Time Reasoning](papers/inference-reasoning.md) | 43 |
-| [AI Security](papers/ai-security.md) | 118 |
-| [Evaluation & Benchmarks](papers/evaluation.md) | 82 |
-| [Multimodality & Embodiment](papers/multimodal-embodiment.md) | 164 |
-| [Synthetic Data](papers/synthetic-data.md) | 61 |
+| [Alignment & Safety](papers/alignment-safety.md) | 62 |
+| [Interpretability](papers/interpretability.md) | 63 |
+| [Attention & Architecture](papers/attention-architecture.md) | 77 |
+| [Scaling & Efficiency](papers/scaling-efficiency.md) | 118 |
+| [Inference-Time Reasoning](papers/inference-reasoning.md) | 71 |
+| [AI Security](papers/ai-security.md) | 159 |
+| [Evaluation & Benchmarks](papers/evaluation.md) | 108 |
+| [Multimodality & Embodiment](papers/multimodal-embodiment.md) | 198 |
+| [Synthetic Data](papers/synthetic-data.md) | 79 |
 
 ## Latest additions
 
-- **[CoCo-IR: Contextual Composed Image Retrieval](https://arxiv.org/abs/2608.05149)** — Shengcao Cao, Tanmaya Shekhar Dabral, Zhongli Ding et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05149v1)
-- **[IRIS: A Visual Cortex-Inspired Framework for Analyzing Orientation Selectivity in Vision Transformers](https://arxiv.org/abs/2608.05122)** — Vaishnavi B Mohan, Vijayakrishna Naganoor, Yashas Annadani et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05122v1)
-- **[DASyR-LLM: Domain-Aware Symbolic Regression with LLMs for Kinetic Model Discovery](https://arxiv.org/abs/2608.05120)** — Roberto Aliaga Medina, Paulina Quintanilla, Antonio del Rio Chanona · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05120v1)
-- **[HexMIL: Hierarchical Attention MIL for Ante-Hoc Explainable Detection of AI-Manipulated CT Volumes](https://arxiv.org/abs/2608.05101)** — Orazio Pontorno, Luca Guarnera, Zahid Akhtar et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05101v1)
-- **[Lesion Detection in CT with Frozen Self-Distilled Features: SALT, a Spatially Adaptive Label-Guided Temperature](https://arxiv.org/abs/2608.05100)** — Mahmut S. Gokmen, Evan W. Damron, Mitchell A. Klusty et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05100v1)
-- **[Item Response Theory for AI Safety](https://arxiv.org/abs/2608.05086)** — Joshua Fonseca Rivera, Neil Shah, David Demitri Africa et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05086v1)
-- **[Bag-of-Visual-Words for Spatial Mapping of Lung Adenocarcinoma Growth Patterns](https://arxiv.org/abs/2608.05074)** — Darya Ardan, Valentin Oreiller, Henning Müller · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.05074v1)
-- **[Exploring Cross-Reality Transitions between Projections and Head-Mounted Displays for Immersive Digital Art](https://arxiv.org/abs/2608.04971)** — Xiangpeng Fu, Mads Haahr · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04971v1)
-- **[A geometry-based deep equilibrium model for image restoration under multiplicative Gamma noise](https://arxiv.org/abs/2608.04944)** — Shengkun Yang, Luca Ratti, Zhichang Guo · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04944v1)
-- **[CheMLFlow: An Open-Source Platform for Cheminformatics and Materials Informatics Applications](https://arxiv.org/abs/2608.04942)** — Brendan Smith, Susana Lopez-Moreno, Eric Dolores-Cuenca et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04942v1)
-- **[Unleashing the Potential of Vision-Language Models for Generalizable AI-Generated Image Detection](https://arxiv.org/abs/2608.04935)** — Weihan Cai, Hao Tan, Zichang Tan et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04935v1)
-- **[SVI-DAG: A Structured Variational Inference Approach to Bayesian Causal Discovery](https://arxiv.org/abs/2608.04930)** — Shrenik Zinage · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04930v1)
-- **[Does Out-of-Sight Equal Out-of-Mind in CoT Monitorability?](https://arxiv.org/abs/2608.04928)** — Pedro Ferreira, Wilker Aziz, Ivan Titov · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04928v1)
-- **[Strengthening Target-Language Features: SAE-Based Steering for Multilingual Inference](https://arxiv.org/abs/2608.04904)** — Hongsheng Wang, Phlipp Koehn · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04904v1)
-- **[When Shared Rollouts Fail in Defensive Driving Evaluation: A NAVSIM Score Basis Audit](https://arxiv.org/abs/2608.04896)** — Ziang Wei, Minjun Yu, Zheyuan Lai et al. · `2026-08-05` · [pdf](https://arxiv.org/pdf/2608.04896v1)
+- **[ZetaGPT: A Reference Implementation of Positional--Encoding--Free State--Space--Attention Language Models](https://arxiv.org/abs/2608.09432)** — Róisín Luo · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09432v1)
+- **[How Can Rhetoric Reward-Hack AI Reviewers? Dissecting Rhetorical Sensitivity in AI-Based Peer Review](https://arxiv.org/abs/2608.08975)** — Ming Li, Chenguang Wang, Xirui Li et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.08975v1)
+- **[Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions](https://arxiv.org/abs/2608.09930)** — Oluwanifemi Bamgbose, Simon Rosen, Jash Shah et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09930v1)
+- **[Multimodal Model Diffing for Feature Discovery and Control](https://arxiv.org/abs/2608.09928)** — Hunar Batra, Lachin Naghashyar, Ashkan Khakzar et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09928v1)
+- **[Beyond Hazard Resemblance: Contrastive Event Adjudication for Training-Free Video Anomaly Detection](https://arxiv.org/abs/2608.09908)** — Wenti Yin, Xiang Wang, Huaxin Zhang et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09908v1)
+- **[Competitive mediator games and urban CAV routing markets](https://arxiv.org/abs/2608.09894)** — Grzegorz Jamróz · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09894v1)
+- **[Deep Multimodal Wearable Sensor Fusion for Detection of Body-Focused Repetitive Behaviors](https://arxiv.org/abs/2608.09830)** — Samaneh Rezaeimanesh, Mohsen Behradfar, Mohammad Fili et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09830v1)
+- **[Structured Phonological Representations for Audio-Articulatory rtMRI Speech Classification](https://arxiv.org/abs/2608.09767)** — Abner Hernandez, Tomás Arias Vergara, Daiqi Liu et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09767v1)
+- **[Cultivar: A Contrastive and Locale-Oriented Translation Benchmark for Investigating Contamination and Localisation Robustness](https://arxiv.org/abs/2608.09766)** — Pinzhen Chen, Koel Dutta Chowdhury, Xiaoya Xu et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09766v1)
+- **[Disentangling Co-Occurring Retinal Pathologies with Saliency-Guided Sparse Expert Routing](https://arxiv.org/abs/2608.09752)** — Nagur Shareef Shaik, Jeongwoo Park, Yeong-Jin Kim et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09752v1)
+- **[Hallucination-Free GUI Grounding via Regression-Free Layout-Aware Matching](https://arxiv.org/abs/2608.09654)** — Yuke Li, Xuehan Hou · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09654v1)
+- **[Activation Probes Surface Code-Security Signals that the Model's Output Misses](https://arxiv.org/abs/2608.09643)** — Ivan Wiryadi · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09643v1)
+- **[Avalon-ToM-Bench: Evaluating Fine-Grained Theory of Mind via Asymmetric Game Mechanics](https://arxiv.org/abs/2608.09638)** — Yen-Shan Chen, Yu Chian Duan, Chih-En Kuo et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09638v1)
+- **[NeuroRefiner: Morphology-Aware Multi-Agent Refinement for 3D Fluorescence Microscopy Neuron Segmentation](https://arxiv.org/abs/2608.09636)** — Haiyang Yan, Jinyue Guo, Yanchao Zhang et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09636v1)
+- **[Measuring the Wrong Thing: Internal Harmfulness Scores Anti-Rank Successful Jailbreaks](https://arxiv.org/abs/2608.09624)** — Mingyu Luo, Ming Deng, Zilang Qiu et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09624v1)
 
 ---
 

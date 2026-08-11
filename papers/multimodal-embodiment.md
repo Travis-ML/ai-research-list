@@ -1,12 +1,352 @@
 # Multimodality & Embodiment
 
-_164 papers · updated 2026-08-06 17:08 UTC_
+_198 papers · updated 2026-08-11 05:09 UTC_
 
 [← Back to index](../README.md)
 
 ## August 2026
 
-### 1. WorldCycle: Self-Verifiable Reinforcement Learning for Long-Horizon Video World Models
+### 1. World Tokens: Enhancing Embodied Policies with Training-Time World Modeling
+
+**Authors:** Qu Tang, Benhui Zhuang, Bo Yuan, Xue Yu, Longteng Guo, Junlan Feng  
+**Published:** 2026-08-10 · **arXiv:** `2608.09730` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09730) · [PDF](https://arxiv.org/pdf/2608.09730v1)
+
+> An embodied policy uses training-time world modeling via a World Adapter producing world tokens that condition action prediction while preserving efficient deployment.
+
+---
+
+### 2. Verifiably grounded machine interpretation of lunar geology
+
+**Authors:** Tom Sander, Kay Wohlfarth, Christian Wöhler  
+**Published:** 2026-08-10 · **arXiv:** `2608.09276` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09276) · [PDF](https://arxiv.org/pdf/2608.09276v1)
+
+> A vision-language model generates grounded lunar stratigraphic interpretations from topographic, spectral, and geologic maps, using retrieval to cite chronologies for numeric age dating.
+
+---
+
+### 3. VANE: Reliable Test-Time Training for Vision-Language-Action Models via Future Visual Representation Prediction
+
+**Authors:** Hongjin Ji, Guoyang Xia, Luoyang Sun, Fangxiang Feng, Lei Ren  
+**Published:** 2026-08-10 · **arXiv:** `2608.09448` · **Category:** `cs.RO`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09448) · [PDF](https://arxiv.org/pdf/2608.09448v1)
+
+> Introduces a reliable test-time training method for vision-language-action policies that commits candidate updates only when supported by future visual evidence.
+
+---
+
+### 4. Thinking With Tools, Not With Pixels: Tool Calls as Text Scaffolds for Visual Reasoning
+
+**Authors:** Jiahao Shao, Yuanbo Yang, Yiyi Liao, Yujun Shen, Ceyuan Yang, Yinghao Xu  
+**Published:** 2026-08-10 · **arXiv:** `2608.09682` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09682) · [PDF](https://arxiv.org/pdf/2608.09682v1)
+
+> Shows the structured text of tool calls, not returned pixels, drives gains in tool-augmented visual reasoning, verified via a call-but-no-return probe.
+
+---
+
+### 5. Skills in Weights, Memory in Code: Hybrid Learning for Memory-Dependent Robot Manipulation
+
+**Authors:** Yunhao Zhao, Zhenyang Ni, Haoyang Chen, Ruohan Zhang, Qi Zhu  
+**Published:** 2026-08-10 · **arXiv:** `2608.09410` · **Category:** `cs.RO`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09410) · [PDF](https://arxiv.org/pdf/2608.09410v1)
+
+> Combines imitation-learned motor skills with a coding agent managing memory to enable non-Markovian, long-horizon memory-dependent robot manipulation.
+
+---
+
+### 6. SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation
+
+**Authors:** Jingkai Wang, Zihan Tang, Gu Zhang, Mingyu Cao, Jiapeng Chen, Jingjiao Zhao et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09771` · **Category:** `cs.RO`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09771) · [PDF](https://arxiv.org/pdf/2608.09771v1)
+
+> SLIM is a compact 0.5B latent policy learning action-grounded predictive representations via self-supervised masked trajectory prediction for robot manipulation.
+
+---
+
+### 7. RynnValue: Scaling Robotic Value Foundation Models with Temporal Distance
+
+**Authors:** Dongchi Huang, Hongyin Zhang, Bohan Hou, Siteng Huang, Zhian Su, Hang Guo et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09853` · **Category:** `cs.RO`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09853) · [PDF](https://arxiv.org/pdf/2608.09853v1)
+
+> A robotic value foundation model uses timestamp-derived temporal distance instead of preference labels, scaling to thousands of hours and surpassing preference-supervised baselines.
+
+---
+
+### 8. RoboSeg: Online Part-Level Semantic Reconstruction for Robotic Manipulation via a Single Eye-in-Hand Camera
+
+**Authors:** Zhaochen Lan, Mengxiang Lin  
+**Published:** 2026-08-10 · **arXiv:** `2608.09778` · **Category:** `cs.RO`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09778) · [PDF](https://arxiv.org/pdf/2608.09778v1)
+
+> A system reconstructs part-level semantics online from a single eye-in-hand camera, fusing VLM part discovery with grasp generation without CAD models.
+
+---
+
+### 9. Removing Infrastructure Barriers in Human-Robot Collaboration Through Wireless Reconfigurable Cells
+
+**Authors:** Emma Takács, Mátyás Hajós, Ádám Juniki, Ádám Fischer, Zoltán Komáromi, Kristóf Abai et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09658` · **Category:** `cs.RO`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09658) · [PDF](https://arxiv.org/pdf/2608.09658v1)
+
+> A wireless 5G-based system with a battery-powered multi-sensor platform enables reconfigurable human-robot collaboration cells with vision-based grasp and hand detection.
+
+---
+
+### 10. RecoverFly: A Failure-Aware Reinforcement Learning Post-Training Framework for Aerial Vision-Language Navigation
+
+**Authors:** Boxiong Wang, Hui Kang, Geng Sun, Jiahui Li, Chao Yu, Daxin Tian  
+**Published:** 2026-08-10 · **arXiv:** `2608.09467` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09467) · [PDF](https://arxiv.org/pdf/2608.09467v1)
+
+> Proposes a failure-aware reinforcement learning post-training framework improving aerial vision-language navigation policies via failure revisiting and long-tail curriculum.
+
+---
+
+### 11. REFRAMED: Towards Realistic Audio Description Generation for Movies
+
+**Authors:** Igor Sterner, Mirella Lapata, Alex Lascarides, Frank Keller  
+**Published:** 2026-08-10 · **arXiv:** `2608.09765` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09765) · [PDF](https://arxiv.org/pdf/2608.09765v1)
+
+> REFRAMED reformulates movie audio description so models jointly decide what and when to describe, providing a 206-movie dataset and evaluation protocols.
+
+---
+
+### 12. RAGMesh with FaME-G2E: Long-Form Text-Driven 3D Face Generation and Editing
+
+**Authors:** Hao Li, Ju Dai, Feng Zhou, Mengting Shi, Haofei Wang, Zhen Song et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09186` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09186) · [PDF](https://arxiv.org/pdf/2608.09186v1)
+
+> A retrieval-augmented framework fuses text-correlated geometric priors in blendshape space to generate and edit fine-grained 3D faces from long-form descriptions, supported by a new dataset.
+
+---
+
+### 13. PressureMesh: 3D Human Mesh Estimation from Multi-Device Pressure Images
+
+**Authors:** Changhai Ma, Ziyu Wu, Yunkang Zhang, Fangting Xie, Mengting Niu, Heyu Ding et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09550` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09550) · [PDF](https://arxiv.org/pdf/2608.09550v1)
+
+> MDP-Net estimates 3D human meshes from temporal pressure data across multiple devices using a mixture-of-experts fusion mechanism and a new dataset.
+
+---
+
+### 14. Perception Before Supervision: Self-Contained Visual Distillation from Counterfactual Blind Spots
+
+**Authors:** Shravan Venkatraman, Omkar Thawakar, Ritesh Thawkar, Abdelrahman Shaker, Rao Muhammad Anwer  
+**Published:** 2026-08-10 · **arXiv:** `2608.09931` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09931) · [PDF](https://arxiv.org/pdf/2608.09931v1)
+
+> CVPD performs self-contained token-level visual distillation by identifying counterfactual blind-spot regions to supervise multimodal models without external annotations or stronger teachers.
+
+---
+
+### 15. MedPixel: A Unified Pixel-Language Model for Medical Reasoning and Segmentation
+
+**Authors:** Haoyu Yang, Meixing Shi, Zengjie Chen, Haoran Sun, Haitao Leng, Xiaoming Shi et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09818` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09818) · [PDF](https://arxiv.org/pdf/2608.09818v1)
+
+> MedPixel unifies medical vision-language reasoning and pixel-level segmentation through a shared language-mask interface trained with synthesized supervision and mask-based preference optimization.
+
+---
+
+### 16. LookAgain: Closed-Loop GUI Grounding with Visually Grounded Reflection
+
+**Authors:** Renshan Zhang, Haoyang Meng, Yixiao He, Rui Shao, April Hua Liu, Liqiang Nie  
+**Published:** 2026-08-10 · **arXiv:** `2608.09723` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09723) · [PDF](https://arxiv.org/pdf/2608.09723v1)
+
+> LookAgain treats GUI grounding coordinates as revisable hypotheses, using closed-loop post-prediction visual reflection to refine predictions on small or out-of-distribution targets.
+
+---
+
+### 17. Listen, See and Track: Spatio-Temporal Audio-Visual Sound Event Reasoning for Omni-Modal Language Models
+
+**Authors:** Zhi Zeng, Cheng Zhang, Zesheng Yang, Rendong Pi, Jiaying Wu, Di Zhang et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09435` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09435) · [PDF](https://arxiv.org/pdf/2608.09435v1)
+
+> Introduces a spatio-temporal audio-visual benchmark and model using Ambisonics cues to recognize, localize, and track moving sound sources over time.
+
+---
+
+### 18. Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning
+
+**Authors:** Haodong Li, Shaoteng Liu, Tianyu Wang, Chongjian Ge, Sihui Ji, Jiahan Zhang et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09926` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09926) · [PDF](https://arxiv.org/pdf/2608.09926v1)
+
+> Latent Dynamics Reasoning models video transitions as explicit kinematic integration, extrapolating physical dynamics far better than pixel-fitting video diffusion baselines.
+
+---
+
+### 19. Hyperbolic Multimodal Continual Learning
+
+**Authors:** Jiahong Liu, Ming Shen, Xiaohao Liu, Rex Ying, Menglin Yang, Tat-Seng Chua et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09572` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09572) · [PDF](https://arxiv.org/pdf/2608.09572v1)
+
+> Analyzes forgetting in hyperbolic multimodal continual learning and proposes a framework preserving cross-modal relational and hierarchical geometric structure during adaptation.
+
+---
+
+### 20. Hierarchical Fast--Slow ReAct Agent for Zero-Shot Object-Goal Navigation
+
+**Authors:** Zhaochen Lan, Zhi Yang, Yuxiang Fu, Mengxiang Lin  
+**Published:** 2026-08-10 · **arXiv:** `2608.09816` · **Category:** `cs.RO`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09816) · [PDF](https://arxiv.org/pdf/2608.09816v1)
+
+> A hierarchical fast-slow agent maintains coordinate-anchored memory of past observations, letting a deliberative VLM layer reconsider explored rooms during zero-shot object navigation.
+
+---
+
+### 21. HarnessWAM: Bridging Prediction and Deliberation in World Action Models
+
+**Authors:** Zhaopeng Gu, Bingke Zhu, Tianxi Lin, Guibo Zhu, Yingying Chen, Kai Wang et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09516` · **Category:** `cs.RO`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09516) · [PDF](https://arxiv.org/pdf/2608.09516v1)
+
+> Proposes an agentic framework adding VLM-based task management and skill projection to world action models for long-horizon embodied planning.
+
+---
+
+### 22. Hallucination-Free GUI Grounding via Regression-Free Layout-Aware Matching
+
+**Authors:** Yuke Li, Xuehan Hou  
+**Published:** 2026-08-10 · **arXiv:** `2608.09654` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09654) · [PDF](https://arxiv.org/pdf/2608.09654v1)
+
+> A regression-free GUI grounding framework pairs a frozen MLLM for instruction parsing with layout-aware candidate matching to suppress coordinate hallucinations.
+
+---
+
+### 23. FaLCon: Facet-Anchored Retrieval with Late Consensus for Sim2Real Text-Based Person Anomaly Search
+
+**Authors:** Hieu Dinh Trung Pham, Phuong Huu Vu Tran, Thuan Duc Mai, Son Nguyen Minh Le, Khang Le Minh, Hoang Vo et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09474` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09474) · [PDF](https://arxiv.org/pdf/2608.09474v1)
+
+> Presents an anchor-constrained coarse-to-fine retrieval framework fusing vision-language retrievers and rerankers for sim2real text-based person anomaly search.
+
+---
+
+### 24. Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning
+
+**Authors:** Yapeng Liu, Yuanzhao Zhai, Bo Ding, Huaimin Wang, Lin Wang  
+**Published:** 2026-08-10 · **arXiv:** `2608.09876` · **Category:** `cs.RO`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09876) · [PDF](https://arxiv.org/pdf/2608.09876v1)
+
+> A latent world model encoding energy and momentum drives physically consistent open-world motion planning via neural time fields solving the Eikonal equation.
+
+---
+
+### 25. Deep Multimodal Wearable Sensor Fusion for Detection of Body-Focused Repetitive Behaviors
+
+**Authors:** Samaneh Rezaeimanesh, Mohsen Behradfar, Mohammad Fili, Guiping Hu  
+**Published:** 2026-08-10 · **arXiv:** `2608.09830` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09830) · [PDF](https://arxiv.org/pdf/2608.09830v1)
+
+> A CNN-GRU framework with modality-specific autoencoders fuses wrist-worn inertial, thermal, and proximity sensors to detect body-focused repetitive behaviors.
+
+---
+
+### 26. Bootstrapping Vision-Language Model for Hysteroscopic Surgical Scene Segmentation
+
+**Authors:** Jun Huang, Meiyi Chen, Zijie Yue, Yuhang Xiao, Fang Li, Hanli Wang et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09302` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09302) · [PDF](https://arxiv.org/pdf/2608.09302v1)
+
+> A vision-language model segments fifteen categories in hysteroscopic surgical scenes using category-specific text prompts and a masked distillation branch, trained on a multicentric dataset.
+
+---
+
+### 27. Beyond Global Editing: Per-Instance Disentangled Subspaces for Training-Free Hallucination Mitigation in LVLMs
+
+**Authors:** Ali Cheraghian, Hamidreza Dastmalchi, Hamed Barzamini, Morteza Saberi, Mojtaba Golzan, Shafin Rahman et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09344` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09344) · [PDF](https://arxiv.org/pdf/2608.09344v1)
+
+> A training-free method builds per-instance disentangled subspaces to suppress diverse hallucination modes in large vision-language models at test time.
+
+---
+
+### 28. ADOPD: Reference-Privileged On-Policy Distillation for MLLM-Based Industrial Anomaly Detection
+
+**Authors:** Jingtai He, Shiyuan Meng, Wenchao Meng, Qinmin Yang  
+**Published:** 2026-08-10 · **arXiv:** `2608.09789` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09789) · [PDF](https://arxiv.org/pdf/2608.09789v1)
+
+> A reference-privileged on-policy distillation method internalizes reference-comparison benefits into a query-only multimodal model for industrial anomaly detection.
+
+---
+
+### 29. ToolVision: Learning When and How to Use Visual Tools with Capability-Aligned Supervision
+
+**Authors:** Delin Mao, Chenghao Sun, Jingwei Song, Chishui Chen, Linfeng Zhang  
+**Published:** 2026-08-09 · **arXiv:** `2608.08907` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.08907) · [PDF](https://arxiv.org/pdf/2608.08907v1)
+
+> Capability-aligned supervision teaches multimodal models when and how to invoke visual tools, pruning unreproducible teacher trajectories and rewarding only genuinely helpful tool use.
+
+---
+
+### 30. JSGS: JPEG State-Guided Supervision for 3D Gaussian Splatting from Mixed-Quality Views
+
+**Authors:** Jinhua Cui, Anhong Wang, Kai Hu, Donghan Bu, Peihao Li, Tammam Tillo et al.  
+**Published:** 2026-08-09 · **arXiv:** `2608.08659` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.08659) · [PDF](https://arxiv.org/pdf/2608.08659v1)
+
+> JSGS uses per-file JPEG quantization tables to guide frequency-band supervision, making 3D Gaussian Splatting robust to compression artifacts in mixed-quality input views.
+
+---
+
+### 31. ERF-GS: Reconstructing Fast Motion from Disjoint Event-RGB Viewpoints
+
+**Authors:** Xiaoyang Bai, Zhenyang Li, Weiwei Xu, Edmund Y. Lam, Yifan Peng  
+**Published:** 2026-08-09 · **arXiv:** `2608.08531` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.08531) · [PDF](https://arxiv.org/pdf/2608.08531v1)
+
+> An event-RGB fusion framework integrates event data into Gaussian splatting optimization and densification to reconstruct fast-moving objects from disjoint viewpoints under motion blur.
+
+---
+
+### 32. Agentic AI-powered flexible fiber-bundle endoscopy for high-resolution NIR-II fluorescence imaging in vivo
+
+**Authors:** Yanzhao Shi, Yuanhua Liu, Sixin Xu, Wayne Jason Li, Yuyuan Chen, Danyang Xu et al.  
+**Published:** 2026-08-09 · **arXiv:** `2608.08402` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.08402) · [PDF](https://arxiv.org/pdf/2608.08402v1)
+
+> Combines optimized fiber bundles with a vision-language-routed mixture-of-experts restoration pipeline for high-resolution NIR-II fluorescence endoscopy in vivo.
+
+---
+
+### 33. FemWear: A Specialized Wearable Foundation Model for Women's Health
+
+**Authors:** Yifan Wang, Chenzhong Li  
+**Published:** 2026-08-08 · **arXiv:** `2608.08244` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.08244) · [PDF](https://arxiv.org/pdf/2608.08244v1)
+
+> A parameter-efficient adaptation of a multimodal wearable backbone targets women's-health tasks, improving cycle-phase and symptom prediction across cohorts.
+
+---
+
+### 34. Omni-modal decomposition autoencoders learn full-stack wearable disentangled representations
+
+**Authors:** Ioannis Ziogas, Ensieh Khazaei, Bilal Taha, Aamna Al Shehhi, Ahsan H. Khandoker, Leontios J. Hadjileontiadis et al.  
+**Published:** 2026-08-07 · **arXiv:** `2608.07385` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.07385) · [PDF](https://arxiv.org/pdf/2608.07385v1)
+
+> Variational decomposition autoencoders learn disentangled, fusible representations across up to thirty wearable sensor modalities for activity recognition and generation.
+
+---
+
+### 35. WorldCycle: Self-Verifiable Reinforcement Learning for Long-Horizon Video World Models
 
 **Authors:** Bohai Gu, Yueyang Yuan, Taiyi Wu, Dazhao Du, Jian Liu, Xiaoyi Pang et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04964` · **Category:** `cs.AI`  
@@ -16,7 +356,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 2. When Prompts Become Pixels: Prompt-Region Grounding for Multimodal Reasoning
+### 36. When Prompts Become Pixels: Prompt-Region Grounding for Multimodal Reasoning
 
 **Authors:** Yongxin Wang, Ruizhe Zhou, Yueling Tang, Yingying Zhu, Xuemin Zhao, Xiaojun Chang et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04726` · **Category:** `cs.AI`  
@@ -26,7 +366,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 3. Visual Representation Matters: Exploiting Temporal Differences in Video-to-Audio Generation
+### 37. Visual Representation Matters: Exploiting Temporal Differences in Video-to-Audio Generation
 
 **Authors:** Zehua Chen, Junyou Wang, Yuxuan Jiang, Zhenying Fang, Yusheng Dai, Jianfei Chen et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04902` · **Category:** `cs.CV`  
@@ -36,7 +376,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 4. Visual Anchoring in Diffusion: Multimodal Zero-Shot Skeleton Action Recognition
+### 38. Visual Anchoring in Diffusion: Multimodal Zero-Shot Skeleton Action Recognition
 
 **Authors:** Zehao Bao, Shujun Guo, Bruce X. B. Yu  
 **Published:** 2026-08-05 · **arXiv:** `2608.04623` · **Category:** `cs.CV`  
@@ -46,7 +386,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 5. Unleashing the Potential of Vision-Language Models for Generalizable AI-Generated Image Detection
+### 39. Unleashing the Potential of Vision-Language Models for Generalizable AI-Generated Image Detection
 
 **Authors:** Weihan Cai, Hao Tan, Zichang Tan, Jun Wan, Xinping Gao  
 **Published:** 2026-08-05 · **arXiv:** `2608.04935` · **Category:** `cs.CV`  
@@ -56,7 +396,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 6. UG-UMRE: Uncertainty-Guided Modality Augmentation and Distributional Calibration for Unified Multimodal Relation Extraction
+### 40. UG-UMRE: Uncertainty-Guided Modality Augmentation and Distributional Calibration for Unified Multimodal Relation Extraction
 
 **Authors:** Bo Kong, Liruiz Jia, Yi Liang, Chao Liu, Dongfang Han, Tianwei Yan et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04949` · **Category:** `cs.CV`  
@@ -66,7 +406,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 7. Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes
+### 41. Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes
 
 **Authors:** Junlin Han, Shengbang Tong, David Fan, Minghao Chen, Philip Torr, Filippos Kokkinos et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.05000` · **Category:** `cs.CV`  
@@ -76,7 +416,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 8. The First EgoCross Challenge at EgoVis 2026: Cross-Domain Egocentric Video Question Answering
+### 42. The First EgoCross Challenge at EgoVis 2026: Cross-Domain Egocentric Video Question Answering
 
 **Authors:** Yuqian Fu, Tianwen Qian, Yanjun Li, Yu Li, Kunyu Peng, Xu Zheng et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04589` · **Category:** `cs.CV`  
@@ -86,7 +426,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 9. Teaching MLLMs to Say No: Generalized Referring Expression Comprehension via Refusal Calibrated GRPO
+### 43. Teaching MLLMs to Say No: Generalized Referring Expression Comprehension via Refusal Calibrated GRPO
 
 **Authors:** Xuzheng Yang, Jun Ling, Tao Huang, Caiyan Qin, Peng Wang  
 **Published:** 2026-08-05 · **arXiv:** `2608.04698` · **Category:** `cs.CV`  
@@ -96,7 +436,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 10. Suppression Sticks, Locality Is Fragile: A Closed-Loop Target-and-Control Audit of Task-Vector Negation in VLA Policies
+### 44. Suppression Sticks, Locality Is Fragile: A Closed-Loop Target-and-Control Audit of Task-Vector Negation in VLA Policies
 
 **Authors:** Shaoguang Wang, Weiyu Guo, Rushi Dai, Yiren Zhao, Yandong Guo, Hui Xiong  
 **Published:** 2026-08-05 · **arXiv:** `2608.04692` · **Category:** `cs.RO`  
@@ -106,7 +446,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 11. SmartMage: Dynamic Modality Orchestration for 3D Scene Understanding
+### 45. SmartMage: Dynamic Modality Orchestration for 3D Scene Understanding
 
 **Authors:** Yue Zhang, Yingzhao Jian, Yunqiu Xu, Xiaoxiao Sun, Hehe Fan  
 **Published:** 2026-08-05 · **arXiv:** `2608.05137` · **Category:** `cs.CV`  
@@ -116,7 +456,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 12. Robust and Efficient Motion Reasoning for Privacy-Aware Classroom Incident Recognition
+### 46. Robust and Efficient Motion Reasoning for Privacy-Aware Classroom Incident Recognition
 
 **Authors:** Paritosh Parmar, Landy Lan, Hong Yang, Chen Yi, Chiat Pin Tay  
 **Published:** 2026-08-05 · **arXiv:** `2608.05115` · **Category:** `cs.CV`  
@@ -126,7 +466,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 13. Retrieve in Time, Correct in Frequency
+### 47. Retrieve in Time, Correct in Frequency
 
 **Authors:** Yuze Fan, Yue Cao, Pengjie Gao, Haojia Gao, Guangqiu Guo, Ziyue Zhang et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04527` · **Category:** `cs.RO`  
@@ -136,7 +476,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 14. Representing Visual Evidence for Item Difficulty Prediction: Visual Textualization and Image-Native Modeling
+### 48. Representing Visual Evidence for Item Difficulty Prediction: Visual Textualization and Image-Native Modeling
 
 **Authors:** Han Chen, Ming Li, Hong Jiao, Tianyi Zhou  
 **Published:** 2026-08-05 · **arXiv:** `2608.04554` · **Category:** `cs.CL`  
@@ -146,7 +486,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 15. Reference-Based Manipulation: A Framework and Pipeline for Multimodal Spatial Reasoning
+### 49. Reference-Based Manipulation: A Framework and Pipeline for Multimodal Spatial Reasoning
 
 **Authors:** Yangyang He, Zhuangze Hou, Yonglin Chen, Can Liu  
 **Published:** 2026-08-05 · **arXiv:** `2608.04798` · **Category:** `cs.HC`  
@@ -156,7 +496,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 16. RORA: Realistic Object Reconstruction with Articulation
+### 50. RORA: Realistic Object Reconstruction with Articulation
 
 **Authors:** Hyesung Lee, Youngseon Lee, Kyutae Lee, Dongjun Lee, Yongseok Lee  
 **Published:** 2026-08-05 · **arXiv:** `2608.04842` · **Category:** `cs.RO`  
@@ -166,7 +506,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 17. Promptable Animal Pose Tracking Across Species
+### 51. Promptable Animal Pose Tracking Across Species
 
 **Authors:** Le Li, Daniela Ivanova, Nicolas Pugeault  
 **Published:** 2026-08-05 · **arXiv:** `2608.04995` · **Category:** `cs.CV`  
@@ -176,7 +516,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 18. PhysMind: From Video to Executable Worlds for Training-Free Physical Reasoning
+### 52. PhysMind: From Video to Executable Worlds for Training-Free Physical Reasoning
 
 **Authors:** Chen Yang, Shenxiang Zeng, Haoyang Zhao, Zhouyuan Xu, Youquan He, Haoyu Li et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04575` · **Category:** `cs.CV`  
@@ -186,7 +526,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 19. On the Effectiveness of Adaptation Strategies for VLM-Based Federated Learning in Remote Sensing
+### 53. On the Effectiveness of Adaptation Strategies for VLM-Based Federated Learning in Remote Sensing
 
 **Authors:** Simon Lösche, Barış Büyüktaş, Mathis Adler, Angelos Zavras, Ioannis Papoutsis, Begüm Demir  
 **Published:** 2026-08-05 · **arXiv:** `2608.04791` · **Category:** `cs.CV`  
@@ -196,7 +536,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 20. OPD-V: Visual On-Policy Self-Distillation with Modality Balance
+### 54. OPD-V: Visual On-Policy Self-Distillation with Modality Balance
 
 **Authors:** Aniri, Jinhe Bi, Peng Liao, Zengjie Jin, Volker Tresp, Fei Shen et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.05131` · **Category:** `cs.CV`  
@@ -206,7 +546,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 21. MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight
+### 55. MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight
 
 **Authors:** Zehua Fan, Junjie He, Wenxuan Song, Xi Wang, Wenqi Lyu, Linge Zhao et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04657` · **Category:** `cs.CV`  
@@ -216,7 +556,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 22. Mind-VLA: Instruction-Aware Spatial Representation Alignment for Vision-Language-Action Models
+### 56. Mind-VLA: Instruction-Aware Spatial Representation Alignment for Vision-Language-Action Models
 
 **Authors:** Xingyu Ding, Yuzhong Zhao, Yang Wu, Chaoyang Zhao, Chunhai Zhao, Yifan Zhang et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04633` · **Category:** `cs.RO`  
@@ -226,7 +566,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 23. MetaVideoAgent: Automated Video-Agent Evolution for Long-Form Video Understanding
+### 57. MetaVideoAgent: Automated Video-Agent Evolution for Long-Form Video Understanding
 
 **Authors:** Benlei Cui, Ruize Wang, Junjie Li, Jinhao Chen, Longtao Huang, Yinghao Chen et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04587` · **Category:** `cs.CV`  
@@ -236,7 +576,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 24. MERaLiON-GR: Speech Gender Recognition Model for English and SEA Languages
+### 58. MERaLiON-GR: Speech Gender Recognition Model for English and SEA Languages
 
 **Authors:** Qiongqiong Wang, Ai Ti Aw, Nancy F. Chen, Ying Lay Chiu, Yang Ding, Yingxu He et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04433` · **Category:** `cs.CL`  
@@ -246,7 +586,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 25. HelloWorld: Enabling Socially Interactive Characters in Video World Models
+### 59. HelloWorld: Enabling Socially Interactive Characters in Video World Models
 
 **Authors:** Liangyang Ouyang, Ruicong Liu, Xuangeng Chu, Kaipeng Zhang, Yoichi Sato  
 **Published:** 2026-08-05 · **arXiv:** `2608.05070` · **Category:** `cs.CV`  
@@ -256,7 +596,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 26. GASP: GPU-Accelerated Safe Planner for Real-Time Collision-Aware Motion Generation with Latent Trajectory Sampling
+### 60. GASP: GPU-Accelerated Safe Planner for Real-Time Collision-Aware Motion Generation with Latent Trajectory Sampling
 
 **Authors:** Colin Merk, Stefanos Charalambous, Peter Dürr, Farshad Khadivar  
 **Published:** 2026-08-05 · **arXiv:** `2608.04612` · **Category:** `cs.RO`  
@@ -266,7 +606,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 27. Foreseeing the Invisible: Amodal Reconstruction of Leaf Fossil Images
+### 61. Foreseeing the Invisible: Amodal Reconstruction of Leaf Fossil Images
 
 **Authors:** Liuxiang Yue, Ailin Zhang, Ziyue Zhao, Yikun Duan  
 **Published:** 2026-08-05 · **arXiv:** `2608.04423` · **Category:** `cs.CV`  
@@ -276,7 +616,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 28. FocusMem: Factorizing Content, Readout, and Trust in Latent GUI Memory
+### 62. FocusMem: Factorizing Content, Readout, and Trust in Latent GUI Memory
 
 **Authors:** Zhuoran Zhang, Bowen Li, Jingcheng Ju, Yang Shi, Qixun Wang, Haotian Wang et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04530` · **Category:** `cs.CV`  
@@ -286,7 +626,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 29. Faster-WAM: Efficient Inference-Time Future Conditioning for Robust World Action Models
+### 63. Faster-WAM: Efficient Inference-Time Future Conditioning for Robust World Action Models
 
 **Authors:** Weiheng Zhao, Haoyi Jiang, Xin Shi, Liu Liu, Fan Huang, Zhizhong Su et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04404` · **Category:** `cs.CV`  
@@ -296,7 +636,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 30. Explicit Language Memory for Long-Horizon Planning in Vision-Language-Action Models
+### 64. Explicit Language Memory for Long-Horizon Planning in Vision-Language-Action Models
 
 **Authors:** Houze Xu, Jizhong Li, Ziyi Ye  
 **Published:** 2026-08-05 · **arXiv:** `2608.04765` · **Category:** `cs.RO`  
@@ -306,7 +646,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 31. EmpaAva: An Open-source Agentic 3D-Avatar Empathetic Live Chatbot
+### 65. EmpaAva: An Open-source Agentic 3D-Avatar Empathetic Live Chatbot
 
 **Authors:** Jie Yang, Wenhao Xu, Shuhui Lin, Hao Fei  
 **Published:** 2026-08-05 · **arXiv:** `2608.04709` · **Category:** `cs.CL`  
@@ -316,7 +656,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 32. Embedding Large Language Models into Flow Controls: An Agentic Framework for Adaptive and Trustworthy Automated Cooking
+### 66. Embedding Large Language Models into Flow Controls: An Agentic Framework for Adaptive and Trustworthy Automated Cooking
 
 **Authors:** Zihan Song, Hongwei Huang, Yueshuo Sun, Yonglin Tian, Fei-Yue Wang, Bai Li  
 **Published:** 2026-08-05 · **arXiv:** `2608.04768` · **Category:** `cs.CV`  
@@ -326,7 +666,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 33. EgoAfford: Task-Oriented Affordance Grounding via Egocentric Referring Segmentation
+### 67. EgoAfford: Task-Oriented Affordance Grounding via Egocentric Referring Segmentation
 
 **Authors:** Xinyuan Guan, Feifan Chen, Xinyu Zhan, Fu-Cheng Zhang, Cewu Lu, Lixin Yang  
 **Published:** 2026-08-05 · **arXiv:** `2608.04533` · **Category:** `cs.CV`  
@@ -336,7 +676,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 34. Dense Metric Depth Completion from Sparse Direct Time-of-Flight Sensors
+### 68. Dense Metric Depth Completion from Sparse Direct Time-of-Flight Sensors
 
 **Authors:** Hakyeong Kim, Ruicheng Wang, Chengtang Yao, Jiaolong Yang, Min H. Kim  
 **Published:** 2026-08-05 · **arXiv:** `2608.04737` · **Category:** `cs.CV`  
@@ -346,7 +686,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 35. DAC-Pose: Dual-Agent Collaborative Framework for Pose-Guided Human Generation
+### 69. DAC-Pose: Dual-Agent Collaborative Framework for Pose-Guided Human Generation
 
 **Authors:** Haotian Yang, Zhile Yang, Huiyu Zhou, Xin Sun  
 **Published:** 2026-08-05 · **arXiv:** `2608.04622` · **Category:** `cs.CV`  
@@ -356,7 +696,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 36. Coupled Continuous-Discrete Generation for Scene Text Image Super-Resolution
+### 70. Coupled Continuous-Discrete Generation for Scene Text Image Super-Resolution
 
 **Authors:** Axi Niu, Knag Zhang, Qingsen Yan, Hao Jin, Jinqiu Sun, Yanning Zhang  
 **Published:** 2026-08-05 · **arXiv:** `2608.04525` · **Category:** `cs.CV`  
@@ -366,7 +706,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 37. CoCo-IR: Contextual Composed Image Retrieval
+### 71. CoCo-IR: Contextual Composed Image Retrieval
 
 **Authors:** Shengcao Cao, Tanmaya Shekhar Dabral, Zhongli Ding, Madhuri Shanbhogue, Kaifeng Chen, Zhe Li et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.05149` · **Category:** `cs.CV`  
@@ -376,7 +716,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 38. CSGen: A Multi-Domain Curvilinear Structure Generation Model via Hierarchical Multimodal Diffusion
+### 72. CSGen: A Multi-Domain Curvilinear Structure Generation Model via Hierarchical Multimodal Diffusion
 
 **Authors:** Zhe Shan, Ziming Yang, Lei Zhou, Wenwen Zhang, Cong Lin, Xia Xie  
 **Published:** 2026-08-05 · **arXiv:** `2608.04655` · **Category:** `cs.CV`  
@@ -386,7 +726,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 39. COSMO: Consensus-Driven Shift Modulation for Source-Free Domain Adaptation
+### 73. COSMO: Consensus-Driven Shift Modulation for Source-Free Domain Adaptation
 
 **Authors:** Bo Li, Junjie Peng, Xiaohua Xie, Jianhuang Lai  
 **Published:** 2026-08-05 · **arXiv:** `2608.04604` · **Category:** `cs.CV`  
@@ -396,7 +736,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 40. BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation
+### 74. BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation
 
 **Authors:** Peiyan Li, Yuze Zhu, Yixiang Chen, Qisen Ma, Yuan Xu, Jiabing Yang et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.05042` · **Category:** `cs.RO`  
@@ -406,7 +746,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 41. Breaking the Curse ofMultilinguality inMany-to-Many Speech-to-Text Translation via a Resource-AwareMixture of Speech Encoders
+### 75. Breaking the Curse ofMultilinguality inMany-to-Many Speech-to-Text Translation via a Resource-AwareMixture of Speech Encoders
 
 **Authors:** Yexing Du, Kaiyuan Liu, Youcheng Pan, Bo Yang, Chengpeng Fu, Yu Wang et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04586` · **Category:** `cs.CL`  
@@ -416,7 +756,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 42. Beyond Reprojection Error: Camera Calibration with 3D Targets
+### 76. Beyond Reprojection Error: Camera Calibration with 3D Targets
 
 **Authors:** Dennis Ruppel, Hasan Kutlu, Kai A. Neumann, Martin Knuth, Pedro Santos, Andreas Weinmann et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.05066` · **Category:** `cs.CV`  
@@ -426,7 +766,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 43. AutoCue: Multimodal LLM-Assisted Externalization of Implicit Inputs as Instructional Visual Cues in Screencast Tutorials
+### 77. AutoCue: Multimodal LLM-Assisted Externalization of Implicit Inputs as Instructional Visual Cues in Screencast Tutorials
 
 **Authors:** Shengyang Luo, Shengyao Luo, Xiaolei Guo, Fengze Zhang, James Liang, Yingjie Victor Chen  
 **Published:** 2026-08-05 · **arXiv:** `2608.04910` · **Category:** `cs.HC`  
@@ -436,7 +776,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 44. A Model Merging Approach for Continual MLLM Unlearning
+### 78. A Model Merging Approach for Continual MLLM Unlearning
 
 **Authors:** Yuhang Wang, Linlin Zhang, Haoxuan Ji, Xianmin Ye, Zhenxing Niu, Haichang Gao  
 **Published:** 2026-08-05 · **arXiv:** `2608.04548` · **Category:** `cs.LG`  
@@ -446,7 +786,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 45. "Allow" to Achieve, Over-Privileged Inadvertently: The Unintended Cost of Task-Completion-Driven Pop-up Decisions in Mobile GUI Agents
+### 79. "Allow" to Achieve, Over-Privileged Inadvertently: The Unintended Cost of Task-Completion-Driven Pop-up Decisions in Mobile GUI Agents
 
 **Authors:** Dongsheng Chen, Yuxuan Li, Guanhua Chen, Jiaxin Zhang, Xiangyu Zhao, Lei Ma et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04755` · **Category:** `cs.CR`  
@@ -456,7 +796,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 46. TriCLE: Tri-Modal Vision-Language Reasoning for Edge-Deployed Fine-Grained Clustering
+### 80. TriCLE: Tri-Modal Vision-Language Reasoning for Edge-Deployed Fine-Grained Clustering
 
 **Authors:** Kishor Datta Gupta, Md. Mahfuzur Rahman, Fahad Rahman, Ahmed Rafi Hasan, Faysal Mehrab Chowdhury, Mohd Ariful Haque et al.  
 **Published:** 2026-08-04 · **arXiv:** `2608.04175` · **Category:** `cs.CV`  
@@ -466,7 +806,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 47. Teaching Foundation Models to Read mmWave: Pose-Guided Kinematic Representation for Human Behavior Understanding
+### 81. Teaching Foundation Models to Read mmWave: Pose-Guided Kinematic Representation for Human Behavior Understanding
 
 **Authors:** Duo Zhang, Zhehui Yin, Zhiyun Yao, Haotong Qin, Xusheng Zhang, Hongliu Yang et al.  
 **Published:** 2026-08-04 · **arXiv:** `2608.04127` · **Category:** `cs.CV`  
@@ -476,7 +816,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 48. TDVR: Joint Text Disambiguation and Viewpoint Reasoning for Zero-Shot 3D Visual Grounding
+### 82. TDVR: Joint Text Disambiguation and Viewpoint Reasoning for Zero-Shot 3D Visual Grounding
 
 **Authors:** Qingxi Du, Junbo Wang, Yuke Li, Yining Zhu  
 **Published:** 2026-08-04 · **arXiv:** `2608.03763` · **Category:** `cs.CV`  
@@ -486,7 +826,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 49. Radar4D-VLM: Proposal-Grounded Temporal 4D Radar Reasoning Across Frozen Language Models
+### 83. Radar4D-VLM: Proposal-Grounded Temporal 4D Radar Reasoning Across Frozen Language Models
 
 **Authors:** Jiaju Han, Xuemeng Sun, Qike Zhang, Xiang Chen, Luwei Yang, Jiahuan Long et al.  
 **Published:** 2026-08-04 · **arXiv:** `2608.04130` · **Category:** `cs.CV`  
@@ -496,7 +836,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 50. LiteMVS: Efficient Multi-View Stereo with Foundation Distillation and Expert Aggregation
+### 84. LiteMVS: Efficient Multi-View Stereo with Foundation Distillation and Expert Aggregation
 
 **Authors:** Tianbao Zhang, Zeyu Liu, Shuyu Wu, Fanxing Li, Zhaoxin Fan, Wenjun Wu et al.  
 **Published:** 2026-08-04 · **arXiv:** `2608.03851` · **Category:** `cs.CV`  
@@ -506,7 +846,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 51. DRPFNet: Dual-domain Residual Progressive Fusion Network for RGB-Thermal Object Detection
+### 85. DRPFNet: Dual-domain Residual Progressive Fusion Network for RGB-Thermal Object Detection
 
 **Authors:** Zian Wang, Changchun Li  
 **Published:** 2026-08-04 · **arXiv:** `2608.03370` · **Category:** `cs.CV`  
@@ -516,7 +856,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 52. Bimanual Manipulation Within an 8 GB Budget: Zero-Copy Sensing and Quantized ACT on an Entry-Level Jetson
+### 86. Bimanual Manipulation Within an 8 GB Budget: Zero-Copy Sensing and Quantized ACT on an Entry-Level Jetson
 
 **Authors:** Ekansh Singh, Eva Samuel, Alessandra Reneau, Ryan Schmeelk, Yashvi Gandhi  
 **Published:** 2026-08-04 · **arXiv:** `2608.03938` · **Category:** `cs.RO`  
@@ -526,7 +866,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 53. UAV-Based Environmental Monitoring of Rip-Current Indicators Using Wavelet-Derived Texture Features
+### 87. UAV-Based Environmental Monitoring of Rip-Current Indicators Using Wavelet-Derived Texture Features
 
 **Authors:** Yonatan Ben Avraham, Baruch Binyaminov, Yehudit Aperstein  
 **Published:** 2026-08-03 · **arXiv:** `2608.02448` · **Category:** `cs.CV`  
@@ -536,7 +876,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 54. StyleForge: Indoor Furniture Styling by Counterfactual Reasoning in a Hypergraph Field
+### 88. StyleForge: Indoor Furniture Styling by Counterfactual Reasoning in a Hypergraph Field
 
 **Authors:** Lingwei Dang, Shishuo Shang, Pan Liu, Jiajia Cheng, Ziyan Qiu, Zhenhao Zhang et al.  
 **Published:** 2026-08-03 · **arXiv:** `2608.01954` · **Category:** `cs.CV`  
@@ -546,7 +886,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 55. Qwen-CUA: Native Computer Use for (almost) Everything
+### 89. Qwen-CUA: Native Computer Use for (almost) Everything
 
 **Authors:** Dunjie Lu, Shuai Bai, Tianyi Bai, Sicheng Fan, Chang Gao, Jian Guan et al.  
 **Published:** 2026-08-03 · **arXiv:** `2608.02352` · **Category:** `cs.LG`  
@@ -556,7 +896,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 56. Mitigating Visual Degradation in MLLMs via Spatial-Spectral Visual Anchor Learning
+### 90. Mitigating Visual Degradation in MLLMs via Spatial-Spectral Visual Anchor Learning
 
 **Authors:** Qianlong Yang, Bowen Ye, Xianda Guo, Yanlun Peng, Wenke Huang, Hongyuan Zhang et al.  
 **Published:** 2026-08-03 · **arXiv:** `2608.01635` · **Category:** `cs.CV`  
@@ -566,7 +906,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 57. LiveLight: Real-time Streaming Video Relighting with Interactive Control
+### 91. LiveLight: Real-time Streaming Video Relighting with Interactive Control
 
 **Authors:** Yue Ma, Jiangming Wang, Yucheng Wang, Xilai Wang, Zhiyuan Li, Xinyu Wang et al.  
 **Published:** 2026-08-03 · **arXiv:** `2608.01771` · **Category:** `cs.CV`  
@@ -576,7 +916,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 58. Learning Panorama-Aware VLA for Mobile Manipulation with Whole-Body Teleoperation
+### 92. Learning Panorama-Aware VLA for Mobile Manipulation with Whole-Body Teleoperation
 
 **Authors:** Donglin Yang, Haoran Chen, Xingyu Chen, Lixing Liu, Manyi Li, Changhe Tu et al.  
 **Published:** 2026-08-03 · **arXiv:** `2608.02257` · **Category:** `cs.RO`  
@@ -586,7 +926,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 59. STAR-VLM: Spatiotemporal Grounding Vision-Language Models for Motion and Velocity Estimation via Automotive Radar Supervision
+### 93. STAR-VLM: Spatiotemporal Grounding Vision-Language Models for Motion and Velocity Estimation via Automotive Radar Supervision
 
 **Authors:** Pou-Chun Kung, Aryaman Rao, Utkrisht Sahai, Hemanth Murali, Yi Liu, Rui-Yu Lin et al.  
 **Published:** 2026-08-02 · **arXiv:** `2608.01535` · **Category:** `cs.CV`  
@@ -596,7 +936,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 60. E2Pano: Learning Event-to-Panorama Image Reconstruction
+### 94. E2Pano: Learning Event-to-Panorama Image Reconstruction
 
 **Authors:** Zhenyang Li, Zongqi He, Jia Pan, Shijie Lin, Yifan Peng  
 **Published:** 2026-08-01 · **arXiv:** `2608.00694` · **Category:** `cs.CV`  
@@ -606,7 +946,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ## July 2026
 
-### 61. RadPRISM: Schema-stratified radiology-report supervision for concept-disentangled image representations and visual grounding
+### 95. RadPRISM: Schema-stratified radiology-report supervision for concept-disentangled image representations and visual grounding
 
 **Authors:** Fabian Drexel, Marlene Fritzsche, Era Stambollxhiu, Miriam Kumpf, Lena Schmitzer, Lea Schumann et al.  
 **Published:** 2026-07-31 · **arXiv:** `2608.00147` · **Category:** `cs.CV`  
@@ -616,7 +956,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 62. Counting the Cost of War Under Satellite Embargo: Zero-Shot Estimation of Impacted Infrastructure
+### 96. Counting the Cost of War Under Satellite Embargo: Zero-Shot Estimation of Impacted Infrastructure
 
 **Authors:** Saleh Sakib Ahmed, M. Sohel Rahman  
 **Published:** 2026-07-31 · **arXiv:** `2608.00119` · **Category:** `cs.CV`  
@@ -626,7 +966,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 63. FaithEyes: Towards Faithful Tool Use via Multi-Agent Process-Image Verification
+### 97. FaithEyes: Towards Faithful Tool Use via Multi-Agent Process-Image Verification
 
 **Authors:** Haoqing Wang, Xingrun Xing, Wei Xia, Ziheng Li, Yehui Tang  
 **Published:** 2026-07-30 · **arXiv:** `2607.28225` · **Category:** `cs.CV`  
@@ -636,7 +976,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 64. ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments
+### 98. ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments
 
 **Authors:** Shaomin Liang, Xuanhong Liao, Shiyao Zhang  
 **Published:** 2026-07-23 · **arXiv:** `2607.21025` · **Category:** `cs.RO`  
@@ -646,7 +986,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 65. When Are Reasoning-Based Guardrails Not Efficient? ResponseGuard: A Fast Vision-Language Guard for Real-Time Moderation
+### 99. When Are Reasoning-Based Guardrails Not Efficient? ResponseGuard: A Fast Vision-Language Guard for Real-Time Moderation
 
 **Authors:** Dongbin Na  
 **Published:** 2026-07-23 · **arXiv:** `2607.21401` · **Category:** `cs.CV`  
@@ -656,7 +996,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 66. VoLN: Vision-Only Long-Horizon Navigation---Paradigm, Benchmark, and Method
+### 100. VoLN: Vision-Only Long-Horizon Navigation---Paradigm, Benchmark, and Method
 
 **Authors:** Jiabin Lou, Haopeng Wang, Yuanshuai Wang, Xinyu Liu, Xuxin Lv, Yuxin Guo et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21400` · **Category:** `cs.RO`  
@@ -666,7 +1006,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 67. Unsupervised Metal Artifact Reduction in Dental CBCT using Fine-tuned Cycle-Consistent Adversarial Networks
+### 101. Unsupervised Metal Artifact Reduction in Dental CBCT using Fine-tuned Cycle-Consistent Adversarial Networks
 
 **Authors:** G. L. T. Chamika, S. N. A. Dhanapala, P. H. S. V. Nimalaweera, Maheshi B. Dissanayake, Ruwan D. Jayasinghe  
 **Published:** 2026-07-23 · **arXiv:** `2607.20977` · **Category:** `cs.CV`  
@@ -676,7 +1016,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 68. UnDA: Unpaired Domain Alignment for Cross-Modal Knowledge Transfer in Medical Imaging
+### 102. UnDA: Unpaired Domain Alignment for Cross-Modal Knowledge Transfer in Medical Imaging
 
 **Authors:** Rafsan Jany, Shadab Tanjeed Ahmad, Ahsan Bulbul, Tahsinul Islam, Md Azam Hossain, Abu Raihan Mostofa Kamal  
 **Published:** 2026-07-23 · **arXiv:** `2607.21546` · **Category:** `cs.CV`  
@@ -686,7 +1026,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 69. Towards Privacy-Preserving Federated Prompt Tuning under Data Heterogeneity: A Subspace-Decomposed Expert Approach
+### 103. Towards Privacy-Preserving Federated Prompt Tuning under Data Heterogeneity: A Subspace-Decomposed Expert Approach
 
 **Authors:** Yuhua Wang, Xiaodong Li, Yihao Guo, Yuxiang Jia, Qinnan Zhang, Yifan Sun et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21417` · **Category:** `cs.CV`  
@@ -696,7 +1036,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 70. Toward Generalizable Cognitive Impairment Detection with Speech-Based Multimodal Large Language Models
+### 104. Toward Generalizable Cognitive Impairment Detection with Speech-Based Multimodal Large Language Models
 
 **Authors:** Yingchao Huang, Xin Wang, Yuhan Su, Shanshan Yao  
 **Published:** 2026-07-23 · **arXiv:** `2607.21496` · **Category:** `eess.SP`  
@@ -706,7 +1046,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 71. Thinkink: 2D Spatial Ink-native Interaction with LLMs
+### 105. Thinkink: 2D Spatial Ink-native Interaction with LLMs
 
 **Authors:** Mohammad Hasan Payandeh, Daniel Vogel, Jian Zhao  
 **Published:** 2026-07-23 · **arXiv:** `2607.21468` · **Category:** `cs.HC`  
@@ -716,7 +1056,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 72. Self-Supervised Learning of Structured Dynamics from Videos
+### 106. Self-Supervised Learning of Structured Dynamics from Videos
 
 **Authors:** Lukas Knobel, Andrew Zisserman, Yuki M. Asano  
 **Published:** 2026-07-23 · **arXiv:** `2607.21576` · **Category:** `cs.CV`  
@@ -726,7 +1066,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 73. Reimagining the Augmented Reality Accessibility Ecosystem for Deaf Students: Service Provider Perspectives in Experiential Learning
+### 107. Reimagining the Augmented Reality Accessibility Ecosystem for Deaf Students: Service Provider Perspectives in Experiential Learning
 
 **Authors:** Roshan Mathew, Roshan Peiris  
 **Published:** 2026-07-23 · **arXiv:** `2607.21289` · **Category:** `cs.HC`  
@@ -736,7 +1076,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 74. RL-MACRO: A Cybernetic Closed-Loop Intelligence Framework for Multimodal Adaptive Robotic Craniotomy
+### 108. RL-MACRO: A Cybernetic Closed-Loop Intelligence Framework for Multimodal Adaptive Robotic Craniotomy
 
 **Authors:** Xiao Zhang, Jiaxuan Li, Renzhen Le, Di Wu, Chao Sun, Jiachen Zhu et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21113` · **Category:** `cs.RO`  
@@ -746,7 +1086,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 75. Quality-Aware Multimodal Fusion Reveals Implicit Identity in Valence-Arousal Features
+### 109. Quality-Aware Multimodal Fusion Reveals Implicit Identity in Valence-Arousal Features
 
 **Authors:** Jisu Kim, Benjamin S. Riggan  
 **Published:** 2026-07-23 · **arXiv:** `2607.21347` · **Category:** `cs.CV`  
@@ -756,7 +1096,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 76. ProCap: Prominence-guided Object Rectification for Faithful and Comprehensive Video Captioning
+### 110. ProCap: Prominence-guided Object Rectification for Faithful and Comprehensive Video Captioning
 
 **Authors:** Debjyoti Das Adhikary, Aritra Hazra, Partha Pratim Chakrabarti  
 **Published:** 2026-07-23 · **arXiv:** `2607.21022` · **Category:** `cs.CV`  
@@ -766,7 +1106,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 77. OpenForgeRL: Train Harness-native Agents in Any Environment
+### 111. OpenForgeRL: Train Harness-native Agents in Any Environment
 
 **Authors:** Xiao Yu, Baolin Peng, Ruize Xu, Hao Zou, Qianhui Wu, Hao Cheng et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21557` · **Category:** `cs.AI`  
@@ -776,7 +1116,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 78. Multimodal Pretraining for Generalizable EEG Representation Learning
+### 112. Multimodal Pretraining for Generalizable EEG Representation Learning
 
 **Authors:** Targol Bakhtiarvand, Jugal Kalita, Adham Atyabi  
 **Published:** 2026-07-23 · **arXiv:** `2607.21384` · **Category:** `cs.AI`  
@@ -786,7 +1126,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 79. Multi-Task Learning for Heterogeneous Prediction from Video Game State with Transfer Learning
+### 113. Multi-Task Learning for Heterogeneous Prediction from Video Game State with Transfer Learning
 
 **Authors:** Jonas Peché, Aliaksei Tsishurou, Alexander Zap, Günter Wallner  
 **Published:** 2026-07-23 · **arXiv:** `2607.21290` · **Category:** `cs.LG`  
@@ -796,7 +1136,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 80. MVEI & EmObserver: Empowering MLLM-Oriented Visual Emotional Intelligence via Emotion Statement Judgement
+### 114. MVEI & EmObserver: Empowering MLLM-Oriented Visual Emotional Intelligence via Emotion Statement Judgement
 
 **Authors:** Daiqing Wu, Dongbao Yang, Jiashu Yao, Hongrui Zhang, Can Ma, Yu Zhou et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21061` · **Category:** `cs.CV`  
@@ -806,7 +1146,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 81. MSBraM: A Multi-scale Self-supervised Brain Foundation Model for Hierarchical EEG Dynamics Learning
+### 115. MSBraM: A Multi-scale Self-supervised Brain Foundation Model for Hierarchical EEG Dynamics Learning
 
 **Authors:** Tao Zhou, Jing Han, Lingyu Shu, Zixing Zhang  
 **Published:** 2026-07-23 · **arXiv:** `2607.21402` · **Category:** `cs.AI`  
@@ -816,7 +1156,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 82. MIRROR: Learning from the Other View for Multi-Modal Reasoning
+### 116. MIRROR: Learning from the Other View for Multi-Modal Reasoning
 
 **Authors:** Wen Ye, Yuxiao Qu, Aviral Kumar, Xuezhe Ma  
 **Published:** 2026-07-23 · **arXiv:** `2607.21552` · **Category:** `cs.AI`  
@@ -826,7 +1166,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 83. M$^3$-Gen: Interpretable Multimodal Generation of Gene Expression Profiles Using Clinical and Imaging Data
+### 117. M$^3$-Gen: Interpretable Multimodal Generation of Gene Expression Profiles Using Clinical and Imaging Data
 
 **Authors:** Francesca Pia Panaccione, Carlo Sgaravatti, Marco Venere  
 **Published:** 2026-07-23 · **arXiv:** `2607.21343` · **Category:** `cs.LG`  
@@ -836,7 +1176,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 84. HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving
+### 118. HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving
 
 **Authors:** Quanfu Yu, Xian Wu, Hao Xu, Liulong Ma  
 **Published:** 2026-07-23 · **arXiv:** `2607.20988` · **Category:** `cs.CV`  
@@ -846,7 +1186,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 85. Human-Inspired Framework for Robotic Craniotomy: Integrating Multimodal Fusion and Adaptive Trajectory Adjustment
+### 119. Human-Inspired Framework for Robotic Craniotomy: Integrating Multimodal Fusion and Adaptive Trajectory Adjustment
 
 **Authors:** Renzhen Le, Xiao Zhang, Di Wu, Yuanyu Wei, Jiachen Zhu, Zhenzhi Ying et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21058` · **Category:** `cs.RO`  
@@ -856,7 +1196,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 86. HalluScope: Fine-grained Hallucination Diagnosis for Multimodal Large Language Models
+### 120. HalluScope: Fine-grained Hallucination Diagnosis for Multimodal Large Language Models
 
 **Authors:** Weilin Jin, Mingyu Wang, Wenbo Li, Haoyang Huang, Yifan Wu, Ying Li et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21105` · **Category:** `cs.CV`  
@@ -866,7 +1206,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 87. GroupVideo: Multi-Identity Customized Text-to-Video Generation
+### 121. GroupVideo: Multi-Identity Customized Text-to-Video Generation
 
 **Authors:** Xinyang Song, Libin Wang, Jianxin Sun, Qi Li, Dandan Zheng, JingDong Chen et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21027` · **Category:** `cs.CV`  
@@ -876,7 +1216,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 88. Geo3R: Mitigating Spatial Reasoning Hallucination in Multimodal Large Language Models
+### 122. Geo3R: Mitigating Spatial Reasoning Hallucination in Multimodal Large Language Models
 
 **Authors:** Mingyu Wang, Weilin Jin, Wenbo Li, Haoyang Huang, Tong Jia, Ying Li  
 **Published:** 2026-07-23 · **arXiv:** `2607.21085` · **Category:** `cs.CV`  
@@ -886,7 +1226,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 89. GS-Agent: Creating 4D Physical Worlds With Generative Simulation
+### 123. GS-Agent: Creating 4D Physical Worlds With Generative Simulation
 
 **Authors:** Hongxin Zhang, Chunru Lin, Junyan Li, Zhou Xian, Tsun-Hsuan Wang, Chuang Gan  
 **Published:** 2026-07-23 · **arXiv:** `2607.21522` · **Category:** `cs.RO`  
@@ -896,7 +1236,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 90. EmoAgent-R1: Towards Multimodal Emotion Understanding with Reinforcement Learning-based Dynamic Agent Specialization
+### 124. EmoAgent-R1: Towards Multimodal Emotion Understanding with Reinforcement Learning-based Dynamic Agent Specialization
 
 **Authors:** Lihuang Fang, Yuchen Zou, kebin Jin, Jinghui Qin  
 **Published:** 2026-07-23 · **arXiv:** `2607.21013` · **Category:** `cs.AI`  
@@ -906,7 +1246,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 91. Do Pathology Vision-Language Models Truly See Pathology?
+### 125. Do Pathology Vision-Language Models Truly See Pathology?
 
 **Authors:** Chengyang Zhang, Wenchuan Zhang, Bo Li, Xinyu Liu, Jiaming Yang, Mengran Li et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21065` · **Category:** `cs.CV`  
@@ -916,7 +1256,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 92. DINOde: Continuous Vision-Text Alignment for Open-Vocabulary Semantic Segmentation
+### 126. DINOde: Continuous Vision-Text Alignment for Open-Vocabulary Semantic Segmentation
 
 **Authors:** Sung-Hoon Yoon, Hoyong Kwon, Changgyoon Oh, Kuk-Jin Yoon  
 **Published:** 2026-07-23 · **arXiv:** `2607.21371` · **Category:** `cs.CV`  
@@ -926,7 +1266,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 93. DAPM: UAV Monocular Depth Estimation from Any Height, Pitch, Roll and FOV
+### 127. DAPM: UAV Monocular Depth Estimation from Any Height, Pitch, Roll and FOV
 
 **Authors:** Tong Ling, Wenhui Diao, Yingchao Feng, Hanbo Bi, Zhongyan Hou, Xian Sun  
 **Published:** 2026-07-23 · **arXiv:** `2607.21438` · **Category:** `cs.CV`  
@@ -936,7 +1276,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 94. Controllable and Content-Based Recommendations
+### 128. Controllable and Content-Based Recommendations
 
 **Authors:** Fırat Öncel, Jihoon Jeong, Emiliano Penaloza, Mirco Ravanelli, Laurent Charlin, Cem Subakan  
 **Published:** 2026-07-23 · **arXiv:** `2607.20938` · **Category:** `cs.IR`  
@@ -946,7 +1286,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 95. CRAFT: Exploring Wearable Creative AI on Smart Glasses for Fiction Writing in Real-World Contexts
+### 129. CRAFT: Exploring Wearable Creative AI on Smart Glasses for Fiction Writing in Real-World Contexts
 
 **Authors:** Runze Cai, Yuxuan Huang, Lin-Ping Yuan, Kexin Xiang, David Hsu, Collier Nogues et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21394` · **Category:** `cs.HC`  
@@ -956,7 +1296,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 96. Boosting Robustness for All-Weather Self-Supervised Depth Estimation in Autonomous Driving
+### 130. Boosting Robustness for All-Weather Self-Supervised Depth Estimation in Autonomous Driving
 
 **Authors:** Mengshi Qi, Xiaoyang Bi, Xianlin Zhang, Huadong Ma  
 **Published:** 2026-07-23 · **arXiv:** `2607.21526` · **Category:** `cs.CV`  
@@ -966,7 +1306,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 97. AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation
+### 131. AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation
 
 **Authors:** Mengfei Zhao, Dihong Huang, Yikai Tang, Peihao Li, Mingxuan Yan, Ruiqi Zhuang et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21588` · **Category:** `cs.RO`  
@@ -976,7 +1316,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 98. 3D-Aware VLMs with Implicit and Explicit Geometries
+### 132. 3D-Aware VLMs with Implicit and Explicit Geometries
 
 **Authors:** Wenhao Li, Xueying Jiang, Quanhao Qian, Deli Zhao, Ran Xu, Shijian Lu et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21595` · **Category:** `cs.CV`  
@@ -986,7 +1326,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 99. WearWow: Native 2K Multi-Garment Virtual Try-On via Adaptive Token Packing and Preference Alignment
+### 133. WearWow: Native 2K Multi-Garment Virtual Try-On via Adaptive Token Packing and Preference Alignment
 
 **Authors:** Xujie Zhang, Runyan Du, Song Chang, Jiang Li, Dongliang Shao, Liping Wu et al.  
 **Published:** 2026-07-22 · **arXiv:** `2607.19923` · **Category:** `cs.CV`  
@@ -996,7 +1336,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 100. U-CFR: Uncertainty-Guided Cascade Forward Refinement for Interactive Segmentation
+### 134. U-CFR: Uncertainty-Guided Cascade Forward Refinement for Interactive Segmentation
 
 **Authors:** Elijah Danquah Darko, Min Xian, Terence Soule, Tiankai Yao, Matthew William Anderson  
 **Published:** 2026-07-22 · **arXiv:** `2607.20705` · **Category:** `cs.CV`  
@@ -1006,7 +1346,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 101. Robust Activation Map Rectification for Weakly Supervised Volumetric Segmentation: Temporal Coherence as a Free Lunch
+### 135. Robust Activation Map Rectification for Weakly Supervised Volumetric Segmentation: Temporal Coherence as a Free Lunch
 
 **Authors:** Renshu Gu, Jialiang Chen, Fei Gao, Hang Su, Jun Qi, Jiamin Xu et al.  
 **Published:** 2026-07-22 · **arXiv:** `2607.19877` · **Category:** `cs.CV`  
@@ -1016,7 +1356,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 102. Robots Acquire Manipulation Skills in Seconds from a Single Human Video
+### 136. Robots Acquire Manipulation Skills in Seconds from a Single Human Video
 
 **Authors:** Guangyan Chen, Meiling Wang, Te Cui, Zichen Zhou, Qi Shao, Shalfun Li et al.  
 **Published:** 2026-07-22 · **arXiv:** `2607.20033` · **Category:** `cs.RO`  
@@ -1026,7 +1366,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 103. ReferTrack: Referring Then Tracking for Embodied Visual Tracking
+### 137. ReferTrack: Referring Then Tracking for Embodied Visual Tracking
 
 **Authors:** Hanjing Ye, Tianle Zeng, Jiazhao Zhang, Shaoan Wang, Zibo Zhang, Weisi Situ et al.  
 **Published:** 2026-07-22 · **arXiv:** `2607.20061` · **Category:** `cs.RO`  
@@ -1036,7 +1376,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 104. FELT: Generating Tactile Signals from Vision for Visuo-Tactile Manipulation
+### 138. FELT: Generating Tactile Signals from Vision for Visuo-Tactile Manipulation
 
 **Authors:** Zinan Li, Yiyang Ling, Yuming Gu, Binghao Huang, Chenhao Liang, Sharfin Islam et al.  
 **Published:** 2026-07-22 · **arXiv:** `2607.20683` · **Category:** `cs.RO`  
@@ -1046,7 +1386,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 105. Emergent Compositional Skills in Mixture-of-Experts VLAs
+### 139. Emergent Compositional Skills in Mixture-of-Experts VLAs
 
 **Authors:** Shlok Shah, Rhiaan Jhaveri, Tharun Kumar Tiruppali Kalidoss, Chirayu Nimonkar, Ishaan Javali  
 **Published:** 2026-07-22 · **arXiv:** `2607.20771` · **Category:** `cs.RO`  
@@ -1056,7 +1396,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 106. Defer to Plan: Adaptive Multi-Agent Fusion for End-to-End V2X Driving
+### 140. Defer to Plan: Adaptive Multi-Agent Fusion for End-to-End V2X Driving
 
 **Authors:** Nuoran Li, Zhang Zhang, Yueran Zhao, Tianze Wang, Chao Sun  
 **Published:** 2026-07-22 · **arXiv:** `2607.19774` · **Category:** `cs.RO`  
@@ -1066,7 +1406,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 107. Pathologist Attention-Aligned Report Generation for Prostate Histopathology
+### 141. Pathologist Attention-Aligned Report Generation for Prostate Histopathology
 
 **Authors:** Ruoyu Xue, Suryakant Singh, Souradeep Chakraborty, Pierre Marza, Oksana Yaskiv, Constantin Friedman et al.  
 **Published:** 2026-07-21 · **arXiv:** `2607.19624` · **Category:** `cs.CV`  
@@ -1076,7 +1416,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 108. EGRNet: A Lightweight Semantic Segmentation Network with Edge-Gated Refinement and Adversarial Sensing
+### 142. EGRNet: A Lightweight Semantic Segmentation Network with Edge-Gated Refinement and Adversarial Sensing
 
 **Authors:** Bareera Qaseem, Mohsin Kamal, Muhammad Naveed Aman  
 **Published:** 2026-07-21 · **arXiv:** `2607.19617` · **Category:** `cs.CV`  
@@ -1086,7 +1426,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 109. Robust Multimodal Dynamic Object Segmentation
+### 143. Robust Multimodal Dynamic Object Segmentation
 
 **Authors:** Zhe Xin, Hanzhi Chang, Penghui Huang, Yinian Mao, Guoquan Huang  
 **Published:** 2026-07-20 · **arXiv:** `2607.18153` · **Category:** `cs.CV`  
@@ -1096,7 +1436,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 110. WorkDrive: Roadwork Chain of Causation for Autonomous Driving
+### 144. WorkDrive: Roadwork Chain of Causation for Autonomous Driving
 
 **Authors:** Tianyi Jiang, Wen Zhang, Sihan Yang, Ming Lu, Wentao Zhang  
 **Published:** 2026-07-16 · **arXiv:** `2607.14727` · **Category:** `cs.CV`  
@@ -1106,7 +1446,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 111. Video = World + Event Stream
+### 145. Video = World + Event Stream
 
 **Authors:** Lianghua Huang, Zhi-Fan Wu, Yupeng Shi, Wei Wang, Mengyang Feng, Cheng Yu et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15038` · **Category:** `cs.CV`  
@@ -1116,7 +1456,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 112. VQ-Touch: A Data-Efficient Tactile Generation Framework Across Sensors and Scenarios
+### 146. VQ-Touch: A Data-Efficient Tactile Generation Framework Across Sensors and Scenarios
 
 **Authors:** Kailin Lyu, Long Xiao, Jianing Zeng, Di Wu, Lin Shu, Jie Hao  
 **Published:** 2026-07-16 · **arXiv:** `2607.14728` · **Category:** `cs.CV`  
@@ -1126,7 +1466,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 113. VLT: A Vision-Language-Time Series Multimodal Foundation Model for Industrial Intelligence
+### 147. VLT: A Vision-Language-Time Series Multimodal Foundation Model for Industrial Intelligence
 
 **Authors:** Haiteng Wang, Jingheng Yan, Xiaokang Wang, Lei Ren  
 **Published:** 2026-07-16 · **arXiv:** `2607.14510` · **Category:** `cs.AI`  
@@ -1136,7 +1476,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 114. U-shaped Multi-granularity Learning for Vision-Language Models
+### 148. U-shaped Multi-granularity Learning for Vision-Language Models
 
 **Authors:** Biao Chen, Yunqian Yu, Xiangxu Zhao, Zhongshu Chen, Mengmeng Jing, Lin Zuo  
 **Published:** 2026-07-16 · **arXiv:** `2607.14966` · **Category:** `cs.CV`  
@@ -1146,7 +1486,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 115. Towards Human-like Physical Intelligence: LifelongVision-Language-Action Learning for Robotic Manipulation
+### 149. Towards Human-like Physical Intelligence: LifelongVision-Language-Action Learning for Robotic Manipulation
 
 **Authors:** Yao He, Gan Sun, Wenqi Liang, Fazeng Li, Yang Cong  
 **Published:** 2026-07-16 · **arXiv:** `2607.14852` · **Category:** `cs.RO`  
@@ -1156,7 +1496,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 116. TikStance: A Multimodal and Hierarchical Dataset for Multi-target Stance Analysis in TikTok Political Conversations
+### 150. TikStance: A Multimodal and Hierarchical Dataset for Multi-target Stance Analysis in TikTok Political Conversations
 
 **Authors:** Yazhi Zhang, Fuqiang Niu, Bowen Zhang  
 **Published:** 2026-07-16 · **arXiv:** `2607.15240` · **Category:** `cs.CL`  
@@ -1166,7 +1506,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 117. Team RAS in 11th ABAW Competition: Multimodal Ambivalence Recognition Approach
+### 151. Team RAS in 11th ABAW Competition: Multimodal Ambivalence Recognition Approach
 
 **Authors:** Elena Ryumina, Maxim Markitantov, Alexandr Axyonov, Fedor Shchetinin, Timur Abdulkadirov, Dmitry Ryumin et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14702` · **Category:** `cs.CV`  
@@ -1176,7 +1516,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 118. TAMF-VTON: Texture-Aware Mask-Free Virtual Try-On via High-Fidelity Image Synthesis
+### 152. TAMF-VTON: Texture-Aware Mask-Free Virtual Try-On via High-Fidelity Image Synthesis
 
 **Authors:** Jie Wang, Qian He, Gaofeng He, Xiaogang Jin, Huamin Wang  
 **Published:** 2026-07-16 · **arXiv:** `2607.14807` · **Category:** `cs.CV`  
@@ -1186,7 +1526,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 119. Stop Thinking, Start Looking: Efficient Post-Training for Multimodal Document Question Answering via Reasoning-Free Alignment
+### 153. Stop Thinking, Start Looking: Efficient Post-Training for Multimodal Document Question Answering via Reasoning-Free Alignment
 
 **Authors:** Harikrishnan P M, Goutham Vignesh, Ganesh Parab, Saisubramaniam Gopalakrishnan, Vishal Vaddina, Varun V et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14682` · **Category:** `cs.AI`  
@@ -1196,7 +1536,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 120. Stitch-Inferencer: Enhance Endoscopic Video Segmentation and Tracking via Panoramic Reconstruction
+### 154. Stitch-Inferencer: Enhance Endoscopic Video Segmentation and Tracking via Panoramic Reconstruction
 
 **Authors:** Shunsuke Kikuchi, Atsushi Kouno, Hiroki Matsuzaki  
 **Published:** 2026-07-16 · **arXiv:** `2607.14968` · **Category:** `cs.CV`  
@@ -1206,7 +1546,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 121. Scaling Behavior Foundation Model for Humanoid Robots
+### 155. Scaling Behavior Foundation Model for Humanoid Robots
 
 **Authors:** Weishuai Zeng, Kangning Yin, Xiaojie Niu, Shunlin Lu, Weixiang Zhong, Jiahe Chen et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15163` · **Category:** `cs.RO`  
@@ -1216,7 +1556,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 122. SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment
+### 156. SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment
 
 **Authors:** Saad Ejaz, Miguel Fernandez-Cortizas, Javier Civera, Holger Voos, Jose Luis Sanchez-Lopez  
 **Published:** 2026-07-16 · **arXiv:** `2607.15058` · **Category:** `cs.CV`  
@@ -1226,7 +1566,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 123. RoboTTT: Context Scaling for Robot Policies
+### 157. RoboTTT: Context Scaling for Robot Policies
 
 **Authors:** Yunfan Jiang, Yevgen Chebotar, Ruijie Zheng, Fengyuan Hu, Yunhao Ge, Jimmy Wu et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15275` · **Category:** `cs.RO`  
@@ -1236,7 +1576,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 124. ReBind: Multi-Reference Video Editing via Structured Instructions with Explicit Reference Relationships
+### 158. ReBind: Multi-Reference Video Editing via Structured Instructions with Explicit Reference Relationships
 
 **Authors:** Xinyu Liu, Shihao Li, Weihong Lin, Xinlong Chen, Yang Shi, Yujin Han et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14681` · **Category:** `cs.CV`  
@@ -1246,7 +1586,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 125. QuReC: All-in-One Image Restoration with Query-Specific Guidance and Local-Global Response Calibration
+### 159. QuReC: All-in-One Image Restoration with Query-Specific Guidance and Local-Global Response Calibration
 
 **Authors:** Shen Zhou, Jinghui Zhang, Wenbo Huang, Xuwei Qian, Zhen Wu, Guangwen Peng et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15097` · **Category:** `cs.CV`  
@@ -1256,7 +1596,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 126. Plover: Steering GUI Agents through Plan-Centric Interaction
+### 160. Plover: Steering GUI Agents through Plan-Centric Interaction
 
 **Authors:** Madhumitha Venkatesan, Shicheng Wen, Jiajing Guo, Jorge Piazentin Ono, Liu Ren, Dongyu Liu  
 **Published:** 2026-07-16 · **arXiv:** `2607.15193` · **Category:** `cs.AI`  
@@ -1266,7 +1606,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 127. Parameter-efficient Prompt Tuning of Vision Foundation Model With Adaptive Focal Loss for Interpretable MCI Screening
+### 161. Parameter-efficient Prompt Tuning of Vision Foundation Model With Adaptive Focal Loss for Interpretable MCI Screening
 
 **Authors:** Javad Khoramdel, Farhad Hoseyni, Amirhossein Nikoofard  
 **Published:** 2026-07-16 · **arXiv:** `2607.15047` · **Category:** `cs.CV`  
@@ -1276,7 +1616,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 128. Multimodality as Supervision: Self-Supervised Specialization to the Test Environment via Multimodality
+### 162. Multimodality as Supervision: Self-Supervised Specialization to the Test Environment via Multimodality
 
 **Authors:** Kunal Pratap Singh, Ali Garjani, Rishubh Singh, Muhammad Uzair Khattak, Efe Tarhan, Jason Toskov et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14721` · **Category:** `cs.CV`  
@@ -1286,7 +1626,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 129. Multimodal Semantic-Aware Contrastive Learning For False Negative Mitigation in 3D Medical Imaging
+### 163. Multimodal Semantic-Aware Contrastive Learning For False Negative Mitigation in 3D Medical Imaging
 
 **Authors:** Sara Ketabi, Matthias W. Wagner, Cynthia Hawkins, Uri Tabori, Birgit Betina Ertl-Wagner, Farzad Khalvati  
 **Published:** 2026-07-16 · **arXiv:** `2607.14995` · **Category:** `cs.LG`  
@@ -1296,7 +1636,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 130. Multi-Scale ViT Inference with Habitat-Fit Priors and kNN Retrieval for Multi-Species Plant Identification
+### 164. Multi-Scale ViT Inference with Habitat-Fit Priors and kNN Retrieval for Multi-Species Plant Identification
 
 **Authors:** Alper Erten, Murilo Gustineli, Adrian Cheung  
 **Published:** 2026-07-16 · **arXiv:** `2607.14509` · **Category:** `cs.CV`  
@@ -1306,7 +1646,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 131. JADE-GS: Joint Alternating Deblurring Guided by Events in 3D Gaussian Splatting
+### 165. JADE-GS: Joint Alternating Deblurring Guided by Events in 3D Gaussian Splatting
 
 **Authors:** Haoyu Fu, Jiafeng Huang, Yuchen Wang, Shengjie Zhao  
 **Published:** 2026-07-16 · **arXiv:** `2607.14990` · **Category:** `cs.CV`  
@@ -1316,7 +1656,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 132. InCarEmo: A Multimodal Dataset for In-Cabin Emotion Recognition and Driver State Monitoring
+### 166. InCarEmo: A Multimodal Dataset for In-Cabin Emotion Recognition and Driver State Monitoring
 
 **Authors:** Hao Yang, Yanyan Zhao, Kewei Zhao, Hongbo Zhang, Tian Zheng, Yusheng Liu et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14683` · **Category:** `cs.AI`  
@@ -1326,7 +1666,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 133. HoloGeo: Mitigating Landmark Bias in Geo-localization via Evidence-Driven Reasoning
+### 167. HoloGeo: Mitigating Landmark Bias in Geo-localization via Evidence-Driven Reasoning
 
 **Authors:** Pengcheng Zhou, Xuanyu Liu, Yanchen Yin, Bobo Li, Shengqiong Wu, Mong-Li Lee et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15255` · **Category:** `cs.CV`  
@@ -1336,7 +1676,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 134. From Draft to Draft-Free: One-Step Video Object Removal via Privileged Distillation and Fast Planting
+### 168. From Draft to Draft-Free: One-Step Video Object Removal via Privileged Distillation and Fast Planting
 
 **Authors:** Zizhao Chen, Ping Wei, Guang Dai, Jingdong Wang, Mengmeng Wang  
 **Published:** 2026-07-16 · **arXiv:** `2607.14976` · **Category:** `cs.CV`  
@@ -1346,7 +1686,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 135. FoMoVLA: Bridging Visual Foresight and Motion Guidance for Vision-Language-Action Models
+### 169. FoMoVLA: Bridging Visual Foresight and Motion Guidance for Vision-Language-Action Models
 
 **Authors:** Wei Li, Peijin Jia, Yuan Ma, Xuefeng Jiang, Titong Jiang, Sheng Sun et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14739` · **Category:** `cs.CV`  
@@ -1356,7 +1696,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 136. DriftWorld: Fast World Modeling through Drifting
+### 170. DriftWorld: Fast World Modeling through Drifting
 
 **Authors:** Susie Lu, Haonan Chen, Weirui Ye, Yilun Du  
 **Published:** 2026-07-16 · **arXiv:** `2607.15065` · **Category:** `cs.RO`  
@@ -1366,7 +1706,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 137. Dialogue Summarization with Emotion Dynamics Using Topic- and Participant-Centric Decomposition
+### 171. Dialogue Summarization with Emotion Dynamics Using Topic- and Participant-Centric Decomposition
 
 **Authors:** Linyun Xiang, Mark Neerincx, Stephanie Tan  
 **Published:** 2026-07-16 · **arXiv:** `2607.14769` · **Category:** `cs.CL`  
@@ -1376,7 +1716,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 138. CosFly-VLA: A Spatially Aware Vision-Language-Action Model for UAV Tracking
+### 172. CosFly-VLA: A Spatially Aware Vision-Language-Action Model for UAV Tracking
 
 **Authors:** Ruilong Ren, Songsheng Cheng, Yunpeng Zhou, Hanxuan Chen, Xiangyue Wang, Tianle Zeng et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15004` · **Category:** `cs.RO`  
@@ -1386,7 +1726,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 139. Beyond the Leaderboard: Design Lessons for Trustworthy Multimodal VQA
+### 173. Beyond the Leaderboard: Design Lessons for Trustworthy Multimodal VQA
 
 **Authors:** Sushant Gautam, Vajira Thambawita, Michael A. Riegler, Pål Halvorsen, Steven A. Hicks  
 **Published:** 2026-07-16 · **arXiv:** `2607.15241` · **Category:** `cs.CL`  
@@ -1396,7 +1736,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 140. Beyond Single Expert: Harmonizing Diverse Visual Priors in MLLMs for Spatial Understanding
+### 174. Beyond Single Expert: Harmonizing Diverse Visual Priors in MLLMs for Spatial Understanding
 
 **Authors:** Xiao Lin, Xiaohu Huang, Kai Han  
 **Published:** 2026-07-16 · **arXiv:** `2607.15054` · **Category:** `cs.CV`  
@@ -1406,7 +1746,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 141. Autoregressive Modeling of Film with Applications in Video Montage
+### 175. Autoregressive Modeling of Film with Applications in Video Montage
 
 **Authors:** Marcelo Sandoval-Castañeda, Fabian Caba Heilbron, Shiry Ginosar, Bryan Rusell, Josef Sivic, Alexei A. Efros et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14645` · **Category:** `cs.CV`  
@@ -1416,7 +1756,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 142. Authoring Narrative Visualization in Motion: Visual Storytelling in Swimming Videos
+### 176. Authoring Narrative Visualization in Motion: Visual Storytelling in Swimming Videos
 
 **Authors:** Junhao Zhao, Romain Vuillemot, Petra Isenberg, Lijie Yao  
 **Published:** 2026-07-16 · **arXiv:** `2607.14924` · **Category:** `cs.HC`  
@@ -1426,7 +1766,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 143. An Intelligent-Cloud Edge Multimodal Interaction System for Robots
+### 177. An Intelligent-Cloud Edge Multimodal Interaction System for Robots
 
 **Authors:** Zihan Guo, Xiaoqi Li  
 **Published:** 2026-07-16 · **arXiv:** `2607.14675` · **Category:** `cs.RO`  
@@ -1436,7 +1776,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 144. AlphaWiSE: Adaptive Weight Interpolation for Continual Multimodal Representation Learning
+### 178. AlphaWiSE: Adaptive Weight Interpolation for Continual Multimodal Representation Learning
 
 **Authors:** Sarthak Jain, Qiran Hu, Zhen Zhu, Yaoyao Liu  
 **Published:** 2026-07-16 · **arXiv:** `2607.15094` · **Category:** `cs.CV`  
@@ -1446,7 +1786,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 145. AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight
+### 179. AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight
 
 **Authors:** Xinhong Zhang, Qiyuan Zhu, Yubo Huang, Haolin Chen, Runqing Wang, Yuhao Mo et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14997` · **Category:** `cs.RO`  
@@ -1456,7 +1796,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 146. ViPSAM: Visual Prompting Medical Image Segmentation Using Segment Anything Model
+### 180. ViPSAM: Visual Prompting Medical Image Segmentation Using Segment Anything Model
 
 **Authors:** San Lee, Nalee Kim, Jeong Il Yu, Hee Chul Park, Boah Kim  
 **Published:** 2026-07-15 · **arXiv:** `2607.14328` · **Category:** `eess.IV`  
@@ -1466,7 +1806,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 147. S-squared-VLA: Decoupling Semantic and Spatial Streams in Vision-Language-Action Models for Autonomous Driving
+### 181. S-squared-VLA: Decoupling Semantic and Spatial Streams in Vision-Language-Action Models for Autonomous Driving
 
 **Authors:** Jianguo Yu, Rukang Wang, Duanfeng Chu, Chen Wang, Renju Feng, Liping Lu  
 **Published:** 2026-07-15 · **arXiv:** `2607.13926` · **Category:** `cs.RO`  
@@ -1476,7 +1816,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 148. RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination
+### 182. RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination
 
 **Authors:** Haotian Liang, Mingkang Chen, Yufei Huang, Yuchun Guo, Xiaomeng Zhu, Xiangli Shi et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.14187` · **Category:** `cs.AI`  
@@ -1486,7 +1826,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 149. NeuroGRIP: Retrieval-Augmented Graph Refinement for Knowledge-Grounded EEG Seizure Diagnosis
+### 183. NeuroGRIP: Retrieval-Augmented Graph Refinement for Knowledge-Grounded EEG Seizure Diagnosis
 
 **Authors:** Lincan Li, Zheng Chen, Yushun Dong  
 **Published:** 2026-07-15 · **arXiv:** `2607.14314` · **Category:** `cs.LG`  
@@ -1496,7 +1836,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 150. MultiAnimate: A Unified Framework for Controllable Multi-Character Animation
+### 184. MultiAnimate: A Unified Framework for Controllable Multi-Character Animation
 
 **Authors:** Zhongyi Zhang, Guangyuan Wang, Li Hu, Wenbo Zhou, Peng Zhang, Tianyi Wei et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.13415` · **Category:** `cs.CV`  
@@ -1506,7 +1846,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 151. Learning Physics-Guided Residual Dynamics for Deformable Object Simulation
+### 185. Learning Physics-Guided Residual Dynamics for Deformable Object Simulation
 
 **Authors:** Shivansh Patel, Kaifeng Zhang, Sanjay Pokkali, Svetlana Lazebnik, Yunzhu Li  
 **Published:** 2026-07-15 · **arXiv:** `2607.13451` · **Category:** `cs.RO`  
@@ -1516,7 +1856,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 152. GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch
+### 186. GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch
 
 **Authors:** GigaWorld Team, Angen Ye, Angyuan Ma, Boyuan Wang, Chaojun Ni, Fangzheng Ye et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.13960` · **Category:** `cs.RO`  
@@ -1526,7 +1866,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 153. Fine-Grained Vision-Language Pretraining with Organ-Conditioned Pattern Tokens for CT Understanding
+### 187. Fine-Grained Vision-Language Pretraining with Organ-Conditioned Pattern Tokens for CT Understanding
 
 **Authors:** Guoliang You, Xiaomeng Chu  
 **Published:** 2026-07-15 · **arXiv:** `2607.13892` · **Category:** `cs.CV`  
@@ -1536,7 +1876,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 154. FM$^2$: Unified Federated Foundation Models for Heterogeneous Multimodal Medical Imaging
+### 188. FM$^2$: Unified Federated Foundation Models for Heterogeneous Multimodal Medical Imaging
 
 **Authors:** Shengchao Chen, Ting Shu  
 **Published:** 2026-07-15 · **arXiv:** `2607.13386` · **Category:** `cs.CV`  
@@ -1546,7 +1886,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 155. ConFlow: Constraints-Guided Learning with Flow Matching for Motion Generation
+### 189. ConFlow: Constraints-Guided Learning with Flow Matching for Motion Generation
 
 **Authors:** Nutan Chen, Jianxiang Feng, Marvin Alles, Botond Cseke  
 **Published:** 2026-07-15 · **arXiv:** `2607.14424` · **Category:** `cs.RO`  
@@ -1556,7 +1896,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 156. SeamGen: Artist-Aligned UV Seam Generation via Graph Flow Matching
+### 190. SeamGen: Artist-Aligned UV Seam Generation via Graph Flow Matching
 
 **Authors:** Hao Xu, Yuqing Zhang, Yiqian Wu, Xueqi Ma, Ding Liang, Yan-Pei Cao et al.  
 **Published:** 2026-07-14 · **arXiv:** `2607.12379` · **Category:** `cs.CV`  
@@ -1566,7 +1906,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 157. Hy-Embodied-VLM-1.0: Efficient Physical-World Agents
+### 191. Hy-Embodied-VLM-1.0: Efficient Physical-World Agents
 
 **Authors:** Ziyi Wang, Xumin Yu, Yongming Rao, Yonggen Ling, Yunheng Li, Oran Wang et al.  
 **Published:** 2026-07-14 · **arXiv:** `2607.12894` · **Category:** `cs.CV`  
@@ -1576,7 +1916,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 158. Direct Image-to-Modern Vietnamese Translation of Han-Nom Manuscripts via Multimodal RLHF Preference Alignment
+### 192. Direct Image-to-Modern Vietnamese Translation of Han-Nom Manuscripts via Multimodal RLHF Preference Alignment
 
 **Authors:** Thi Kim Trang Vo, Nghia Hieu Nguyen, Ha Minh Tan  
 **Published:** 2026-07-13 · **arXiv:** `2607.11434` · **Category:** `cs.CL`  
@@ -1586,7 +1926,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 159. TextGaze: Prompting Gaze Target Estimation with Textual Scene Cues
+### 193. TextGaze: Prompting Gaze Target Estimation with Textual Scene Cues
 
 **Authors:** Junhui She, Fei Wang, Kun Li, Yiqi Nie, Yuxin Liu, Zhangling Duan et al.  
 **Published:** 2026-07-11 · **arXiv:** `2607.10130` · **Category:** `cs.CV`  
@@ -1596,7 +1936,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 160. Promptable Concept Segmentation from Above: Evaluating SAM 3's Zero-Shot and One-Shot Capabilities in Remote Sensing
+### 194. Promptable Concept Segmentation from Above: Evaluating SAM 3's Zero-Shot and One-Shot Capabilities in Remote Sensing
 
 **Authors:** Mohammad Dabaja, Turgay Celik  
 **Published:** 2026-07-10 · **arXiv:** `2607.09583` · **Category:** `cs.CV`  
@@ -1606,7 +1946,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 161. Claim-Level Rubric Rewards for Video Caption Reinforcement Learning
+### 195. Claim-Level Rubric Rewards for Video Caption Reinforcement Learning
 
 **Authors:** Mingqi Gao, Hongyuan Dong, Yifei Chen, Zhisheng Zhong, Zheng Ruan, Wenjin Hou et al.  
 **Published:** 2026-07-06 · **arXiv:** `2607.05150` · **Category:** `cs.CV`  
@@ -1616,7 +1956,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 162. Optimizing Visual Generative Models via Distribution-wise Rewards
+### 196. Optimizing Visual Generative Models via Distribution-wise Rewards
 
 **Authors:** Ruihang Li, Mengde Xu, Shuyang Gu, Leigang Qu, Fuli Feng, Han Hu et al.  
 **Published:** 2026-07-02 · **arXiv:** `2607.02291` · **Category:** `cs.LG`  
@@ -1626,7 +1966,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 163. Controllable Sim Agents with Behavior Latents
+### 197. Controllable Sim Agents with Behavior Latents
 
 **Authors:** Juanwu Lu, Junyu Zhu, Ziran Wang  
 **Published:** 2026-07-02 · **arXiv:** `2607.02496` · **Category:** `cs.RO`  
@@ -1636,7 +1976,7 @@ _164 papers · updated 2026-08-06 17:08 UTC_
 
 ## June 2026
 
-### 164. Stage-Transition Dense Reward Modeling for Reinforcement Learning
+### 198. Stage-Transition Dense Reward Modeling for Reinforcement Learning
 
 **Authors:** Yang Yang, Bingjie Chen, Zihan Wang, Yizhe Li, Guoping Pan, Yi Cheng et al.  
 **Published:** 2026-06-30 · **arXiv:** `2606.31377` · **Category:** `cs.RO`  

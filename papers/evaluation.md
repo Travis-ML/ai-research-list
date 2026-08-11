@@ -1,12 +1,252 @@
 # Evaluation & Benchmarks
 
-_82 papers · updated 2026-08-06 17:08 UTC_
+_108 papers · updated 2026-08-11 05:09 UTC_
 
 [← Back to index](../README.md)
 
 ## August 2026
 
-### 1. When Shared Rollouts Fail in Defensive Driving Evaluation: A NAVSIM Score Basis Audit
+### 1. XFeat Revisited: Reproducibility and Evaluation of a Lightweight Image Matcher
+
+**Authors:** Lazar Đoković, Aimee Lin  
+**Published:** 2026-08-10 · **arXiv:** `2608.09519` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09519) · [PDF](https://arxiv.org/pdf/2608.09519v1)
+
+> Reproduces and re-evaluates the XFeat lightweight image matcher, confirming its accuracy-efficiency trade-off and ablating undocumented architectural design choices.
+
+---
+
+### 2. WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation
+
+**Authors:** Peterson Co, Sicheng Hu, Chunxuan Jiao, Hongyang Cheng, Yulin Luo, Yijie Xu et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09298` · **Category:** `cs.RO`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09298) · [PDF](https://arxiv.org/pdf/2608.09298v1)
+
+> A diagnostic suite formalizes an observable simulator contract and tests whether action-conditioned world models produce faithful action-to-motion and grounded environment responses for embodied manipulation.
+
+---
+
+### 3. Sci-VBench: Evaluating Knowledge- and Reasoning-Intensive Video Generation in Science Domains
+
+**Authors:** Diandian Zhang, Tingyu Song, Lin Fu, Zheyuan Yang, Yilun Zhao  
+**Published:** 2026-08-10 · **arXiv:** `2608.09873` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09873) · [PDF](https://arxiv.org/pdf/2608.09873v1)
+
+> Sci-VBench evaluates knowledge- and reasoning-intensive scientific video generation, showing visual realism gains have not translated into reliable scientific and causal correctness.
+
+---
+
+### 4. SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring
+
+**Authors:** Yuling Shi, Jinghan Xu, Kelin Fu, Wenhao Zeng, Shilin He, Lei Zhang et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09802` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09802) · [PDF](https://arxiv.org/pdf/2608.09802v1)
+
+> SWE-Bench ProMax is an expert-curated multilingual benchmark of 170 real code-refactoring tasks across seven languages with rigorously reviewed specifications and tests.
+
+---
+
+### 5. PragMatch: Separating Pragmatic Incongruity from Cross-Modal Mismatch in Large Vision-Language Models
+
+**Authors:** Zhanna Mukhametsharip, Vera Demberg, Varsha Suresh  
+**Published:** 2026-08-10 · **arXiv:** `2608.09772` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09772) · [PDF](https://arxiv.org/pdf/2608.09772v1)
+
+> PragMatch is a controlled benchmark testing whether vision-language models detect sarcasm through pragmatic incongruity rather than exploiting lexical and stylistic shortcut cues.
+
+---
+
+### 6. NTIRE 2026 Low-light Enhancement: Twilight Cowboy Challenge
+
+**Authors:** Aleksei Khalin, Egor Ershov, Artyom Panshin, Sergey Korchagin, Georgiy Lobarev, Arseniy Terekhin et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09782` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09782) · [PDF](https://arxiv.org/pdf/2608.09782v1)
+
+> This reviews a challenge for merging misaligned low-light raw smartphone bursts into clean images, with a 585-scene dataset and reported gains.
+
+---
+
+### 7. MMArch: Benchmarking Multimodal Reasoning Grounded in Architectural Evidence
+
+**Authors:** Chenxu Du, Kang An, Tengyue Wang, Zhongyu Yang, Xinqi Yang, Yuanchi Zhu et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09281` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09281) · [PDF](https://arxiv.org/pdf/2608.09281v1)
+
+> A benchmark of 1,212 items from peer-reviewed figures tests whether multimodal models combine distributed visual evidence with engineering principles, revealing a wide human-model gap.
+
+---
+
+### 8. MADBench: A Benchmark for Modality-Aware Audio Deepfake Detection
+
+**Authors:** Yanqiu Li, Yang Xiao, Jisheng Bai, Bin Chen, Hong Jia, Ting Dang  
+**Published:** 2026-08-10 · **arXiv:** `2608.09593` · **Category:** `cs.SD`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09593) · [PDF](https://arxiv.org/pdf/2608.09593v1)
+
+> Introduces a benchmark that separately evaluates deepfake detection of manipulated speech versus background environmental audio in otherwise authentic video.
+
+---
+
+### 9. LexKairos: Benchmarking Legal Temporal Capabilities in LLMs
+
+**Authors:** Chenyang Li, Zejia Feng, Yuqin Huang, Yuxiao Ye, Huiyuan Xie  
+**Published:** 2026-08-10 · **arXiv:** `2608.09106` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09106) · [PDF](https://arxiv.org/pdf/2608.09106v1)
+
+> A benchmark evaluating LLMs on Chinese legal temporal knowledge, case modeling, and statute-case reasoning across nine sub-tasks.
+
+---
+
+### 10. How Can Rhetoric Reward-Hack AI Reviewers? Dissecting Rhetorical Sensitivity in AI-Based Peer Review
+
+**Authors:** Ming Li, Chenguang Wang, Xirui Li, Xinyue Zeng, Dianqi Li, Peng Shi et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.08975` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.08975) · [PDF](https://arxiv.org/pdf/2608.08975v1)
+
+> Shows that rhetorical rewriting of manuscripts systematically shifts LLM peer-review scores even when scientific content is held constant.
+
+---
+
+### 11. GENCO - A Unified Neural Solver Embedded in a Development Framework for Steady-State Grid Analysis
+
+**Authors:** Alban Puech, Matteo Mazzonelli, Tamara R. Govindasamy, Mangaliso Mngomezulu, Héctor Maeso-García, Thomas Tolhurst et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09921` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09921) · [PDF](https://arxiv.org/pdf/2608.09921v1)
+
+> GENCO is a unified neural solver for steady-state grid analysis, released with a framework and large synthetic datasets for benchmarking against classical solvers.
+
+---
+
+### 12. From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch
+
+**Authors:** Laurens Samson, Iva Gornishka, Gossa Lô, Yuki M. Asano, Sennay Ghebreab  
+**Published:** 2026-08-10 · **arXiv:** `2608.09925` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09925) · [PDF](https://arxiv.org/pdf/2608.09925v1)
+
+> A six-dimension evaluation suite assesses over 30 models for Dutch governmental use, revealing unavoidable trade-offs among quality, cost, and environmental impact.
+
+---
+
+### 13. From Diagnosis to Correction: Benchmarking and Improving Real-World Table Parsing
+
+**Authors:** Jutao Xiao, Yuan Qu, Dongsheng Ma, Fan Wu, Tianyao He, Weihong Li et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09842` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09842) · [PDF](https://arxiv.org/pdf/2608.09842v1)
+
+> A diagnostic benchmark of 916 real-world tables exposes parser weaknesses, and an agentic decompose-enhance-correct framework improves frozen parsers without retraining.
+
+---
+
+### 14. Evaluating Generative Time-Series Models on Data with Point Masses
+
+**Authors:** Jian Xu  
+**Published:** 2026-08-10 · **arXiv:** `2608.09692` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09692) · [PDF](https://arxiv.org/pdf/2608.09692v1)
+
+> Standard rolling-origin protocols mishandle time series with point masses, so the authors propose matched evaluation controls that reverse prior model rankings.
+
+---
+
+### 15. Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness
+
+**Authors:** Tadanobu Chuyo Kamijo, Ori Rottenstreich, Javier Conde, Gonzalo Martínez, Pedro Reviriego  
+**Published:** 2026-08-10 · **arXiv:** `2608.09900` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09900) · [PDF](https://arxiv.org/pdf/2608.09900v1)
+
+> Decoding-Level Taboo masks primary candidate tokens at runtime to stress-test off-path robustness, which improves with model scale and instruction alignment.
+
+---
+
+### 16. DSLE: A Learning Environment for Dark Souls Boss Encounters
+
+**Authors:** Derin Gezgin, Jim O'Connor, Tanner Goodwin, Gary B. Parker  
+**Published:** 2026-08-10 · **arXiv:** `2608.09902` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09902) · [PDF](https://arxiv.org/pdf/2608.09902v1)
+
+> DSLE presents 22 Dark Souls boss fights as a Gymnasium-style agent benchmark where tested RL and baseline methods fail on most encounters.
+
+---
+
+### 17. Cultivar: A Contrastive and Locale-Oriented Translation Benchmark for Investigating Contamination and Localisation Robustness
+
+**Authors:** Pinzhen Chen, Koel Dutta Chowdhury, Xiaoya Xu, David Tan, Doreen Osmelak, Ona de Gibert et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09766` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09766) · [PDF](https://arxiv.org/pdf/2608.09766v1)
+
+> Cultivar, a localized FLORES subset, enables source-contrastive translation evaluation revealing data contamination and weaker performance on non-US locales across 32 models.
+
+---
+
+### 18. CircuitReason-1k: Benchmarking Long-Horizon Visual-to-Symbolic Reasoning inElectrical Circuits
+
+**Authors:** Xinqi Yang, Kang An, Tengyue Wang, Zhongyu Yang, Chenxu Du, Yuanchi Zhu et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09374` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09374) · [PDF](https://arxiv.org/pdf/2608.09374v1)
+
+> Presents a benchmark of 1,000 textbook circuit problems evaluating long-horizon visual-to-symbolic reasoning, exposing consistent model failures on longer dependency chains.
+
+---
+
+### 19. CADEngBench: It Looks Like CAD, but Does It Work? Evaluating Parametric Design, Assembly Reasoning, and Physics Simulation
+
+**Authors:** Harmanjot Singh, Abhra Dubey, Jorge Alejandro Amador Herrera  
+**Published:** 2026-08-10 · **arXiv:** `2608.09296` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09296) · [PDF](https://arxiv.org/pdf/2608.09296v1)
+
+> A two-track benchmark tests whether models generate and edit CAD parts meeting parametric, assembly, and physics-simulation requirements rather than just visual appearance.
+
+---
+
+### 20. Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions
+
+**Authors:** Oluwanifemi Bamgbose, Simon Rosen, Jash Shah, Lindsay Devon Brin, Hoang H Nguyen, Anke Koelzer et al.  
+**Published:** 2026-08-10 · **arXiv:** `2608.09930` · **Category:** `cs.SD`  
+**Links:** [abstract](https://arxiv.org/abs/2608.09930) · [PDF](https://arxiv.org/pdf/2608.09930v1)
+
+> A dimension-level benchmark of 860 annotated utterances shows MOS predictors and Audio-LLM judges fail to capture linguistically grounded speech errors.
+
+---
+
+### 21. PROSLEX: A Novel Dataset for Expert-Annotated Legal Statute Prediction for Indian Judiciary
+
+**Authors:** Subinay Adhikary, Upal Bhattacharya, Vivek Kumar Singh, Anurag Sharma, Shubham Kumar Nigam, Suvasis Das et al.  
+**Published:** 2026-08-09 · **arXiv:** `2608.08830` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.08830) · [PDF](https://arxiv.org/pdf/2608.08830v1)
+
+> An expert-annotated Indian legal dataset pairing statute predictions with reasoning explanations to evaluate prompting strategies for explainable prediction.
+
+---
+
+### 22. Hidden Language Consistency Phenomena in Reasoning LLMs
+
+**Authors:** Muhammad Ali Shafique, Kelly Marchisio  
+**Published:** 2026-08-09 · **arXiv:** `2608.08447` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.08447) · [PDF](https://arxiv.org/pdf/2608.08447v1)
+
+> Analysis across languages and difficulty levels reveals reasoning models abruptly switch to dominant internal languages as tasks harden, sometimes preserving accuracy.
+
+---
+
+### 23. When Does Trace-Driven Evaluation Mislead MoE Expert Caching? Replay Semantics, Workload Contamination, and Operating Regimes
+
+**Authors:** Yu Zhang  
+**Published:** 2026-08-08 · **arXiv:** `2608.07911` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.07911) · [PDF](https://arxiv.org/pdf/2608.07911v1)
+
+> Trace-driven simulation reveals how replay semantics, workload contamination, and operating regimes can invert conclusions about MoE expert-caching policies.
+
+---
+
+### 24. What Current AI Benchmarks Leave Unmeasured: Modality, Search, Citations, and Implications (for Safety Evaluations)
+
+**Authors:** Ro Encarnación, Tina Behzad, Emma Lurie, Danaé Metaxa  
+**Published:** 2026-08-06 · **arXiv:** `2608.06202` · **Category:** `cs.HC`  
+**Links:** [abstract](https://arxiv.org/abs/2608.06202) · [PDF](https://arxiv.org/pdf/2608.06202v1)
+
+> Audits benchmark evaluation assumptions, showing access modality, web search, and repeated runs materially change measured LLM safety performance.
+
+---
+
+### 25. When Shared Rollouts Fail in Defensive Driving Evaluation: A NAVSIM Score Basis Audit
 
 **Authors:** Ziang Wei, Minjun Yu, Zheyuan Lai, Mingjie Pang, Wei Li  
 **Published:** 2026-08-05 · **arXiv:** `2608.04896` · **Category:** `cs.AI`  
@@ -16,7 +256,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 2. When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs
+### 26. When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs
 
 **Authors:** Jiaming Cheng, Subhransu Das, Rajiv Ramnath  
 **Published:** 2026-08-05 · **arXiv:** `2608.04893` · **Category:** `cs.CR`  
@@ -26,7 +266,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 3. What Is a Skill Worth? Structure-Aware Shapley Valuation of Agent Skills
+### 27. What Is a Skill Worth? Structure-Aware Shapley Valuation of Agent Skills
 
 **Authors:** Tao Li, Junfeng Liu, Qinghua Zhao, Yifan Li, Lei Wang, Bo Shao et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04562` · **Category:** `cs.AI`  
@@ -36,7 +276,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 4. VQ-VAD: Vector-quantized Motion Representation Learning for Human-centric Video Anomaly Detection
+### 28. VQ-VAD: Vector-quantized Motion Representation Learning for Human-centric Video Anomaly Detection
 
 **Authors:** Narges Rashvand, Ghazal Alinezhad Noghre, Shanle Yao, Gabriel Maldonado, Hamed Tabkhi  
 **Published:** 2026-08-05 · **arXiv:** `2608.05069` · **Category:** `cs.CV`  
@@ -46,7 +286,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 5. Towards Decentralized Searcher Competition in MEV Markets
+### 29. Towards Decentralized Searcher Competition in MEV Markets
 
 **Authors:** Roozbeh Sarenche, Yunwen Liu  
 **Published:** 2026-08-05 · **arXiv:** `2608.05011` · **Category:** `cs.GT`  
@@ -56,7 +296,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 6. Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning
+### 30. Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning
 
 **Authors:** Yinghui He, Ling Yang, Jiarui Liu, Yongjin Yang, Lechen Zhang, Yingcheng Wu et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.05139` · **Category:** `cs.CL`  
@@ -66,7 +306,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 7. Thinking with Anchors: Grounded and Efficient Document Reasoning
+### 31. Thinking with Anchors: Grounded and Efficient Document Reasoning
 
 **Authors:** Sichen Zhu, Yuchen Zhu, Wenzhuo Xu, Jason Kuen, Wanrong Zhu, Jing Shi et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04424` · **Category:** `cs.CV`  
@@ -76,7 +316,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 8. Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains
+### 32. Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains
 
 **Authors:** Ayoub Kirouane, Christos Petrocheilos  
 **Published:** 2026-08-05 · **arXiv:** `2608.05138` · **Category:** `eess.AS`  
@@ -86,7 +326,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 9. SciCode-Verified: How Benchmark Defects Underestimated the Scientific-Coding Ability of Language Models
+### 33. SciCode-Verified: How Benchmark Defects Underestimated the Scientific-Coding Ability of Language Models
 
 **Authors:** Sihan Hu, Lyuhan Huang, Youjin Deng, Kun Chen  
 **Published:** 2026-08-05 · **arXiv:** `2608.04975` · **Category:** `cs.SE`  
@@ -96,7 +336,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 10. RepairFormer: Automated Repair of Structured Inputs Using Transformers
+### 34. RepairFormer: Automated Repair of Structured Inputs Using Transformers
 
 **Authors:** Ovi Paul, Tom J King, Ali Shokri  
 **Published:** 2026-08-05 · **arXiv:** `2608.05060` · **Category:** `cs.SE`  
@@ -106,7 +346,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 11. Reading Between the Frames: Interpreting Implicit and Non-literal Meaning in Social Media Videos
+### 35. Reading Between the Frames: Interpreting Implicit and Non-literal Meaning in Social Media Videos
 
 **Authors:** Yang Wang, Yanan Ma, Yiqi Liu, Zi Yan Chang, Chi-Li Chen, Chia-Yi Hsiao et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04939` · **Category:** `cs.CL`  
@@ -116,7 +356,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 12. OmniEdit-Bench: A Comprehensive Benchmark for Instruction-based Video Editing
+### 36. OmniEdit-Bench: A Comprehensive Benchmark for Instruction-based Video Editing
 
 **Authors:** Chenxuan Miao, Yutong Feng, Yi Lu, Yunfeng Yan, Donglian Qi, Shiwei Zhang et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.05049` · **Category:** `cs.CV`  
@@ -126,7 +366,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 13. Item Response Theory for AI Safety
+### 37. Item Response Theory for AI Safety
 
 **Authors:** Joshua Fonseca Rivera, Neil Shah, David Demitri Africa, Konstantinos Voudouris  
 **Published:** 2026-08-05 · **arXiv:** `2608.05086` · **Category:** `cs.AI`  
@@ -136,7 +376,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 14. Evaluating Theory of Mind in Reasoning Models: Robustness over Reasoning
+### 38. Evaluating Theory of Mind in Reasoning Models: Robustness over Reasoning
 
 **Authors:** Ian B. de Haan, Peter van der Putten, Max van Duijn  
 **Published:** 2026-08-05 · **arXiv:** `2608.04646` · **Category:** `cs.CL`  
@@ -146,7 +386,17 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 15. Easy to Complete, Hard to Choose: Investigating LLM Performance on the ProverbIT Benchmark
+### 39. Evaluating Machine Learning Models for Post-Wildfire Debris-Flow Prediction
+
+**Authors:** Quinn Ledingham, Zhengsen Xu, Yimin Zhu, Zack Dewis, Mabel Heffring, Saeid Taleghanidoozdoozan et al.  
+**Published:** 2026-08-05 · **arXiv:** `2608.05265` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.05265) · [PDF](https://arxiv.org/pdf/2608.05265v1)
+
+> Fifteen machine learning models are compared for predicting post-wildfire debris flows, with TabPFN leading and rainfall intensity ranked most predictive.
+
+---
+
+### 40. Easy to Complete, Hard to Choose: Investigating LLM Performance on the ProverbIT Benchmark
 
 **Authors:** Enrico Mensa, Lorenzo Zane, Calogero Jerik Scozzaro, Matteo Delsanto, Tommaso Milani, Daniele Paolo Radicioni  
 **Published:** 2026-08-05 · **arXiv:** `2608.04670` · **Category:** `cs.CL`  
@@ -156,7 +406,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 16. Cooking beyond Frames: A Stereo Event Camera Dataset in the Kitchen
+### 41. Cooking beyond Frames: A Stereo Event Camera Dataset in the Kitchen
 
 **Authors:** Chengming Feng, Hesam Araghi, Liming Zheng, Julien Dupeyroux, Xucong Zhang, Jan van Gemert et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04865` · **Category:** `cs.CV`  
@@ -166,7 +416,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 17. CheMLFlow: An Open-Source Platform for Cheminformatics and Materials Informatics Applications
+### 42. CheMLFlow: An Open-Source Platform for Cheminformatics and Materials Informatics Applications
 
 **Authors:** Brendan Smith, Susana Lopez-Moreno, Eric Dolores-Cuenca, Sangil Kim, Jose L. Mendoza-Cortes, Nijamudheen Abdulrahiman  
 **Published:** 2026-08-05 · **arXiv:** `2608.04942` · **Category:** `cs.LG`  
@@ -176,7 +426,17 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 18. An Explainable LLM Agent Layer for Open-World Anomaly Detection in Oil Wells
+### 43. C$^3$PO: Evaluating Cross-Modal Composition and Counterfactual Performance in Omnimodal Models
+
+**Authors:** Swapnanil Mukherjee, Agyeya Negi, Tanuja Ganu, Ponnurangam Kumaraguru  
+**Published:** 2026-08-05 · **arXiv:** `2608.05381` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.05381) · [PDF](https://arxiv.org/pdf/2608.05381v1)
+
+> A benchmark tests omnimodal models on fusing dispersed evidence and resolving cross-modal contradictions, showing failures largely stem from text-modality dominance.
+
+---
+
+### 44. An Explainable LLM Agent Layer for Open-World Anomaly Detection in Oil Wells
 
 **Authors:** Lucas Gouveia Omena Lopes, Thales Miranda de Almeida Vieira, Eduardo Toledo de Lima Junior, William Wagner Matos Lira  
 **Published:** 2026-08-04 · **arXiv:** `2608.04041` · **Category:** `cs.LG`  
@@ -186,7 +446,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 19. Adversarial Stress Testing of Role-Playing Language Agents using Multi-Agent Evaluation
+### 45. Adversarial Stress Testing of Role-Playing Language Agents using Multi-Agent Evaluation
 
 **Authors:** Saqib Shouqi, Abdullah Nazly, Januki Wanniarachchi, Ravisha De Alwis  
 **Published:** 2026-08-04 · **arXiv:** `2608.03166` · **Category:** `cs.AI`  
@@ -196,7 +456,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 20. onepot-Bench 0: towards lab-aware in silico chemistry benchmarks
+### 46. onepot-Bench 0: towards lab-aware in silico chemistry benchmarks
 
 **Authors:** Brandon Wang, Andrei S. Tyrin, Daniil A. Boiko  
 **Published:** 2026-08-03 · **arXiv:** `2608.02595` · **Category:** `cs.LG`  
@@ -206,7 +466,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 21. Isotonic Bradley-Terry Model for Paired Comparison Data
+### 47. Isotonic Bradley-Terry Model for Paired Comparison Data
 
 **Authors:** Ryoya Yamasaki  
 **Published:** 2026-08-03 · **arXiv:** `2608.02081` · **Category:** `cs.LG`  
@@ -216,7 +476,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 22. GEOID-Flood: A Large-Scale Multi-Modal Benchmark Dataset for Flood Segmentation
+### 48. GEOID-Flood: A Large-Scale Multi-Modal Benchmark Dataset for Flood Segmentation
 
 **Authors:** Gaetano Chiriaco, Luca Barco, Andrea Bragagnolo, Claudio Rossi, Edoardo Arnaudo  
 **Published:** 2026-08-03 · **arXiv:** `2608.02315` · **Category:** `cs.CV`  
@@ -226,7 +486,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ## July 2026
 
-### 23. The Theoretical Foundation of Socratic Tests: Dynamic, Multimodal, Conversational Examinations
+### 49. The Theoretical Foundation of Socratic Tests: Dynamic, Multimodal, Conversational Examinations
 
 **Authors:** Ilya Mikhelson  
 **Published:** 2026-07-31 · **arXiv:** `2607.29624` · **Category:** `cs.CY`  
@@ -236,7 +496,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 24. Bridging extrinsic and intrinsic variable importance
+### 50. Bridging extrinsic and intrinsic variable importance
 
 **Authors:** Yucheng Zhao, Brian D. Williamson  
 **Published:** 2026-07-31 · **arXiv:** `2608.00247` · **Category:** `stat.ME`  
@@ -246,7 +506,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 25. A dataset of rated conceptual arguments
+### 51. A dataset of rated conceptual arguments
 
 **Authors:** Emery Cooper, Caspar Oesterheld, Linh Chi Nguyen, Alexander Kastner, Ethan Perez  
 **Published:** 2026-07-29 · **arXiv:** `2607.27499` · **Category:** `cs.AI`  
@@ -256,7 +516,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 26. Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI
+### 52. Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI
 
 **Authors:** Jiaqi Shao, Hanck Chen, Wei Zhang, Maxm Pan, Bing Luo  
 **Published:** 2026-07-24 · **arXiv:** `2607.22368` · **Category:** `cs.AI`  
@@ -266,7 +526,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 27. slang.gr as a Large-Scale Crowdsourced Resource for Non-Standard Greek
+### 53. slang.gr as a Large-Scale Crowdsourced Resource for Non-Standard Greek
 
 **Authors:** Panagiotis Papadakos, Katerina Papantoniou, Dimitris Plexousakis  
 **Published:** 2026-07-23 · **arXiv:** `2607.21255` · **Category:** `cs.CL`  
@@ -276,7 +536,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 28. Where You Tap Matters: A Probe-and-Model Benchmark for Open-Set RF Fingerprinting
+### 54. Where You Tap Matters: A Probe-and-Model Benchmark for Open-Set RF Fingerprinting
 
 **Authors:** Gabriele Oligeri, Savio Sciancalepore, Ingrid Huso, Fatima Al-Mousawi  
 **Published:** 2026-07-23 · **arXiv:** `2607.21564` · **Category:** `cs.CR`  
@@ -286,7 +546,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 29. When Trivia Is Not Trivial: Everyday Knowledge Failures in Multilingual LLMs
+### 55. When Trivia Is Not Trivial: Everyday Knowledge Failures in Multilingual LLMs
 
 **Authors:** Anna Mosolova, Djamé Seddah  
 **Published:** 2026-07-23 · **arXiv:** `2607.21445` · **Category:** `cs.CL`  
@@ -296,7 +556,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 30. Recurrent Sinusoidal INRs for Efficient High-Fidelity Representation
+### 56. Recurrent Sinusoidal INRs for Efficient High-Fidelity Representation
 
 **Authors:** Hyunmin Cho, Jaejun Yoo, Kyong Hwan Jin  
 **Published:** 2026-07-23 · **arXiv:** `2607.21485` · **Category:** `cs.CV`  
@@ -306,7 +566,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 31. RUMBA: Russian User Memory Benchmark
+### 57. RUMBA: Russian User Memory Benchmark
 
 **Authors:** Elizaveta Shevtsova, Inna Glebkina, Mark Baushenko, Pavel Gulyaev, Alena Fenogenova  
 **Published:** 2026-07-23 · **arXiv:** `2607.21447` · **Category:** `cs.CL`  
@@ -316,7 +576,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 32. QuantiBias: Benchmarking Quantization-Induced Bias in LLMs
+### 58. QuantiBias: Benchmarking Quantization-Induced Bias in LLMs
 
 **Authors:** Emilio Ferrara  
 **Published:** 2026-07-23 · **arXiv:** `2607.21063` · **Category:** `cs.CL`  
@@ -326,7 +586,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 33. MemTools: A Unified Research Framework for Interoperable Agent Memory
+### 59. MemTools: A Unified Research Framework for Interoperable Agent Memory
 
 **Authors:** Chengfeng Zhao, Jinhui Chen, Sirui Liang, Shizhu He, Yequan Wang, Jun Zhao et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21404` · **Category:** `cs.CL`  
@@ -336,7 +596,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 34. MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education
+### 60. MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education
 
 **Authors:** Qian Wu, Xinrong Zhou, Zizhan Ma, Kai Chen, Zheyao Gao, Xun Lin et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21570` · **Category:** `cs.CL`  
@@ -346,7 +606,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 35. GrainGS: Gradient-Decoupled Gaussian Splatting for Efficient Dynamic Novel View Synthesis
+### 61. GrainGS: Gradient-Decoupled Gaussian Splatting for Efficient Dynamic Novel View Synthesis
 
 **Authors:** Jiahao He, Yihua Shao, Zhengkai Zhao, Pan Gao, Fei Ma, Jingcai Guo et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21448` · **Category:** `cs.CV`  
@@ -356,7 +616,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 36. Future Rendering $\neq$ Future Surface: A Benchmark and Dataset for Dynamic Surface Reconstruction Beyond the Observed Window
+### 62. Future Rendering $\neq$ Future Surface: A Benchmark and Dataset for Dynamic Surface Reconstruction Beyond the Observed Window
 
 **Authors:** Yukun Shi, Minglun Gong  
 **Published:** 2026-07-23 · **arXiv:** `2607.21471` · **Category:** `cs.CV`  
@@ -366,7 +626,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 37. Capital Markets LLM Reliability Score (CM-LRS): From Plausible to Bankable
+### 63. Capital Markets LLM Reliability Score (CM-LRS): From Plausible to Bankable
 
 **Authors:** Prerit Ahuja  
 **Published:** 2026-07-23 · **arXiv:** `2607.21340` · **Category:** `cs.CL`  
@@ -376,7 +636,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 38. CRAG-MM-Diagnostics: Enabling Stage-Wise Analysis of Knowledge-Intensive VQA
+### 64. CRAG-MM-Diagnostics: Enabling Stage-Wise Analysis of Knowledge-Intensive VQA
 
 **Authors:** Hanseok Oh, Parishad BehnamGhader, Benno Krojer, Hyunji Lee, Paul Liang, Siva Reddy et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21155` · **Category:** `cs.CV`  
@@ -386,7 +646,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 39. CLUIE: Clustering-Aware Recurrent Propagation with Local Structural Compensation for Underwater Image Enhancement
+### 65. CLUIE: Clustering-Aware Recurrent Propagation with Local Structural Compensation for Underwater Image Enhancement
 
 **Authors:** Kui Jiang, Zefan Feng, Laibin Chang, Yan Luo, Junjun Jiang, Xiaopeng Fan  
 **Published:** 2026-07-23 · **arXiv:** `2607.21467` · **Category:** `cs.CV`  
@@ -396,7 +656,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 40. Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it
+### 66. Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it
 
 **Authors:** Federico Boggia  
 **Published:** 2026-07-23 · **arXiv:** `2607.21498` · **Category:** `cs.CL`  
@@ -406,7 +666,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 41. An Evaluation Framework for Structured Audio Captions Validated by Controlled Perturbations
+### 67. An Evaluation Framework for Structured Audio Captions Validated by Controlled Perturbations
 
 **Authors:** Liang-Yuan Wu, Sripathi Sridhar, Mark Cartwright, Magdalena Fuentes  
 **Published:** 2026-07-23 · **arXiv:** `2607.21424` · **Category:** `cs.CL`  
@@ -416,7 +676,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 42. Agentic coding without the cloud: evaluating open-weight large language models on longitudinal data preparation tasks
+### 68. Agentic coding without the cloud: evaluating open-weight large language models on longitudinal data preparation tasks
 
 **Authors:** Mack Nixon, Liam Wright, Yevgeniya Kovalchuk, Alison Fang-Wei Wu, Martin Danka, Andy Boyd et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21482` · **Category:** `cs.AI`  
@@ -426,7 +686,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 43. Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems
+### 69. Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems
 
 **Authors:** Gaurav Dadhich  
 **Published:** 2026-07-23 · **arXiv:** `2607.21503` · **Category:** `cs.AI`  
@@ -436,7 +696,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 44. Learning to Detect UI Principle Violations via Reinforcement Learning
+### 70. Learning to Detect UI Principle Violations via Reinforcement Learning
 
 **Authors:** Nishi Mehta, Swathi Alse, Himani Kumavat, Yue Yu, Pratik Jayarao  
 **Published:** 2026-07-22 · **arXiv:** `2607.20690` · **Category:** `cs.CL`  
@@ -446,7 +706,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 45. Hard Guarantees at a Measured Price: Entropy-Stable Learned Finite Volumes for Compressible Flow
+### 71. Hard Guarantees at a Measured Price: Entropy-Stable Learned Finite Volumes for Compressible Flow
 
 **Authors:** Denis Gueyffier  
 **Published:** 2026-07-22 · **arXiv:** `2607.20171` · **Category:** `physics.flu-dyn`  
@@ -456,7 +716,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 46. Evaluating Large Language Models for Symbolic Security Protocol Analysis
+### 72. Evaluating Large Language Models for Symbolic Security Protocol Analysis
 
 **Authors:** Paolo Modesti, Syed Ahmed, Ioannis Sfyrakis, Derek Enodolomwanyi  
 **Published:** 2026-07-22 · **arXiv:** `2607.20712` · **Category:** `cs.CR`  
@@ -466,7 +726,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 47. The C-index illusion: discrimination without calibration in published survival models
+### 73. The C-index illusion: discrimination without calibration in published survival models
 
 **Authors:** Rafael da Silva, Danilo Alvares  
 **Published:** 2026-07-21 · **arXiv:** `2607.19526` · **Category:** `cs.LG`  
@@ -476,7 +736,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 48. BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance
+### 74. BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance
 
 **Authors:** Harmon Bhasin, Kevin Flyangolts, Dianzhuo Wang, Evan Seeyave, Arjun Banerjee, Amanda Darling et al.  
 **Published:** 2026-07-21 · **arXiv:** `2607.19262` · **Category:** `cs.AI`  
@@ -486,7 +746,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 49. The Third Competition on Document Forgery Detection on ID-Cards and Passports
+### 75. The Third Competition on Document Forgery Detection on ID-Cards and Passports
 
 **Authors:** Juan E. Tapia, Mario Nieto, Juan M. Espin, Álvaro S. Rocamora, Javier Barrachina, Naser Damer et al.  
 **Published:** 2026-07-17 · **arXiv:** `2607.15734` · **Category:** `cs.CV`  
@@ -496,7 +756,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 50. VIABench: A Comprehensive Video Benchmark Collected from Blind Individuals for Visual Impairment Assistance
+### 76. VIABench: A Comprehensive Video Benchmark Collected from Blind Individuals for Visual Impairment Assistance
 
 **Authors:** Yunfeng Liu, Yuandong Yang, Jiarui Han, Zhenpeng Huang, Yuqing Tang, Xiangyu Zeng et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14660` · **Category:** `cs.CV`  
@@ -506,7 +766,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 51. Symbal: Detecting Systematic Misalignments in Model-Generated Captions
+### 77. Symbal: Detecting Systematic Misalignments in Model-Generated Captions
 
 **Authors:** Maya Varma, Jean-Benoit Delbrouck, Sophie Ostmeier, Akshay Chaudhari, Curtis Langlotz  
 **Published:** 2026-07-16 · **arXiv:** `2607.15216` · **Category:** `cs.CV`  
@@ -516,7 +776,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 52. StructureClaw: Traceable LLM Agents and an Executable Benchmark for Structural Engineering Workflows
+### 78. StructureClaw: Traceable LLM Agents and an Executable Benchmark for Structural Engineering Workflows
 
 **Authors:** Sizhong Qin, Yi Gu, Yao Jiang, Ao Cai, Changjian Zhou, Shaoxuan Shuai et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14896` · **Category:** `cs.SE`  
@@ -526,7 +786,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 53. SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions
+### 79. SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions
 
 **Authors:** Yasheng Sun, Zezi Zeng, Yifan Yang, Chong Luo, Wenyi Wang, Ziwei Liu et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15272` · **Category:** `cs.CL`  
@@ -536,7 +796,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 54. SLT 2026 REAL-TSE Challenge: Real-world Target Speaker Extraction from Conversational Recordings
+### 80. SLT 2026 REAL-TSE Challenge: Real-world Target Speaker Extraction from Conversational Recordings
 
 **Authors:** Shuai Wang, Zihan Qian, Ke Zhang, Jiangyu Han, Zikai Liu, Xiaoyang Yu et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15198` · **Category:** `eess.AS`  
@@ -546,7 +806,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 55. Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models
+### 81. Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models
 
 **Authors:** Patrik Wolf, Thomas Kleine Buening, Andreas Krause, Celestine Mendler-Dünner  
 **Published:** 2026-07-16 · **arXiv:** `2607.15277` · **Category:** `cs.CL`  
@@ -556,7 +816,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 56. OmniaBench: Benchmarking General AI Agents Across Diverse Scenarios
+### 82. OmniaBench: Benchmarking General AI Agents Across Diverse Scenarios
 
 **Authors:** Chengyu Shen, Yujie Fu, Gangtao Xin, Yanheng Hou, Wenlong Fei, Guojie Zhu et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14989` · **Category:** `cs.CL`  
@@ -566,7 +826,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 57. Non-vacuous Generalization Bounds for Reinforcement Learning with Verifiable Rewards
+### 83. Non-vacuous Generalization Bounds for Reinforcement Learning with Verifiable Rewards
 
 **Authors:** Yuxuan Zhu, Rohan Alur, Daniel Kang  
 **Published:** 2026-07-16 · **arXiv:** `2607.14506` · **Category:** `cs.LG`  
@@ -576,7 +836,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 58. MedFailBench: A Clinician-Built Open-Source Benchmark for Medical AI Safety Boundary Inspection
+### 84. MedFailBench: A Clinician-Built Open-Source Benchmark for Medical AI Safety Boundary Inspection
 
 **Authors:** Goktug Ozkan  
 **Published:** 2026-07-16 · **arXiv:** `2607.15166` · **Category:** `cs.AI`  
@@ -586,7 +846,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 59. Measuring Spatial Clustering via Metropolis-Hastings Diffusion Distance
+### 85. Measuring Spatial Clustering via Metropolis-Hastings Diffusion Distance
 
 **Authors:** Thomas Weighill, Chidinma Williams  
 **Published:** 2026-07-16 · **arXiv:** `2607.14880` · **Category:** `math.ST`  
@@ -596,7 +856,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 60. MM-IssueLoc: A Controlled Benchmark for Evaluating Visual Evidence in Multimodal Repository-Level Issue Localization
+### 86. MM-IssueLoc: A Controlled Benchmark for Evaluating Visual Evidence in Multimodal Repository-Level Issue Localization
 
 **Authors:** Shaoxiong Zhan, Shi Hu, Boyu Feng, Hai Lin, Andrew Gong, Zhengda Zhou et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15205` · **Category:** `cs.SE`  
@@ -606,7 +866,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 61. LQCDMaster: Agentic Scientific Computing for Lattice Quantum Chromodynamics Research
+### 87. LQCDMaster: Agentic Scientific Computing for Lattice Quantum Chromodynamics Research
 
 **Authors:** Haofei Gao, Tingjia Miao, Wenkai Jin, Muhua Zhang, Hanzhang Wang, Jie Ran et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15001` · **Category:** `hep-lat`  
@@ -616,7 +876,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 62. Divergent Gaze Patterns in Artistic Viewing: Spatial and Temporal Signatures of Attention Across Autistic Individuals, Artists, and Neurotypical Observers
+### 88. Divergent Gaze Patterns in Artistic Viewing: Spatial and Temporal Signatures of Attention Across Autistic Individuals, Artists, and Neurotypical Observers
 
 **Authors:** Mohammed Amine Kerkouri, Daphné Senggaran, Renaud Jusiak, Océane Lehmann, Marouane Tliba, Claire Wardak et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15227` · **Category:** `cs.CV`  
@@ -626,7 +886,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 63. Digital Pantheon: Simulating and Auditing Coalition Formation with LLM Agents
+### 89. Digital Pantheon: Simulating and Auditing Coalition Formation with LLM Agents
 
 **Authors:** Dylan Van Mulders, Matthias Bogaert, Dirk Van den Poel  
 **Published:** 2026-07-16 · **arXiv:** `2607.15095` · **Category:** `cs.CL`  
@@ -636,7 +896,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 64. CoSimRec: Measuring Coordinated-Content Penetration in Recommender Feedback Loops
+### 90. CoSimRec: Measuring Coordinated-Content Penetration in Recommender Feedback Loops
 
 **Authors:** Nan Li, Jiahong Shao, Jiuyang Lyu  
 **Published:** 2026-07-16 · **arXiv:** `2607.15114` · **Category:** `cs.IR`  
@@ -646,7 +906,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 65. Can We Trust Item Response Theory for AI Evaluation?
+### 91. Can We Trust Item Response Theory for AI Evaluation?
 
 **Authors:** Han Jiang, Sunbeom Kwon, Jinwen Luo, Ziang Xiao, Susu Zhang  
 **Published:** 2026-07-16 · **arXiv:** `2607.15190` · **Category:** `cs.AI`  
@@ -656,7 +916,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 66. CFM-Bench: A Unified Multi-Domain, Multi-Task Benchmark for Channel Foundation Models
+### 92. CFM-Bench: A Unified Multi-Domain, Multi-Task Benchmark for Channel Foundation Models
 
 **Authors:** Yuan Gao, Wenjun Yu, Jun Jiang, Yunfan Li, Xinyu Guo, Shugong Xu  
 **Published:** 2026-07-16 · **arXiv:** `2607.14975` · **Category:** `cs.AI`  
@@ -666,7 +926,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 67. Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents
+### 93. Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents
 
 **Authors:** Paul Kassianik, Blaine Nelson, Yaron Singer  
 **Published:** 2026-07-16 · **arXiv:** `2607.15263` · **Category:** `cs.CR`  
@@ -676,7 +936,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 68. Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy
+### 94. Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy
 
 **Authors:** Patrick Phuoc Do, Chau M. Ta, Chaoli Wang  
 **Published:** 2026-07-16 · **arXiv:** `2607.15176` · **Category:** `cs.AI`  
@@ -686,7 +946,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 69. Benchmarking Face Recognition without Real Faces
+### 95. Benchmarking Face Recognition without Real Faces
 
 **Authors:** Paweł Borsukiewicz, Daniele Lunghi, Wendkûuni C. Ouédraogo, Jacques Klein, Tegawendé F. Bissyandé  
 **Published:** 2026-07-16 · **arXiv:** `2607.14932` · **Category:** `cs.CV`  
@@ -696,7 +956,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 70. AI vs Human Expert Reasoning: Assessing Agreements in Building Typology Predictions based on Street View Imagery
+### 96. AI vs Human Expert Reasoning: Assessing Agreements in Building Typology Predictions based on Street View Imagery
 
 **Authors:** Zahratu Shabrina, Muhammad Asa, Jin Rui, Lu Yin, Stephen Law  
 **Published:** 2026-07-16 · **arXiv:** `2607.14756` · **Category:** `cs.AI`  
@@ -706,7 +966,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 71. The 2nd International StepUP Competition for Biometric Footstep Recognition: From Steps to Strides
+### 97. The 2nd International StepUP Competition for Biometric Footstep Recognition: From Steps to Strides
 
 **Authors:** Robyn Larracy, Anant Gupta, Gourav Gupta, Ethan Eddy, Maxime Devanne, Cyril Meyer et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.13905` · **Category:** `cs.CV`  
@@ -716,7 +976,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 72. EgoProceVQA: A Novel Egocentric Procedural Understanding Task with Self-Skill-Exploration Agent
+### 98. EgoProceVQA: A Novel Egocentric Procedural Understanding Task with Self-Skill-Exploration Agent
 
 **Authors:** Junlong Li, Junxi Li, Yuxiang Yang, Wenbin Zou, Lap-Pui Chau, Yi Wang  
 **Published:** 2026-07-15 · **arXiv:** `2607.13792` · **Category:** `cs.CV`  
@@ -726,7 +986,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 73. AgentCompass: A Unified Evaluation Infrastructure for Agent Capabilities
+### 99. AgentCompass: A Unified Evaluation Infrastructure for Agent Capabilities
 
 **Authors:** Kai Chen, Zichen Ding, Jiaye Ge, Shufan Jiang, Mo Li, Qingqiu Li et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.13705` · **Category:** `cs.AI`  
@@ -736,7 +996,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 74. The Nuts and Bolts of Natural Language to SQL Translation: A Systematic Analysis of Model Pipeline Optimisation Approaches and their Interactions
+### 100. The Nuts and Bolts of Natural Language to SQL Translation: A Systematic Analysis of Model Pipeline Optimisation Approaches and their Interactions
 
 **Authors:** Filip Klubicka, Vasudevan Nedumpozhimana, Sneha Rautmare, Bora Caglayan, Mingxue Wang, John D. Kelleher  
 **Published:** 2026-07-12 · **arXiv:** `2607.10911` · **Category:** `cs.CL`  
@@ -746,7 +1006,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 75. On the Real-World Generalisability of Optical Flow Models
+### 101. On the Real-World Generalisability of Optical Flow Models
 
 **Authors:** Petter Reijalt, Sander Gielisse, Rickard Karlsson, Jan van Gemert  
 **Published:** 2026-07-11 · **arXiv:** `2607.10470` · **Category:** `cs.CV`  
@@ -756,7 +1016,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 76. Manifold Constrained Conformal Prediction for Spatial Events
+### 102. Manifold Constrained Conformal Prediction for Spatial Events
 
 **Authors:** Collin Nill, Trevor Harris, Jason Adams  
 **Published:** 2026-07-10 · **arXiv:** `2607.10008` · **Category:** `stat.ML`  
@@ -766,7 +1026,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 77. "Code Is Cheap. Show Me the Talk.": Lessons from Teaching and Managing AI Coding Tool Usage in a Visualization Course
+### 103. "Code Is Cheap. Show Me the Talk.": Lessons from Teaching and Managing AI Coding Tool Usage in a Visualization Course
 
 **Authors:** Zhongzheng Xu, Taehyun Yang, Fumeng Yang  
 **Published:** 2026-07-10 · **arXiv:** `2607.09938` · **Category:** `cs.HC`  
@@ -776,7 +1036,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 78. Reasoning Consistency Scanning: A Framework for Auditing Chain-of-Thought Validity in AI Safety Evaluations
+### 104. Reasoning Consistency Scanning: A Framework for Auditing Chain-of-Thought Validity in AI Safety Evaluations
 
 **Authors:** Silvia Santano  
 **Published:** 2026-07-08 · **arXiv:** `2607.07229` · **Category:** `cs.AI`  
@@ -786,7 +1046,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 79. CANN Bench: Benchmarking Agent Generated Kernels against Real NPU and Algorithmic Limits
+### 105. CANN Bench: Benchmarking Agent Generated Kernels against Real NPU and Algorithmic Limits
 
 **Authors:** Xue-Jian Gao, Deng Pan, Yueming Su, Jiasheng Li, Bin Du, Fengming Zhu et al.  
 **Published:** 2026-07-08 · **arXiv:** `2607.20518` · **Category:** `cs.AI`  
@@ -796,7 +1056,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 80. Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and Reliability
+### 106. Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and Reliability
 
 **Authors:** Alicia Parrish, Rajat Shinde, Sanket Badhe, Xinyi Bai, Sree Bhargavi Balija, Hua-Rong Chu et al.  
 **Published:** 2026-07-07 · **arXiv:** `2607.06196` · **Category:** `cs.CL`  
@@ -806,7 +1066,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ---
 
-### 81. Beyond Static Evaluation: Building Simulation Environments for Scalable Agentic Reinforcement Learning
+### 107. Beyond Static Evaluation: Building Simulation Environments for Scalable Agentic Reinforcement Learning
 
 **Authors:** Akshay Arora, Ishan Nigam, Ashutosh Aggarwal, Shefali Bansal, Krishna Singh, Sweta Kumari et al.  
 **Published:** 2026-07-07 · **arXiv:** `2607.05773` · **Category:** `cs.AI`  
@@ -816,7 +1076,7 @@ _82 papers · updated 2026-08-06 17:08 UTC_
 
 ## June 2026
 
-### 82. EvalSafetyGap: A Hybrid Survey and Conceptual Framework for LLM Evaluation-Safety Failures
+### 108. EvalSafetyGap: A Hybrid Survey and Conceptual Framework for LLM Evaluation-Safety Failures
 
 **Authors:** Buğra Alperen Uluırmak, Rifat Kurban  
 **Published:** 2026-06-29 · **arXiv:** `2606.30219` · **Category:** `cs.AI`  
