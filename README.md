@@ -2,39 +2,39 @@
 
 An automatically maintained, categorised index of recent AI research from [arXiv](https://arxiv.org).
 
-_935 papers tracked · last updated 2026-08-11 05:09 UTC_
+_1135 papers tracked · last updated 2026-08-16 18:20 UTC_
 
 ## Categories
 
 | Category | Papers |
 | --- | ---: |
-| [Alignment & Safety](papers/alignment-safety.md) | 62 |
-| [Interpretability](papers/interpretability.md) | 63 |
-| [Attention & Architecture](papers/attention-architecture.md) | 77 |
-| [Scaling & Efficiency](papers/scaling-efficiency.md) | 118 |
-| [Inference-Time Reasoning](papers/inference-reasoning.md) | 71 |
-| [AI Security](papers/ai-security.md) | 159 |
-| [Evaluation & Benchmarks](papers/evaluation.md) | 108 |
-| [Multimodality & Embodiment](papers/multimodal-embodiment.md) | 198 |
-| [Synthetic Data](papers/synthetic-data.md) | 79 |
+| [Alignment & Safety](papers/alignment-safety.md) | 80 |
+| [Interpretability](papers/interpretability.md) | 85 |
+| [Attention & Architecture](papers/attention-architecture.md) | 103 |
+| [Scaling & Efficiency](papers/scaling-efficiency.md) | 145 |
+| [Inference-Time Reasoning](papers/inference-reasoning.md) | 85 |
+| [AI Security](papers/ai-security.md) | 183 |
+| [Evaluation & Benchmarks](papers/evaluation.md) | 129 |
+| [Multimodality & Embodiment](papers/multimodal-embodiment.md) | 230 |
+| [Synthetic Data](papers/synthetic-data.md) | 95 |
 
 ## Latest additions
 
-- **[ZetaGPT: A Reference Implementation of Positional--Encoding--Free State--Space--Attention Language Models](https://arxiv.org/abs/2608.09432)** — Róisín Luo · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09432v1)
-- **[How Can Rhetoric Reward-Hack AI Reviewers? Dissecting Rhetorical Sensitivity in AI-Based Peer Review](https://arxiv.org/abs/2608.08975)** — Ming Li, Chenguang Wang, Xirui Li et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.08975v1)
-- **[Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions](https://arxiv.org/abs/2608.09930)** — Oluwanifemi Bamgbose, Simon Rosen, Jash Shah et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09930v1)
-- **[Multimodal Model Diffing for Feature Discovery and Control](https://arxiv.org/abs/2608.09928)** — Hunar Batra, Lachin Naghashyar, Ashkan Khakzar et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09928v1)
-- **[Beyond Hazard Resemblance: Contrastive Event Adjudication for Training-Free Video Anomaly Detection](https://arxiv.org/abs/2608.09908)** — Wenti Yin, Xiang Wang, Huaxin Zhang et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09908v1)
-- **[Competitive mediator games and urban CAV routing markets](https://arxiv.org/abs/2608.09894)** — Grzegorz Jamróz · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09894v1)
-- **[Deep Multimodal Wearable Sensor Fusion for Detection of Body-Focused Repetitive Behaviors](https://arxiv.org/abs/2608.09830)** — Samaneh Rezaeimanesh, Mohsen Behradfar, Mohammad Fili et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09830v1)
-- **[Structured Phonological Representations for Audio-Articulatory rtMRI Speech Classification](https://arxiv.org/abs/2608.09767)** — Abner Hernandez, Tomás Arias Vergara, Daiqi Liu et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09767v1)
-- **[Cultivar: A Contrastive and Locale-Oriented Translation Benchmark for Investigating Contamination and Localisation Robustness](https://arxiv.org/abs/2608.09766)** — Pinzhen Chen, Koel Dutta Chowdhury, Xiaoya Xu et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09766v1)
-- **[Disentangling Co-Occurring Retinal Pathologies with Saliency-Guided Sparse Expert Routing](https://arxiv.org/abs/2608.09752)** — Nagur Shareef Shaik, Jeongwoo Park, Yeong-Jin Kim et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09752v1)
-- **[Hallucination-Free GUI Grounding via Regression-Free Layout-Aware Matching](https://arxiv.org/abs/2608.09654)** — Yuke Li, Xuehan Hou · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09654v1)
-- **[Activation Probes Surface Code-Security Signals that the Model's Output Misses](https://arxiv.org/abs/2608.09643)** — Ivan Wiryadi · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09643v1)
-- **[Avalon-ToM-Bench: Evaluating Fine-Grained Theory of Mind via Asymmetric Game Mechanics](https://arxiv.org/abs/2608.09638)** — Yen-Shan Chen, Yu Chian Duan, Chih-En Kuo et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09638v1)
-- **[NeuroRefiner: Morphology-Aware Multi-Agent Refinement for 3D Fluorescence Microscopy Neuron Segmentation](https://arxiv.org/abs/2608.09636)** — Haiyang Yan, Jinyue Guo, Yanchao Zhang et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09636v1)
-- **[Measuring the Wrong Thing: Internal Harmfulness Scores Anti-Rank Successful Jailbreaks](https://arxiv.org/abs/2608.09624)** — Mingyu Luo, Ming Deng, Zilang Qiu et al. · `2026-08-10` · [pdf](https://arxiv.org/pdf/2608.09624v1)
+- **[LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles](https://arxiv.org/abs/2608.13450)** — Md Wasiul Haque, Sagar Dasgupta, Mizanur Rahman et al. · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.13450v1)
+- **[Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference](https://arxiv.org/abs/2608.13426)** — Zixuan Lan, Yanhong Li, Jiawei Zhou · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.13426v1)
+- **[Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development](https://arxiv.org/abs/2608.13417)** — Yiwei Li, Wanli Yang, Hexiang Tan et al. · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.13417v1)
+- **[LongEarth-R1: Benchmarking and Aligning Vision-Language Models for Long-Horizon Earth Observation Reasoning](https://arxiv.org/abs/2608.13344)** — Yupan Ding, Jing Xiao, Zhenyuan Zhang et al. · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.13344v1)
+- **[Keep, Customize, or Exit: Default Design and Token Pricing in LLM Reasoning Services](https://arxiv.org/abs/2608.13315)** — Ahmet Bugra Gundogan, Yigit Turkmen, Melih Bastopcu · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.13315v1)
+- **[Reasoning for Social Audio-Visual Question Answering: Where Do We Stand?](https://arxiv.org/abs/2608.13239)** — Koen P. de Vries, Xavier Alameda-Pineda, Estefanía Talavera et al. · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.13239v1)
+- **[TsuGO: Probing Search Efficiency in LLM Reasoning via Go Life-and-Death Problems](https://arxiv.org/abs/2608.13221)** — Shunwen Bai, Ziping Ma, Chaoyang Zhang et al. · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.13221v1)
+- **[GEM: A Generative Embedding Model Bridging Reasoning and Retrieval](https://arxiv.org/abs/2608.13200)** — Zhili Shen, Craig Macdonald · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.13200v1)
+- **[Towards Physics-Faithful Generation of Scientific Diagrams](https://arxiv.org/abs/2608.13112)** — Minghui Zhang, Jinxin Shi, Yifan Chang et al. · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.13112v1)
+- **[Semantic Radiance Fields as Simulators for Spatial Reasoning in Real-World Scenes](https://arxiv.org/abs/2608.13095)** — Nico Heider, Michał Jan Włodarczyk, Katarzyna Wasielewska-Michniewska et al. · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.13095v1)
+- **[SPADE: Speculative Decoding for Precise and Low Cost Distributed Edge Cloud Inference](https://arxiv.org/abs/2608.13076)** — Divya Jyoti Bajpai, Kishan Kumar Upadhyay, Manjesh Kumar Hanawal · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.13076v1)
+- **[Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice](https://arxiv.org/abs/2608.12962)** — Ziqi Zhao, Jialin Lu, Junjie Shan et al. · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.12962v1)
+- **[Beyond Correctness: Benchmarking and Aligning Response Behaviors in Hybrid-Thinking MLLMs](https://arxiv.org/abs/2608.12781)** — Xinming Wang, Weinong Wang, Hongming Yang et al. · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.12781v1)
+- **[Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence](https://arxiv.org/abs/2608.12743)** — Haokai Zhang, Yuhang Ding, Yunshu Zhou et al. · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.12743v1)
+- **[ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval](https://arxiv.org/abs/2608.12720)** — Haolong Chen, Liang Zhang, Zhuo Li et al. · `2026-08-13` · [pdf](https://arxiv.org/pdf/2608.12720v1)
 
 ---
 

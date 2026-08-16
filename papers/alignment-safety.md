@@ -1,12 +1,162 @@
 # Alignment & Safety
 
-_62 papers · updated 2026-08-11 05:09 UTC_
+_80 papers · updated 2026-08-16 18:20 UTC_
 
 [← Back to index](../README.md)
 
 ## August 2026
 
-### 1. SHE: Trajectory-driven Safety Harness Evolution for LLM Agents
+### 1. Synthetic Persona Pretraining: Alignment from Token Zero
+
+**Authors:** Julian Minder, Viktor Moskvoretskii, Raghav Singhal, Difan Jiao, Andy Arditi, Shaobo Cui et al.  
+**Published:** 2026-08-13 · **arXiv:** `2608.13482` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.13482) · [PDF](https://arxiv.org/pdf/2608.13482v1)
+
+> Installs a value-aligned assistant persona during pretraining via annotated reflections, improving constitution-following and jailbreak robustness in models up to 3B.
+
+---
+
+### 2. Safety vs. Social Image: Co-Designing Protection Mechanisms Against Ableist Harassment with People with Disabilities in Social Virtual Reality
+
+**Authors:** Kexin Zhang, Daniel Killough, Xinran Adeline Li, Yaxing Yao, Yuhang Zhao  
+**Published:** 2026-08-13 · **arXiv:** `2608.13532` · **Category:** `cs.HC`  
+**Links:** [abstract](https://arxiv.org/abs/2608.13532) · [PDF](https://arxiv.org/pdf/2608.13532v1)
+
+> Co-designing VR protection mechanisms with disabled people reveals how social proximity shapes harassment perception and that users often prioritize social image over safety.
+
+---
+
+### 3. Rules or Character? Scaling Laws for AI Safety Design
+
+**Authors:** Satoshi Takahashi, Nobuji Kouno, Masaaki Komatsu, Ryuji Hamamoto  
+**Published:** 2026-08-13 · **arXiv:** `2608.13345` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.13345) · [PDF](https://arxiv.org/pdf/2608.13345v1)
+
+> A comparative-statics model derives how the optimal allocation between behavioral shaping and rule enforcement shifts toward character shaping as deployment scale grows.
+
+---
+
+### 4. Refusing Intent, Not Form: Wrapper-Based Intent-Group Supervision for LLM Safety
+
+**Authors:** Ping Wu, Haibo Tong, Feifei Zhao, Han Shen, Yu Shi, Yilin Zhao et al.  
+**Published:** 2026-08-13 · **arXiv:** `2608.13304` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.13304) · [PDF](https://arxiv.org/pdf/2608.13304v1)
+
+> WIFA pairs wrapped harmful prompts with matched benign counterexamples to teach LLMs to refuse by intent rather than surface form, reducing over-refusal.
+
+---
+
+### 5. Reconcile Once, Write Anytime: A Trust-Tiered Librarian and a Multi-Agent Writer for Drift-Free, Point-in-Time Research
+
+**Authors:** Xing Zhang, Yanwei Cui, Guanghui Wang, Peiyang He  
+**Published:** 2026-08-13 · **arXiv:** `2608.12984` · **Category:** `cs.MA`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12984) · [PDF](https://arxiv.org/pdf/2608.12984v1)
+
+> Two-tier agentic system separates a timestamped knowledge library from writing to produce contradiction-free, provenance-grounded point-in-time research reports.
+
+---
+
+### 6. MapRoute++: Surrogate-Guided Semantic Routing for Visual Concept Unlearning
+
+**Authors:** Ashok Urlana, L. D. M. S. Sai Teja, Vivek Hruday Kavuri, Ponnurangam Kumaraguru  
+**Published:** 2026-08-13 · **arXiv:** `2608.13478` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.13478) · [PDF](https://arxiv.org/pdf/2608.13478v1)
+
+> Extends MapRoute with semantic routing and richer concept representations for visual concept unlearning, improving robust removal while preserving adjacent concepts.
+
+---
+
+### 7. HiRoute: Hierarchical Routed Prompt Tuning for Safety Alignment of Large Language Models
+
+**Authors:** Fangzhou Chen, Shiji Zhao, Mengyang Wang, Qihui Zhu, Ranjie Duan, Maoxun Yuan et al.  
+**Published:** 2026-08-13 · **arXiv:** `2608.12821` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12821) · [PDF](https://arxiv.org/pdf/2608.12821v1)
+
+> HiRoute routes risky inputs through shared and risk-specific prompt experts, strengthening safety alignment against jailbreaks while limiting over-refusal of benign inputs.
+
+---
+
+### 8. Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL
+
+**Authors:** Minglai Yang, Xinyu Guo, Utkarsh Tyagi, Mian Zhang, Razvan Dumitru, Sunjie Hou et al.  
+**Published:** 2026-08-12 · **arXiv:** `2608.11669` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11669) · [PDF](https://arxiv.org/pdf/2608.11669v1)
+
+> Randomly dropping rubric criteria each training step prevents policies from exploiting fixed reward proxies, reducing reward hacking in rubric-based reinforcement learning.
+
+---
+
+### 9. REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation
+
+**Authors:** Yang Sun, Lichao Ma, Houyuan Qin, Yuxin Liu, Hanyang Lu, Yao Zhu et al.  
+**Published:** 2026-08-12 · **arXiv:** `2608.11698` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11698) · [PDF](https://arxiv.org/pdf/2608.11698v2)
+
+> A reliability-adaptive reward-extrapolation method assigns token-wise coefficients during on-policy distillation to curb reward hacking without verifiers or extra rollouts.
+
+---
+
+### 10. Philosophical vertigo with artificial intelligence
+
+**Authors:** Thomas A. Pollak, Hamilton Morrin, Murray Shanahan  
+**Published:** 2026-08-12 · **arXiv:** `2608.11955` · **Category:** `cs.CY`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11955) · [PDF](https://arxiv.org/pdf/2608.11955v2)
+
+> The authors describe how conversational AI can destabilize users' assumptions about mind and reality, coining this disorientation 'philosophical vertigo' and tracing its propagation.
+
+---
+
+### 11. One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL
+
+**Authors:** Simon Yu, Nicholas Tomlin, Marwa Abdulhai, Ximing Lu, Derek Chong, Abe Hou et al.  
+**Published:** 2026-08-12 · **arXiv:** `2608.12253` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12253) · [PDF](https://arxiv.org/pdf/2608.12253v1)
+
+> Training multi-agent policies against a single mode-collapsed LLM simulator fails to generalize; verbalized sampling and multi-simulator co-training mitigate the collapse.
+
+---
+
+### 12. SafeCap: Improving LVLM Safety with Image Captioning Reinforcement Learning
+
+**Authors:** Caoyuan Ma, Wenpu Liu, Weichu Xie, Tian Gu, Shilei Zhao, Lingxi Min et al.  
+**Published:** 2026-08-11 · **arXiv:** `2608.10513` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.10513) · [PDF](https://arxiv.org/pdf/2608.10513v1)
+
+> Reinforcement-learning framework trains vision-language models to generate safety-relevant captions before answering, improving multimodal safety while preserving vision utility.
+
+---
+
+### 13. How to Verify Consistency of Probabilistic Claims
+
+**Authors:** Orr Paradise, Oliver Richardson, Yoshua Bengio, Shafi Goldwasser  
+**Published:** 2026-08-11 · **arXiv:** `2608.11181` · **Category:** `cs.CC`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11181) · [PDF](https://arxiv.org/pdf/2608.11181v1)
+
+> An interactive proof protocol lets a polynomial-time verifier check the approximate consistency of a probabilistic predictor's exponentially many conditional-probability claims.
+
+---
+
+### 14. Agent Safety Should Be a Runtime Contract
+
+**Authors:** Albus W. Ng, Yi Han, Jusheng Zhang, Wenhao Wang  
+**Published:** 2026-08-11 · **arXiv:** `2608.11274` · **Category:** `cs.CR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11274) · [PDF](https://arxiv.org/pdf/2608.11274v1)
+
+> The authors argue autonomous-agent safety must be enforced at runtime by the harness through preventive gates and verifiable evidence rather than training alone.
+
+---
+
+### 15. Toward a Theory of Value in AI Alignment
+
+**Authors:** Andrew Smart, Shazeda Ahmed, Jackie Kay, Jimmy Tobin, Kris Shrishak, Abeba Birhane  
+**Published:** 2026-08-10 · **arXiv:** `2608.10327` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.10327) · [PDF](https://arxiv.org/pdf/2608.10327v1)
+
+> Annotating 94 papers reveals that value-alignment research rarely defines human values, defaulting to preferences that reduce complex concepts to binary choices.
+
+---
+
+### 16. SHE: Trajectory-driven Safety Harness Evolution for LLM Agents
 
 **Authors:** Wanying Qu, Qinghua Mao, Yu Li, Jiyao Liu, Xin Zhang, Dadi Guo et al.  
 **Published:** 2026-08-10 · **arXiv:** `2608.09885` · **Category:** `cs.AI`  
@@ -16,7 +166,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 2. ReliableNet: A Chance-Constrained Approach to Trustworthy Classification in Deep Learning
+### 17. ReliableNet: A Chance-Constrained Approach to Trustworthy Classification in Deep Learning
 
 **Authors:** Ange-Clément Akazan, Ineza Remy Mugenga, Abebe Geletu, Jean Medard Ngnotchouye, Issa Karambal  
 **Published:** 2026-08-10 · **arXiv:** `2608.09768` · **Category:** `cs.LG`  
@@ -26,7 +176,17 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 3. TrustRoboReward: Preference-Ordered Isotonic Score Editing for Multi-Paradigm Robot Reward Models
+### 18. Procedural Fairness Failures in RLHF from Preference Averaging
+
+**Authors:** M P V S Gopinadh, Karthik Kamuju, Kummari Avinash, John Joshua, Srinivasa Raju Rudraraju  
+**Published:** 2026-08-10 · **arXiv:** `2608.10126` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.10126) · [PDF](https://arxiv.org/pdf/2608.10126v1)
+
+> Averaging heterogeneous preferences in RLHF underrepresents minority groups; separating optimization across preference modes improves alignment accuracy and narrows fairness gaps.
+
+---
+
+### 19. TrustRoboReward: Preference-Ordered Isotonic Score Editing for Multi-Paradigm Robot Reward Models
 
 **Authors:** Yidong Wang, Yan Zhan, Ziteng Feng, Zhenyu Cui, Ziyi Zhou, Renzhao Liang et al.  
 **Published:** 2026-08-09 · **arXiv:** `2608.08491` · **Category:** `cs.AI`  
@@ -36,7 +196,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 4. Explore or Converge? Stage-Guided Per-Step Optimization for Diffusion Models
+### 20. Explore or Converge? Stage-Guided Per-Step Optimization for Diffusion Models
 
 **Authors:** Renye Yan, Jikang Cheng, You Wu, Wei Peng, Zongwei Wang, Ling Liang et al.  
 **Published:** 2026-08-07 · **arXiv:** `2608.06768` · **Category:** `cs.CV`  
@@ -46,7 +206,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 5. Contextual Value Alignment via Multilayer Combinatorial Fusion
+### 21. Contextual Value Alignment via Multilayer Combinatorial Fusion
 
 **Authors:** Yuanhong Wu, Djallel Bouneffouf, D. Frank Hsu  
 **Published:** 2026-08-07 · **arXiv:** `2608.07642` · **Category:** `cs.AI`  
@@ -56,7 +216,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 6. Subliminal Learning is Non-Semantic Distillation
+### 22. Subliminal Learning is Non-Semantic Distillation
 
 **Authors:** Ethan Hadley, Eren Gultepe  
 **Published:** 2026-08-06 · **arXiv:** `2608.05734` · **Category:** `cs.AI`  
@@ -66,7 +226,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 7. Studying People to Study AI: Expert Perspectives on the Epistemic Fit and Barriers of Human Research in AI Safety & Ethics
+### 23. Studying People to Study AI: Expert Perspectives on the Epistemic Fit and Barriers of Human Research in AI Safety & Ethics
 
 **Authors:** Jessica Y. Bo, Paula Akemi Aoyagui, Shalaleh Rismani, Dipto Das, Syed Ishtiaque Ahmed, Ashton Anderson  
 **Published:** 2026-08-06 · **arXiv:** `2608.05656` · **Category:** `cs.CY`  
@@ -76,7 +236,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 8. Sample-Adaptive Latent Rewards for Uncertainty-Guided Diffusion Post-Training
+### 24. Sample-Adaptive Latent Rewards for Uncertainty-Guided Diffusion Post-Training
 
 **Authors:** Rui Li, Yuanzhi Liang, Ke Hao, Ziqiao Weng, Haibin Huang, Chi Zhang et al.  
 **Published:** 2026-08-06 · **arXiv:** `2608.06125` · **Category:** `cs.CV`  
@@ -86,7 +246,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 9. SAGA: Score-Weighted Adaptive Generation Alignment for Low-Resource Nordic Language Models
+### 25. SAGA: Score-Weighted Adaptive Generation Alignment for Low-Resource Nordic Language Models
 
 **Authors:** Hoda Fakharzadehjahromy, Emil Wiman, Andreas Bueff, Hafsteinn Einarsson, Fredrik Heintz  
 **Published:** 2026-08-06 · **arXiv:** `2608.06179` · **Category:** `cs.LG`  
@@ -96,7 +256,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 10. GRASP: Reinforcing Language Model Anonymizers with Group Relative Policy Optimization
+### 26. GRASP: Reinforcing Language Model Anonymizers with Group Relative Policy Optimization
 
 **Authors:** Sajjad Ghiasvand, Nader Sehatbakhsh  
 **Published:** 2026-08-06 · **arXiv:** `2608.06526` · **Category:** `cs.CL`  
@@ -106,7 +266,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 11. DelusionEval: Measuring Delusion-Linked Behaviors in AI Chatbots
+### 27. DelusionEval: Measuring Delusion-Linked Behaviors in AI Chatbots
 
 **Authors:** Jared Moore, Andrea Mock, Yifan Mai, Jacy Reese Anthis, Ryan Louie, William Agnew et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.05004` · **Category:** `cs.CL`  
@@ -116,7 +276,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 12. Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings
+### 28. Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings
 
 **Authors:** Agatha Duzan, Asa Cooper Stickland  
 **Published:** 2026-08-05 · **arXiv:** `2608.04735` · **Category:** `cs.AI`  
@@ -126,7 +286,17 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 13. Risky Business: Measuring The Faithfulness-Safety Tension
+### 29. Variable Selection in the Context of AI Fairness
+
+**Authors:** Ivan Luciano Danesi, Chiara Frigerio, Fabio Maccaferri, Giorgio Alessandro Motta, Pietro Zecca  
+**Published:** 2026-08-04 · **arXiv:** `2608.11251` · **Category:** `cs.CY`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11251) · [PDF](https://arxiv.org/pdf/2608.11251v1)
+
+> A mathematical approach argues that retaining all relevant variables, rather than excluding sensitive ones, enables more granular fairness assessment and reduces implicit bias.
+
+---
+
+### 30. Risky Business: Measuring The Faithfulness-Safety Tension
 
 **Authors:** Dominik Meier, Luca Joshua Francis, Marco Bernhard Kaiser, Terry Ruas, Jan Philip Wahle, Bela Gipp  
 **Published:** 2026-08-04 · **arXiv:** `2608.03745` · **Category:** `cs.AI`  
@@ -136,7 +306,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 14. SP3O: Reinforcement Learning from Segment Preferences without Reward Modeling
+### 31. SP3O: Reinforcement Learning from Segment Preferences without Reward Modeling
 
 **Authors:** Evan Assmus, Qining Zhang, Lei Ying  
 **Published:** 2026-08-03 · **arXiv:** `2608.02951` · **Category:** `cs.LG`  
@@ -146,7 +316,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 15. No Single Neuron of Failure: Distributed Safety Alignment Against White-Box Attacks
+### 32. No Single Neuron of Failure: Distributed Safety Alignment Against White-Box Attacks
 
 **Authors:** Simiao Xie, Chuancheng Shi, Shangze Li, Wenhua Wu, Fei Shen, Ying Zhou et al.  
 **Published:** 2026-08-02 · **arXiv:** `2608.01414` · **Category:** `cs.AI`  
@@ -156,7 +326,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 16. Moving the Safety Barrier: Dynamic Routing Adaptive Alignment Against White-Box Attacks
+### 33. Moving the Safety Barrier: Dynamic Routing Adaptive Alignment Against White-Box Attacks
 
 **Authors:** Shangze Li, Chuancheng Shi, Simiao Xie, Lingzhi He, Cheng Ji, Zifeng Cheng et al.  
 **Published:** 2026-08-02 · **arXiv:** `2608.02674` · **Category:** `cs.CR`  
@@ -166,7 +336,17 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 17. AI Alignment and Fiduciary Obligation
+### 34. The Off-Support Barrier: Why Semantic Safety Constraints Are Not Learning-Problem Invariants, and What Follows for Prior Design, Containment, and Verification
+
+**Authors:** Yoshinori Watanabe  
+**Published:** 2026-08-01 · **arXiv:** `2608.11243` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11243) · [PDF](https://arxiv.org/pdf/2608.11243v1)
+
+> The authors show semantic safety constraints are off-support objects invisible to the learning problem, implying hard invariants belong in the harness, not the model.
+
+---
+
+### 35. AI Alignment and Fiduciary Obligation
 
 **Authors:** Benjamin Lange  
 **Published:** 2026-08-01 · **arXiv:** `2608.02660` · **Category:** `cs.CY`  
@@ -176,7 +356,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 18. A False Average: Chain-of-Thought Monitors Collapse Where They Are the Only Defense
+### 36. A False Average: Chain-of-Thought Monitors Collapse Where They Are the Only Defense
 
 **Authors:** Shikhar Shiromani, Leo Richter  
 **Published:** 2026-08-01 · **arXiv:** `2608.00583` · **Category:** `cs.CR`  
@@ -186,7 +366,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ## July 2026
 
-### 19. Learning Latent Reasoning Traces for Scalar Reward Models End-to-End
+### 37. Learning Latent Reasoning Traces for Scalar Reward Models End-to-End
 
 **Authors:** Sanwoo Lee, Clive Bai, Hsiu-Yuan Huang, Kun Liang, Weijie Liu, Yunfang Wu  
 **Published:** 2026-07-31 · **arXiv:** `2607.29185` · **Category:** `cs.CL`  
@@ -196,7 +376,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 20. Automated Testing and Repair for Verified Compilers Generated by a Coding Agent
+### 38. Automated Testing and Repair for Verified Compilers Generated by a Coding Agent
 
 **Authors:** Martin Rinard  
 **Published:** 2026-07-31 · **arXiv:** `2607.28928` · **Category:** `cs.SE`  
@@ -206,7 +386,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 21. A Constitution-Grid Instrument for Data-Efficient RL Alignment (C-Guard)
+### 39. A Constitution-Grid Instrument for Data-Efficient RL Alignment (C-Guard)
 
 **Authors:** Xianling Zhang  
 **Published:** 2026-07-31 · **arXiv:** `2608.00180` · **Category:** `cs.CL`  
@@ -216,7 +396,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 22. Fragility of Value under Imperfect Alignment
+### 40. Fragility of Value under Imperfect Alignment
 
 **Authors:** Winter Cross  
 **Published:** 2026-07-30 · **arXiv:** `2607.28881` · **Category:** `cs.AI`  
@@ -226,7 +406,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 23. Why Public Service AI Governance Frameworks Risk Failing in the Age of General-Purpose AI: Lessons from Policing
+### 41. Why Public Service AI Governance Frameworks Risk Failing in the Age of General-Purpose AI: Lessons from Policing
 
 **Authors:** Sam Relins, Daniel Birks  
 **Published:** 2026-07-28 · **arXiv:** `2607.25648` · **Category:** `cs.CY`  
@@ -236,7 +416,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 24. Meta-Learned Reward Shaping for Reinforcement Learning from Human Feedback
+### 42. Meta-Learned Reward Shaping for Reinforcement Learning from Human Feedback
 
 **Authors:** Yunpeng Chu  
 **Published:** 2026-07-28 · **arXiv:** `2607.26094` · **Category:** `cs.LG`  
@@ -246,7 +426,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 25. Epistemic Norms for AI Safety and Alignment Research
+### 43. Epistemic Norms for AI Safety and Alignment Research
 
 **Authors:** Keivan Navaie  
 **Published:** 2026-07-27 · **arXiv:** `2607.24243` · **Category:** `cs.AI`  
@@ -256,7 +436,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 26. The Missing Layer: Specification Infrastructure for AI Oversight
+### 44. The Missing Layer: Specification Infrastructure for AI Oversight
 
 **Authors:** Satyam Kumar, Saurabh Jha  
 **Published:** 2026-07-26 · **arXiv:** `2607.24866` · **Category:** `cs.CR`  
@@ -266,7 +446,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 27. On AI Safety and Security Technical Debt in Engineering AI-Enabled Systems
+### 45. On AI Safety and Security Technical Debt in Engineering AI-Enabled Systems
 
 **Authors:** Muhammad Tukur, Hayatullahi B. Adeyemo, Tao Chen, Nour Ali, Anis Zarrad, Rick Kazman et al.  
 **Published:** 2026-07-25 · **arXiv:** `2607.23365` · **Category:** `cs.SE`  
@@ -276,7 +456,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 28. Not All LLM Reasoning is Visible in the Chain-of-Thought
+### 46. Not All LLM Reasoning is Visible in the Chain-of-Thought
 
 **Authors:** Vatsal Baherwani, Tom Goldstein, Ashwinee Panda  
 **Published:** 2026-07-24 · **arXiv:** `2607.22925` · **Category:** `cs.CL`  
@@ -286,7 +466,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 29. Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation
+### 47. Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation
 
 **Authors:** Yunting Song, Matthew Watson, Peter Grabowski, Jun Qin  
 **Published:** 2026-07-24 · **arXiv:** `2607.22766` · **Category:** `cs.LG`  
@@ -296,7 +476,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 30. Unlearning Under Imbalance: Benchmarking Fairness in Multimodal LLM Unlearning
+### 48. Unlearning Under Imbalance: Benchmarking Fairness in Multimodal LLM Unlearning
 
 **Authors:** Lorenzo Orsingher, Thomas De Min, Massimiliano Mancini, Davide Talon, Elisa Ricci  
 **Published:** 2026-07-23 · **arXiv:** `2607.21300` · **Category:** `cs.CV`  
@@ -306,7 +486,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 31. Training Large Language Models for Self-Explanation Faithfulness
+### 49. Training Large Language Models for Self-Explanation Faithfulness
 
 **Authors:** Yeoktatt Cheah, María Pérez-Ortiz, Noah Y. Siegel, Oana-Maria Camburu  
 **Published:** 2026-07-23 · **arXiv:** `2607.21090` · **Category:** `cs.LG`  
@@ -316,7 +496,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 32. Sympathetic Framing: Evaluating AI Alignment across Sociodemographic Groups
+### 50. Sympathetic Framing: Evaluating AI Alignment across Sociodemographic Groups
 
 **Authors:** Haran Shani-Narkiss, Michael Fire, Oren Tsur  
 **Published:** 2026-07-22 · **arXiv:** `2607.27232` · **Category:** `cs.CL`  
@@ -326,7 +506,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 33. Rushes: A Human Preference Dataset for Pluralistic Alignment
+### 51. Rushes: A Human Preference Dataset for Pluralistic Alignment
 
 **Authors:** Michael Xu, Jorge Leandro, Sudha Rao, Weijia Xu, Nebojsa Jojic, Gabriel DesGarennes et al.  
 **Published:** 2026-07-22 · **arXiv:** `2607.20767` · **Category:** `cs.CL`  
@@ -336,7 +516,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 34. The safety failures we are not instrumenting: a perspective on hidden safety-critical challenges in modern AI systems
+### 52. The safety failures we are not instrumenting: a perspective on hidden safety-critical challenges in modern AI systems
 
 **Authors:** Gjergji Kasneci, Enkelejda Kasneci  
 **Published:** 2026-07-21 · **arXiv:** `2607.19292` · **Category:** `cs.CY`  
@@ -346,7 +526,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 35. Measuring Reward-Seeking via Contrastive Belief Updates
+### 53. Measuring Reward-Seeking via Contrastive Belief Updates
 
 **Authors:** Axel Højmark, Jérémy Scheurer, Evgenia Nitishinskaya, Felix Hofstätter, Jason Wolfe, Theodore Ehrenborg et al.  
 **Published:** 2026-07-21 · **arXiv:** `2607.18966` · **Category:** `cs.AI`  
@@ -356,7 +536,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 36. OR Else: A Differentiable Trust Region for Policy Optimization
+### 54. OR Else: A Differentiable Trust Region for Policy Optimization
 
 **Authors:** Chinmay Rane, Kanishka Tyagi, Michael Manry  
 **Published:** 2026-07-20 · **arXiv:** `2607.18163` · **Category:** `cs.LG`  
@@ -366,7 +546,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 37. LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks
+### 55. LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks
 
 **Authors:** Tianzhu Ye, Li Dong, Guanheng Chen, He Zhu, Xun Wu, Shaohan Huang et al.  
 **Published:** 2026-07-20 · **arXiv:** `2607.18110` · **Category:** `cs.LG`  
@@ -376,7 +556,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 38. A Geometric Perspective on Stabilizing Value Conflict Resolution
+### 56. A Geometric Perspective on Stabilizing Value Conflict Resolution
 
 **Authors:** Saket Reddy, Andy Liu  
 **Published:** 2026-07-20 · **arXiv:** `2607.17946` · **Category:** `cs.LG`  
@@ -386,7 +566,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 39. Learning from World Feedback: Why Model Uncertainty Fails as a Risk Signal in Model-Based RL
+### 57. Learning from World Feedback: Why Model Uncertainty Fails as a Risk Signal in Model-Based RL
 
 **Authors:** Zhaohui Wang  
 **Published:** 2026-07-18 · **arXiv:** `2607.16591` · **Category:** `cs.LG`  
@@ -396,7 +576,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 40. PCTD: Preference-Guided Counterfactual Task Decomposition for Agent Tool Retrieval
+### 58. PCTD: Preference-Guided Counterfactual Task Decomposition for Agent Tool Retrieval
 
 **Authors:** Chu Zhao, Lei Tang, Minghang Li, Jianzhe Zhao, Guibing Guo, Zhengzong Chen et al.  
 **Published:** 2026-07-17 · **arXiv:** `2607.15696` · **Category:** `cs.IR`  
@@ -406,7 +586,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 41. When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space
+### 59. When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space
 
 **Authors:** Weimeng Wang, Ziqiang Wang, Zihang Zhan, Chuanpu Fu, Qi Li, Ke Xu  
 **Published:** 2026-07-16 · **arXiv:** `2607.15218` · **Category:** `cs.AI`  
@@ -416,7 +596,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 42. Introspective Attention Modulation for Safe Text-to-Image Generation
+### 60. Introspective Attention Modulation for Safe Text-to-Image Generation
 
 **Authors:** Basim Azam, Hossein Rahmani, Naveed Akhtar  
 **Published:** 2026-07-16 · **arXiv:** `2607.14945` · **Category:** `cs.CV`  
@@ -426,7 +606,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 43. When Is Delegated Play Truthful? Within-Range Regret and the Trilemma of Aligned Delegation
+### 61. When Is Delegated Play Truthful? Within-Range Regret and the Trilemma of Aligned Delegation
 
 **Authors:** Taksch Dube  
 **Published:** 2026-07-15 · **arXiv:** `2607.14357` · **Category:** `cs.GT`  
@@ -436,7 +616,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 44. Value Leakage: An LLM's Answers Are Silently Shaped by Its Own Values
+### 62. Value Leakage: An LLM's Answers Are Silently Shaped by Its Own Values
 
 **Authors:** Jan Betley, Johannes Treutlein, Jan Dubiński, Harry Mayne, Karol Gałązka, Niels Warncke et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.14345` · **Category:** `cs.LG`  
@@ -446,7 +626,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 45. Traccia: An OpenTelemetry-Based Governance Platform for AI Systems
+### 63. Traccia: An OpenTelemetry-Based Governance Platform for AI Systems
 
 **Authors:** Nutan Kumar Naik, Aditya Kumar Saroj, Vijay Prasad Poudel, Saurav Samantray, Abhishek Patel  
 **Published:** 2026-07-15 · **arXiv:** `2607.14309` · **Category:** `cs.AI`  
@@ -456,7 +636,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 46. Phantom Guardrails: When Self-Improving Agent Harnesses Fix Failures That Never Happened
+### 64. Phantom Guardrails: When Self-Improving Agent Harnesses Fix Failures That Never Happened
 
 **Authors:** Su Wang, Pin Qian, Yifan Lin, Jingzhou Xu, Yihang Chen, Xiaochong Jiang et al.  
 **Published:** 2026-07-13 · **arXiv:** `2607.13083` · **Category:** `cs.CR`  
@@ -466,7 +646,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 47. Filtering Harmful Actions Isn't Enough: Phantom Transfer in Agentic SDF
+### 65. Filtering Harmful Actions Isn't Enough: Phantom Transfer in Agentic SDF
 
 **Authors:** Chinmayi Dixit  
 **Published:** 2026-07-12 · **arXiv:** `2607.10750` · **Category:** `cs.AI`  
@@ -476,7 +656,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 48. Beyond Target Scores: Measuring Off-Target Drift in Diffusion-Based Medical Image Editing
+### 66. Beyond Target Scores: Measuring Off-Target Drift in Diffusion-Based Medical Image Editing
 
 **Authors:** Todd Zhou  
 **Published:** 2026-07-12 · **arXiv:** `2607.16291` · **Category:** `cs.CV`  
@@ -486,7 +666,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 49. Breaking the Quality--Intelligibility Trade-off in Streaming Target Speaker Extraction via Deep-Feature-Anchored Preference Optimization
+### 67. Breaking the Quality--Intelligibility Trade-off in Streaming Target Speaker Extraction via Deep-Feature-Anchored Preference Optimization
 
 **Authors:** Shuhai Peng, Jinjiang Liu, Hui Lu, Liyang Chen, Guiping Zhong, Jiakui Li et al.  
 **Published:** 2026-07-11 · **arXiv:** `2607.10191` · **Category:** `cs.SD`  
@@ -496,7 +676,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 50. Multimodal Reward Hacking in Reinforcement Learning
+### 68. Multimodal Reward Hacking in Reinforcement Learning
 
 **Authors:** Jiayu Yao, Yiwei Wang, Anmeng Zhang, Zhe Sun, Songsong Wang, Lingrui Mei et al.  
 **Published:** 2026-07-10 · **arXiv:** `2607.09492` · **Category:** `cs.AI`  
@@ -506,7 +686,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 51. Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient Diffusion RLHF
+### 69. Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient Diffusion RLHF
 
 **Authors:** Eric Zhu, Abhinav Shrivastava, Soumik Mukhopadhyay  
 **Published:** 2026-07-08 · **arXiv:** `2607.07693` · **Category:** `cs.LG`  
@@ -516,7 +696,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 52. Reliability-Aware LLM Alignment from Inconsistent Human Feedback
+### 70. Reliability-Aware LLM Alignment from Inconsistent Human Feedback
 
 **Authors:** Jingyi Huang, Ruohan Zong, Yujun Feng, Liran Ma, Lanyu Shang, Yang Zhang  
 **Published:** 2026-07-07 · **arXiv:** `2607.20515` · **Category:** `cs.AI`  
@@ -526,7 +706,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 53. More Convincing, Not More Correct: Self-Play Reward Hacking of Reference-Free LLM Judges
+### 71. More Convincing, Not More Correct: Self-Play Reward Hacking of Reference-Free LLM Judges
 
 **Authors:** Chenyu Zhou  
 **Published:** 2026-07-07 · **arXiv:** `2607.05904` · **Category:** `cs.LG`  
@@ -536,7 +716,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 54. Attention Limited Reward Learning
+### 72. Attention Limited Reward Learning
 
 **Authors:** Wenqian Xing  
 **Published:** 2026-07-06 · **arXiv:** `2607.04590` · **Category:** `cs.AI`  
@@ -546,7 +726,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 55. On the effectiveness of reward functions in reinforcement learning for confidence calibration of large language models
+### 73. On the effectiveness of reward functions in reinforcement learning for confidence calibration of large language models
 
 **Authors:** Chee Heng Tan, Zhuoyi Lin, Mehul Motani, Wee Sun Lee  
 **Published:** 2026-07-05 · **arXiv:** `2607.04332` · **Category:** `cs.LG`  
@@ -556,7 +736,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 56. How to Avoid Debate: Scalable AI Safety via Doubly-Efficient Interactive Proofs
+### 74. How to Avoid Debate: Scalable AI Safety via Doubly-Efficient Interactive Proofs
 
 **Authors:** Liyan Chen, Yael Tauman Kalai, Zoe Xi  
 **Published:** 2026-07-03 · **arXiv:** `2607.03561` · **Category:** `cs.AI`  
@@ -566,7 +746,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 57. Steerability via constraints: a substrate for scalable oversight of coding agents
+### 75. Steerability via constraints: a substrate for scalable oversight of coding agents
 
 **Authors:** Thomas Winninger  
 **Published:** 2026-07-02 · **arXiv:** `2607.02389` · **Category:** `cs.AI`  
@@ -576,7 +756,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 58. Scaling Trends for Lie Detector Oversight in Preference Learning
+### 76. Scaling Trends for Lie Detector Oversight in Preference Learning
 
 **Authors:** Oskar J. Hollinsworth, Ann-Kathrin Dombrowski, Sam Adam-Day, Adam Gleave, Chris Cundy  
 **Published:** 2026-07-02 · **arXiv:** `2607.01567` · **Category:** `cs.AI`  
@@ -586,7 +766,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 59. Epistemic Goggles: A Pretrained Module that Induces an Epistemic Frame via Gradient Editing
+### 77. Epistemic Goggles: A Pretrained Module that Induces an Epistemic Frame via Gradient Editing
 
 **Authors:** Joshua Penman  
 **Published:** 2026-07-02 · **arXiv:** `2607.01690` · **Category:** `cs.AI`  
@@ -596,7 +776,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 60. Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations
+### 78. Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations
 
 **Authors:** Mehul Damani, Isha Puri, Idan Shenfeld, Jacob Andreas  
 **Published:** 2026-07-01 · **arXiv:** `2607.01181` · **Category:** `cs.LG`  
@@ -606,7 +786,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ## June 2026
 
-### 61. FLARE-AI: Flaw Reporting for AI
+### 79. FLARE-AI: Flaw Reporting for AI
 
 **Authors:** Shayne Longpre, Elaine Zhu, Carson Ezell, Avijit Ghosh, Sean McGregor, Kevin Paeth et al.  
 **Published:** 2026-06-30 · **arXiv:** `2606.31567` · **Category:** `cs.CY`  
@@ -616,7 +796,7 @@ _62 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 62. Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models
+### 80. Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models
 
 **Authors:** Subramanyam Sahoo, Aman Chadha, Vinija Jain, Divya Chaudhary  
 **Published:** 2026-06-29 · **arXiv:** `2606.30627` · **Category:** `cs.LG`  

@@ -1,12 +1,252 @@
 # Attention & Architecture
 
-_77 papers · updated 2026-08-11 05:09 UTC_
+_103 papers · updated 2026-08-16 18:20 UTC_
 
 [← Back to index](../README.md)
 
 ## August 2026
 
-### 1. ZetaGPT: A Reference Implementation of Positional--Encoding--Free State--Space--Attention Language Models
+### 1. Structured Local Differential Modeling for AI-Generated Image Detection
+
+**Authors:** Jiazhen Yang, Ruijin Jin, Junjun Zheng, Xiangheng Kong, Zunlei Feng, Jie Lei  
+**Published:** 2026-08-13 · **arXiv:** `2608.12811` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12811) · [PDF](https://arxiv.org/pdf/2608.12811v1)
+
+> RippleNet detects AI-generated images by amplifying low-SNR forensic cues through multi-scale local differential representations and refined attention.
+
+---
+
+### 2. Neural Quadratic Forms: A Unified Minimal Model for Sudden Learning and Scaling Laws
+
+**Authors:** Liu Ziyin, Yizhou Xu, Tomaso Poggio, Isaac Chuang  
+**Published:** 2026-08-13 · **arXiv:** `2608.13335` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.13335) · [PDF](https://arxiv.org/pdf/2608.13335v1)
+
+> A symmetry argument reduces diverse architectures to a universal quadratic model explaining both stepwise sudden learning and smooth power-law scaling.
+
+---
+
+### 3. Fine-Grained Action Recognition with Cross-Attentive Latent Sparse Experts
+
+**Authors:** Imtiaz Ul Hassan, Tasweer Ahmad, Nik Bessis, Ardhendu Behera  
+**Published:** 2026-08-13 · **arXiv:** `2608.13458` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.13458) · [PDF](https://arxiv.org/pdf/2608.13458v1)
+
+> FineX fuses RGB, pose heatmaps, and skeleton graphs via cross-attention and a sparse mixture-of-experts, achieving state-of-the-art fine-grained action recognition.
+
+---
+
+### 4. EGRL: Edge generation-guided relation-aware learning for RNA-protein interaction prediction
+
+**Authors:** Danyu Li, Ling Zhou, Rubing Huang, Xian Zhong, Bin Zou, Kui Jiang  
+**Published:** 2026-08-13 · **arXiv:** `2608.12906` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12906) · [PDF](https://arxiv.org/pdf/2608.12906v1)
+
+> A graph neural network with implicit meta-path learning and edge generation predicts RNA-protein interactions, including cold-start molecules.
+
+---
+
+### 5. Dual-Manifold Geometry Guided Representation Learning: Adaptive Coupling between Kernel and Data Spaces
+
+**Authors:** Wencong Zhang, Yue Zhang, Meiyan Huang, Wei Yang, Qianjin Feng  
+**Published:** 2026-08-13 · **arXiv:** `2608.12737` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12737) · [PDF](https://arxiv.org/pdf/2608.12737v1)
+
+> Kernel-Guided Feature Transform reshapes feature covariance using geometric guidance from convolutional kernel Gram matrices across coupled manifolds.
+
+---
+
+### 6. Alaya-EVOKE: From Linear-Scaling Supervision to Endless World
+
+**Authors:** Yuanyang Yin, Gongxuan Wang, Yifan Zhan, Chuanhao Li, Kaipeng Zhang, Feng Zhao  
+**Published:** 2026-08-13 · **arXiv:** `2608.13546` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.13546) · [PDF](https://arxiv.org/pdf/2608.13546v1)
+
+> Evoke externalizes persistent world state and combines sparse and linear attention to enable bounded-cost, long-horizon interactive world-model generation.
+
+---
+
+### 7. TradingMoE: Routing the Right Experts in Evolving Markets
+
+**Authors:** Chang Zhou, Xingtong Yu, Minbin Huang, Zhennan Wu, Yuan Fang, Hong Cheng et al.  
+**Published:** 2026-08-12 · **arXiv:** `2608.11785` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11785) · [PDF](https://arxiv.org/pdf/2608.11785v1)
+
+> TradingMoE augments a frozen LLM with residual experts and a query-key router matching token expertise to market conditions.
+
+---
+
+### 8. STAR: A Spatial-Topology Aware Routing Framework for Generalizable 3D Scene Understanding
+
+**Authors:** Mingwei Xing, Xinliang Wang, Yifeng Shi  
+**Published:** 2026-08-12 · **arXiv:** `2608.11699` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11699) · [PDF](https://arxiv.org/pdf/2608.11699v1)
+
+> STAR routes mixture-of-experts using spatial topology and self-supervised priors with entropy-controlled dynamic expert allocation for 3D scene understanding.
+
+---
+
+### 9. Regime-Gated Residual Mixture-of-Experts for Cross-Sectional Volatility Forecasting
+
+**Authors:** Junyi Ye, Gargi Vijay Borde  
+**Published:** 2026-08-12 · **arXiv:** `2608.12251` · **Category:** `q-fin.ST`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12251) · [PDF](https://arxiv.org/pdf/2608.12251v1)
+
+> A regime-gated residual mixture-of-experts routes corrections using market-regime variables, improving cross-sectional volatility forecasting accuracy and training stability.
+
+---
+
+### 10. PolarSym: Polar Geometry-aware Attention for CAD Floorplan Parsing
+
+**Authors:** Kerui Chen, Yiqing Wang, Kangzhou Xin, Qinghan Zhang, Songyang Ding  
+**Published:** 2026-08-12 · **arXiv:** `2608.11793` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11793) · [PDF](https://arxiv.org/pdf/2608.11793v1)
+
+> PolarSym adds polar-coordinate direction and distance attention branches to model geometric symmetry for CAD floorplan parsing.
+
+---
+
+### 11. Making Collaborative Signals Count: Graph-Aware Large Language Models for Sequential Recommendation
+
+**Authors:** Fenglin Yan, Bohao Wang, Jian Zhang, Yu Cui, Tongya Zheng, Ye Feng et al.  
+**Published:** 2026-08-12 · **arXiv:** `2608.12184` · **Category:** `cs.IR`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12184) · [PDF](https://arxiv.org/pdf/2608.12184v1)
+
+> GALLM injects text-item collaborative graph relations as learnable attention biases into an LLM for sequential recommendation.
+
+---
+
+### 12. MARCH: Scaling Recurrent Memory with Content-Routed State Anchors
+
+**Authors:** Ming Zhang, Kaisen Yang, Shu Yu, Ermo Hua, Ning Ding, Xia Hu et al.  
+**Published:** 2026-08-12 · **arXiv:** `2608.12435` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12435) · [PDF](https://arxiv.org/pdf/2608.12435v1)
+
+> MARCH caches recurrent-state anchors with content-routed keys, letting state-space memory grow with context for better long-range recall.
+
+---
+
+### 13. LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining
+
+**Authors:** Qiuwu Chen, Zimo Liu, Yuchen Li, Ying Sun, Yifan Zhang, Zhijie Qiu et al.  
+**Published:** 2026-08-12 · **arXiv:** `2608.12419` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12419) · [PDF](https://arxiv.org/pdf/2608.12419v1)
+
+> LoKiFormer adds convolutional local-fusion attention and a parametric key-value knowledge memory for more efficient LLM pretraining.
+
+---
+
+### 14. Lapis: Laplacian Spiking Attention via First-Spike Timing and Membrane Leakage
+
+**Authors:** Kaiwen Tang, Jiaqi Zheng, Zixuan Zhu, Yiqun Wang, Zhanglu Yan, Weng-Fai Wong  
+**Published:** 2026-08-12 · **arXiv:** `2608.11865` · **Category:** `cs.NE`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11865) · [PDF](https://arxiv.org/pdf/2608.11865v1)
+
+> Lapis scores spiking attention via L1 first-spike latency distances mapped through a Laplacian kernel, removing query-key multiplications.
+
+---
+
+### 15. Hybrid Gated Attention
+
+**Authors:** Zekun Zhou, Ruobing Xie, Lanrui Wang, Weixuan Sun  
+**Published:** 2026-08-12 · **arXiv:** `2608.11805` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11805) · [PDF](https://arxiv.org/pdf/2608.11805v1)
+
+> Hybrid Gated Attention combines multiple gating strategies across attention stages to mitigate sinks and boost representational capacity.
+
+---
+
+### 16. FM-LLM: A frequency-enhanced mixture-of-experts framework for adapting LLMs to time series forecasting
+
+**Authors:** Rentao Gu, Yihang Ding, Junjie Li, Yi Ding, Weijing Sang, Xiaoli Huo et al.  
+**Published:** 2026-08-12 · **arXiv:** `2608.11623` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11623) · [PDF](https://arxiv.org/pdf/2608.11623v1)
+
+> A frequency-aware mixture-of-experts framework injects spectral tokens into frozen LLMs for prompt-free time-series forecasting.
+
+---
+
+### 17. Domain-Aware Lightweight Spectral-Grouped Convolutions for Hyperspectral Fish Freshness Classification
+
+**Authors:** Kazi Nabiul Alam, Pooneh Bagheri Zadeh, Akbar Sheikh-Akbari  
+**Published:** 2026-08-12 · **arXiv:** `2608.12227` · **Category:** `eess.IV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12227) · [PDF](https://arxiv.org/pdf/2608.12227v1)
+
+> SGNet uses spectral-grouped convolutions and dual attention for lightweight hyperspectral classification of fish freshness with few parameters.
+
+---
+
+### 18. A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery
+
+**Authors:** Rafi Ibn Sultan, Chengyin Li, Yiannos Demetriou, Ahmed I. Ghanem, Joshua P. Kim, Justine Cunningham et al.  
+**Published:** 2026-08-12 · **arXiv:** `2608.12274` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12274) · [PDF](https://arxiv.org/pdf/2608.12274v1)
+
+> NA-UNETR uses neighborhood and dilated attention with uncertainty-guided loss to segment the small, low-contrast left anterior descending artery in CT.
+
+---
+
+### 19. Share First, Route What Remains: A Unified Framework for Token-Adaptive MoE Computation
+
+**Authors:** Gongli Zhang, Zhulin Liu, C. L. Philip Chen  
+**Published:** 2026-08-11 · **arXiv:** `2608.10392` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.10392) · [PDF](https://arxiv.org/pdf/2608.10392v1)
+
+> UniF-MoE first extracts shared expert computation, then routes only the residual demand for token-adaptive mixture-of-experts inference.
+
+---
+
+### 20. ODE-Based Transformer Decoders for Iterative Sign Language Translation
+
+**Authors:** Tuğçe Kızıltepe, Hacer Yalim Keles  
+**Published:** 2026-08-11 · **arXiv:** `2608.11352` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11352) · [PDF](https://arxiv.org/pdf/2608.11352v1)
+
+> Iterative sign-language translation decoders are reinterpreted as ODEs and updated with Runge-Kutta integration to improve accuracy without extra parameters.
+
+---
+
+### 21. Mixture-of-Experts-based Entropy Model for Learned Image Compression
+
+**Authors:** Jonas Brenig, Radu Timofte  
+**Published:** 2026-08-11 · **arXiv:** `2608.10947` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.10947) · [PDF](https://arxiv.org/pdf/2608.10947v1)
+
+> A mixture-of-experts entropy model selectively activates parameters per image, improving learned image compression rate over VVC.
+
+---
+
+### 22. MammoMix: Leveraging Mixture of Experts for Robust Mammogram Breast Detection
+
+**Authors:** Dinh Tan Nguyen, Hoang Quan Dang, Chen Zhang, Sai Ho Ling  
+**Published:** 2026-08-11 · **arXiv:** `2608.10437` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.10437) · [PDF](https://arxiv.org/pdf/2608.10437v1)
+
+> A mixture-of-experts detector with domain-specific experts and a calibration module improves cross-dataset mammogram lesion detection and reliability.
+
+---
+
+### 23. Embedding Rotation Invariance for Provable Multi-Oriented Scene Text Recognition
+
+**Authors:** Zhibin Ma, Pengwen Dai, Yi Liu, Xugong Qin, Chenyun Yu, Xiaochun Cao  
+**Published:** 2026-08-11 · **arXiv:** `2608.10684` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.10684) · [PDF](https://arxiv.org/pdf/2608.10684v1)
+
+> An encoder-decoder combining rotation-equivariant convolutions and provably rotation-invariant cross-attention handles multi-oriented scene text recognition.
+
+---
+
+### 24. A Quantum Roadmap for Softmax Attention: Exact Born-Rule Analogs for Softmax Attention on the Probability Simplex
+
+**Authors:** Eric A. F. Reinhardt, Adam J. Hauser  
+**Published:** 2026-08-11 · **arXiv:** `2608.11173` · **Category:** `quant-ph`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11173) · [PDF](https://arxiv.org/pdf/2608.11173v1)
+
+> Softmax attention on the probability simplex is given an exact quantum realization using Born-rule measurements and rotation-gate parameters.
+
+---
+
+### 25. ZetaGPT: A Reference Implementation of Positional--Encoding--Free State--Space--Attention Language Models
 
 **Authors:** Róisín Luo  
 **Published:** 2026-08-10 · **arXiv:** `2608.09432` · **Category:** `cs.CL`  
@@ -16,7 +256,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 2. MixFormer: Linear Transformer with Mixture of Memory Experts
+### 26. MixFormer: Linear Transformer with Mixture of Memory Experts
 
 **Authors:** Yu Guo, Lei Duan  
 **Published:** 2026-08-10 · **arXiv:** `2608.09468` · **Category:** `cs.LG`  
@@ -26,7 +266,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 3. Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA
+### 27. Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA
 
 **Authors:** Mind Lab, :, Vin Bo, Asher Cai, Jingwei Cao, Song Cao et al.  
 **Published:** 2026-08-10 · **arXiv:** `2608.09819` · **Category:** `cs.LG`  
@@ -36,7 +276,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 4. HOPPER: Learnable Hop Extraction for Linearized Graph Sequence Models
+### 28. HOPPER: Learnable Hop Extraction for Linearized Graph Sequence Models
 
 **Authors:** Isuru Herath, Arin Gopakumar, Sharan Sahu  
 **Published:** 2026-08-10 · **arXiv:** `2608.09031` · **Category:** `cs.LG`  
@@ -46,7 +286,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 5. DistMoE: Private-data Rehearsal-free Routing in Mixture-of-Experts for Distributed Instruction Tuning
+### 29. DistMoE: Private-data Rehearsal-free Routing in Mixture-of-Experts for Distributed Instruction Tuning
 
 **Authors:** Mainak Singha, Niccolò Biondi, Elisa Ricci, Subhankar Roy  
 **Published:** 2026-08-10 · **arXiv:** `2608.09907` · **Category:** `cs.CV`  
@@ -56,7 +296,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 6. Disentangling Co-Occurring Retinal Pathologies with Saliency-Guided Sparse Expert Routing
+### 30. Disentangling Co-Occurring Retinal Pathologies with Saliency-Guided Sparse Expert Routing
 
 **Authors:** Nagur Shareef Shaik, Jeongwoo Park, Yeong-Jin Kim, Jaeuk Jung, Hyunjung Oh, Dong Hye Ye  
 **Published:** 2026-08-10 · **arXiv:** `2608.09752` · **Category:** `cs.CV`  
@@ -66,7 +306,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 7. ChronoState: Hidden Elapsed-Time Conditioning for Temporal-State Action Selection in Frozen-Backbone Language Models
+### 31. ChronoState: Hidden Elapsed-Time Conditioning for Temporal-State Action Selection in Frozen-Backbone Language Models
 
 **Authors:** Sam Siavoshian, Omar Ramadan, Amir K. Saeed, Benjamin A. Johnson, Amin Mohamed El-Amin Diab, Benjamin M. Rodriguez  
 **Published:** 2026-08-10 · **arXiv:** `2608.09124` · **Category:** `cs.AI`  
@@ -76,7 +316,27 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 8. UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models
+### 32. ChronoSSM: Training for Temporally Aware Representations in Autoregressive State Space Models
+
+**Authors:** Adrien Schoen, Nachiketa Ratnakar Patil, Arjun Bhagoji, Francesco Bronzino  
+**Published:** 2026-08-10 · **arXiv:** `2608.10120` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.10120) · [PDF](https://arxiv.org/pdf/2608.10120v1)
+
+> ChronoSSM jointly models events and timestamps in a shared state-space backbone for temporally aware autoregressive representations.
+
+---
+
+### 33. CRHT: A Continuous Regression Hybrid Transformer for Vessel Trajectory Prediction with Online Cluster Sampling
+
+**Authors:** Alexander Schiøtz, Bertram Hage, Christian Rand, Felix Thomsen, Peder Heiselberg  
+**Published:** 2026-08-10 · **arXiv:** `2608.10256` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.10256) · [PDF](https://arxiv.org/pdf/2608.10256v1)
+
+> A convolution-plus-attention hybrid transformer with online cluster sampling forecasts vessel trajectories, excelling at short-horizon predictions.
+
+---
+
+### 34. UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models
 
 **Authors:** Lei Xin, Bin Gu, Peize Li, Zitong Wang, Jianbo Zhao, Changjiang Jiang et al.  
 **Published:** 2026-08-09 · **arXiv:** `2608.08627` · **Category:** `cs.AI`  
@@ -86,7 +346,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 9. The Evolution of Mixture-of-Experts Architectures in Large Language Models: Routing, Topology, Load Balancing, and Expert Parallelism
+### 35. The Evolution of Mixture-of-Experts Architectures in Large Language Models: Routing, Topology, Load Balancing, and Expert Parallelism
 
 **Authors:** Jiguo Li  
 **Published:** 2026-08-09 · **arXiv:** `2608.08650` · **Category:** `cs.CL`  
@@ -96,7 +356,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 10. Rethinking Attention Locality in Spiking Transformers
+### 36. Rethinking Attention Locality in Spiking Transformers
 
 **Authors:** Zeqi Zheng, Zizheng Zhu, Yuping Yan, Wenxuan Pan, Zhaofei Yu, Yaochu Jin  
 **Published:** 2026-08-09 · **arXiv:** `2608.08541` · **Category:** `cs.CV`  
@@ -106,7 +366,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 11. Full-bandwidth transformer
+### 37. Full-bandwidth transformer
 
 **Authors:** Xi Wang, Ziyang Cai, Zheng Zhan, Harry Dong, Ying Fan, Gustavo de Rosa et al.  
 **Published:** 2026-08-09 · **arXiv:** `2608.08888` · **Category:** `cs.AI`  
@@ -116,7 +376,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 12. Federated Attention Autoencoders with a Stochastic Aggregation Scheme for Anomaly Detection
+### 38. Federated Attention Autoencoders with a Stochastic Aggregation Scheme for Anomaly Detection
 
 **Authors:** Mihailo Ilić, Miloš Savić, Vladimir Kurbalija, Mirjana Ivanović, Giancarlo Fortino, Dušan Jakovetić  
 **Published:** 2026-08-09 · **arXiv:** `2608.08906` · **Category:** `cs.LG`  
@@ -126,7 +386,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 13. Beyond Routing: Decoupling Expert Dispatch and Aggregation in Sparse Mixture-of-Experts
+### 39. Beyond Routing: Decoupling Expert Dispatch and Aggregation in Sparse Mixture-of-Experts
 
 **Authors:** Zongfei Li  
 **Published:** 2026-08-09 · **arXiv:** `2608.08853` · **Category:** `cs.LG`  
@@ -136,7 +396,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 14. AdapterMoE: A Two-Stage Hard-Routing Mixture-of-Experts Architecture for Multi-Crop Disease Recognition with Calibrated Rejection and Incremental Learning
+### 40. AdapterMoE: A Two-Stage Hard-Routing Mixture-of-Experts Architecture for Multi-Crop Disease Recognition with Calibrated Rejection and Incremental Learning
 
 **Authors:** Pin-Hsun Huang, Shaou-Gang Miaou  
 **Published:** 2026-08-09 · **arXiv:** `2608.08808` · **Category:** `cs.CV`  
@@ -146,7 +406,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 15. DoGMA: A Central-Dogma-Guided Foundation Model for Multi-Omics Alignment and Multi-Task Learning in Oncology
+### 41. DoGMA: A Central-Dogma-Guided Foundation Model for Multi-Omics Alignment and Multi-Task Learning in Oncology
 
 **Authors:** Junfei Ling, Bangzheng Pu, Bingsen Xue, Tianle Li, Ruying Hu, Cheng Jin  
 **Published:** 2026-08-08 · **arXiv:** `2608.08148` · **Category:** `cs.LG`  
@@ -156,7 +416,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 16. Causal State-Space Model for Causal Inference: Estimating Longitudinal Individual Treatment Effects
+### 42. Causal State-Space Model for Causal Inference: Estimating Longitudinal Individual Treatment Effects
 
 **Authors:** Abisoye Abidakun, Mingjun Zhong, Georgios Leontidis  
 **Published:** 2026-08-08 · **arXiv:** `2608.08288` · **Category:** `cs.LG`  
@@ -166,7 +426,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 17. AraSSM: A bidirectional state-space encoder for Arabic masked language modeling
+### 43. AraSSM: A bidirectional state-space encoder for Arabic masked language modeling
 
 **Authors:** Ahmed Amine Aliane, Hassina Aliane, Nasredine Semmar  
 **Published:** 2026-08-08 · **arXiv:** `2608.08256` · **Category:** `cs.CL`  
@@ -176,7 +436,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 18. Phase State Space Models: Parallel, Surrogate-Free Training of Spiking Networks
+### 44. Phase State Space Models: Parallel, Surrogate-Free Training of Spiking Networks
 
 **Authors:** Wilkie Olin-Ammentorp  
 **Published:** 2026-08-07 · **arXiv:** `2608.07754` · **Category:** `cs.NE`  
@@ -186,7 +446,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 19. Hierarchical Quantization with Domain-Adaptive Sparse Routing for Generative Cross-Domain Recommendation
+### 45. Hierarchical Quantization with Domain-Adaptive Sparse Routing for Generative Cross-Domain Recommendation
 
 **Authors:** Haiying He, Xiaopeng Li, Yuchen Gu, Kuo Cai, Bo Chen, Jingtong Gao et al.  
 **Published:** 2026-08-07 · **arXiv:** `2608.06997` · **Category:** `cs.IR`  
@@ -196,7 +456,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 20. HSMLA: Hierarchical Softmax Multi-scale Linear Attention for Efficient Vision Transformers
+### 46. HSMLA: Hierarchical Softmax Multi-scale Linear Attention for Efficient Vision Transformers
 
 **Authors:** Dong Liu, Yanxuan Yu, Renata Borovica-Gajic, Ying Nian Wu  
 **Published:** 2026-08-07 · **arXiv:** `2608.07616` · **Category:** `cs.CV`  
@@ -206,7 +466,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 21. Tropical Algebraic Geometry for Neuronal Representations: An Arakelov-Green Measure Based Descriptor for Graph Learning
+### 47. Tropical Algebraic Geometry for Neuronal Representations: An Arakelov-Green Measure Based Descriptor for Graph Learning
 
 **Authors:** Yuyang Zhang, Weihan Xu, Xuehai Zhou, Shucheng Cao, Qihuang Zhang  
 **Published:** 2026-08-05 · **arXiv:** `2608.04460` · **Category:** `cs.LG`  
@@ -216,7 +476,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 22. Personalized Federated Sparse Adaptation of Time-Series Foundation Models
+### 48. Personalized Federated Sparse Adaptation of Time-Series Foundation Models
 
 **Authors:** Priyanka Nihalchandani, Naman Srivastava, Varun Ojha, Pandarasamy Arjunan  
 **Published:** 2026-08-05 · **arXiv:** `2608.04695` · **Category:** `cs.LG`  
@@ -226,7 +486,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 23. Multi-Objective Ranking for Live-Streaming: Balancing Fresh and Delayed Signals with Segment-Aware Targeting
+### 49. Multi-Objective Ranking for Live-Streaming: Balancing Fresh and Delayed Signals with Segment-Aware Targeting
 
 **Authors:** Xiaoyi Gu, Julia Tavares, Eder Santana, Carlos Mendoza-Cardenas, Nikita Mishra, Saad Ali  
 **Published:** 2026-08-05 · **arXiv:** `2608.04455` · **Category:** `cs.IR`  
@@ -236,7 +496,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 24. K-EXAONE 2.0 Technical Report
+### 50. K-EXAONE 2.0 Technical Report
 
 **Authors:** Eunbi Choi, Kibong Choi, Sehyun Chun, Seokhee Hong, Junwon Hwang, Hyojin Jeon et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.04505` · **Category:** `cs.CL`  
@@ -246,7 +506,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 25. Elbow-Based MoE Routing: A Training-Free Inference Time Plugin for Expert Selection
+### 51. Elbow-Based MoE Routing: A Training-Free Inference Time Plugin for Expert Selection
 
 **Authors:** Robin Pan, Raymond Liu, Daniel Fang, Adelina Andrei, Rosa Wu  
 **Published:** 2026-08-05 · **arXiv:** `2608.04401` · **Category:** `cs.LG`  
@@ -256,7 +516,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 26. Beyond Global Routing Aggregation: Phase-Aware Expert Merging for MoE Vision-Language Models
+### 52. Beyond Global Routing Aggregation: Phase-Aware Expert Merging for MoE Vision-Language Models
 
 **Authors:** Hongyu Zhang, Cheng Yan, Xiang Xia, Wuyang Zhang  
 **Published:** 2026-08-05 · **arXiv:** `2608.04454` · **Category:** `cs.CV`  
@@ -266,7 +526,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 27. The Transformer Revolution, Part 1: Dynamic Processing through Output- Weight Interconnections
+### 53. The Transformer Revolution, Part 1: Dynamic Processing through Output- Weight Interconnections
 
 **Authors:** Marco Giunti, Fabrizia Giulia Garavaglia  
 **Published:** 2026-08-04 · **arXiv:** `2608.03921` · **Category:** `cs.AI`  
@@ -276,7 +536,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 28. State Propagation Also Satisfies: A Complex-Valued State-Space Model for Deterministic State Tracking
+### 54. State Propagation Also Satisfies: A Complex-Valued State-Space Model for Deterministic State Tracking
 
 **Authors:** Xiaohe Li, Yang Lu  
 **Published:** 2026-08-04 · **arXiv:** `2608.03425` · **Category:** `cs.AI`  
@@ -286,7 +546,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 29. SpecDrop: Parameter-Free Category-Conditioned Routing for Modular Specialization
+### 55. SpecDrop: Parameter-Free Category-Conditioned Routing for Modular Specialization
 
 **Authors:** Boyao Wang, Zhihan Lei  
 **Published:** 2026-08-04 · **arXiv:** `2608.04084` · **Category:** `cs.LG`  
@@ -296,7 +556,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 30. Spatiotemporal Graph Transformer for Traffic Intelligence in Edge Computing
+### 56. Spatiotemporal Graph Transformer for Traffic Intelligence in Edge Computing
 
 **Authors:** Laha Ale, Letian Lin, Na Cao, Zheng Ma, Peng Yu  
 **Published:** 2026-08-04 · **arXiv:** `2608.04075` · **Category:** `cs.LG`  
@@ -306,7 +566,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 31. Separating quantum circuits from classical LLMs
+### 57. Separating quantum circuits from classical LLMs
 
 **Authors:** Srinivasan Arunachalam, Arkopal Dutt, Hari Krovi, Rik Sengupta  
 **Published:** 2026-08-04 · **arXiv:** `2608.03962` · **Category:** `quant-ph`  
@@ -316,7 +576,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 32. SGFormer: Structure-Guided Transformer for Robust Local Feature Matching
+### 58. SGFormer: Structure-Guided Transformer for Robust Local Feature Matching
 
 **Authors:** Runyu Zhu  
 **Published:** 2026-08-04 · **arXiv:** `2608.03423` · **Category:** `cs.CV`  
@@ -326,7 +586,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 33. NanoMorph-3D: An End-to-End Physics-Driven Unrolling Framework for Nanomaterial Reconstruction
+### 59. NanoMorph-3D: An End-to-End Physics-Driven Unrolling Framework for Nanomaterial Reconstruction
 
 **Authors:** Beiyuan Zhang, Hesong Li, Ziqi Wu, Ruiwen Shao, Ying Fu  
 **Published:** 2026-08-04 · **arXiv:** `2608.03257` · **Category:** `cs.CV`  
@@ -336,7 +596,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 34. Muon Meets Mamba: Spectral Optimization for State Space Models
+### 60. Muon Meets Mamba: Spectral Optimization for State Space Models
 
 **Authors:** Arslan Battalov, Karim Kramin, Alexander Markotenko, Sofia Sinitsina  
 **Published:** 2026-08-04 · **arXiv:** `2608.03941` · **Category:** `cs.LG`  
@@ -346,7 +606,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 35. Attention-Only White-Box Transformer via LeJEPA-Based Self-Supervised Pretraining
+### 61. Attention-Only White-Box Transformer via LeJEPA-Based Self-Supervised Pretraining
 
 **Authors:** Yang Bai, Linyuan Wang, Haoyang Jiang, Nuolin Sun, Libin Hou, Bin Yan  
 **Published:** 2026-08-04 · **arXiv:** `2608.04213` · **Category:** `cs.LG`  
@@ -356,7 +616,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 36. A Unified Resolution-Conditioned Framework for Orthogonal Line-Scanning Image Fusion
+### 62. A Unified Resolution-Conditioned Framework for Orthogonal Line-Scanning Image Fusion
 
 **Authors:** Yiming Gong, Kai Wang  
 **Published:** 2026-08-04 · **arXiv:** `2608.03107` · **Category:** `cs.CV`  
@@ -366,7 +626,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 37. Protocol generalisation for brain tissue microstructure estimation via hypernetwork-controlled geometric deep learning
+### 63. Protocol generalisation for brain tissue microstructure estimation via hypernetwork-controlled geometric deep learning
 
 **Authors:** Andrea Brigliadori, Leevi Kerkela, Hui Zhang  
 **Published:** 2026-08-03 · **arXiv:** `2608.02053` · **Category:** `eess.IV`  
@@ -376,7 +636,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 38. Mamba with Hierarchical Memory: Solving Representation Bottleneck in Long Sequence Modeling
+### 64. Mamba with Hierarchical Memory: Solving Representation Bottleneck in Long Sequence Modeling
 
 **Authors:** Qinwen Wang, Jieping Luo, Aoxiang Qin, Ruoyu Zhao, Jianxiong Tang, Wei Zhang et al.  
 **Published:** 2026-08-03 · **arXiv:** `2608.02347` · **Category:** `cs.AI`  
@@ -386,7 +646,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 39. Maglev: Sliding Recurrent Memory
+### 65. Maglev: Sliding Recurrent Memory
 
 **Authors:** Bo Liu, Qiang Liu  
 **Published:** 2026-08-03 · **arXiv:** `2608.02870` · **Category:** `cs.LG`  
@@ -396,7 +656,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 40. From fragmented data to actionable design: Physics-calibrated learning for plastic upcycling
+### 66. From fragmented data to actionable design: Physics-calibrated learning for plastic upcycling
 
 **Authors:** Jingyang Bai, Zijia Wang, Xiangyi Long, Marcos Millan, Binjian Nie, Mingyue Ding  
 **Published:** 2026-08-03 · **arXiv:** `2608.02402` · **Category:** `cs.LG`  
@@ -406,7 +666,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ## July 2026
 
-### 41. Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context
+### 67. Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context
 
 **Authors:** Alagappan Valliappan  
 **Published:** 2026-07-23 · **arXiv:** `2607.21535` · **Category:** `cs.LG`  
@@ -416,7 +676,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 42. SPDCN: Strip-based Deformable Convolutional Network for Steel Surface Defect Segmentation
+### 68. SPDCN: Strip-based Deformable Convolutional Network for Steel Surface Defect Segmentation
 
 **Authors:** Zhongming Liu, Bingbing Jiang, Guangxin Wan, Xiang Zou  
 **Published:** 2026-07-23 · **arXiv:** `2607.21456` · **Category:** `cs.CV`  
@@ -426,7 +686,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 43. SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation
+### 69. SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation
 
 **Authors:** Junsong Chen, Jincheng Yu, Yitong Li, Shuchen Xue, Haozhe Liu, Jingyu Xin et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21553` · **Category:** `cs.CV`  
@@ -436,7 +696,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 44. Naju: A Native Discrete State-Space Model with Independent Retention and Writing for Long-Sequence Memory
+### 70. Naju: A Native Discrete State-Space Model with Independent Retention and Writing for Long-Sequence Memory
 
 **Authors:** Hyuk Lim, Seunghyun Yoon  
 **Published:** 2026-07-23 · **arXiv:** `2607.21000` · **Category:** `cs.AI`  
@@ -446,7 +706,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 45. HGeo-TopoMap: Boosting Topological Mapping with Hierarchical Geometric Priors
+### 71. HGeo-TopoMap: Boosting Topological Mapping with Hierarchical Geometric Priors
 
 **Authors:** Siyu Li, Kunyu Peng, Di Wen, Beiping Hou, Zhiyong Li, Kailun Yang  
 **Published:** 2026-07-23 · **arXiv:** `2607.21281` · **Category:** `cs.CV`  
@@ -456,7 +716,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 46. From Scalars to Time Series: Rethinking Implicit Neural Representations for Time-Varying Volumetric Data
+### 72. From Scalars to Time Series: Rethinking Implicit Neural Representations for Time-Varying Volumetric Data
 
 **Authors:** Weihan Zhang, Xuan Zhao, Yenwen Peng, Yuqi Chen, Jun Tao  
 **Published:** 2026-07-23 · **arXiv:** `2607.20970` · **Category:** `cs.AI`  
@@ -466,7 +726,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 47. FA-LAM: Focus-Aware Large Avatar Model for One-Shot 4D Animatable Gaussian Head
+### 73. FA-LAM: Focus-Aware Large Avatar Model for One-Shot 4D Animatable Gaussian Head
 
 **Authors:** Yingdong Hu, Yisheng He, Yiming Jiang, Zehong Lin, Steven Hoi, Jun Zhang  
 **Published:** 2026-07-23 · **arXiv:** `2607.20922` · **Category:** `cs.CV`  
@@ -476,7 +736,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 48. Explainable graph attention network for stress recognition (StressGAT) via differential action units
+### 74. Explainable graph attention network for stress recognition (StressGAT) via differential action units
 
 **Authors:** Thomas Kassiotis, Stefanos Gkikas, Nikolaos Smyrnis, Giorgos Giannakakis  
 **Published:** 2026-07-23 · **arXiv:** `2607.20819` · **Category:** `cs.CV`  
@@ -486,7 +746,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 49. Bridging the Structural Gap: Adapting Autoregressive Generation for Recommendation
+### 75. Bridging the Structural Gap: Adapting Autoregressive Generation for Recommendation
 
 **Authors:** Junchao Zeng, Junzhang Zhu, Junyang Chen, Yudong Li, Wei Liu, Chengxiang Zhuo et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21028` · **Category:** `cs.IR`  
@@ -496,7 +756,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 50. User-Centric Modeling of Transactional Sequences with Explainable State Space Models
+### 76. User-Centric Modeling of Transactional Sequences with Explainable State Space Models
 
 **Authors:** Ivan Palagin  
 **Published:** 2026-07-22 · **arXiv:** `2607.20228` · **Category:** `cs.LG`  
@@ -506,7 +766,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 51. The Giant Hippocampus: From Structural Monoculture to a System of Systems
+### 77. The Giant Hippocampus: From Structural Monoculture to a System of Systems
 
 **Authors:** Jaeho Seol  
 **Published:** 2026-07-22 · **arXiv:** `2607.19973` · **Category:** `cs.AI`  
@@ -516,7 +776,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 52. Solar Open 2 Technical Report
+### 78. Solar Open 2 Technical Report
 
 **Authors:** Sungrae Park, Sanghoon Kim, Gyoungjin Gim, Jungho Cho, Hyunwoong Ko, Minbyul Jeong et al.  
 **Published:** 2026-07-22 · **arXiv:** `2607.20062` · **Category:** `cs.CL`  
@@ -526,7 +786,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 53. SPECTRA: State-Space Exogenous Context and Temporal-Frequency Resolution Architecture for Probabilistic Energy Forecasting
+### 79. SPECTRA: State-Space Exogenous Context and Temporal-Frequency Resolution Architecture for Probabilistic Energy Forecasting
 
 **Authors:** Hang Ye, Xinyan Jiang, Yuedong Shi, Yangxin Zhu, Jianming Wei, Tian Zheng et al.  
 **Published:** 2026-07-22 · **arXiv:** `2607.20587` · **Category:** `stat.ML`  
@@ -536,7 +796,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 54. SHFormer: Dynamic Spectral Filtering Convolutional Neural Network and High-pass Kernel Generation Transformer for Adaptive MRI Reconstruction
+### 80. SHFormer: Dynamic Spectral Filtering Convolutional Neural Network and High-pass Kernel Generation Transformer for Adaptive MRI Reconstruction
 
 **Authors:** Sriprabha Ramanarayanan, Rahul G. S., Mohammad Al Fahim, Keerthi Ram, Ramesh Venkatesan, Mohanasankar Sivaprakasam  
 **Published:** 2026-07-22 · **arXiv:** `2607.20159` · **Category:** `cs.CV`  
@@ -546,7 +806,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 55. Physics-Aware Complex-Valued State Space Model with Scattering-Prior Feature Modulation for PolSAR Image Classification
+### 81. Physics-Aware Complex-Valued State Space Model with Scattering-Prior Feature Modulation for PolSAR Image Classification
 
 **Authors:** Fangyan Zhang, Fan Zhang, Shiqi Zhou, Jun Ni, Carlos López-Martínez, Qiang Yin  
 **Published:** 2026-07-22 · **arXiv:** `2607.19787` · **Category:** `cs.CV`  
@@ -556,7 +816,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 56. OLEDLM: A Unified Language Model for OLED Molecular Design
+### 82. OLEDLM: A Unified Language Model for OLED Molecular Design
 
 **Authors:** Fukang Wen, Yuchong Tang, Jingyuan Li, Beichen Wang, Yixuan Jiang, Xiaoyi Jiang et al.  
 **Published:** 2026-07-22 · **arXiv:** `2607.20194` · **Category:** `cs.LG`  
@@ -566,7 +826,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 57. Relative Positions Generalize, Absolute Positions Memorize: An Implicit-Bias Account of Length Generalization in Attention
+### 83. Relative Positions Generalize, Absolute Positions Memorize: An Implicit-Bias Account of Length Generalization in Attention
 
 **Authors:** Subham Singh, Ashutosh Mishra, Subha Raut  
 **Published:** 2026-07-21 · **arXiv:** `2607.18759` · **Category:** `cs.LG`  
@@ -576,7 +836,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 58. Incomplete Observations Boost Evolutionary Performance in Ocean Modeling
+### 84. Incomplete Observations Boost Evolutionary Performance in Ocean Modeling
 
 **Authors:** Yangyang Kong, Yutong Jiang, Yanhai Gan, Junyu Dong, Feng Gao, Xiaopei Lin  
 **Published:** 2026-07-21 · **arXiv:** `2607.19147` · **Category:** `cs.LG`  
@@ -586,7 +846,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 59. Enhancing Transformer-based Routing by Encoding Distance via Relative Positional Encoding
+### 85. Enhancing Transformer-based Routing by Encoding Distance via Relative Positional Encoding
 
 **Authors:** Leyre Encío, Daniel Fuertes, Carlos R. del-Blanco, Fernando Jaureguizar  
 **Published:** 2026-07-21 · **arXiv:** `2607.18909` · **Category:** `cs.AI`  
@@ -596,7 +856,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 60. Beyond Transformers: Linear Attention Policy for Open-Vocabulary Object Goal Navigation
+### 86. Beyond Transformers: Linear Attention Policy for Open-Vocabulary Object Goal Navigation
 
 **Authors:** Jiahong Zhang, Yifan Lin, Yandong Zhang, Sijun Shen, Kexin Wang, Yuqi Pan et al.  
 **Published:** 2026-07-21 · **arXiv:** `2607.18794` · **Category:** `cs.RO`  
@@ -606,7 +866,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 61. Adaptive Multi-Expert Graph Transformer for Interpretable EEG-Based Diagnostics
+### 87. Adaptive Multi-Expert Graph Transformer for Interpretable EEG-Based Diagnostics
 
 **Authors:** Maryam Rahimimovassagh, Md Elias Hossain, Ivan Garibay, Niloofar Yousefi  
 **Published:** 2026-07-20 · **arXiv:** `2607.19429` · **Category:** `cs.LG`  
@@ -616,7 +876,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 62. Adaptive Mamba Neural Operators
+### 88. Adaptive Mamba Neural Operators
 
 **Authors:** Zeyuan Song, Zheyu Jiang  
 **Published:** 2026-07-20 · **arXiv:** `2607.18043` · **Category:** `cs.LG`  
@@ -626,7 +886,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 63. xHC: Expanded Hyper-Connections
+### 89. xHC: Expanded Hyper-Connections
 
 **Authors:** Xiangdong Zhang, Xiaohan Qin, Sunan Zou, Tuo Dai, Xiaoming Shi, Huaijin Wu et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14530` · **Category:** `cs.LG`  
@@ -636,7 +896,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 64. Variational Inference for Bird's Eye View Segmentation in Autonomous Driving
+### 90. Variational Inference for Bird's Eye View Segmentation in Autonomous Driving
 
 **Authors:** Jingyue Shi, Huaicheng Li, Junhui Zhao, Yanxiang Jiang  
 **Published:** 2026-07-16 · **arXiv:** `2607.14710` · **Category:** `cs.CV`  
@@ -646,7 +906,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 65. Towards Hierarchical Structure Understanding of Newspaper Images
+### 91. Towards Hierarchical Structure Understanding of Newspaper Images
 
 **Authors:** William Mocaër, Solène Tarride, Thomas Constum, Merveilles Agbeti-Messan, Tom Simon, Clément Chatelain et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15082` · **Category:** `cs.CV`  
@@ -656,7 +916,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 66. Relevant and Irrelevant: A Renormalization Group Analysis of Transformer Attention
+### 92. Relevant and Irrelevant: A Renormalization Group Analysis of Transformer Attention
 
 **Authors:** Parviz Haggi-Mani, Irina Rish  
 **Published:** 2026-07-16 · **arXiv:** `2607.15449` · **Category:** `cs.LG`  
@@ -666,7 +926,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 67. Hierarchical Denoising For Multi-Step Visual Reasoning
+### 93. Hierarchical Denoising For Multi-Step Visual Reasoning
 
 **Authors:** Zezhong Qian, Xiaowei Chi, Chak-Wing Mak, Tianze Zhou, Ruibin Yuan, Yuhan Rui et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15278` · **Category:** `cs.CV`  
@@ -676,7 +936,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 68. MixCompress: Mixture of Experts for Variable Rate Learned Image Compression
+### 94. MixCompress: Mixture of Experts for Variable Rate Learned Image Compression
 
 **Authors:** Calvin-Khang Ta, Praneet Singh, Tong Shao, Peng Yin  
 **Published:** 2026-07-15 · **arXiv:** `2607.14334` · **Category:** `cs.CV`  
@@ -686,7 +946,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 69. DCVC-MB: Neural B-Frame Video Compression using State Space Models
+### 95. DCVC-MB: Neural B-Frame Video Compression using State Space Models
 
 **Authors:** Arjun Arora, Calvin-Khang Ta, Carlos Restrepo-Galeano, Kruthi Murali, Naga Akhil E S, Arunkumar Mohananchettiar et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.14305` · **Category:** `cs.CV`  
@@ -696,7 +956,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 70. TSSM: Triaxial State Space Model for Global Station Weather Forecasting with Temporal-Variable-Historical Modeling
+### 96. TSSM: Triaxial State Space Model for Global Station Weather Forecasting with Temporal-Variable-Historical Modeling
 
 **Authors:** Songru Yang, Zili Liu, Tao Han, Ben Fei, Fenghua Ling, Lei Bai et al.  
 **Published:** 2026-07-14 · **arXiv:** `2607.13101` · **Category:** `cs.LG`  
@@ -706,7 +966,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 71. SlimPer: Make Personalization Model Slim and Smart
+### 97. SlimPer: Make Personalization Model Slim and Smart
 
 **Authors:** Siqi Wang, Xianjie Chen, Shaofeng Deng, Albert Chen, Romil Shah, Jiawei Huang et al.  
 **Published:** 2026-07-14 · **arXiv:** `2607.12281` · **Category:** `cs.IR`  
@@ -716,7 +976,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 72. MambaPSA: A Mamba-based Replacement for C2PSA in YOLO26
+### 98. MambaPSA: A Mamba-based Replacement for C2PSA in YOLO26
 
 **Authors:** Sheng-Wei Chan, Chia-Min Lin, Hsin-Jui Pan, Ching-Yu Tsai, Chih-Hsiang Yang, Yung-Che Wang et al.  
 **Published:** 2026-07-14 · **arXiv:** `2607.12681` · **Category:** `cs.CV`  
@@ -726,7 +986,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 73. Inhibited Self-Attention: Sharpening Focus in Vision Transformers
+### 99. Inhibited Self-Attention: Sharpening Focus in Vision Transformers
 
 **Authors:** Peter R. D. van der Wal, Nicola Strisciuglio, George Azzopardi  
 **Published:** 2026-07-14 · **arXiv:** `2607.12881` · **Category:** `cs.CV`  
@@ -736,7 +996,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 74. EMAGN: Efficient Multi-Attention Graph Network via Learned Clustering for Scalable Traffic Forecasting
+### 100. EMAGN: Efficient Multi-Attention Graph Network via Learned Clustering for Scalable Traffic Forecasting
 
 **Authors:** Mingxing Xu, Rakesh Chowdary Machineni, Ke Liu, Xi Cheng, Chengqi Lu, Xin Hu et al.  
 **Published:** 2026-07-14 · **arXiv:** `2607.13241` · **Category:** `cs.LG`  
@@ -746,7 +1006,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 75. Contrastive-Augmented Flow Matching for Style-Content Disentanglement
+### 101. Contrastive-Augmented Flow Matching for Style-Content Disentanglement
 
 **Authors:** Yusong Li, Pingchuan Ma, Ming Gui, Vincent Tao Hu, Björn Ommer  
 **Published:** 2026-07-14 · **arXiv:** `2607.12404` · **Category:** `cs.CV`  
@@ -756,7 +1016,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 76. Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model
+### 102. Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model
 
 **Authors:** Harsha Vardhan Khurdula, Abhinav Kumar Singh, Yoeven D Khemlani, Vineet Agarwal  
 **Published:** 2026-07-14 · **arXiv:** `2607.13013` · **Category:** `cs.AI`  
@@ -766,7 +1026,7 @@ _77 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 77. Foveation-Guided Dynamic Token Selection for Robust and Efficient Vision Transformers
+### 103. Foveation-Guided Dynamic Token Selection for Robust and Efficient Vision Transformers
 
 **Authors:** Ibrahim Batuhan Akkaya, Kishaan Jeeveswaran, Bahram Zonooz, Elahe Arani  
 **Published:** 2026-07-10 · **arXiv:** `2607.09480` · **Category:** `cs.CV`  

@@ -1,12 +1,152 @@
 # Inference-Time Reasoning
 
-_71 papers · updated 2026-08-11 05:09 UTC_
+_85 papers · updated 2026-08-16 18:20 UTC_
 
 [← Back to index](../README.md)
 
 ## August 2026
 
-### 1. verdi: retrieval is not transfer for continual world model optimization
+### 1. Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence
+
+**Authors:** Haokai Zhang, Yuhang Ding, Yunshu Zhou, Xinze Du, Shengtao Zhang, Zhiyue Zhao et al.  
+**Published:** 2026-08-13 · **arXiv:** `2608.12743` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12743) · [PDF](https://arxiv.org/pdf/2608.12743v1)
+
+> A runtime framework lets a frozen vision-language model improve spatial reasoning by distilling verified experience into scored, reusable transferable lessons without parameter updates.
+
+---
+
+### 2. RippleMem: From Isolated Retrieval to Associative Recollection for Long-Term Agent Memory
+
+**Authors:** Jingbo Ji, Lingyi Li, Xilong Cheng, Yuhao Zhou, Wenji Zhang, Yuting Tan et al.  
+**Published:** 2026-08-13 · **arXiv:** `2608.13334` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.13334) · [PDF](https://arxiv.org/pdf/2608.13334v1)
+
+> Introduces an associative long-term memory system for agents that expands from recalled anchors to recover distributed supporting evidence.
+
+---
+
+### 3. MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination
+
+**Authors:** Saisha Shetty, Satvik Tripathi, Austin Lin, Colin Zhao, Theodore Kim, Don Enwerem et al.  
+**Published:** 2026-08-13 · **arXiv:** `2608.13476` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.13476) · [PDF](https://arxiv.org/pdf/2608.13476v1)
+
+> An open-source framework replaces monolithic prompting with role-specialized multi-agent orchestration for clinical reasoning, enabling traceable outputs and stage-wise failure attribution.
+
+---
+
+### 4. Keep, Customize, or Exit: Default Design and Token Pricing in LLM Reasoning Services
+
+**Authors:** Ahmet Bugra Gundogan, Yigit Turkmen, Melih Bastopcu  
+**Published:** 2026-08-13 · **arXiv:** `2608.13315` · **Category:** `cs.GT`  
+**Links:** [abstract](https://arxiv.org/abs/2608.13315) · [PDF](https://arxiv.org/pdf/2608.13315v1)
+
+> A Stackelberg game models token pricing and default reasoning-budget allocation between an LLM provider and users, deriving equilibrium prices and allocations.
+
+---
+
+### 5. GEM: A Generative Embedding Model Bridging Reasoning and Retrieval
+
+**Authors:** Zhili Shen, Craig Macdonald  
+**Published:** 2026-08-13 · **arXiv:** `2608.13200` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.13200) · [PDF](https://arxiv.org/pdf/2608.13200v1)
+
+> A generative embedding model reasons about query intent before producing a retrieval embedding, enabling test-time compute scaling for reasoning-intensive retrieval.
+
+---
+
+### 6. ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval
+
+**Authors:** Haolong Chen, Liang Zhang, Zhuo Li, Lei Xue, Guanrxu Zhu  
+**Published:** 2026-08-13 · **arXiv:** `2608.12720` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12720) · [PDF](https://arxiv.org/pdf/2608.12720v1)
+
+> A retrieval framework represents memory access as evolvable executable skills matched by a trained router, co-evolving skills and router for agent memory tasks.
+
+---
+
+### 7. DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data
+
+**Authors:** Peter Schneider-Kamp, Jacob Nielsen, Gianluca Barmina, Kenneth Enevoldsen, Lukas Galke Poech  
+**Published:** 2026-08-13 · **arXiv:** `2608.13517` · **Category:** `cs.CL`  
+**Links:** [abstract](https://arxiv.org/abs/2608.13517) · [PDF](https://arxiv.org/pdf/2608.13517v1)
+
+> Mimir v1 is a 1B Hierarchical Reasoning Model trained on permissible data, competitive in English and setting new Danish state of the art.
+
+---
+
+### 8. Beyond the Best Guess: Improving LLM Solution Coverage with Evolution Strategies
+
+**Authors:** Conor F. Hayes, Elliot Meyerson, Kajetan Schweighofer, Roberto Dailey, Babak Hodjat, Risto Miikkulainen et al.  
+**Published:** 2026-08-13 · **arXiv:** `2608.12679` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12679) · [PDF](https://arxiv.org/pdf/2608.12679v1)
+
+> Evolution strategies post-training yields broader output distributions and higher pass@k solution coverage than reinforcement learning for discovery-oriented tasks.
+
+---
+
+### 9. SCOUT: Unlocking Enhanced Spatial Reasoning via Structured Chain-of-Thought and Multi-Objective Process Reward
+
+**Authors:** Zile Zhou, Huining Yuan, Weichen Zhang, Xinlei Chen, Xiao-ping Zhang  
+**Published:** 2026-08-12 · **arXiv:** `2608.12220` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12220) · [PDF](https://arxiv.org/pdf/2608.12220v1)
+
+> Structured chain-of-thought plus multi-objective process rewards improve vision-language spatial reasoning with fine-grained credit assignment.
+
+---
+
+### 10. Retry, Switch, or Abstain? Learning Strategy-Aware Tool-Use Policies via Controlled Error Injection
+
+**Authors:** Chaoran Chen, Vy Nguyen, Ziji Zhang, Abhinav Gullapalli, Ziyi Wang, Yuxuan Lu et al.  
+**Published:** 2026-08-12 · **arXiv:** `2608.11977` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11977) · [PDF](https://arxiv.org/pdf/2608.11977v1)
+
+> Framework injects controlled tool failures to train agents that retry, switch, or abstain, improving recovery robustness.
+
+---
+
+### 11. Policy-as-logic for robust reasoning over rules
+
+**Authors:** Rahul Nair, Bastian Lipka, Elizabeth Daly  
+**Published:** 2026-08-12 · **arXiv:** `2608.11905` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11905) · [PDF](https://arxiv.org/pdf/2608.11905v1)
+
+> Hybrid approach uses LLMs for fact extraction and an answer-set solver for auditable, robust policy reasoning with lower token cost.
+
+---
+
+### 12. Inference-Time Orthogonal Seeding Enables Geometry-Aligned 3D Organ Segmentation for Slice-Propagation Methods
+
+**Authors:** Md Rakibul Haque, Tushar Kataria, Shireen Y. Elhabian  
+**Published:** 2026-08-12 · **arXiv:** `2608.12658` · **Category:** `cs.CV`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12658) · [PDF](https://arxiv.org/pdf/2608.12658v1)
+
+> Fusing three orthogonal seed slices at inference improves 3D organ segmentation for slice-propagation methods more than changing the training paradigm.
+
+---
+
+### 13. Claim-Level Reliability Assessment for Efficient Test-Time Reasoning
+
+**Authors:** Sen Xu, Wei Wang, Shixi Liu, Jixin Min, Yingwei Dai, Zhibin Yin et al.  
+**Published:** 2026-08-12 · **arXiv:** `2608.11994` · **Category:** `cs.AI`  
+**Links:** [abstract](https://arxiv.org/abs/2608.11994) · [PDF](https://arxiv.org/pdf/2608.11994v1)
+
+> Training-free test-time method reallocates compute to falsify decision-critical claims, suppressing high-confidence incorrect reasoning traces under fixed budgets.
+
+---
+
+### 14. AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses
+
+**Authors:** Cheng Qian, Wenting Zhao, Liangwei Yang, Heng Wang, Jielin Qiu, Heng Ji et al.  
+**Published:** 2026-08-12 · **arXiv:** `2608.12307` · **Category:** `cs.LG`  
+**Links:** [abstract](https://arxiv.org/abs/2608.12307) · [PDF](https://arxiv.org/pdf/2608.12307v1)
+
+> A stronger builder model constructs inference-time harnesses that nearly double a weaker model's performance by offloading reasoning into deterministic code without parameter updates.
+
+---
+
+### 15. verdi: retrieval is not transfer for continual world model optimization
 
 **Authors:** Junyu Wu, Shiqin Nie, Youyi Kou, Baohua Yin, Guocai Yao, Qingyu Chen et al.  
 **Published:** 2026-08-10 · **arXiv:** `2608.09537` · **Category:** `cs.AI`  
@@ -16,7 +156,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 2. Training-Free Universal Approximation by Prompting Random Transformers
+### 16. Training-Free Universal Approximation by Prompting Random Transformers
 
 **Authors:** Alexander Hsu, Rongjie Lai  
 **Published:** 2026-08-10 · **arXiv:** `2608.09558` · **Category:** `cs.LG`  
@@ -26,7 +166,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 3. Test-Time Scaling for CAD Generation via Verifier-Free Consensus Selection
+### 17. Test-Time Scaling for CAD Generation via Verifier-Free Consensus Selection
 
 **Authors:** Aaron Haag, Altay Kaçan, Bertram Fuchs, Oliver Lohse  
 **Published:** 2026-08-10 · **arXiv:** `2608.09706` · **Category:** `cs.CE`  
@@ -36,7 +176,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 4. Test-Time Augmentation for LLMs: When Input Diversity Beats Output Diversity at Matched Compute
+### 18. Test-Time Augmentation for LLMs: When Input Diversity Beats Output Diversity at Matched Compute
 
 **Authors:** Nikita Kozodoi, Zainab Afolabi, Jack Butler  
 **Published:** 2026-08-10 · **arXiv:** `2608.09351` · **Category:** `cs.LG`  
@@ -46,7 +186,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 5. SmellCC: A Tool for Automated Code Smells Remediation
+### 19. SmellCC: A Tool for Automated Code Smells Remediation
 
 **Authors:** Xiaoting Zhang, Yujie Zhang, Zhipeng Gao, Xing Hu, Xin Xia  
 **Published:** 2026-08-10 · **arXiv:** `2608.09477` · **Category:** `cs.SE`  
@@ -56,7 +196,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 6. RefineAny3D: Depth Refinement as Semantic Alignment for Monocular 3D Detection
+### 20. RefineAny3D: Depth Refinement as Semantic Alignment for Monocular 3D Detection
 
 **Authors:** Zhihao Zhang, Gengwei Zhang, Tianlong Chen, Xiaoming Liu  
 **Published:** 2026-08-10 · **arXiv:** `2608.09147` · **Category:** `cs.CV`  
@@ -66,7 +206,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 7. Muscle Memory for Agents: Compile not Merely Retrieve
+### 21. Muscle Memory for Agents: Compile not Merely Retrieve
 
 **Authors:** Pouya Ghiasnezhad Omran, Soujanya Lanka, Qin Zhang, Tanya Dixit  
 **Published:** 2026-08-10 · **arXiv:** `2608.08995` · **Category:** `cs.MA`  
@@ -76,7 +216,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 8. Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models
+### 22. Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models
 
 **Authors:** Kevin Murphy  
 **Published:** 2026-08-10 · **arXiv:** `2608.09696` · **Category:** `cs.AI`  
@@ -86,7 +226,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 9. MemeMind: Reference-Guided Trace Construction for Offline Context Optimization
+### 23. MemeMind: Reference-Guided Trace Construction for Offline Context Optimization
 
 **Authors:** Run Yang, Weihang Wang, Boheng Sheng, Yuchen He, Jielei Zhang, Pengyu Chen et al.  
 **Published:** 2026-08-10 · **arXiv:** `2608.09316` · **Category:** `cs.CV`  
@@ -96,7 +236,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 10. MeanSR: Restoration Trajectory Learning for One-Step Perceptual Super-Resolution
+### 24. MeanSR: Restoration Trajectory Learning for One-Step Perceptual Super-Resolution
 
 **Authors:** Axi Niu, Jiawei Kou, Kang Zhang, Qingsen Yan, Jinqiu Sun, Yanning Zhang  
 **Published:** 2026-08-10 · **arXiv:** `2608.09405` · **Category:** `cs.CV`  
@@ -106,7 +246,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 11. KGCaRe: Explainable Complex Conditional Question Answering using Automatic Knowledge Graph Construction and Context Retrieval with LLMs
+### 25. KGCaRe: Explainable Complex Conditional Question Answering using Automatic Knowledge Graph Construction and Context Retrieval with LLMs
 
 **Authors:** Ghanshyam Verma, Simanta Sarkar, Devishree Pillai, Hotaka Shiokawa, Yourong Xu, Fiona Veazey et al.  
 **Published:** 2026-08-10 · **arXiv:** `2608.09779` · **Category:** `cs.CL`  
@@ -116,7 +256,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 12. Imaginative Generative AI: Crossing the Entropy Wall into Worlds Beyond Imitation
+### 26. Imaginative Generative AI: Crossing the Entropy Wall into Worlds Beyond Imitation
 
 **Authors:** Hossein Goli, Farzan Farnia, Amin Gohari  
 **Published:** 2026-08-10 · **arXiv:** `2608.09385` · **Category:** `cs.LG`  
@@ -126,7 +266,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 13. Graph-Guided Safe Diffuser: Topological Graph Guidance for Safe Diffusion Planning
+### 27. Graph-Guided Safe Diffuser: Topological Graph Guidance for Safe Diffusion Planning
 
 **Authors:** Nakgyu Yang, KwangBin Lee, SooJean Han  
 **Published:** 2026-08-10 · **arXiv:** `2608.09484` · **Category:** `cs.RO`  
@@ -136,7 +276,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 14. GeoRoute: Geometry-Aware Hybrid Inference for Traffic Future-Frame Prediction
+### 28. GeoRoute: Geometry-Aware Hybrid Inference for Traffic Future-Frame Prediction
 
 **Authors:** Khang Minh Le, Hieu Dinh Trung Pham, Luu Thanh Danh, Nam-Tien Le, Hieu Anh Ngo, Phuong Huu Vu Tran et al.  
 **Published:** 2026-08-10 · **arXiv:** `2608.09493` · **Category:** `cs.CV`  
@@ -146,7 +286,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 15. Fusion Training for Mathematical Generalization in Large Language Models
+### 29. Fusion Training for Mathematical Generalization in Large Language Models
 
 **Authors:** Congfeng Cao, Pengyu Zhang, Jelke Bloem  
 **Published:** 2026-08-10 · **arXiv:** `2608.09893` · **Category:** `cs.CL`  
@@ -156,7 +296,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 16. Financial Numerical Prediction and Allocation as Token Generation
+### 30. Financial Numerical Prediction and Allocation as Token Generation
 
 **Authors:** Xu Ouyang, Moontae Lee  
 **Published:** 2026-08-10 · **arXiv:** `2608.09880` · **Category:** `cs.CV`  
@@ -166,7 +306,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 17. FactorDrive: Adaptive Multi-Step Reasoning Driven by Planning-Critical Factors for End-to-End Autonomous Driving
+### 31. FactorDrive: Adaptive Multi-Step Reasoning Driven by Planning-Critical Factors for End-to-End Autonomous Driving
 
 **Authors:** Guolei Huang, Tengfei She, Yuxuan Lu, Yao Huang, Yuqi Ye, Yongjun Shen  
 **Published:** 2026-08-10 · **arXiv:** `2608.09591` · **Category:** `cs.RO`  
@@ -176,7 +316,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 18. Diffusion Image Editing via Asynchronous Token Decoding
+### 32. Diffusion Image Editing via Asynchronous Token Decoding
 
 **Authors:** Yang Shi, Liangsi Lu, Minzhe Guo, Yifeng Xie, Yanhui Chen, Jingchao Wang et al.  
 **Published:** 2026-08-10 · **arXiv:** `2608.09322` · **Category:** `cs.CV`  
@@ -186,7 +326,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 19. CableDex: Cable Length Estimation on Industrial Reels Using a Handheld Device
+### 33. CableDex: Cable Length Estimation on Industrial Reels Using a Handheld Device
 
 **Authors:** Francisco Guillén, Ricardo Almeida, Bruno Silva, João C. Neves  
 **Published:** 2026-08-10 · **arXiv:** `2608.09392` · **Category:** `cs.CV`  
@@ -196,7 +336,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 20. CIDER: A Dataset of Contextual Disclosure Boundaries for Privacy Preference Alignment
+### 34. CIDER: A Dataset of Contextual Disclosure Boundaries for Privacy Preference Alignment
 
 **Authors:** Bingcan Guo, Eryue Xu, Jijie Zhou, Zhiping Zhang, Tianshi Li  
 **Published:** 2026-08-10 · **arXiv:** `2608.09164` · **Category:** `cs.AI`  
@@ -206,7 +346,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 21. CEAA: A Cognitive Embodied Agents Architecture for Interactive Computing Systems
+### 35. CEAA: A Cognitive Embodied Agents Architecture for Interactive Computing Systems
 
 **Authors:** Aimilios Hadjiliasi, Louis Nisiotis  
 **Published:** 2026-08-10 · **arXiv:** `2608.09848` · **Category:** `cs.AI`  
@@ -216,7 +356,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 22. Beyond Hazard Resemblance: Contrastive Event Adjudication for Training-Free Video Anomaly Detection
+### 36. Beyond Hazard Resemblance: Contrastive Event Adjudication for Training-Free Video Anomaly Detection
 
 **Authors:** Wenti Yin, Xiang Wang, Huaxin Zhang, Hanqing Wang, Hongbo Shao, Changxin Gao et al.  
 **Published:** 2026-08-10 · **arXiv:** `2608.09908` · **Category:** `cs.CV`  
@@ -226,7 +366,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 23. BDH-CQ: In-Context Learning with Recurrent Latent Reasoning
+### 37. BDH-CQ: In-Context Learning with Recurrent Latent Reasoning
 
 **Authors:** Björn Engdahl, Adrian Kosowski, Jan Chorowski, Zuzanna Stamirowska, Przemysław Uznański, Junlin Jiang et al.  
 **Published:** 2026-08-10 · **arXiv:** `2608.09888` · **Category:** `cs.NE`  
@@ -236,7 +376,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 24. Avalon-ToM-Bench: Evaluating Fine-Grained Theory of Mind via Asymmetric Game Mechanics
+### 38. Avalon-ToM-Bench: Evaluating Fine-Grained Theory of Mind via Asymmetric Game Mechanics
 
 **Authors:** Yen-Shan Chen, Yu Chian Duan, Chih-En Kuo, Jian-Bin Wu, Yun-Nung Chen  
 **Published:** 2026-08-10 · **arXiv:** `2608.09638` · **Category:** `cs.AI`  
@@ -246,7 +386,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 25. SymDiag: Explainable Diagnosis for LLM Reasoning via Neuro-Symbolic Verification
+### 39. SymDiag: Explainable Diagnosis for LLM Reasoning via Neuro-Symbolic Verification
 
 **Authors:** Wenyao Cui, Huaping Zhang, Yongyi Huang, Qiuchi Li, Jian Xu, Cheng-Lin Liu et al.  
 **Published:** 2026-08-09 · **arXiv:** `2608.08786` · **Category:** `cs.AI`  
@@ -256,7 +396,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 26. LLM Reasoning for Subjective Tasks: Failure Modes, Mitigation, and Dynamic Reasoning Routing
+### 40. LLM Reasoning for Subjective Tasks: Failure Modes, Mitigation, and Dynamic Reasoning Routing
 
 **Authors:** Juncheng Dong, Ding Tong, Ishan Gupta, Yuyan Wang  
 **Published:** 2026-08-09 · **arXiv:** `2608.08889` · **Category:** `cs.AI`  
@@ -266,7 +406,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 27. Independent Patch Verification for Coding Agents with a Bidirectional Reconstruct-and-Verify Framework
+### 41. Independent Patch Verification for Coding Agents with a Bidirectional Reconstruct-and-Verify Framework
 
 **Authors:** Chenglin Li, Yisen Xu, Zehao Wang, Shin Hwei Tan, Tse-Hsun, Chen  
 **Published:** 2026-08-09 · **arXiv:** `2608.08950` · **Category:** `cs.SE`  
@@ -276,7 +416,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 28. Agentic Anomaly Detection with ORCA-Style Dynamic Inductive Bias Adaptation in Multimodal Wearable Time Series Data
+### 42. Agentic Anomaly Detection with ORCA-Style Dynamic Inductive Bias Adaptation in Multimodal Wearable Time Series Data
 
 **Authors:** Anushka Roy, Jyotirmoy Singh, Shreea Bose, Chittaranjan Hota  
 **Published:** 2026-08-09 · **arXiv:** `2608.08859` · **Category:** `cs.LG`  
@@ -286,7 +426,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 29. Trace, Verify, and Correct: A Training-Free Framework for Spatial Reasoning in Multimodal LLMs
+### 43. Trace, Verify, and Correct: A Training-Free Framework for Spatial Reasoning in Multimodal LLMs
 
 **Authors:** Yang Yang, Jiawei Chen, Tairan Chen, Zhaoxia Yin  
 **Published:** 2026-08-05 · **arXiv:** `2608.04759` · **Category:** `cs.CV`  
@@ -296,7 +436,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 30. Towards Valid B-Rep Generation: Training-Free Wireframe Anomaly Detection and Repair
+### 44. Towards Valid B-Rep Generation: Training-Free Wireframe Anomaly Detection and Repair
 
 **Authors:** Jingyu Wu, Youcheng Cai, Tengyu Luo, Ligang Liu  
 **Published:** 2026-08-05 · **arXiv:** `2608.04955` · **Category:** `cs.CV`  
@@ -306,7 +446,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 31. Skills Know Their Neighbors: Cluster-Contrastive Capability Pages for Skill Retrieval
+### 45. Skills Know Their Neighbors: Cluster-Contrastive Capability Pages for Skill Retrieval
 
 **Authors:** Zifei Wang, Wei Wen, Qiang Ji, Ruizhi Qiao  
 **Published:** 2026-08-05 · **arXiv:** `2608.04482` · **Category:** `cs.IR`  
@@ -316,7 +456,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 32. ReGround: Restoring Visual Grounding in Multi-Step Reasoning through Self-Diagnosis and Visual Re-Examination
+### 46. ReGround: Restoring Visual Grounding in Multi-Step Reasoning through Self-Diagnosis and Visual Re-Examination
 
 **Authors:** Lei Peng, Shuai Lv, Wei Hu  
 **Published:** 2026-08-05 · **arXiv:** `2608.04385` · **Category:** `cs.CV`  
@@ -326,7 +466,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 33. Pun Intended: Multi-Agent Translation of Wordplay with Contrastive Learning and Phonetic-Semantic Embeddings
+### 47. Pun Intended: Multi-Agent Translation of Wordplay with Contrastive Learning and Phonetic-Semantic Embeddings
 
 **Authors:** Russell Taylor, Benjamin Herbert, Michael Sana  
 **Published:** 2026-08-05 · **arXiv:** `2608.04311` · **Category:** `cs.CL`  
@@ -336,7 +476,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 34. Protoreasoning in Tiny Transformers
+### 48. Protoreasoning in Tiny Transformers
 
 **Authors:** Eduardo Valle, Fergal Reid  
 **Published:** 2026-08-05 · **arXiv:** `2608.04980` · **Category:** `cs.CL`  
@@ -346,7 +486,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 35. Hierarchical Graph Memory for LLM Agents with Path-level Localization and Rewrite
+### 49. Hierarchical Graph Memory for LLM Agents with Path-level Localization and Rewrite
 
 **Authors:** Xiawei Yue, Boran Wang, Xiaoqing Zhang, Shuxin Zheng, Ziwei Zhang  
 **Published:** 2026-08-05 · **arXiv:** `2608.05095` · **Category:** `cs.AI`  
@@ -356,7 +496,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 36. From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking
+### 50. From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking
 
 **Authors:** Shaopeng Liang  
 **Published:** 2026-08-05 · **arXiv:** `2608.05030` · **Category:** `cs.AI`  
@@ -366,7 +506,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 37. Consistency-Driven Co-Evolution for Self-Supervised Cross-Representation Learning
+### 51. Consistency-Driven Co-Evolution for Self-Supervised Cross-Representation Learning
 
 **Authors:** Xuehang Guo, Pengyuan Li, Tom Hope, Tirthankar Ghosal, Manling Li, Qingyun Wang  
 **Published:** 2026-08-05 · **arXiv:** `2608.04926` · **Category:** `cs.LG`  
@@ -376,7 +516,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 38. Chained Recursive Language Models for Multi-Iteration Reasoning
+### 52. Chained Recursive Language Models for Multi-Iteration Reasoning
 
 **Authors:** Purbesh Mitra, Sennur Ulukus  
 **Published:** 2026-08-05 · **arXiv:** `2608.05124` · **Category:** `cs.CL`  
@@ -386,7 +526,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 39. Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning
+### 53. Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning
 
 **Authors:** Boxiu Li, Zimo Wen, Yijia Fan, Junxiang Lei, Sufeng Guo, Jiaao Wu et al.  
 **Published:** 2026-08-05 · **arXiv:** `2608.05144` · **Category:** `cs.AI`  
@@ -396,7 +536,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 40. Traceable Multi-Agent System for Knowledge-Based Forecasting
+### 54. Traceable Multi-Agent System for Knowledge-Based Forecasting
 
 **Authors:** Junhyeok Kang, Sangjun Han, Hyeokjun Choe, Soonyoung Lee  
 **Published:** 2026-08-04 · **arXiv:** `2608.03339` · **Category:** `cs.AI`  
@@ -406,7 +546,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 41. TimeRLM: Recursive Language Models Enable Precise Anomaly Localization in Long-Context Time-Series
+### 55. TimeRLM: Recursive Language Models Enable Precise Anomaly Localization in Long-Context Time-Series
 
 **Authors:** Nicolas Zumarraga, Lorenzo Steno, Ning Wang, Max Rosenblattl, Thomas Kaar, Maxwell A. Xu et al.  
 **Published:** 2026-08-04 · **arXiv:** `2608.03391` · **Category:** `cs.LG`  
@@ -416,7 +556,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 42. Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility
+### 56. Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility
 
 **Authors:** Mohsen Hariri, Weicong Chen, Nahal Shahini, Vikash Singh, Kai Ye, Amirhossein Samandar et al.  
 **Published:** 2026-08-04 · **arXiv:** `2608.04001` · **Category:** `cs.LG`  
@@ -426,7 +566,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 43. Perception Before Reasoning: Dynamic Latent Reasoning for Video Understanding and Question Answering
+### 57. Perception Before Reasoning: Dynamic Latent Reasoning for Video Understanding and Question Answering
 
 **Authors:** Haotian Xia, Zilin Xiao, Junbo Zou, Vicente Ordonez, Hanjie Chen  
 **Published:** 2026-08-04 · **arXiv:** `2608.04124` · **Category:** `cs.CV`  
@@ -436,7 +576,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 44. Interpretable Adaptive Sampling for LLM Test-Time Scaling
+### 58. Interpretable Adaptive Sampling for LLM Test-Time Scaling
 
 **Authors:** Mobina Kashaniyan, Ali Jannesari  
 **Published:** 2026-08-04 · **arXiv:** `2608.03961` · **Category:** `cs.AI`  
@@ -446,7 +586,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 45. Does the Competitive Component of Adversarial Self-Play Improve Legal Reasoning? A Controlled Negative Result
+### 59. Does the Competitive Component of Adversarial Self-Play Improve Legal Reasoning? A Controlled Negative Result
 
 **Authors:** Miseog Shawn Kim  
 **Published:** 2026-08-03 · **arXiv:** `2608.01559` · **Category:** `cs.AI`  
@@ -456,7 +596,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ## July 2026
 
-### 46. X$^3$-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment
+### 60. X$^3$-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment
 
 **Authors:** Dongjie Fu, Di Cao, Xize Cheng, Zihan Zhang, Wenxu Jia, Yifu Chen et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21550` · **Category:** `cs.LG`  
@@ -466,7 +606,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 47. Visual Contrastive Self-Distillation
+### 61. Visual Contrastive Self-Distillation
 
 **Authors:** Yijun Liang, Yunjie Tian, Yijiang Li, Yuqi Jia, Furong Huang, Tianyi Zhou et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21556` · **Category:** `cs.CV`  
@@ -476,7 +616,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 48. Test-Time Scaling via Error Localization
+### 62. Test-Time Scaling via Error Localization
 
 **Authors:** Rajiv Shailesh Chitale, Rahul Madhavan, Taneesh Gupta, Deepanway Ghosal, Aravindan Raghuveer  
 **Published:** 2026-07-23 · **arXiv:** `2607.21453` · **Category:** `cs.LG`  
@@ -486,7 +626,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 49. PATS: Policy-Aware Training Scaffolding for Agentic Reinforcement Learning
+### 63. PATS: Policy-Aware Training Scaffolding for Agentic Reinforcement Learning
 
 **Authors:** Yipeng Shi, Zhipeng Ma, Yue Wang, Qitai Tan, Yang Li, Peng Chen et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21419` · **Category:** `cs.AI`  
@@ -496,7 +636,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 50. Inference-Time Scaling of Diffusion Models via Progressive Seed Pruning
+### 64. Inference-Time Scaling of Diffusion Models via Progressive Seed Pruning
 
 **Authors:** Rogerio Guimaraes, Pietro Perona  
 **Published:** 2026-07-23 · **arXiv:** `2607.21591` · **Category:** `cs.CV`  
@@ -506,7 +646,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 51. Best-of-Evidence: Best-of-N Selection under Partial Verification
+### 65. Best-of-Evidence: Best-of-N Selection under Partial Verification
 
 **Authors:** Cenwei Zhang, Teng Fang, Yuxia Wang, Derek Li, Bryan Dai, Lei You  
 **Published:** 2026-07-23 · **arXiv:** `2607.20950` · **Category:** `cs.LG`  
@@ -516,7 +656,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 52. AREX: Towards a Recursively Self-Improving Agent for Deep Research
+### 66. AREX: Towards a Recursively Self-Improving Agent for Deep Research
 
 **Authors:** Shuqi Lu, Chaofan Li, Kun Luo, Zhang Zhang, Hui Wang, Hongwang Xiao et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21461` · **Category:** `cs.AI`  
@@ -526,7 +666,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 53. A Diffusion-Model Subpopulation Digital Twin for Mobile Health Deployment: A Case Study on the HeartSteps Intervention
+### 67. A Diffusion-Model Subpopulation Digital Twin for Mobile Health Deployment: A Case Study on the HeartSteps Intervention
 
 **Authors:** Ziping Xu, Yuyi Chang, Chenshun Ni, Nithin Sugavanam, Asim H. Gazi, Pedja Klasnja et al.  
 **Published:** 2026-07-23 · **arXiv:** `2607.21403` · **Category:** `cs.LG`  
@@ -536,7 +676,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 54. Notes to Self: Can LLMs Benefit from Experiential Abstractions?
+### 68. Notes to Self: Can LLMs Benefit from Experiential Abstractions?
 
 **Authors:** Chang Liu, Xinyu Li, Artur Dubrawski  
 **Published:** 2026-07-22 · **arXiv:** `2607.20372` · **Category:** `cs.CL`  
@@ -546,7 +686,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 55. EvoThink: Evolving Thinking in Large Reasoning Models via Self-Pruning and Aha-Moment Preference Optimization
+### 69. EvoThink: Evolving Thinking in Large Reasoning Models via Self-Pruning and Aha-Moment Preference Optimization
 
 **Authors:** Xinbang Dai, Zheyu Xin, Huikang Hu, Lin Ren, Rihui Jin, Guohui Xiao et al.  
 **Published:** 2026-07-22 · **arXiv:** `2607.19962` · **Category:** `cs.AI`  
@@ -556,7 +696,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 56. CUSUM-Shaped Inference-Time Monitoring and Targeted Re-Decoding for Quantized Small Language Model Reasoning
+### 70. CUSUM-Shaped Inference-Time Monitoring and Targeted Re-Decoding for Quantized Small Language Model Reasoning
 
 **Authors:** El Hassane Ettifouri, Ayoub Belfatmi, Mahaman Sanoussi Yahaya Alassan, Walid Dahhane  
 **Published:** 2026-07-22 · **arXiv:** `2607.20129` · **Category:** `cs.AI`  
@@ -566,7 +706,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 57. RAGAL: A Frugal, Fully Local Retrieval-Augmented Assistant for Technical Support at a Government Agency
+### 71. RAGAL: A Frugal, Fully Local Retrieval-Augmented Assistant for Technical Support at a Government Agency
 
 **Authors:** Dan Musetoiu  
 **Published:** 2026-07-21 · **arXiv:** `2607.18756` · **Category:** `cs.IR`  
@@ -576,7 +716,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 58. Recursive Harness Self-Improvement
+### 72. Recursive Harness Self-Improvement
 
 **Authors:** Hyunin Lee, Jinglue Xu, Jeffrey Seely, Donghyun Lee, Matei Zaharia, Yujin Tang  
 **Published:** 2026-07-17 · **arXiv:** `2607.15524` · **Category:** `cs.LG`  
@@ -586,7 +726,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 59. TopoAgent: A Self-Evolving Topological Agent for Multimodal Scientific Reasoning
+### 73. TopoAgent: A Self-Evolving Topological Agent for Multimodal Scientific Reasoning
 
 **Authors:** Mingze Xu, Yinghui Li, Jiayi Kuang, Zhanhui Kang, Di Yin, Ying Shen et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.14658` · **Category:** `cs.AI`  
@@ -596,7 +736,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 60. SAGA: Schema-Aware Grounding for Agentic Text-to-SPARQL Generation
+### 74. SAGA: Schema-Aware Grounding for Agentic Text-to-SPARQL Generation
 
 **Authors:** Yiming Zhang, Koji Tsuda  
 **Published:** 2026-07-16 · **arXiv:** `2607.14494` · **Category:** `cs.AI`  
@@ -606,7 +746,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 61. Reachability-Aware Pretraining for Efficient Target-Oriented Path Exploration in Temporal Knowledge Graph Reasoning
+### 75. Reachability-Aware Pretraining for Efficient Target-Oriented Path Exploration in Temporal Knowledge Graph Reasoning
 
 **Authors:** Chien-Liang Liu, Tsao-Lun Chen  
 **Published:** 2026-07-16 · **arXiv:** `2607.14886` · **Category:** `cs.AI`  
@@ -616,7 +756,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 62. Mask-Aware Policy Gradients for Diffusion Language Models
+### 76. Mask-Aware Policy Gradients for Diffusion Language Models
 
 **Authors:** Haran Raajesh, Kulin Shah, Adam Klivans, Philipp Krähenbühl  
 **Published:** 2026-07-16 · **arXiv:** `2607.15200` · **Category:** `cs.CL`  
@@ -626,7 +766,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 63. Leveraging Instruction Tuning and Merging for Reasoning Model Adaptation
+### 77. Leveraging Instruction Tuning and Merging for Reasoning Model Adaptation
 
 **Authors:** Yu-Du Feng, Niels Mündler-Sasahara, Mark Vero, Martin Vechev  
 **Published:** 2026-07-16 · **arXiv:** `2607.14895` · **Category:** `cs.LG`  
@@ -636,7 +776,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 64. BrainPilot: Automating Brain Discovery with Agentic Research
+### 78. BrainPilot: Automating Brain Discovery with Agentic Research
 
 **Authors:** Haoxuan Li, Tianci Gao, Jianhe Li, Yang Fan, Runze Shi, Weiran Wang et al.  
 **Published:** 2026-07-16 · **arXiv:** `2607.15079` · **Category:** `cs.AI`  
@@ -646,7 +786,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 65. ANet Patu-1: The Value of Connection in the Agent Network
+### 79. ANet Patu-1: The Value of Connection in the Agent Network
 
 **Authors:** Mu Yuan, Jinke Song, Zhaomeng Zhou, Lan Zhang  
 **Published:** 2026-07-16 · **arXiv:** `2607.15053` · **Category:** `cs.NI`  
@@ -656,7 +796,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 66. Post-Training Shifts Confidence: A Three-Stage Analysis of How SFT, RL, and OPD Shape Pre-, Intra-, and Post-CoT Calibration
+### 80. Post-Training Shifts Confidence: A Three-Stage Analysis of How SFT, RL, and OPD Shape Pre-, Intra-, and Post-CoT Calibration
 
 **Authors:** Shuhao Li, Guodong Du, Anhao Zhao, Wanyu Lin, Tianyu Yuan, Xiaoyu Shen  
 **Published:** 2026-07-15 · **arXiv:** `2607.13753` · **Category:** `cs.CL`  
@@ -666,7 +806,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 67. Multi-Head Latent Control: A Unified Interface for LLM Agent Decision Making
+### 81. Multi-Head Latent Control: A Unified Interface for LLM Agent Decision Making
 
 **Authors:** Amirhosein Ghasemabadi, Ruichen Chen, Bahador Rashidi, Di Niu  
 **Published:** 2026-07-15 · **arXiv:** `2607.14277` · **Category:** `cs.CL`  
@@ -676,7 +816,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 68. Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models
+### 82. Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models
 
 **Authors:** Hefeng Zhou, Jinxuan Zhang, Jiong Lou, Yuxin Liu, Chaochao Lu, Jingjing Qu et al.  
 **Published:** 2026-07-15 · **arXiv:** `2607.14049` · **Category:** `cs.AI`  
@@ -686,7 +826,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 69. Branching Policy Optimization: Sandbox-Native Language Agent Reinforcement Learning
+### 83. Branching Policy Optimization: Sandbox-Native Language Agent Reinforcement Learning
 
 **Authors:** Bowei He, Yankai Chen, Xiaokun Zhang, Xue Liu  
 **Published:** 2026-07-15 · **arXiv:** `2607.14171` · **Category:** `cs.LG`  
@@ -696,7 +836,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ---
 
-### 70. Gauge dependence and structured-output corruption in sign-branched repetition penalties: measurements across models, inference stacks, and alternative repetition controls
+### 84. Gauge dependence and structured-output corruption in sign-branched repetition penalties: measurements across models, inference stacks, and alternative repetition controls
 
 **Authors:** Peter Hollows  
 **Published:** 2026-07-09 · **arXiv:** `2607.09791` · **Category:** `cs.LG`  
@@ -706,7 +846,7 @@ _71 papers · updated 2026-08-11 05:09 UTC_
 
 ## June 2026
 
-### 71. Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting
+### 85. Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting
 
 **Authors:** Sandeco Macedo  
 **Published:** 2026-06-28 · **arXiv:** `2607.00038` · **Category:** `cs.SE`  
